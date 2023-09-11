@@ -27,6 +27,10 @@ Le savoir-être englobe les qualités personnelles d'un formateur, telles que l'
 
 L'action de formation représente le processus par lequel un formateur transmet des connaissances, des compétences et des valeurs aux apprenants. Elle comprend la planification, la mise en œuvre et l'évaluation de la formation.
 
+link:04_slide_01.adoc#first_slide[suivant]
+
+
+[#second_slide]
 == Partie 2 : Les Outils Numériques pour le Métier de Formateur
 
 Dans cette partie, nous explorerons les perspectives offertes par les outils numériques pour le métier de formateur.
@@ -35,6 +39,11 @@ Dans cette partie, nous explorerons les perspectives offertes par les outils num
 
 Les outils numériques, tels que les plateformes d'apprentissage en ligne, les simulateurs, les visioconférences et les logiciels éducatifs, offrent de nouvelles opportunités pour l'enseignement et la formation. Ils permettent une personnalisation accrue de l'apprentissage, la collaboration à distance et l'accès à une variété de ressources pédagogiques.
 
+link:04_slide_01.adoc#first_slide[précédent]
+link:06_slide_04.adoc#third_slide[suivant]
+
+
+[#third_slide]
 == Partie 3 : Projet Professionnel en tant que Formateur
 
 === Vision Personnelle
@@ -49,6 +58,15 @@ Mon approche en tant que formateur se concentre sur l'utilisation de la programm
 
 Je prévois d'exploiter les plateformes telles qu'Arduino, Raspberry Pi et Android pour créer des expériences d'apprentissage pratiques et stimulantes. Ces supports permettront aux apprenants d'explorer la technologie de manière concrète et créative.
 
+link:06_slide_02.adoc#second_slide[précédent]
+link:06_slide_04.adoc#third_slide[suivant]
+
+
+
+[#last_slide]
 === Conclusion
 
 En résumé, en tant que formateur, je m'efforce de développer des compétences, des savoirs, des savoir-faire et un savoir-être pour fournir des actions de formation engageantes et efficaces. Les outils numériques offrent des opportunités passionnantes, et ma vision personnelle met l'accent sur la programmation ludique et l'innovation avec des supports tels qu'Arduino, Raspberry Pi et Android.
+
+link:06_slide_03.adoc#third_slide[précédent]
+link:04_slide_01.adoc#first_slide[premier]

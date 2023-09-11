@@ -1,0 +1,59 @@
+[#first_slide]
+= Document Personnel sur le Métier de Formateur
+
+== Partie 1 : Notions Fondamentales
+
+=== Définition des Grandes Notions
+
+Dans cette première partie, nous allons définir les grandes notions relatives au métier de formateur.
+
+==== Compétence
+
+La compétence représente la capacité d'un formateur à maîtriser un domaine de connaissances ou de compétences spécifiques. Cela inclut la connaissance approfondie du sujet à enseigner.
+
+==== Savoir
+
+Le savoir fait référence à l'ensemble des connaissances théoriques acquises par un formateur. Il s'agit de l'ensemble des informations, des faits et des principes qui peuvent être transmis aux apprenants.
+
+==== Savoir-Faire
+
+Le savoir-faire se rapporte aux compétences pratiques et aux compétences techniques qu'un formateur possède. Cela inclut la capacité à mettre en œuvre les connaissances théoriques dans des situations pratiques.
+
+==== Savoir-Être
+
+Le savoir-être englobe les qualités personnelles d'un formateur, telles que l'empathie, la communication efficace, la patience et la capacité à inspirer et à motiver les apprenants.
+
+==== Action de Formation
+
+L'action de formation représente le processus par lequel un formateur transmet des connaissances, des compétences et des valeurs aux apprenants. Elle comprend la planification, la mise en œuvre et l'évaluation de la formation.
+
+link:04_slide_01.adoc#first_slide[suivant]
+
+
+[#second_slide]
+== Partie 2 : Les Outils Numériques pour le Métier de Formateur
+
+Dans cette partie, nous explorerons les perspectives offertes par les outils numériques pour le métier de formateur.
+
+=== Utilisation des Outils Numériques
+
+Les outils numériques, tels que les plateformes d'apprentissage en ligne, les simulateurs, les visioconférences et les logiciels éducatifs, offrent de nouvelles opportunités pour l'enseignement et la formation. Ils permettent une personnalisation accrue de l'apprentissage, la collaboration à distance et l'accès à une variété de ressources pédagogiques.
+
+[#third_slide]
+== Partie 3 : Projet Professionnel en tant que Formateur
+
+=== Vision Personnelle
+
+Dans cette dernière partie, nous aborderons votre projet professionnel en tant que formateur, en mettant l'accent sur la programmation ludique et l'utilisation de supports innovants tels qu'Arduino, Raspberry Pi et Android.
+
+==== Programmation Ludique
+
+Mon approche en tant que formateur se concentre sur l'utilisation de la programmation ludique comme moyen d'enseigner des concepts techniques. Cette approche engage les apprenants en utilisant des jeux et des projets interactifs pour renforcer la compréhension des concepts informatiques.
+
+==== Supports Innovants
+
+Je prévois d'exploiter les plateformes telles qu'Arduino, Raspberry Pi et Android pour créer des expériences d'apprentissage pratiques et stimulantes. Ces supports permettront aux apprenants d'explorer la technologie de manière concrète et créative.
+
+=== Conclusion
+
+En résumé, en tant que formateur, je m'efforce de développer des compétences, des savoirs, des savoir-faire et un savoir-être pour fournir des actions de formation engageantes et efficaces. Les outils numériques offrent des opportunités passionnantes, et ma vision personnelle met l'accent sur la programmation ludique et l'innovation avec des supports tels qu'Arduino, Raspberry Pi et Android.
