@@ -1,0 +1,39 @@
+= Introduction au travail en groupe
+
+== Jeux quatre à la fois
+
+.nécessite :
+* compréhension consignes
+* communication visuel(gestes, regards)
+* se connaître
+* implication
+* participer
+* communiquer par écoute active
+* la tolérance
+* aide
+* se respecter
+* assertivité : capacité à communiquer sans oppresser l’interlocuteur
+* empathie
+* bienveillance
+
+== la dynamique des groupes
+référence auteur: https://fr.wikipedia.org/wiki/Bruce_Tuckman[Bruce Tuckman], https://fr.wikipedia.org/wiki/Didier_Anzieu[Didier Anzieu]
+
+vidéo illustration +
+
+== Exercice
+relever les phases de développement d’un groupe.
+
+=== Qu’est ce qui caractérise chaque phase ?
+
+.phases de formation d'un groupe:
+. formation du groupe
+    ** enthousiasme
+    ** fierté d'appartenir au groupe
+. l'affrontement
+. régulation
+. Réalisation
+. Dissolution
+
+
+== Découverte de l'autre, et régle de groupe

@@ -1,0 +1,12 @@
+= Compte rendu d'activité de formation
+
+== 7/09/2023
+. fiche d'activité de l'apprenant.
+. activité_en_groupe.adoc: Introduction au travail en groupe.
+. vie_collective_regle_de_groupe.adoc 
+
+== 8/09/2023
+. absent a rattraper
+
+== 11/09/2023
+Les missions du formateur numérique
