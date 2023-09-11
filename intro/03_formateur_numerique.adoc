@@ -64,6 +64,29 @@ En pratique, les formateurs peuvent adopter différentes postures en fonction de
 https://quizizz.com/[quizizz] code d'accès: 833817
 
 
+== Exercice: VOTRE VISION du métier de formateur
+
+=== Consignes d’évaluation (V2)
+Rédigez un document écrit (illustrations possibles), sous Word/PowerPoint/GoogleDocs/GoogleSlides dans
+lequel vous allez expliquer VOTRE VISION du métier de formateur :
+
+En vous basant sur ce que nous avons vu aujourd’hui
+En effectuant des recherches complémentaires si vous le souhaitez
+1-2 page/5-7 slides maximum
+
+Je veux un DOCUMENT PERSONNEL, pas une fiche de poste copiée/collée du Web
+
+Vous devrez structurer ce document en trois parties :
+Définition des grandes notions relatives au métier de formateur : compétence, savoir, savoir-faire, savoir-être, action de formation
+Perspectives offertes par les outils numériques pour le métier de formateur
+Projet professionnel en tant que formateur. +
+
+slides
+
+== Pokedex
+link:04_VOTRE_VISION_du_métier_de_formateur.adoc#first_slide[slides]
+
+
 
 
 
