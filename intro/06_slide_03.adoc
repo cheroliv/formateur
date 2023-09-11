@@ -13,7 +13,7 @@ Mon approche en tant que formateur se concentre sur l'utilisation de la programm
 
 Je prévois d'exploiter les plateformes telles qu'Arduino, Raspberry Pi et Android pour créer des expériences d'apprentissage pratiques et stimulantes. Ces supports permettront aux apprenants d'explorer la technologie de manière concrète et créative.
 
-link:05_slide_02.adoc#second_slide[précédent]
+link:05_slide_02.adoc#second_slide[précédent] +
 link:07_slide_04.adoc#last_slide[suivant]
 
 

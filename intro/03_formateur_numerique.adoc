@@ -83,7 +83,7 @@ Projet professionnel en tant que formateur. +
 
 slides
 
-== Pokedex
+== Ma vision
 link:04_slide_01.adoc#first_slide[slides]
 
 
