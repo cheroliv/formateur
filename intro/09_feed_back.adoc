@@ -1,0 +1,14 @@
+= Feed-Back
+
+Feed-back = rétroaction, retour d'expérience
+
+le feed back est une reaction à une solicitation.
+Dans le cadre de la formation le feed back sert à évaluer
+
+.Role:
+* évaluer
+* susciter l'engagement/interet/adhésion
+* faire progresser
+* encourager/valoriser
+* valider/conforter les acquis
+

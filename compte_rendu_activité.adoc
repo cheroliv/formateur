@@ -13,5 +13,6 @@ Les missions du formateur numérique. +
 Creation de slides. voir: intro/04_slide_01.adoc
 
 == 12/09/2023
-activité sur le document 'intro/Fiche d'activités apprenants_ S2_Jour 1.docx' +
-sur le théme: La communication écrite et orale du formateur. +
+. activité sur le document 'intro/Fiche d'activités apprenants_ S2_Jour 1.docx' +
+sur le théme: La communication écrite et orale du formateur.
+. feed-back
