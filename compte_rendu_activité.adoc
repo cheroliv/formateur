@@ -6,7 +6,7 @@
 . vie_collective_regle_de_groupe.adoc 
 
 == 8/09/2023
-. absent a rattraper
+. absent à rattraper
 
 == 11/09/2023
 Les missions du formateur numérique. +
