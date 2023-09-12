@@ -12,3 +12,16 @@ Dans le cadre de la formation le feed back sert à évaluer
 * encourager/valoriser
 * valider/conforter les acquis
 
+Une methode pour formuler un feed back non conflictuel +
+P = Perception(factuel) +
+E = Effects +
+A = Analyse(apport de solutions)
+
+une autre methode DESC: +
+D = Décrire +
+E = Exprimer +
+S = Suggerer +
+C = Conclure +
+
+
+
