@@ -24,4 +24,4 @@ Préparer une présentation orale sur le thème de votre choix, pour un exposé 
 . faire une recherche
 . ecriture du support
 
-link:06_exercice_topic_presentation_slide_01.adoc#exo_cadrage[ma prez]
+link:06_exercice_topic_presentation_slide_01.adoc#first_slide_cadrage[ma prez]
