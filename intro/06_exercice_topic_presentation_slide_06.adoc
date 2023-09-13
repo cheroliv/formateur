@@ -1,0 +1,17 @@
+[#sixth_slide_cadrage]
+= Cadrage
+
+== cadrage
+
+=== Atelier 1 : Vision
+
+=== Atelier 2: Personas/Parcours utilisateurs
+
+=== Atelier 3: Zoning, Storyboard, Sitemap
+==== 1. Zoning
+==== 2. StoryBoard
+==== 3. SiteMap
+image::Sitemap-Example.webp[site map]
+
+link:06_exercice_topic_presentation_slide_05.adoc#fifth_slide_cadrage[[<-\]]
+link:06_exercice_topic_presentation_slide_07.adoc#seventh_slide_cadrage[[->\]]

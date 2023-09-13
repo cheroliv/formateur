@@ -8,5 +8,5 @@ Dans cette partie, nous explorerons les perspectives offertes par les outils num
 Les outils numériques, tels que les plateformes d'apprentissage en ligne, les simulateurs, les visioconférences et les logiciels éducatifs, offrent de nouvelles opportunités pour l'enseignement et la formation. Ils permettent une personnalisation accrue de l'apprentissage, la collaboration à distance et l'accès à une variété de ressources pédagogiques.
 
 
-link:06_slide_03.adoc#third_slide[suivant] +
-link:04_slide_01.adoc#first_slide[précédent]
+link:03_ma_vision_slide_03.adoc#third_slide[suivant] +
+link:03_ma_vision_slide_01.adoc#first_slide[précédent]

@@ -14,5 +14,5 @@ En résumé, en tant que formateur, je m'efforce de développer des compétences
 * discord: https://discord.gg/Kzj38uPP
 
 
-link:06_slide_03.adoc#third_slide[précédent] +
-link:04_slide_01.adoc#first_slide[premier]
+link:03_ma_vision_slide_03.adoc#third_slide[précédent] +
+link:03_ma_vision_slide_01.adoc#first_slide[premier]

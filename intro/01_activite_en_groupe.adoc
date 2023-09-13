@@ -1,3 +1,4 @@
+[#group_act]
 = Introduction au travail en groupe
 
 == Jeux quatre à la fois

@@ -1,0 +1,17 @@
+[#first_slide_cadrage]
+= Cadrage
+
+== cadrage
+
+=== Atelier 1 : Vision
+
+Un énoncé de vision est le phare qui guide votre entreprise, c'est-à-dire qu’il + représente la direction dans laquelle vous souhaitez qu’elle se dirige. +
+Votre énoncé de vision doit répondre aux questions fondamentales de votre énoncé +
+de mission (le pourquoi et le comment), et permet de savoir par quels moyens +
+votre entreprise compte atteindre ses objectifs. +
+source: https://asana.com/fr/resources/vision-statement[vision-statement]
+
+==== 1. Le pattern “QQOQCP” – Qui, Quoi, Où, Quand, Comment, Pourquoi
+
+
+link:06_exercice_topic_presentation_slide_02.adoc#second_slide_cadrage[[->\]]

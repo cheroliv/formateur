@@ -17,3 +17,20 @@ Creation de slides. voir: intro/04_slide_01.adoc
 sur le théme: La communication écrite et orale du formateur.
 . le feed-back
 . Questionnaire_ bilan de séance
+
+== 13/09/2023
+.communication verbale et non verbale, paraverbale
+
+. la preparation:
+
+.. maitrise du sujet
+.. elaboration du support
+.. entrainement
+.. gestion du temps
+
+. pendant la préparation
+.. communication vocale
+.. communication non verbale
+.. communication paraverbale
+
+

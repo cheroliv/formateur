@@ -1,3 +1,4 @@
+[#form_num]
 = Le formateur numérique
 
 vidéo: chercher lien youtube.
@@ -84,7 +85,7 @@ Projet professionnel en tant que formateur. +
 slides
 
 == Ma vision
-link:04_slide_01.adoc#first_slide[slides]
+link:03_ma_vision_slide_01.adoc#first_slide[slides]
 
 
 

@@ -1,0 +1,19 @@
+[#eight_slide_cadrage]
+= Cadrage
+
+== cadrage
+
+=== Atelier 1 : Vision
+
+=== Atelier 2: Personas/Parcours utilisateurs
+
+=== Atelier 3: Zoning, Storyboard, Sitemap
+
+=== Atelier 4: Wireframe/Moodboard
+
+=== Atelier 5: Story Mapping/ User stories
+==== Story mapping (priorisation des US)
+==== En tant que <type d'utilisateur>, je veux <un objectif> afin que <une raison>.
+==== prochaine formation les methodes agiles
+
+link:06_exercice_topic_presentation_slide_07.adoc#seventh_slide_cadrage[[<-\]]

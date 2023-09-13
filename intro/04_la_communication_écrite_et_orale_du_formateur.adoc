@@ -1,3 +1,4 @@
+[#comfpa]
 = Orientation vers le Développement de Logiciels, la Programmation et le Design-System, la Domotique et les Fablabs
 
 == Introduction
