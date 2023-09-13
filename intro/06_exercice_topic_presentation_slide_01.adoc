@@ -5,7 +5,9 @@
 
 === Atelier 1 : Vision
 
-Un énoncé de vision est le phare qui guide votre entreprise, c'est-à-dire qu’il + représente la direction dans laquelle vous souhaitez qu’elle se dirige. +
+Un énoncé de vision est le phare qui guide votre entreprise, +
+c'est-à-dire qu’il représente la direction dans laquelle vous souhaitez +
+qu’elle se dirige. +
 Votre énoncé de vision doit répondre aux questions fondamentales de votre énoncé +
 de mission (le pourquoi et le comment), et permet de savoir par quels moyens +
 votre entreprise compte atteindre ses objectifs. +
