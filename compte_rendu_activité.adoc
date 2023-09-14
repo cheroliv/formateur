@@ -34,3 +34,11 @@ sur le théme: La communication écrite et orale du formateur.
 .. communication paraverbale
 
 
+== 14/09/2023
+
+. presentation de la programmation logiciel: scratch\Construire le plan de réalisation d’un objectif complexe.pdf
+. initiation à scratch
+.. déplacement d'un sprite
+.. boucle
+
+
