@@ -1,0 +1,15 @@
+= Scratch
+
+L'atelier scratch a été l'occasion de mettre en place un atelier d'apprentissage au code.
+Mix en methode demonstrative le premier jour, et par de la méthode active le deuxieme jour.
+
+== La notion de séquençage
+
+----
+module > séquence > séance > activité d'apprentissage
+----
+
+== La notion de progression pédagogique
+
+=== Escalier pédagogique
+
