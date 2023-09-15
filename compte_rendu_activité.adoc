@@ -42,3 +42,8 @@ sur le théme: La communication écrite et orale du formateur.
 .. boucle
 
 
+== 15/09/2023
+
+. code de projet scratch
+. synthese de l'initiation à un atelier scratch
+
