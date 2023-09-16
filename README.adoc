@@ -9,7 +9,7 @@
 
 === link:01_intro/03_formateur_numerique.adoc#form_num[Le formateur numérique]
 
-=== link:01_intro/04_la_communication_écrite_et_orale_du_formateur.adoc[Exercice: VOTRE VISION du métier de formateur]
+=== link:01_intro/04_la_communication_écrite_et_orale_du_formateur.adoc[Feed-back, exercice: VOTRE VISION du métier de formateur]
 
 === link:01_intro/05_feed_back.adoc#feedback[Le feed-back]
 

@@ -1,6 +1,11 @@
 [#scratch_workshop]
 = Scratch
 
+link:../README.adoc#toc[Table des matieres]
+
+link:Construire_le_plan_de_realisation_d_un_objectif_complexe.pdf[présentation 1er partie]
+
+
 L'atelier scratch a été l'occasion de mettre en place un atelier d'apprentissage au code.
 Mix en methode demonstrative le premier jour, et par de la méthode active le deuxieme jour.
 
@@ -13,6 +18,21 @@ module > séquence > séance > activité d'apprentissage
 == La notion de progression pédagogique
 
 === Escalier pédagogique
+
+link:Construire_le_plan_de_realisation_d_un_objectif_complexe_V2.pdf[présentation complète]
+
+=== Exercice avec Scratch
+
+* link:01_initiation.sb3[initiation]
+* link:02_exo_01.sb3[exo 01]
+* link:02_exo_02.sb3[exo 02]
+* link:02_exo_03.sb3[exo 03]
+* link:02_exo_04.sb3[exo 04]
+* link:06_projet_01.sb3[projet 1]
+* link:06_projet_02.sb3[projet 2]
+* link:06_projet_02.sb3[projet 2]
+* link:equation_de_droite.sb3[projet équation de droite]
+
 
 link:../README.adoc#toc[Table des matieres]
 
