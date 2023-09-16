@@ -1,6 +1,8 @@
 [#group_act]
 = Introduction au travail en groupe
 
+link:../README.adoc#toc[Table des matieres]
+
 == Jeux quatre à la fois
 
 .nécessite :
@@ -38,3 +40,5 @@ relever les phases de développement d’un groupe.
 
 
 == Découverte de l'autre, et régle de groupe
+
+link:../README.adoc#toc[Table des matieres]

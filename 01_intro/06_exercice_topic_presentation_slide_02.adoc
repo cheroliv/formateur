@@ -1,31 +1,30 @@
 [#second_slide_cadrage]
 = Cadrage
 
-== cadrage
 
-=== Atelier 1 : Vision
+== Atelier 1 : Vision
 
-==== 1. Le pattern “QQOQCP” – Qui, Quoi, Où, Quand, Comment, Pourquoi
+=== 1. Le pattern “QQOQCP” – Qui, Quoi, Où, Quand, Comment, Pourquoi
 
-==== 2. Le Product Vision Board
+=== 2. Le Product Vision Board
 
-===== Target Group
+==== Target Group
 
 Qui sont les utilisateurs qui utilisent le produit ou l’offre ? (direct, indirect)
 
-===== Needs
+==== Needs
 
 Quels sont les 5 besoins principaux des utilisateurs clés de l’application ?
 
-===== Product
+==== Product
 Quelle est ma proposition de valeur ?
 Quelles sont les 5 fonctionnalités principales du produit qui permettent de répondre aux
 besoins
 
-===== Business Goal
+==== Business Goal
 Quelles sont les critères de succès ?
 
-===== Vision
+==== Vision
 Quand les 4 colonnes sont complètes, il vous faudra remplir la partie vision du Product Vision
 Board en une phrase complète.
 

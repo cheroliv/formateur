@@ -87,6 +87,8 @@ slides
 == Ma vision
 link:03_ma_vision_slide_01.adoc#first_slide[slides]
 
+link:../README.adoc#toc[Table des matieres]
+
 
 
 

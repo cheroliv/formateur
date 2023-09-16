@@ -1,11 +1,9 @@
 [#third_slide_cadrage]
 = Cadrage
 
-== cadrage
+== Atelier 1 : Vision
 
-=== Atelier 1 : Vision
-
-=== Atelier 2: Personas/Parcours utilisateurs
+== Atelier 2: Personas/Parcours utilisateurs
 .Définir pour chaque persona un parcours utilisateur:
 * Qui va utiliser mon service? (Cible)
 * Que veut-il faire ? (But)

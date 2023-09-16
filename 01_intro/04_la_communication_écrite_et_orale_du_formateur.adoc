@@ -1,6 +1,8 @@
 [#comfpa]
 = Orientation vers le Développement de Logiciels, la Programmation et le Design-System, la Domotique et les Fablabs
 
+link:../README.adoc#toc[Table des matieres]
+
 == Introduction
 
 Lorsque je réfléchis à mon orientation en matière d'apprentissage, plusieurs domaines émergent comme des passions que je souhaite explorer et approfondir. Mon choix s'articule principalement autour du développement de logiciels, de l'introduction à la programmation et au design système, de la domotique et des fablabs. Dans les paragraphes suivants, je vais expliquer les motivations qui sous-tendent ce choix, ainsi que les contextes dans lesquels j'ai déjà développé certaines compétences dans ces domaines.
@@ -26,3 +28,5 @@ J'ai déjà eu l'occasion de développer des compétences liées à ces domaines
 == Conclusion
 
 En conclusion, mon choix de m'orienter vers le développement de logiciels, la programmation et le design système, la domotique et les fablabs est motivé par ma passion pour la technologie et ma conviction que ces domaines sont au cœur de l'innovation technologique. Mon expérience passée et mon désir d'apprendre continueront de me guider vers la maîtrise de ces compétences et vers la création de solutions technologiques innovantes pour relever les défis du monde moderne. Je suis impatient de poursuivre mon voyage d'apprentissage dans ces domaines passionnants.
+
+link:../README.adoc#toc[Table des matieres]

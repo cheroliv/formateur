@@ -1,6 +1,8 @@
 [#feedback]
 = Feed-Back
 
+link:../README.adoc#toc[Table des matieres]
+
 Feed-back = rétroaction, retour d'expérience
 
 le feed back est une reaction à une solicitation.
@@ -24,5 +26,7 @@ E = Exprimer +
 S = Suggerer +
 C = Conclure +
 
+
+link:../README.adoc#toc[Table des matieres]
 
 

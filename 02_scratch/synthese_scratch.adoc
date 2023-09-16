@@ -14,3 +14,6 @@ module > séquence > séance > activité d'apprentissage
 
 === Escalier pédagogique
 
+link:../README.adoc#toc[Table des matieres]
+
+

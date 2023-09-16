@@ -1,6 +1,8 @@
 [#style2com]
 = Les styles de communication
 
+link:../README.adoc#toc[Table des matieres]
+
 Quelles recommandation pour une communication orale reussie?
 
 == communication verbale, non verbale et paraverbale
@@ -25,3 +27,5 @@ Préparer une présentation orale sur le thème de votre choix, pour un exposé 
 . ecriture du support
 
 link:06_exercice_topic_presentation_slide_01.adoc#first_slide_cadrage[ma prez]
+
+link:../README.adoc#toc[Table des matieres]
