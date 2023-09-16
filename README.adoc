@@ -11,9 +11,9 @@
 
 === link:01_intro/04_la_communication_écrite_et_orale_du_formateur.adoc[Exercice: VOTRE VISION du métier de formateur]
 
-=== link:01_intro/05_feed_back.adoc#feedback[Exercice: La communication écrite et orale du formateur]
+=== link:01_intro/05_feed_back.adoc#feedback[Le feed-back]
 
-=== link:01_intro/06__style_de_communication.adoc#style2com[Exercice: Les styles de communication]
+=== link:01_intro/06__style_de_communication.adoc#style2com[Les styles de communication]
 
 == Atelier de formation: Scratch
 
