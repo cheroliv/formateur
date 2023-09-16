@@ -1,7 +1,7 @@
 [#toc]
 = Formateur numérique
 
-== Intro (jour 1)
+== Intro
 
 === link:01_intro/01_activite_en_groupe.adoc#group_act[Introduction au travail en groupe]
 
@@ -15,6 +15,6 @@
 
 === link:01_intro/06__style_de_communication.adoc#style2com[Les styles de communication]
 
-== Atelier de formation: Scratch (1er semaine)
+== Atelier de formation: Scratch
 
 === link:02_scratch/synthese_scratch.adoc#scratch_workshop[Scratch workshop]

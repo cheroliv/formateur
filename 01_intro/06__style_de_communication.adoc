@@ -28,4 +28,6 @@ Préparer une présentation orale sur le thème de votre choix, pour un exposé 
 
 link:06_exercice_topic_presentation_slide_01.adoc#first_slide_cadrage[ma prez]
 
+link:Questionnaire_bilan_de_séance.odt[Questionnaire bilan de séance]
+
 link:../README.adoc#toc[Table des matieres]

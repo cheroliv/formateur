@@ -1,6 +1,11 @@
 [#form_num]
 = Le formateur numérique
 
+link:../README.adoc#toc[Table des matieres]
+
+link:Seance_1_Presentation.pdf[Présentation séance 1: Le métier de formateur
+pour adultes]
+
 vidéo: chercher lien youtube.
 
 == Qu'est ce que la posture dans le cadre de la formation:
@@ -20,42 +25,42 @@ Une maitrise des enjeux et une connaissance des contenus necessaire à la réali
 
 Quelles sont les principales types de posture d'un formateur? (réponse de chatgpt:) +
 
-.Les formateurs adoptent différentes postures en fonction de leurs objectifs pédagogiques, du contexte de formation et des besoins des apprenants. Voici quelques-unes des principales postures qu'un formateur peut adopter :
+. Les formateurs adoptent différentes postures en fonction de leurs objectifs pédagogiques, du contexte de formation et des besoins des apprenants. Voici quelques-unes des principales postures qu'un formateur peut adopter :
 
-. Posture de l'expert +
+.. Posture de l'expert +
 Dans cette posture, le formateur détient une expertise particulière dans le domaine de la formation et agit en tant qu'autorité pour transmettre des connaissances et des compétences aux apprenants. Cela implique souvent une présentation magistrale et une démonstration.
 
-. Posture du facilitateur +
+.. Posture du facilitateur +
 Le formateur agit comme un facilitateur de l'apprentissage, encourageant la participation active des apprenants, facilitant les discussions de groupe, les ateliers pratiques et les activités collaboratives. Cette posture met l'accent sur l'apprentissage autodirigé.
 
-. Posture de l'animateur +
+.. Posture de l'animateur +
 Dans cette posture, le formateur anime des sessions interactives, encourageant la réflexion, posant des questions, stimulant la créativité et le dialogue. L'animateur crée un environnement favorable à l'apprentissage.
 
-. Posture du coach +
+.. Posture du coach +
 Le formateur joue le rôle de coach, guidant individuellement les apprenants dans leur développement personnel et professionnel. Cette posture implique souvent des entretiens individuels, des retours d'information et un soutien personnalisé.
 
-. Posture du mentor +
+.. Posture du mentor +
 Le formateur agit comme un mentor, partageant son expérience professionnelle et offrant des conseils sur la progression de carrière et le développement personnel. Cette posture est souvent axée sur le développement à long terme.
 
-. Posture de l'évaluateur +
+.. Posture de l'évaluateur +
 Le formateur évalue les performances des apprenants, que ce soit par des tests, des évaluations formelles ou des évaluations continues. Cette posture est essentielle pour mesurer les progrès et l'atteinte des objectifs d'apprentissage.
 
-. Posture de l'accompagnateur +
+.. Posture de l'accompagnateur +
 Le formateur accompagne les apprenants tout au long de leur parcours d'apprentissage, en les aidant à surmonter les obstacles, en les soutenant émotionnellement et en les guidant vers la réussite.
 
-. Posture de l'innovateur +
+.. Posture de l'innovateur +
 Le formateur encourage l'expérimentation, la créativité et l'exploration de nouvelles idées et technologies. Cette posture est particulièrement pertinente dans les domaines en évolution rapide.
 
-. Posture de l'inclusivité et de la diversité +
+.. Posture de l'inclusivité et de la diversité +
 Le formateur crée un environnement inclusif où tous les apprenants se sentent respectés, valorisés et écoutés, indépendamment de leurs origines, de leurs croyances ou de leurs compétences.
 
-. Posture de l'adaptabilité +
+.. Posture de l'adaptabilité +
 Le formateur doit être capable de s'adapter aux besoins changeants des apprenants, en ajustant son approche pédagogique en fonction des circonstances et des retours des apprenants.
 
-En pratique, les formateurs peuvent adopter différentes postures en fonction de la situation et des objectifs de formation, et ils peuvent alterner entre ces postures pour répondre aux besoins des apprenants. L'efficacité d'un formateur dépend souvent de sa capacité à choisir la posture appropriée pour chaque situation d'apprentissage. +
+ En pratique, les formateurs peuvent adopter différentes postures en fonction de la situation et des objectifs de formation, et ils peuvent alterner entre ces postures pour répondre aux besoins des apprenants. L'efficacité d'un formateur dépend souvent de sa capacité à choisir la posture appropriée pour chaque situation d'apprentissage. +
 
 
-.On se concentre sur les trois suivantes: 
+. On se concentre sur les trois suivantes: 
 * expert(méthode expositive ou démonstrative)
 * facilitateur(méthode active)
 * animateur-coach(méthode participative)

@@ -3,6 +3,9 @@
 
 link:../README.adoc#toc[Table des matieres]
 
+Fiche d'activités apprenants séance 0: +
+link:Fiche_activités_apprenants_S0.docx[Fondements collectifs : référentiels et règles de fonctionnement] 
+
 == Jeux quatre à la fois
 
 .nécessite :
