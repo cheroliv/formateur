@@ -5,7 +5,7 @@
 
 === link:01_intro/01_activite_en_groupe.adoc#group_act[Introduction au travail en groupe]
 
-=== link:01_intro/02_vendredi_a_rattraper.adoc#vendredi[vendredi à rattraper]
+=== link:01_intro/02_le_metier_de_la_formation_professionnelle.adoc#core[Le métier de la formation professionnelle]
 
 === link:01_intro/03_formateur_numerique.adoc#form_num[Le formateur numérique]
 

@@ -1,3 +1,0 @@
-[#vendredi]
-vendredi à rattraper
-link:../README.adoc#toc[Table des matieres]

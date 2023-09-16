@@ -1,0 +1,10 @@
+[#core]
+= Le métier de la formation professionnelle
+
+== page 1
+image::20230911_164328.jpg[page 1]
+
+== page 2
+image::20230911_164338.jpg[page 2]
+
+link:../README.adoc#toc[Table des matieres]
