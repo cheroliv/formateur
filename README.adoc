@@ -17,4 +17,4 @@
 
 == Atelier de formation: Scratch
 
-=== link:02_scratch/synthese_scratch.adoc#scratch_workshop[Exercice: Scratch workshop]
+=== link:02_scratch/synthese_scratch.adoc#scratch_workshop[Scratch workshop]
