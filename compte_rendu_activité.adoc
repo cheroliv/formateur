@@ -6,7 +6,7 @@
 . vie_collective_regle_de_groupe.adoc 
 
 == 8/09/2023
-. absent à rattraper
+. Le métier de la formation professionnelle
 
 == 11/09/2023
 Les missions du formateur numérique. +
@@ -40,10 +40,13 @@ sur le théme: La communication écrite et orale du formateur.
 . initiation à scratch
 .. déplacement d'un sprite
 .. boucle
+.. costume de sprite
+.. variable
+.. message
 
 
 == 15/09/2023
 
 . code de projet scratch
-. synthese de l'initiation à un atelier scratch
+. synthèse de l'initiation à un atelier scratch
 
