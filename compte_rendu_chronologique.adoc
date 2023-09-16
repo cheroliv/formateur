@@ -1,5 +1,7 @@
 = Compte rendu d'activité de formation
 
+link:README.adoc#toc[Table des matieres]
+
 == 7/09/2023
 . fiche d'activité de l'apprenant.
 . activité_en_groupe.adoc: Introduction au travail en groupe.
@@ -49,4 +51,7 @@ sur le théme: La communication écrite et orale du formateur.
 
 . code de projet scratch
 . synthèse de l'initiation à un atelier scratch
+
+
+link:README.adoc#toc[Table des matieres]
 

@@ -5,7 +5,10 @@ link:../README.adoc#toc[Table des matieres]
 
 link:Fiche_activités_apprenants_S2_Jour_1.docx[Fiche d'activités apprenants (séance 2 jour 1)]
 
-== Exercice: Orientation vers le Développement de Logiciels, la Programmation et le Design-System, la Domotique et les Fablabs
+
+== Exercice: VOTRE VISION du métier de formateur
+
+=== Orientation vers le Développement de Logiciels, la Programmation et le Design-System, la Domotique et les Fablabs
 
 
 === Introduction

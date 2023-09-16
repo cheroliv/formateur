@@ -1,6 +1,8 @@
 [#toc]
 = Formateur numérique
 
+link:compte_rendu_chronologique.adoc[compte rendu chronologique]
+
 == Intro
 
 === link:01_intro/01_activite_en_groupe.adoc#group_act[Introduction au travail en groupe]
@@ -9,7 +11,7 @@
 
 === link:01_intro/03_formateur_numerique.adoc#form_num[Le formateur numérique]
 
-=== link:01_intro/04_la_communication_écrite_et_orale_du_formateur.adoc[Feed-back, exercice: VOTRE VISION du métier de formateur]
+=== link:01_intro/04_la_communication_écrite_et_orale_du_formateur.adoc[La communication écrite et orale du formateur]
 
 === link:01_intro/05_feed_back.adoc#feedback[Le feed-back]
 
