@@ -14,3 +14,7 @@
 === link:intro/05_feed_back.adoc#feedback[Exercice: La communication écrite et orale du formateur]
 
 === link:intro/06__style_de_communication.adoc#style2com[Exercice: Les styles de communication]
+
+== Atelier de formation: Scratch
+
+=== link:scratch/synthese_scratch.adoc#scratch_workshop[Exercice: Scratch workshop]

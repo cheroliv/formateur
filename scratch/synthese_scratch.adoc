@@ -1,3 +1,4 @@
+[#scratch_workshop]
 = Scratch
 
 L'atelier scratch a été l'occasion de mettre en place un atelier d'apprentissage au code.
