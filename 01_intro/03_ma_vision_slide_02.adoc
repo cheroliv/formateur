@@ -10,3 +10,7 @@ Les outils numériques, tels que les plateformes d'apprentissage en ligne, les s
 
 link:03_ma_vision_slide_03.adoc#third_slide[suivant] +
 link:03_ma_vision_slide_01.adoc#first_slide[précédent]
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====

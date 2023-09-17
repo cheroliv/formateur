@@ -28,3 +28,7 @@ Le savoir-être englobe les qualités personnelles d'un formateur, telles que l'
 L'action de formation représente le processus par lequel un formateur transmet des connaissances, des compétences et des valeurs aux apprenants. Elle comprend la planification, la mise en œuvre et l'évaluation de la formation.
 
 link:03_ma_vision_slide_02.adoc#second_slide[suivant]
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====

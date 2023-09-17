@@ -8,3 +8,7 @@ image::20230911_164328.jpg[page 1]
 image::20230911_164338.jpg[page 2]
 
 link:../README.adoc#toc[Table des matieres]
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====

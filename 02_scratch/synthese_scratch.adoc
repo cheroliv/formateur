@@ -37,3 +37,8 @@ link:Construire_le_plan_de_realisation_d_un_objectif_complexe_V2.pdf[présentati
 link:../README.adoc#toc[Table des matieres]
 
 
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====
+
+

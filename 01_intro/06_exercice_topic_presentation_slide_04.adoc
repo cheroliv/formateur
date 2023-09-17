@@ -12,3 +12,7 @@ image::zoning.webp[exemple de zoning]
 
 link:06_exercice_topic_presentation_slide_03.adoc#third_slide_cadrage[[<-\]]
 link:06_exercice_topic_presentation_slide_05.adoc#fifth_slide_cadrage[[->\]]
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====
