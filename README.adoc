@@ -22,6 +22,9 @@ link:compte_rendu_chronologique.adoc[compte rendu chronologique]
 === link:02_scratch/synthese_scratch.adoc#scratch_workshop[Scratch workshop]
 
 ====
-*cheroliv* | &copy; 2019-2023 | Licence Creative Commons BY-NC-SA
-link:http://creativecommons.org/licenses/by-nc-sa/4.0/[image:Creative Commons License[http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png]]
+
+*cheroliv* | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image::http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png[Creative Commons License,25,35]
+
 ====
+
+image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Tux,250,350]
