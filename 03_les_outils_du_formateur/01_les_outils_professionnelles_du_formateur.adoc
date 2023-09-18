@@ -1,6 +1,10 @@
 [#colab]
 = Les outils professionnelles du formateur
 
+link:../README.adoc#toc[Table des matieres] +
+link:Seance_4_Presentation.pdf[Séance 4 Presentation]
+
+
 == Supports
 * Discord
 * social networks
@@ -26,6 +30,15 @@
 == Que met on dans un CV de formateur?
 répondre à cette question en 3 slides.
 link:02_exercice_cv_formateur_slide1.adoc#resume_slide_1[exercice]
+
+
+== youtube mon support de veille technologique:
+* follow
+* activate notification
+* create and save playlist
+
+
+
 
 link:../README.adoc#toc[Table des matieres]
 

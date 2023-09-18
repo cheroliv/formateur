@@ -54,7 +54,17 @@ sur le théme: La communication écrite et orale du formateur.
 
 == 18/09/2023
 
+link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#colab[les_outils_professionnelles_du_formateur]
+
+matin:
+
 . Les outils collaboratifs: discord
+
+apres midi:
+
+. support de communication du formateur
+. exercice sur le CV du formateur
+. youtube mon exemple de veille technologique
 
 
 link:README.adoc#toc[Table des matieres]
