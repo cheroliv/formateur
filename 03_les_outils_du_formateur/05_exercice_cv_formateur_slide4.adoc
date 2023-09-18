@@ -3,7 +3,8 @@
 = Éducation
 
 ----
-Détaillez votre formation académique pertinente, en commençant par le diplôme le plus récent. Utilisez un format similaire pour chaque entrée, en incluant les éléments suivants :
+Détaillez votre formation académique pertinente, en commençant par le diplôme le plus récent.
+Utilisez un format similaire pour chaque entrée, en incluant les éléments suivants :
 ----
 
 * [Titre du diplôme]
