@@ -9,15 +9,19 @@
 = Résumé =
 
 ----
-Votre résumé de formateur en quelques phrases concises. Mettez en avant votre expertise, votre expérience et vos objectifs en tant que formateur.
+Votre résumé de formateur en quelques phrases concises.
+Mettez en avant votre expertise, votre expérience et vos objectifs en tant que formateur.
 ----
 
 ----
-Exemple : Formateur expérimenté avec 10 ans d'expérience dans le domaine de la formation professionnelle.
+Exemple :
+Formateur expérimenté avec 10 ans d'expérience dans le domaine de la formation professionnelle.
 ----
 
 ----
-Spécialisé dans la formation en gestion, en communication et en leadership. Passionné par le développement des compétences des apprenants pour les aider à atteindre leur plein potentiel.
+Spécialisé dans la formation en gestion, en communication et en leadership.
+Passionné par le développement des compétences des apprenants,
+pour les aider à atteindre leur plein potentiel.
 ----
 
 
