@@ -52,6 +52,10 @@ sur le théme: La communication écrite et orale du formateur.
 . code de projet scratch
 . synthèse de l'initiation à un atelier scratch
 
+== 18/09/2023
+
+. Les outils collaboratifs: discord
+
 
 link:README.adoc#toc[Table des matieres]
 
