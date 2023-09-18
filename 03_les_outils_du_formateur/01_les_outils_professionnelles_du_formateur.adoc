@@ -1,1 +1,24 @@
+[#colab]
 = Les outils professionnelles du formateur
+
+== Supports
+. Discord
+. social networks
+
+== Prospecter, montrer ses compétences
+
+=== A qui vais je m'adresser?
+
+==== La liste de contacts
+
+== Le CV du formateur pour adultes
+
+== Le portfolio/site perso de présentation
+
+
+
+link:../README.adoc#toc[Table des matieres]
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====
