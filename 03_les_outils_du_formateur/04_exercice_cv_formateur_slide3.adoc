@@ -1,0 +1,30 @@
+[#resume_slide_3]
+= Expérience professionnelle =
+Indiquez ici vos expériences professionnelles en tant que formateur, en commençant par la plus récente. +
+Utilisez un format similaire pour chaque expérience, en incluant les éléments suivants :
+
+* [Dates de l'emploi]
+* [Poste occupé]
+* [Nom de l'entreprise/organisation]
+* [Lieu]
+
+- Description des responsabilités et des réalisations clés, en mettant l'accent sur les compétences en enseignement, le développement de programmes, la conception de matériel pédagogique, etc.
+
+== Exemple :
+
+2018 - Présent
+Formateur en gestion
+Entreprise ABC
+Villeville, France
+- Conception et animation de formations en gestion pour les cadres intermédiaires et supérieurs.
+- Développement de modules de formation personnalisés en fonction des besoins spécifiques de chaque client.
+- Évaluation de l'efficacité des formations et ajustement continu pour améliorer les résultats.
+
+link:03_exercice_cv_formateur_slide2.adoc#resume_slide_2[&#11013;] +
+link:05_exercice_cv_formateur_slide4.adoc#resume_slide_4[&#10145;]
+
+
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====

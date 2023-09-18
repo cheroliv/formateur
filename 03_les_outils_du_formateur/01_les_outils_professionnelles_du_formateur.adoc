@@ -2,8 +2,8 @@
 = Les outils professionnelles du formateur
 
 == Supports
-. Discord
-. social networks
+* Discord
+* social networks
 
 == Prospecter, montrer ses compétences
 
@@ -15,7 +15,17 @@
 
 == Le portfolio/site perso de présentation
 
+== Receuillir les besoins d'un prospect pour analyser
+* QQOQCP
+* REAC
+* analyse arborescente: Formaliser le besoin, définir les compétences visees, définir le programme
+* matrice compétences/séquences
+* mindmap
 
+[#colab_exo]
+== Que met on dans un CV de formateur?
+répondre à cette question en 3 slides.
+link:02_exercice_cv_formateur_slide1.adoc#resume_slide_1[exercice]
 
 link:../README.adoc#toc[Table des matieres]
 

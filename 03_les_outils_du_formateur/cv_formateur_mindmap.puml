@@ -1,0 +1,42 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Problématique du CV de formateur
+
+* Que met on dans le CV d'un formateur?
+
+left side
+
+** Informations de contact
+*** Nom
+*** Adresse
+*** Téléphone
+*** Email
+
+** Résumé
+*** Résumé de formateur en quelques phrases concises.
+
+** Expérience professionnelle
+*** Dates de l'emploi
+**** Poste occupé
+**** Nom de l'entreprise/organisation
+**** Lieu
+**** Description des responsabilités et des réalisations clés
+
+right side
+
+** Éducation
+*** Titre du diplôme
+*** Nom de l'établissement
+*** Année d'obtention
+
+** Compétences
+*** Conception de programmes de formation
+*** Animation de sessions de formation interactives
+*** Évaluation des besoins en formation
+*** Création de supports pédagogiques multimédias
+*** Gestion de classe virtuelle
+*** Communication efficace
+
+@endmindmap
+

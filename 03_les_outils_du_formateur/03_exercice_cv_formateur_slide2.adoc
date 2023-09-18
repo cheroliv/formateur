@@ -1,0 +1,31 @@
+[#resume_slide_2]
+= Informations de contact =
+
+* Nom : [Votre nom]
+* Adresse : [Votre adresse]
+* Téléphone : [Votre numéro de téléphone]
+* Email : [Votre adresse e-mail]
+
+= Résumé =
+
+----
+Votre résumé de formateur en quelques phrases concises. Mettez en avant votre expertise, votre expérience et vos objectifs en tant que formateur.
+----
+
+----
+Exemple : Formateur expérimenté avec 10 ans d'expérience dans le domaine de la formation professionnelle.
+----
+
+----
+Spécialisé dans la formation en gestion, en communication et en leadership. Passionné par le développement des compétences des apprenants pour les aider à atteindre leur plein potentiel.
+----
+
+
+link:02_exercice_cv_formateur_slide2.adoc#resume_slide_1[&#11013;] +
+link:04_exercice_cv_formateur_slide3.adoc#resume_slide_3[&#10145;]
+
+
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====

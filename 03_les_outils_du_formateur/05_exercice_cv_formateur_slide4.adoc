@@ -1,0 +1,43 @@
+[#resume_slide_4]
+
+= Éducation
+
+----
+Détaillez votre formation académique pertinente, en commençant par le diplôme le plus récent. Utilisez un format similaire pour chaque entrée, en incluant les éléments suivants :
+----
+
+* [Titre du diplôme]
+* [Nom de l'établissement]
+* [Année d'obtention]
+
+== Exemple :
+
+Master en Éducation +
+Université XYZ +
+2010 +
+
+== Compétences
+
+----
+Listez vos compétences clés en tant que formateur, y compris les compétences pédagogiques, techniques et de gestion. Exemple :
+----
+
+- Conception de programmes de formation
+- Animation de sessions de formation interactives
+- Évaluation des besoins en formation
+- Création de supports pédagogiques multimédias
+- Gestion de classe virtuelle
+- Communication efficace
+
+Ces trois slides fournissent une structure de base pour un CV de formateur. +
+Vous pouvez personnaliser davantage votre CV en ajoutant d'autres sections pertinentes, telles que les certifications, les publications, les projets spécifiques, les langues étrangères maîtrisées, etc., en fonction de vos propres qualifications et de l'objectif de votre candidature.
+
+
+link:01_les_outils_professionnelles_du_formateur.adoc#colab[&#11014;] +
+link:04_exercice_cv_formateur_slide3.adoc#resume_slide_3[&#11013;]
+
+
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====

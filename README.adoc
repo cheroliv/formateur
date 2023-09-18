@@ -21,7 +21,6 @@ link:compte_rendu_chronologique.adoc[compte rendu chronologique]
 
 === link:02_scratch/synthese_scratch.adoc#scratch_workshop[Scratch workshop]
 
-//== Les outils du formateur
 
 == link:03_les_outils_du_formateur/01_les_outils_professionnelles_du_formateur.adoc#colab[Les outils du formateur]
 
