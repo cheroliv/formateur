@@ -40,7 +40,7 @@ link:02_exercice_cv_formateur_slide1.adoc#resume_slide_1[exercice]
 
 == Etude de cas  pour data visualisation
 
-=== link:SPG_Data_visualisation.pdf[Scénario pédagogique Global = SPG]
+=== link:SPG_Data_visualisation.pdf[Scénario Pédagogique Global = SPG]
 
 === link:SPD_Data_visualisation.pdf[Scénario Pédagogique Détaillé = SPD]
 
