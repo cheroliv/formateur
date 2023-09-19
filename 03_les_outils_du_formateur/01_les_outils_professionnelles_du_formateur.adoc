@@ -38,7 +38,7 @@ link:02_exercice_cv_formateur_slide1.adoc#resume_slide_1[exercice]
 * create and save playlist
 
 
-== Etude de cas  pour data visualisation
+== Etude de cas: Data visualisation
 
 === link:SPG_Data_visualisation.pdf[Scénario Pédagogique Global = SPG]
 
