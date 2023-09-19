@@ -3,11 +3,17 @@
 link:README.adoc#toc[Table des matieres]
 
 == 7/09/2023
+
+formateur: Grace
+
 . fiche d'activité de l'apprenant.
 . activité_en_groupe.adoc: Introduction au travail en groupe.
 . vie_collective_regle_de_groupe.adoc 
 
 == 8/09/2023
+
+formateur: Grace
+
 . Le métier de la formation professionnelle
 
 == 11/09/2023
@@ -15,12 +21,18 @@ Les missions du formateur numérique. +
 Creation de slides. voir: intro/04_slide_01.adoc
 
 == 12/09/2023
+
+formateur: Grace
+
 . activité sur le document 'intro/Fiche d'activités apprenants_ S2_Jour 1.docx' +
 sur le théme: La communication écrite et orale du formateur.
 . le feed-back
 . Questionnaire_ bilan de séance
 
 == 13/09/2023
+
+formateur: Grace
+
 .communication verbale et non verbale, paraverbale
 
 . la preparation:
@@ -38,6 +50,8 @@ sur le théme: La communication écrite et orale du formateur.
 
 == 14/09/2023
 
+formateur : Sebastien
+
 . presentation de la programmation logiciel: scratch\Construire le plan de réalisation d’un objectif complexe.pdf
 . initiation à scratch
 .. déplacement d'un sprite
@@ -54,6 +68,8 @@ sur le théme: La communication écrite et orale du formateur.
 
 == 18/09/2023
 
+formateur : Sebastien
+
 link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#colab[les_outils_professionnelles_du_formateur]
 
 matin:
@@ -65,6 +81,11 @@ apres midi:
 . support de communication du formateur
 . exercice sur le CV du formateur
 . youtube mon exemple de veille technologique
+
+
+== 19/09/2023
+formateur : Grace
+. link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#learn2learn[Apprendre à apprendre: Les outils pour optimiser l'apprentissage]
 
 
 link:README.adoc#toc[Table des matieres]
