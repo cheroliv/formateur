@@ -88,6 +88,13 @@ formateur : Grace
 . link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#learn2learn[Apprendre à apprendre: Les outils pour optimiser l'apprentissage]
 
 
+== 20/09/2023
+
+formateur : Grace
+. link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#time_learn[Temps et apprentissage]
+
+
+
 link:README.adoc#toc[Table des matieres]
 
 ====

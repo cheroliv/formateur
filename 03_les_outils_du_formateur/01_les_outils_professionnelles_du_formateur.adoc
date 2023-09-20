@@ -49,7 +49,7 @@ link:02_exercice_cv_formateur_slide1.adoc#resume_slide_1[exercice]
 [#learn2learn]
 == Apprendre à apprendre: Les outils pour optimiser l'apprentissage
 
-link:Document_de_travail_l_attention_les_mémoires.odp[présenation de la séance]
+link:Document_de_travail_l_attention_les_mémoires.odp[présentation de la séance]
 
 === Quatre grandes phases de l'apprentissage
 . inconscience de la compétence
@@ -75,6 +75,10 @@ link:Document_de_travail_l_attention_les_mémoires.odp[présenation de la séanc
 link:https://fr.wikipedia.org/wiki/Malcolm_Knowles[Malcolm Knowles] (1913-1997)
 
 
+[#time_learn]
+== Temps et apprentissage
+
+link:Fiche_activites__Seance_5.docx[présentation de la séance]
 
 
 link:../README.adoc#toc[Table des matieres]
