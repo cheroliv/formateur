@@ -80,6 +80,7 @@ link:https://fr.wikipedia.org/wiki/Malcolm_Knowles[Malcolm Knowles] (1913-1997)
 
 link:Fiche_activites__Seance_5.docx[présentation de la séquence]
 
+image:travail_en_equipe_sur_le_temps.png[travail en equipe sur le temps]
 
 [#learning_styles]
 == Les Styles d'apprentisage
