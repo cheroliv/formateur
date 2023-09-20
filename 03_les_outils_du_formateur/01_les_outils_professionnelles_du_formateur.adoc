@@ -81,14 +81,31 @@ link:https://fr.wikipedia.org/wiki/Malcolm_Knowles[Malcolm Knowles] (1913-1997)
 link:Fiche_activites__Seance_5.docx[présentation de la séquence]
 
 
-link:../README.adoc#toc[Table des matieres]
-
-== Styles d'apprentisage
+[#learning_styles]
+== Les Styles d'apprentisage
 
 link:Activite_seance_4___Les_styles_dapprentissages.docx[présentation de la séquence]
 
+complément de documentation:
+
+. link:Les_styles_dapprentissage___entre_flou_conceptuel_et_interet_pratique.pdf[entre_flou_conceptuel_et_interet_pratique]
+. link:lutilite_des_styles_dapprentissages_VAK.pdf[l'utilité des styles d'apprentissages VAK]
+
+. link:Test_les_styles_dapprentissage_de_Kolb.xlsx[test de Kolb]
+
+link:Bilan_periode_de_remise_a_niveau.docx[bilan de séance]
+
+== Métacognition et analyse reflexive
+. Ce que j'ai fait?
+. Ce que j'aurais du faire?
+. Points d'amélioration
+
+link:Comment_mettre_en_place_une_pratique_reflexive_le_cycle_reflexif.pdf[Comment mettre en place une pratique reflexive: le cycle reflexif]
 
 
+
+
+link:../README.adoc#toc[Table des matieres]
 ====
 link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
 ====
