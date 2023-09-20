@@ -78,10 +78,16 @@ link:https://fr.wikipedia.org/wiki/Malcolm_Knowles[Malcolm Knowles] (1913-1997)
 [#time_learn]
 == Temps et apprentissage
 
-link:Fiche_activites__Seance_5.docx[présentation de la séance]
+link:Fiche_activites__Seance_5.docx[présentation de la séquence]
 
 
 link:../README.adoc#toc[Table des matieres]
+
+== Styles d'apprentisage
+
+link:Activite_seance_4___Les_styles_dapprentissages.docx[présentation de la séquence]
+
+
 
 ====
 link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
