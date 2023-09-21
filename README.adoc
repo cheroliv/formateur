@@ -24,6 +24,7 @@ link:compte_rendu_chronologique.adoc[compte rendu chronologique]
 
 == link:03_les_outils_du_formateur/01_les_outils_professionnelles_du_formateur.adoc#colab[Les outils du formateur]
 
+== link:04_le_metier_de_formateur/01_le_metier_de_formateur.adoc#metier[Le metier de formateur]
 
 
 ====

@@ -1,0 +1,4 @@
+[#metier]
+= Le metier de formateur
+
+Le link:docs/2022/REAC_FPA_V07_21122022.pdf[REAC FPA]

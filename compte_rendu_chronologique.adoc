@@ -99,7 +99,13 @@ formateur : Grace
 .. link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#learning_styles[Temps et apprentissage]
 
 
+== 21/09/2023
 
+Formateur: Thibault
+
+.matin
+.. présentation
+.. biblio, doc
 
 
 link:README.adoc#toc[Table des matieres]
