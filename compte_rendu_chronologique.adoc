@@ -104,7 +104,7 @@ formateur : Grace
 Formateur: Thibault
 
 .matin
-.. présentation
+.. présentation du metier par le REAC
 .. biblio, doc
 
 
