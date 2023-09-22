@@ -8,13 +8,18 @@ Le link:docs/2022/REAC_FPA_V07_21122022.pdf[REAC FPA]
 
 == La formation continue des adultes en France : des repères
 
-*Mots-clés :* 
-. Formation des adultes
-. Éducation permanente
-. Formation professionnelle
-. VAE
-. Compétence
-. Qualification
+link:La_formation_continue_des_adultes_michel_sonntag.pdf[document]
+
+*Mots-clés :*
+
+* Formation des adultes
+* Éducation permanente
+* Formation professionnelle
+* VAE
+* Compétence
+* Qualification
+
+
 
 === Éducation et formation des jeunes et des adultes : des points de similitude
 
@@ -52,7 +57,7 @@ Le link:docs/2022/REAC_FPA_V07_21122022.pdf[REAC FPA]
 
 
 
-link:La_formation_continue_des_adultes_michel_sonntag.pdf[document]
+
 
 
 
