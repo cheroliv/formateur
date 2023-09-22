@@ -27,7 +27,7 @@ formateur: Grace
 . activité sur le document 'intro/Fiche d'activités apprenants_ S2_Jour 1.docx' +
 sur le théme: La communication écrite et orale du formateur.
 . le feed-back
-. Questionnaire_ bilan de séance
+. Questionnaire bilan de séance
 
 == 13/09/2023
 
@@ -120,6 +120,13 @@ demarche administative
 
 .apres-midi
 .. La formation professionnelle des adultes
+
+
+
+
+
+
+
 
 link:README.adoc#toc[Table des matieres]
 ====
