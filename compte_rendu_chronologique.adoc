@@ -107,6 +107,15 @@ Formateur: Thibault
 .. présentation du metier par le REAC
 .. biblio, doc
 
+.apres-midi
+demarche administative
+
+== 22/09/2023
+
+.matin
+.. demo notion
+.. IA google: bard
+
 
 link:README.adoc#toc[Table des matieres]
 ====
