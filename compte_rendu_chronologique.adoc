@@ -104,6 +104,7 @@ formateur : Grace
 Formateur: Thibault
 
 .matin
+.. L'andragogie
 .. présentation du metier par le REAC
 .. biblio, doc
 
@@ -115,6 +116,7 @@ demarche administative
 .matin
 .. demo notion
 .. IA google: bard
+.. L'andragogie en france
 
 
 link:README.adoc#toc[Table des matieres]
