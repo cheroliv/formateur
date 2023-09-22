@@ -118,6 +118,8 @@ demarche administative
 .. IA google: bard
 .. L'andragogie en france
 
+.apres-midi
+.. La formation professionnelle des adultes
 
 link:README.adoc#toc[Table des matieres]
 ====
