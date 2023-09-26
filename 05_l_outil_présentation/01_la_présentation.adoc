@@ -1,0 +1,46 @@
+= La présentation
+
+== travaux pratique
+
+faire la carte d'un restaurant indien: +
+
+
+structure de présentation pour notre restaurant de gastronomie indienne nommé "Pondichéry" 
+
+**Diapositive 1 : Page de titre**
+- Titre : "Restaurant Pondichéry : La Gastronomie Indienne Authentique"
+- Image de l'extérieur de votre restaurant.
+- Introduction au restaurant Pondichéry.
+- Brève mention de l'histoire de votre restaurant et de son excellence gastronomique.
+
+
+**Diapositive 2 : Les Menus**
+- Titre : "Nos Délices Culinaires"
+- Sous-titres : Entrées, Plats de Résistance, Desserts, Boissons.
+- Présentation des plats emblématiques de chaque catégorie.
+
+**Diapositive 3 : Plats de Résistance**
+- Sélection de plats de résistance vedettes avec des descriptions alléchantes.
+
+**Diapositive 4 : Boissons & Desserts**
+- Présentation de desserts indiens traditionnels accompagnés d'images.
+- Description de boissons spéciales ou de cocktails indiens uniques.
+
+
+
+
+1. **Rouge Épices : #B71540**
+   - Cette couleur évoque les épices chaudes et la passion de la cuisine indienne.
+
+2. **Or Sari : #FFD700**
+   - Le doré est souvent associé à la richesse et à la culture indienne.
+
+3. **Vert Menthe : #00796B**
+   - Une teinte de vert peut évoquer la fraîcheur des ingrédients utilisés dans la cuisine indienne.
+
+4. **Orange Mangue : #FFA500**
+   - La couleur orange rappelle les mangues juteuses, un fruit très apprécié en Inde.
+
+
+
+

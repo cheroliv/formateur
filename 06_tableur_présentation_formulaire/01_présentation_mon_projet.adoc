@@ -1,0 +1,23 @@
+[#spreadsheet]
+= Tableau, présentation et formulaire
+
+link:../README.adoc#toc[Table des matieres]
+
+== Exercice: VOTRE PROJET de métier de formateur
+
+=== Consigne
+Rédigez un document écrit (illustrations possibles), sous Word/PowerPoint/GoogleDocs/GoogleSlides dans
+lequel vous allez expliquer VOTRE PROJET de métier de formateur :
+
+slides
+
+== Ma vision
+link:02_ma_vision_slide_01.adoc#first_slide[slides]
+
+link:../README.adoc#toc[Table des matieres]
+
+
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====

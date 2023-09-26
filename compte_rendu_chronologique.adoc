@@ -122,8 +122,28 @@ demarche administative
 .. La formation professionnelle des adultes
 
 
+== 25/09/2023
+
+formateur: Magalie
+
+.matin
+.. la présentation support de communication
+.. google slide
+
+.apres-midi
+.. création du menu d'un resto sous forme de présentation
 
 
+== 26/09/2023
+
+formateur: Magalie
+
+.matin
+.. tableur
+.. google slide
+
+.apres-midi
+.. création d'une présentation de son projet personnelle
 
 
 

@@ -1,0 +1,22 @@
+[#last_slide]
+=== Conclusion
+
+En résumé, en tant que formateur, je m'efforce de développer des compétences, des savoirs, des savoir-faire et un savoir-être pour fournir des actions de formation engageantes et efficaces. Les outils numériques offrent des opportunités passionnantes, et ma vision personnelle met l'accent sur la programmation ludique et l'innovation avec des supports tels qu'Arduino, Raspberry Pi et Android.
+
+
+
+=== Contact & socialz
+
+* mail: cheroliv.contact@gmail.com
+* github: https://github.com/cheroliv
+* facebook: https://www.facebook.com/cheroliv
+* linkedin: https://www.linkedin.com/in/cheroliv/
+* discord: https://discord.gg/Kzj38uPP
+
+
+link:03_ma_vision_slide_03.adoc#third_slide[précédent] +
+link:03_ma_vision_slide_01.adoc#first_slide[premier]
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====

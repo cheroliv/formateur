@@ -1,0 +1,49 @@
+[#first_slide]
+= Mon projet de formateur pour adultes dans le numérique 
+
+== Partie 1 : Notions Fondamentales
+
+=== Définition des Grandes Notions
+
+Quelles sont les grandes notions du métier de formateur pour adultes?
+
+==== La compétence
+
+La compétence représente la capacité d'un formateur à maîtriser un domaine de connaissances.
+
+==== Le savoir
+
+Le savoir fait référence à l'ensemble des connaissances théoriques acquises par un formateur. 
+L'ensemble des informations qui peuvent être transmis aux apprenants.
+
+==== Le savoir-faire
+
+Le savoir-faire se rapporte aux compétences pratiques et aux compétences techniques qu'un formateur possède.
+La capacité à mettre en œuvre des connaissances théoriques dans des situations pratiques.
+
+==== Le savoir-être
+
+Le savoir-être englobe les qualités personnelles d'un formateur, telles que :
+* l'empathie
+* la communication efficace
+* la patience
+* la capacité à inspirer les apprenants 
+* la capacité à motiver les apprenants
+
+==== L'action de Formation
+
+L'action de formation représente la transmission :
+* des connaissances
+* des compétences
+* des valeurs aux apprenants. 
+
+la formation se découpe en trois étape: 
+. la planification
+. la mise en œuvre 
+. l'évaluation
+
+link:03_ma_vision_slide_02.adoc#second_slide[suivant]
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====

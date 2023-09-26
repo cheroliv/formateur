@@ -1,0 +1,23 @@
+[#second_slide]
+== Partie 2 : Les Outils Numériques pour le métier de formateur pour adulte
+
+Les perspectives offertes par les outils numériques pour le métier de formateur pour adultes.
+
+=== Les outils numériques
+
+* plateformes d'apprentissage en ligne
+* les simulateurs
+* les visioconférences
+* les logiciels éducatifs
+
+offrent de nouvelles opportunités pour l'enseignement et la formation. +
+Une personnalisation de l'apprentissage par profil d'apprenants, +
+la collaboration à distance et l'accès à une variété de ressources pédagogiques.
+
+
+link:04_ma_vision_slide_03.adoc#third_slide[suivant] +
+link:02_ma_vision_slide_01.adoc#first_slide[précédent]
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====
