@@ -3,7 +3,9 @@
 
 Les perspectives offertes par les outils numériques pour le métier de formateur pour adultes.
 
-=== Les outils numériques
+=== `Les outils numériques`
+
+image::6 SCENE.svg[width=150,alt="image 6"]
 
 * plateformes d'apprentissage en ligne
 * les simulateurs

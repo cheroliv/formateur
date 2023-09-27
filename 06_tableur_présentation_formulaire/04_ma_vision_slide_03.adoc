@@ -1,18 +1,24 @@
 [#third_slide]
 = Partie 3 : Mon projet professionnel en tant que Formateur
 
-== Mon projet personnel
+== `Mon projet personnel`
 
 *le numérique dans la formation pour adultes*, démystifier et democratiser la programmation ludique, l'utilisation de supports innovants tels qu'Arduino, Raspberry Pi et Android.
 
-=== Programmation Ludique
+image::7 SCENE.svg[width=150]
+
+=== `Programmation Ludique`
 
 Mon approche en tant que formateur se concentre sur l'utilisation de la programmation ludique comme moyen d'enseigner des concepts techniques. Cette approche engage les apprenants en utilisant des jeux et des projets interactifs pour renforcer la compréhension des concepts informatiques et cela depuis des notions de base.
 
-=== Supports Innovants
+image::8 SCENE.svg[width=150]
+
+=== `Supports Innovants`
 
 Je prévois d'exploiter les plateformes telles qu'Arduino, Raspberry Pi et Android pour créer des expériences d'apprentissage pratiques et stimulantes. +
 Ces supports permettront aux apprenants d'explorer la technologie de manière concrète et créative.
+
+image::9 SCENE.svg[width=150]
 
 link:05_ma_vision_slide_04.adoc#last_slide[suivant] +
 link:03_ma_vision_slide_02.adoc#second_slide[précédent]
