@@ -2,11 +2,20 @@
 === `Conclusion`
 
 En tant que formateur, je vise à:
-de développer des compétences, des savoirs, des savoir-faire et un savoir-être pour fournir des actions de formation engageantes et efficaces. Les outils numériques offrent des opportunités passionnantes, et ma vision personnelle met l'accent sur la programmation ludique et l'innovation avec des supports tels qu'Arduino, Raspberry Pi et Android.
 
-image::10 SCENE.svg[width=150]
+* développer des compétences
+* des savoirs
+* des savoir-faire
+* un savoir-être
 
-=== `Contact & socialz`
+Ma vision personnelle met l'accent sur :
+
+* la programmation ludique
+* l'innovation (Arduino, Raspberry Pi et Android).
+
+image::10 SCENE.svg[width=450]
+
+=== `Contact & réseaux sociaux`
 
 * mail: cheroliv.contact@gmail.com
 * github: https://github.com/cheroliv

@@ -4,7 +4,7 @@ Les perspectives offertes par les outils numériques pour le métier de formateu
 
 == `Les outils numériques`
 
-image::6 SCENE.svg[width=150,alt="image 6"]
+image::6 SCENE.svg[width=450,alt="image 6"]
 
 * plateformes d'apprentissage en ligne
 * les simulateurs

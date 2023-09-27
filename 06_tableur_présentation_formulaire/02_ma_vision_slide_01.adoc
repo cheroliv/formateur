@@ -1,28 +1,28 @@
 [#first_slide]
-= Mon projet de formateur pour adultes dans le numérique 
+= Mon métier de formateur pour adultes dans le numérique
 
 
 Quelles sont les grandes notions du métier de formateur pour adultes?
 
 == `La compétence`
-image::1 SCENE.svg[width=150,alt="formation image 1"]
+image::1 SCENE.svg[width=450,alt="formation image 1"]
 
 La compétence représente la capacité d'un formateur à maîtriser un domaine de connaissances.
 
 == `Le savoir`
-image::2 SCENE.svg[width=150,alt="image formation 2"]
+image::2 SCENE.svg[width=450,alt="image formation 2"]
 
 Le savoir fait référence à l'ensemble des connaissances théoriques acquises par un formateur.
 L'ensemble des informations qui peuvent être transmis aux apprenants.
 
 == `Le savoir-faire`
-image::3 SCENE.svg[width=150,alt="image formation 3"]
+image::3 SCENE.svg[width=450,alt="image formation 3"]
 
 Le savoir-faire se rapporte aux compétences pratiques et aux compétences techniques qu'un formateur possède.
 La capacité à mettre en œuvre des connaissances théoriques dans des situations pratiques.
 
 == `Le savoir-être`
-image::4 SCENE.svg[width=150,alt="image 4"]
+image::4 SCENE.svg[width=450,alt="image 4"]
 Le savoir-être englobe les qualités personnelles d'un formateur, telles que :
 
 * l'empathie
@@ -32,7 +32,7 @@ Le savoir-être englobe les qualités personnelles d'un formateur, telles que :
 * la capacité à motiver les apprenants
 
 == `L'action de Formation`
-image::5 SCENE.svg[width=150,alt="image 5"]
+image::5 SCENE.svg[width=450,alt="image 5"]
 
 L'action de formation représente la transmission :
 * des connaissances
