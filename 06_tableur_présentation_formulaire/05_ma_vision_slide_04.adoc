@@ -15,8 +15,8 @@ image::10 SCENE.svg[width=150]
 * discord: https://discord.gg/Kzj38uPP
 
 
-link:03_ma_vision_slide_03.adoc#third_slide[précédent] +
-link:03_ma_vision_slide_01.adoc#first_slide[premier]
+link:03_ma_vision_slide_02.adoc#third_slide[précédent] +
+link:02_ma_vision_slide_01.adoc#first_slide[premier]
 
 ====
 link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
