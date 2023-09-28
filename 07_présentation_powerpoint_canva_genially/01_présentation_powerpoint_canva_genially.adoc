@@ -1,0 +1,41 @@
+= Présentation powerpoint canva genial.ly
+
+== Powerpoint canva genial.ly
+
+=== Powerpoint
+
+==== changer le format de powerpoint
+conception > taille des diapositives personnaliser +
+ou +
+création > taille des diapositives > taille de diapositive personnalisée +
+taille des diapositives: format A4 +
+Portrait +
+Mettre à l'echelle +
+
+==== changer le theme
+
+==== changer la mise en forme de l'arriere plan
+
+* gérer les degradés
+
+==== inserer un tableau excel dans la présentation 
+
+==== supprimer l'arriere plan d'une photo: link:https://www.remove.bg/fr[remove.bg]
+
+==== retoucher une image en ligne: link:https://www.photopea.com/[photopea]
+
+==== les formes
+
+* contour
+* superposition (reculer)
+* modifier la forme(ex: passer de triangle à rond)
+* format de forme > modifier les points
+* fusionner des formes
+* forme des zones de textes
+* aligner les formes
+* smart art, conversion en forme
+
+==== Rogner dans l'image et rogner à la forme
+
+== Prise de parole en public
+

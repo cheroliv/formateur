@@ -146,6 +146,30 @@ formateur: Magalie
 .. création d'une présentation de son projet personnelle
 
 
+== 27/09/2023
+
+formateur: Magalie
+
+.matin
+.. soutien
+
+.apres-midi
+.. soutien
+
+== 28/09/2023
+
+formateur: Danielle
+
+.matin
+.. powerpoint
+.. genial.ly
+.. canva
+
+.apres-midi
+.. powerpoint
+.. genial.ly
+.. canva
+
 
 
 link:README.adoc#toc[Table des matieres]
