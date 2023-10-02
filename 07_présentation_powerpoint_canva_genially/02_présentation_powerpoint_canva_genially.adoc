@@ -1,0 +1,21 @@
+= Présentation powerpoint canva genial.ly
+
+== Canva.com
+
+link:https://www.canva.com/fr_fr/modeles/EAD-BY9hEyw-menthe-vert-et-blanc-moderne-formes-entreprise-financier-rapport/[modele de travail]
+
+=== animations
+
+click droit sur l'element et utiliser *animer*
+
+image::animations.png[animation]
+
+
+
+
+
+link:../README.adoc#toc[Table des matieres]
+
+====
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+====
