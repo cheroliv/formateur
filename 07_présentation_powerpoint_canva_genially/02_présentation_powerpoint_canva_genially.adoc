@@ -10,7 +10,11 @@ click droit sur l'element et utiliser *animer*
 
 image::animations.png[animation]
 
+=== Exo: faire un contenu avec canva
 
+link:https://www.canva.com/design/DAFwGfEe2Bs/5eKp6ZsHrUSDPkL3m2b7yw/edit?utm_content=DAFwGfEe2Bs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton[short vidéo]
+
+== Genial.ly
 
 
 

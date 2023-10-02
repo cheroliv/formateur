@@ -37,15 +37,15 @@ formateur: Grace
 
 . la preparation:
 
-.. maitrise du sujet
-.. elaboration du support
-.. entrainement
-.. gestion du temps
+** maitrise du sujet
+** elaboration du support
+** entrainement
+** gestion du temps
 
 . pendant la préparation
-.. communication vocale
-.. communication non verbale
-.. communication paraverbale
+** communication vocale
+** communication non verbale
+** communication paraverbale
 
 
 == 14/09/2023
@@ -54,11 +54,11 @@ formateur : Sebastien
 
 . presentation de la programmation logiciel: scratch\Construire le plan de réalisation d’un objectif complexe.pdf
 . initiation à scratch
-.. déplacement d'un sprite
-.. boucle
-.. costume de sprite
-.. variable
-.. message
+** déplacement d'un sprite
+** boucle
+** costume de sprite
+** variable
+** message
 
 
 == 15/09/2023
@@ -93,10 +93,10 @@ formateur : Grace
 formateur : Grace
 
 .matin
-.. link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#time_learn[Temps et apprentissage]
+** link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#time_learn[Temps et apprentissage]
 
 .apres-midi
-.. link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#learning_styles[Temps et apprentissage]
+** link:03_les_outils_du_formateur\01_les_outils_professionnelles_du_formateur.adoc#learning_styles[Temps et apprentissage]
 
 
 == 21/09/2023
@@ -104,9 +104,9 @@ formateur : Grace
 Formateur: Thibault
 
 .matin
-.. L'andragogie
-.. présentation du metier par le REAC
-.. biblio, doc
+** L'andragogie
+** présentation du metier par le REAC
+** biblio, doc
 
 .apres-midi
 demarche administative
@@ -114,12 +114,12 @@ demarche administative
 == 22/09/2023
 
 .matin
-.. demo notion
-.. IA google: bard
-.. L'andragogie en france
+** demo notion
+** IA google: bard
+** L'andragogie en france
 
 .apres-midi
-.. La formation professionnelle des adultes
+** La formation professionnelle des adultes
 
 
 == 25/09/2023
@@ -127,11 +127,11 @@ demarche administative
 formateur: Magalie
 
 .matin
-.. la présentation support de communication
-.. google slide
+** la présentation support de communication
+** google slide
 
 .apres-midi
-.. création du menu d'un resto sous forme de présentation
+** création du menu d'un resto sous forme de présentation
 
 
 == 26/09/2023
@@ -139,11 +139,11 @@ formateur: Magalie
 formateur: Magalie
 
 .matin
-.. tableur
-.. google slide
+** tableur
+** google slide
 
 .apres-midi
-.. création d'une présentation de son projet personnelle
+** création d'une présentation de son projet personnelle
 
 
 == 27/09/2023
@@ -151,24 +151,24 @@ formateur: Magalie
 formateur: Magalie
 
 .matin
-.. soutien
+** soutien
 
 .apres-midi
-.. soutien
+** soutien
 
 == 28/09/2023
 
 formateur: Danielle
 
 .matin
-.. powerpoint
-.. genial.ly
-.. canva
+** powerpoint
+** genial.ly
+** canva
 
 .apres-midi
-.. powerpoint
-.. genial.ly
-.. canva
+** powerpoint
+** genial.ly
+** canva
 
 
 == 02/10/2023
@@ -176,7 +176,10 @@ formateur: Danielle
 formateur: Danielle
 
 .matin
-.. canva.com
+** canva.com
+
+.apres-midi
+** genial.ly
 
 
 link:README.adoc#toc[Table des matieres]
