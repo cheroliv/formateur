@@ -181,6 +181,13 @@ formateur: Danielle
 .apres-midi
 ** genial.ly
 
+== 03/10/2023
+
+formateur: Valerie
+
+.matin
+** la prise de parole
+
 
 link:README.adoc#toc[Table des matieres]
 ====
