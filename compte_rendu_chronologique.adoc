@@ -187,7 +187,32 @@ formateur: Valerie
 
 .matin
 ** la prise de parole
+== 03/10/2023
 
+formateur: Valerie
+
+.matin
+** la prise de parole
+
+== 04/10/2023
+
+formateur: Magalie
+
+.matin
+** linkedin
+
+.apres-midi
+** CV sur canva
+
+== 05/10/2023
+
+formateur: Dannielle
+
+.matin
+** la prise de parole
+
+.apres-midi
+** la prise de parole
 
 link:README.adoc#toc[Table des matieres]
 ====
