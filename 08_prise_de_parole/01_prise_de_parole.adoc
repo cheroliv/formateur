@@ -1,2 +1,67 @@
 = La prise de parole
 
+== Méta-modèle
+
+=== Processus d'omission
+
+Le processus d'omission dans le cadre de la communication se réfère au fait de ne pas inclure intentionnellement certaines informations ou éléments dans un message ou une conversation. Cela peut se produire pour diverses raisons, notamment pour simplifier le message, cacher des informations, ou par manque de clarté.
+
+[options="autowidth"]
+|===
+| Simplification | Lorsqu'une personne veut transmettre un message de manière concise et claire, elle peut omettre des détails ou des informations moins pertinentes pour éviter de surcharger la communication. Cela peut rendre le message plus facile à comprendre.
+
+| Cacher des informations | Dans certaines situations, les gens peuvent omettre délibérément des informations pour dissimuler quelque chose ou pour maintenir la confidentialité. Par exemple, quelqu'un peut omettre de mentionner un conflit d'intérêts.
+
+| Manque de clarté | Parfois, l'omission peut se produire involontairement en raison d'un manque de clarté dans la communication. Une personne peut ne pas se rendre compte qu'elle a omis des informations importantes, ce qui peut entraîner des malentendus.
+
+| Économie linguistique | L'omission peut également être une caractéristique linguistique de certaines langues où des éléments peuvent être omis sans perte de sens. Par exemple, en français, on peut dire "Je vais à la plage" au lieu de "Je vais aller à la plage," en omettant le verbe auxiliaire "aller."
+|===
+
+Dans tous les cas, il est important de reconnaître que l'omission peut avoir un impact significatif sur la compréhension de la communication. Les auditeurs ou les destinataires doivent être conscients de la possibilité d'omissions et poser des questions ou demander des éclaircissements si nécessaire pour s'assurer qu'ils ont une compréhension complète du message.
+
+
+
+
+=== Processus de distorsion dans la communication
+
+Le processus de distorsion dans le cadre de la communication se réfère à la modification ou à la déformation de l'information lorsqu'elle est transmise d'une personne à une autre. Cela peut se produire de manière involontaire ou intentionnelle et peut entraîner des malentendus ou des interprétations incorrectes.
+
+[options="autowidth"]
+|===
+| Interprétation personnelle | Lorsqu'une personne reçoit un message, elle peut l'interpréter en fonction de ses propres croyances, de ses expériences passées et de ses préjugés. Cela peut entraîner une distorsion de la signification réelle du message.
+
+| Mémoire sélective | Les gens ont tendance à se souvenir sélectivement des informations qui confirment leurs propres opinions ou attentes, ce qui peut entraîner une distorsion de la mémoire et de la communication.
+
+| Rumeurs | Les rumeurs sont un exemple classique de distorsion de l'information. Lorsqu'une information est transmise de personne à personne, elle peut être déformée ou amplifiée au fil du temps.
+
+| Langage ambigu | L'utilisation de mots ou de phrases ambiguës dans la communication peut entraîner une distorsion car différentes personnes peuvent interpréter ces termes de différentes manières.
+
+| Communication non verbale | La communication non verbale, telle que le langage corporel, les expressions faciales et la tonalité de la voix, peut être mal interprétée, ce qui entraîne une distorsion de la compréhension.
+
+| Intentionnel | Parfois, les gens peuvent délibérément déformer l'information pour manipuler ou tromper les autres. Cela peut inclure la désinformation ou la rétention d'informations importantes.
+|===
+
+Pour minimiser les distorsions dans la communication, il est essentiel de favoriser la clarté et la transparence, de poser des questions pour obtenir des clarifications lorsque nécessaire et d'être conscient des biais personnels qui peuvent influencer l'interprétation. Une communication efficace repose sur une écoute active, une expression claire et une volonté de clarifier les malentendus pour garantir que l'information est transmise de manière précise et compréhensible.
+
+
+
+=== Processus de généralisation dans la communication
+
+Le processus de généralisation dans le cadre de la communication se réfère à la tendance humaine à tirer des conclusions générales à partir d'exemples spécifiques ou à appliquer des idées, des croyances ou des schémas de pensée à un large éventail de situations. Cela peut être utile dans certains contextes, mais cela peut également entraîner des stéréotypes, des préjugés ou des jugements erronés.
+
+[options="autowidth"]
+|===
+| Observation d'exemples spécifiques | Une personne observe ou vit des situations spécifiques, des expériences personnelles ou des exemples concrets.
+
+| Extraction de modèles | À partir de ces exemples spécifiques, la personne extrait des schémas ou des modèles de pensée qui lui permettent de simplifier et de comprendre ces situations.
+
+| Application à des cas similaires | La personne utilise ensuite ces modèles pour faire des généralisations et appliquer ses conclusions à des situations similaires. Par exemple, si quelqu'un a eu une mauvaise expérience avec une personne d'une certaine nationalité, il peut généraliser cette expérience pour penser que toutes les personnes de cette nationalité sont similaires.
+
+| Effets sur la communication | Les généralisations peuvent avoir un impact sur la communication en influençant la façon dont les gens perçoivent et interagissent avec les autres. Cela peut créer des préjugés, des stéréotypes ou des attentes injustes.
+
+| Réalité complexe | Cependant, il est important de noter que la réalité est souvent complexe, et les généralisations ne tiennent pas toujours compte de cette complexité. Les individus sont uniques, et les généralisations peuvent conduire à des jugements inappropriés.
+|===
+
+Pour améliorer la communication et réduire les effets négatifs de la généralisation, il est essentiel d'être conscient de cette tendance naturelle et de chercher à maintenir un esprit ouvert et une approche nuancée. Cela implique de considérer chaque situation et chaque individu de manière distincte plutôt que de s'appuyer uniquement sur des généralisations. Une communication efficace nécessite souvent la capacité de remettre en question ses propres généralisations et de faire preuve d'empathie envers les autres pour comprendre leurs points de vue et leurs expériences uniques.
+
+
