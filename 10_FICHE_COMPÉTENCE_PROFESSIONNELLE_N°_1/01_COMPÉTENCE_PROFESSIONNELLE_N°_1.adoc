@@ -6,26 +6,29 @@ pdf reac page 19
 
 devenir FPA lecture page 21 à 25
 
-=== RF = référentiel de formation
+=== RF = Référentiel de Formation
+
 === REAC = Référentiel Emploi Activité Compétence
+
 === Métier
-    Un métier est une occupation ou une profession spécifique qui requiert un ensemble de compétences, de connaissances et d'expertise particulier. Un métier est généralement associé à une catégorie spécifique de travail ou à un domaine professionnel, et il peut exiger une formation, une éducation formelle et une expérience pratique pour être exercé de manière compétente.
 
-    Un métier comprend souvent les éléments suivants :
+Un métier est une occupation ou une profession spécifique qui requiert un ensemble de compétences, de connaissances et d'expertise particulier. Un métier est généralement associé à une catégorie spécifique de travail ou à un domaine professionnel, et il peut exiger une formation, une éducation formelle et une expérience pratique pour être exercé de manière compétente.
 
-    1. **Compétences et connaissances spécifiques** : Pour exercer un métier, il est nécessaire d'acquérir des compétences et des connaissances spécifiques liées à ce métier. Cela peut inclure des compétences techniques, des compétences interpersonnelles et des compétences spécialisées.
+Un métier comprend souvent les éléments suivants :
 
-    2. **Formation et éducation** : De nombreux métiers exigent une formation formelle, qu'il s'agisse d'un diplôme universitaire, d'un apprentissage, d'une certification ou d'une formation professionnelle. Cette formation prépare les individus à exercer le métier de manière compétente.
+1. **Compétences et connaissances spécifiques** : Pour exercer un métier, il est nécessaire d'acquérir des compétences et des connaissances spécifiques liées à ce métier. Cela peut inclure des compétences techniques, des compétences interpersonnelles et des compétences spécialisées.
 
-    3. **Exigences légales et réglementations** : Certains métiers sont soumis à des réglementations gouvernementales ou à des exigences légales spécifiques. Cela peut inclure des licences, des certifications ou des accréditations.
+2. **Formation et éducation** : De nombreux métiers exigent une formation formelle, qu'il s'agisse d'un diplôme universitaire, d'un apprentissage, d'une certification ou d'une formation professionnelle. Cette formation prépare les individus à exercer le métier de manière compétente.
 
-    4. **Expérience pratique** : L'expérience pratique est souvent nécessaire pour devenir compétent dans un métier. Les stagiaires ou les apprentis travaillent aux côtés de professionnels expérimentés pour acquérir une expérience pratique.
+3. **Exigences légales et réglementations** : Certains métiers sont soumis à des réglementations gouvernementales ou à des exigences légales spécifiques. Cela peut inclure des licences, des certifications ou des accréditations.
 
-    5. **Éthique et normes professionnelles** : De nombreux métiers ont des normes éthiques et professionnelles auxquelles les praticiens doivent adhérer. Cela peut inclure des codes de conduite, des responsabilités envers les clients ou les patients, et d'autres principes éthiques.
+4. **Expérience pratique** : L'expérience pratique est souvent nécessaire pour devenir compétent dans un métier. Les stagiaires ou les apprentis travaillent aux côtés de professionnels expérimentés pour acquérir une expérience pratique.
 
-    6. **Opportunités de carrière** : Choisir un métier implique souvent de considérer les opportunités de carrière, y compris la demande du marché du travail, les perspectives de croissance, les salaires et les avantages.
+5. **Éthique et normes professionnelles** : De nombreux métiers ont des normes éthiques et professionnelles auxquelles les praticiens doivent adhérer. Cela peut inclure des codes de conduite, des responsabilités envers les clients ou les patients, et d'autres principes éthiques.
 
-    Les métiers peuvent couvrir une vaste gamme de domaines, de la médecine et de l'ingénierie à l'enseignement, à l'artisanat et à la gestion d'entreprise. Ils sont essentiels pour la société car ils fournissent une expertise spécialisée dans divers secteurs et contribuent au développement économique et social. La formation professionnelle et l'éducation continue sont souvent nécessaires pour rester à jour dans un métier et maintenir la compétence.
+6. **Opportunités de carrière** : Choisir un métier implique souvent de considérer les opportunités de carrière, y compris la demande du marché du travail, les perspectives de croissance, les salaires et les avantages.
+
+Les métiers peuvent couvrir une vaste gamme de domaines, de la médecine et de l'ingénierie à l'enseignement, à l'artisanat et à la gestion d'entreprise. Ils sont essentiels pour la société car ils fournissent une expertise spécialisée dans divers secteurs et contribuent au développement économique et social. La formation professionnelle et l'éducation continue sont souvent nécessaires pour rester à jour dans un métier et maintenir la compétence.
 
 
 === Compétence
@@ -48,4 +51,19 @@ Une compétence est une capacité ou un ensemble de capacités spécifiques qu'u
 |===
 
 La formation vise souvent à développer et à améliorer les compétences des individus, que ce soit dans un environnement éducatif formel, une formation professionnelle, ou par l'expérience pratique sur le terrain. L'acquisition de compétences joue un rôle clé dans l'amélioration des opportunités d'emploi, l'efficacité professionnelle et l'autonomie personnelle.
+
+
+
+=== RC = Référentiel de Certification (devenu le RE)
+
+=== RE = Référentiel d'Evaluation
+
+
+== Document légal sur la formation
+
+link:../docs/Modèle_Fiche_programme_avec_distanciel_1_2021_V02.pdf[Modèle Fiche programme]
+
+
+
+== Un objectif de formation est un verbe d'action plus un élèment de context
 
