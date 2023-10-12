@@ -262,7 +262,19 @@ formateur: Thibault
 ** introduction au SPG
 
 .apres-midi
-**
+** SPG
+
+
+
+== 12/10/2023
+
+formateur: Thibault
+
+.matin
+** SPG-ECF
+
+.apres-midi
+** SPG-ECF
 
 
 

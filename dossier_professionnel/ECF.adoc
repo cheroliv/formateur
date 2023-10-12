@@ -1,0 +1,37 @@
+= ECF
+
+ECF: Evaluation en Cour de Formation
+
+
+== Thème et titre
+Service de sécurité incendie et d'assistance aux personnes (SSIAP) niveau 1
+
+
+== Description présentation
+
+* Effectuer l'entretien et et les vérifications élémentaires des installations et équipements de sécurité
+* Appliquer des consignes de sécurité
+* Lire et manipuler des tableaux de signalisation
+* Effectuer des rondes de sécurité et surveillance des travaux
+* Assurer la surveillance au PC
+* Passer des appels et réceptionner les services publics de secours
+* Pratiquer le secours à victimes
+* Porter assistance à personnes
+* Mettre en œuvre des moyens de secours et de mise en sécurité
+
+
+== Public
+
+effectif entre 10 et 20 apprenants
+
+== Objectifs pédagogiques
+
+L’objectif de la certification SSIAP 1 est l’acquisition des connaissances +
+et compétences nécessaires pour assurer la sécurité des biens et des personnes +
+dans les  établissements recevant du public (ERP) +
+et dans les immeubles de grande  hauteur (IGH).
+
+Dans le respect de la législation et de la réglementation, des procédures et des consignes, +
+l'agent  sécurité incendie s'assure du maintien en condition opérationnelle de l'ensemble des dispositifs +
+de sécurité incendie de l'établissement. Il assure le secours à victime et l'assistance à personnes des personnes de l'établissement.
+
