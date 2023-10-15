@@ -19,7 +19,6 @@ Service de sécurité incendie et d'assistance aux personnes (SSIAP) niveau 1
 * Porter assistance à personnes
 * Mettre en œuvre des moyens de secours et de mise en sécurité
 
-
 == Public
 
 effectif entre 10 et 20 apprenants
