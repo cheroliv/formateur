@@ -1,0 +1,23 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+!theme carbon-gray
+
+title AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE (A2SP)
+
+*: A2SP
+Agent(e) de surete et de securité privee;
+
+'right side
+
+**[#red] SSIAP 1 (Sécurité incendie)
+*** SST
+***[#green] H0BO
+*** Service de sécurité incendie
+
+'left side
+
+**[#lightblue] ADS (Sureté)
+
+
+@endmindmap
+
