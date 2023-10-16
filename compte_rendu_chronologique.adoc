@@ -278,6 +278,32 @@ formateur: Thibault
 
 
 
+== 13/10/2023
+
+formateur: Thibault
+
+.matin
+** coaching CV
+
+.apres-midi
+** coaching CV
+
+
+
+== 16/10/2023
+
+formateur: Thibault
+
+.matin
+** SPG-ECF
+** SSIAP1
+
+.apres-midi
+** SPG-ECF
+** A2SP
+
+
+
 link:README.adoc#toc[Table des matieres]
 ====
 link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
