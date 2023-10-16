@@ -62,13 +62,16 @@ La formation vise souvent à développer et à améliorer les compétences des i
 == taxonomie
 
 link:https://fr.wikipedia.org/wiki/Taxonomie_de_Bloom[Taxonomie de Bloom]
-
+ +
+link:https://fr.wikipedia.org/wiki/Didactique[Didactique]
 
 == Document légal sur la formation
 
 link:../docs/Modèle_Fiche_programme_avec_distanciel_1_2021_V02.pdf[Modèle Fiche programme]
 
-link;https://www.banque.di.afpa.fr/espaceemployeurscandidatsacteurs/egprecherche.aspx[banque des métiers]
+link:https://www.banque.di.afpa.fr/espaceemployeurscandidatsacteurs/egprecherche.aspx[banque des métiers]
+
+link:https://www.francecompetences.fr/[francecompetences]
 
 == Un objectif de formation est un verbe d'action plus un élèment de context
 

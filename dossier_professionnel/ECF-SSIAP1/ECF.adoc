@@ -4,7 +4,7 @@ ECF: Evaluation en Cour de Formation
 
 
 == Thème et titre
-Service de sécurité incendie et d'assistance aux personnes (SSIAP) niveau 1
+Service de sécurité incendie et d'assistance aux personnes (SSIAP) niveau 1 & Agent de Sureté
 
 
 == Description présentation
@@ -19,6 +19,7 @@ Service de sécurité incendie et d'assistance aux personnes (SSIAP) niveau 1
 * Porter assistance à personnes
 * Mettre en œuvre des moyens de secours et de mise en sécurité
 
+link:https://www.afpa.fr/formation-continue/ssiap-1-formation-initiale[ssiap-1 formation initiale]
 
 == Public
 
