@@ -303,6 +303,18 @@ formateur: Thibault
 ** A2SP
 
 
+== 17/10/2023
+
+formateur: Thibault
+
+.matin
+** SPG-ECF SSIAP1 en autonomie
+** Élection délégué de classe
+
+.apres-midi
+** SPG-ECF A2SP SSIAP1 ADS
+
+
 
 link:README.adoc#toc[Table des matieres]
 ====

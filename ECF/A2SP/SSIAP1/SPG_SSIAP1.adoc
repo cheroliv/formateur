@@ -5,13 +5,21 @@ Agent de sécurité incendie, au titre de SSIAP niveau 1 (Service de Sécurité 
 
 == 2) Description présentation
 
-Le métier de SSIAP 1 (Service de Sécurité Incendie et d'Assistance à Personnes de niveau 1) est principalement exercé dans le secteur de la sécurité incendie. Les professionnels de SSIAP 1 sont responsables de la prévention des incendies et de la sécurité incendie au sein d'établissements recevant du public, tels que les hôpitaux, les centres commerciaux, les hôtels, et les entreprises.
+Tout établissement recevant du public ou des travailleurs à légalement l'obligation d'assurer sa sécurité incendie. +
+Le service de sécurité incendie localisé au PCS(poste central de sécurité) est formé l'équipe de SSIAP(Service de Sécurité Incendie et d'Assistance à Personnes).
+Cette équipe est composé d'agents et chef d'équipe. +
+Ils sont responsables de la prévention des incendies et de la sécurité incendie au sein de l'établissement. +
 
-La certification SSIAP 1 est essentielle pour occuper ce poste. Les titulaires de cette certification sont formés pour effectuer des rondes de sécurité, surveiller les équipements de sécurité, intervenir en cas d'incendie, et évacuer les personnes en cas d'urgence. Ils assurent également la liaison avec les services d'incendie et de secours.
+L'équipe SSIAP 1 est essentielle pour effectuer des rondes de sécurité, surveiller les équipements de sécurité, intervenir en cas d'incendie, +
+et évacuer les personnes en cas d'urgence. +
+Ils assurent également la liaison avec les services d'incendie et de secours. +
 
-Les évolutions professionnelles possibles pour les titulaires de la certification SSIAP 1 incluent la progression vers des niveaux supérieurs tels que SSIAP 2 et SSIAP 3, avec des responsabilités et des tâches accrues en matière de sécurité incendie. Certains peuvent également choisir de se spécialiser dans des domaines connexes tels que la sécurité privée, la gestion de crise, ou la prévention des risques.
-
-Le métier de SSIAP 1 est fondamental pour assurer la sécurité des personnes et des biens, et il offre des opportunités d'avancement et de spécialisation dans le domaine de la sécurité incendie.
+Les évolutions professionnelles possibles pour les titulaires de la certification SSIAP 1 incluent la progression +
+vers des niveaux supérieurs tels que SSIAP 2 et SSIAP 3, avec des responsabilités et des tâches accrues en matière +
+de sécurité incendie. +
+Certains peuvent également choisir de se spécialiser dans des domaines connexes tels que la sécurité privée, +
+la gestion de crise, ou la prévention des risques, ainsi que des opportunités d'avancement et +
+de spécialisation dans le domaine de la sécurité incendie.
 
 
 link:https://www.afpa.fr/formation-continue/ssiap-1-formation-initiale[ssiap-1 formation initiale] +
@@ -50,11 +58,13 @@ Effectif entre 10 et 20 apprenants
 
 == 6) Durée/Temporisation
 
-Durée de la formation : 70 heures + examen +
-Deux modulations possibles:
+Durée de la formation : 70 heures + examen
+
+.Deux formules possibles:
 * présentiel complet (9h/12-13h/17h)
 * hybridation présentiel/distanciel (9h/12-13h/17h)
 
+
 == 7) Moyen d’accompagnement/Suivis pédagogique
 
-les acteurs donnes leurs coordonnes, qui fait quoi
+les acteurs donnes leurs coordonnées, qui fait quoi
