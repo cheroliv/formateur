@@ -76,7 +76,19 @@ Effectif entre 10 et 20 apprenants
 .Deux formules possibles:
 * présentiel complet (9h/12-13h/17h)
 * hybridation présentiel/distanciel (9h/12-13h/17h) :
-** 50% e-learning
+** 50% e-learning async
 ** 50% en centre de formation
 
 == 7) Moyen d’accompagnement/Suivis pédagogique
+
+détails de l'organisation des journées sur les differents formule pour dispenser la formation
+
+planning jours bloc de competences
+mode de communication
+
+
+
+Présentation :
+Faire une phrase en plus pour introduire la suerete et la securité
+Remonter la description du métier plus haut et parler des certifications qui composent les compétences dans le programme plus bas
+Parler de la complémentarité pas que des compétences mais des certifications sur le marché du travail
