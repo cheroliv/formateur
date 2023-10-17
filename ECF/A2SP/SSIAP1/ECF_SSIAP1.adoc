@@ -1,10 +1,7 @@
-= ECF
-
-ECF: Evaluation en Cour de Formation
+= ECF(Evaluation en Cour de Formation) SSIAP1
 
 == 1) Thème et titre
 Agent de sécurité incendie, au titre de SSIAP niveau 1 (Service de Sécurité Incendie et d'Assistance aux Personnes)
-
 
 == 2) Description présentation
 
@@ -27,7 +24,7 @@ Effectif entre 10 et 20 apprenants
 
 == 4) Objectifs pédagogiques
 
-listes des compétences par domaines de compétence
+// listes des compétences par domaines de compétence
 
 .Missions de l’agent SSIAP1
 * La prévention des incendies
@@ -53,4 +50,7 @@ listes des compétences par domaines de compétence
 
 == 6) Durée/Temporisation
 
+Durée de la formation : 70 heures + examen
+
 == 7) Moyen d’accompagnement/Suivis pédagogique
+
