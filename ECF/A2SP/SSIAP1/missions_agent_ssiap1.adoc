@@ -1,0 +1,9 @@
+.Missions de l’agent SSIAP1
+.. La prévention des incendies
+.. La sensibilisation des employés en matière de sécurité contre l’incendie, et d’assistance à personnes
+.. L’entretien élémentaire des moyens concourant à la sécurité incendie
+.. L’alerte et l’accueil des secours
+.. L’évacuation du public
+.. L’intervention précoce fasse aux incendies
+.. L’assistance à personnes au sein des établissements ou ils exercent
+.. L’exploitation du PC de sécurité incendie

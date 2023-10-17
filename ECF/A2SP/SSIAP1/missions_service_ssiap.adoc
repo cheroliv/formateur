@@ -1,0 +1,10 @@
+= Missions de service SSIAP
+
+.Ce service assure la sécurité générale dans l’établissement et a notamment pour mission :
+
+.. De connaître et de faire appliquer les consignes en cas d’incendie, notamment pour ce qui concerne les dispositions mise en œuvre pour l’évacuation des personnes en situation de handicapes.
+.. De prendre éventuellement, sous l’autorité de l’exploitant les premières mesures de sécurités
+.. D’assurer la vacuité et la permanence des cheminements d’évacuation jusqu’à la voie publique
+.. De diriger les secours en attendant l’arrivée des sapeurs-pompiers puis de se mettre à la disposition du chef de détachement d’intervention des sapeurs-pompiers
+.. Veiller au bon fonctionnement du matériel et des équipements de protection contre l’incendie d’en effectuer ou de faire effectuer les essais et l’entretien (moyen de secours du présent chapitre, dispositif de fermeture des portes, de désenfumage, d’éclairage de sécurité, groupes moteur thermique-générateur, etc...)
+.. D’organiser des rondes pour prévenir et détecter les risques d’incendies et de panique y compris dans les locaux non occupé.
