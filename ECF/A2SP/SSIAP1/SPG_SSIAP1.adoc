@@ -1,4 +1,4 @@
-= ECF(Evaluation en Cour de Formation) SSIAP1
+= SSIAP1 - SPG
 
 == 1) Thème et titre
 Agent de sécurité incendie, au titre de SSIAP niveau 1 (Service de Sécurité Incendie et d'Assistance aux Personnes)
