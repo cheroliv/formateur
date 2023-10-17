@@ -14,7 +14,7 @@ Les évolutions professionnelles possibles pour les titulaires de la certificati
 Le métier de SSIAP 1 est fondamental pour assurer la sécurité des personnes et des biens, et il offre des opportunités d'avancement et de spécialisation dans le domaine de la sécurité incendie.
 
 
-link:https://www.afpa.fr/formation-continue/ssiap-1-formation-initiale[ssiap-1 formation initiale]
+link:https://www.afpa.fr/formation-continue/ssiap-1-formation-initiale[ssiap-1 formation initiale] +
 link:https://www.cnaps.interieur.gouv.fr/[cnaps]
 
 == 3) Public
