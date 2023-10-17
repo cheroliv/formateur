@@ -2,38 +2,44 @@
 
 ECF: Evaluation en Cour de Formation
 
-
 == 1) Thème et titre
-Service de sécurité incendie et d'assistance aux personnes (SSIAP) niveau 1
+Agent de sécurité incendie, au titre de SSIAP niveau 1 (Service de Sécurité Incendie et d'Assistance aux Personnes)
 
 
-== 2) Description présentation (compétences visée de la certification)
-reformuler en nommant le secteur d'activité, le métier, la certification, les évolutions professionnale possible.
+== 2) Description présentation
 
-L’objectif de la certification SSIAP 1 est l’acquisition des connaissances +
-et compétences nécessaires pour assurer la sécurité des biens et des personnes +
-dans les  établissements recevant du public (ERP) +
-et dans les immeubles de grande  hauteur (IGH).
+Le métier de SSIAP 1 (Service de Sécurité Incendie et d'Assistance à Personnes de niveau 1) est principalement exercé dans le secteur de la sécurité incendie. Les professionnels de SSIAP 1 sont responsables de la prévention des incendies et de la sécurité incendie au sein d'établissements recevant du public, tels que les hôpitaux, les centres commerciaux, les hôtels, et les entreprises.
 
-Dans le respect de la législation et de la réglementation, des procédures et des consignes, +
-l'agent  sécurité incendie s'assure du maintien en condition opérationnelle de l'ensemble des dispositifs +
-de sécurité incendie de l'établissement. Il assure le secours à victime et l'assistance à personnes des personnes de l'établissement.
+La certification SSIAP 1 est essentielle pour occuper ce poste. Les titulaires de cette certification sont formés pour effectuer des rondes de sécurité, surveiller les équipements de sécurité, intervenir en cas d'incendie, et évacuer les personnes en cas d'urgence. Ils assurent également la liaison avec les services d'incendie et de secours.
+
+Les évolutions professionnelles possibles pour les titulaires de la certification SSIAP 1 incluent la progression vers des niveaux supérieurs tels que SSIAP 2 et SSIAP 3, avec des responsabilités et des tâches accrues en matière de sécurité incendie. Certains peuvent également choisir de se spécialiser dans des domaines connexes tels que la sécurité privée, la gestion de crise, ou la prévention des risques.
+
+Le métier de SSIAP 1 est fondamental pour assurer la sécurité des personnes et des biens, et il offre des opportunités d'avancement et de spécialisation dans le domaine de la sécurité incendie.
+
 
 link:https://www.afpa.fr/formation-continue/ssiap-1-formation-initiale[ssiap-1 formation initiale]
 link:https://www.cnaps.interieur.gouv.fr/[cnaps]
 
 == 3) Public
 
-effectif entre 10 et 20 apprenants
-
-
+être apte physiquement, cette aptitude étant attestée par un certificat médical datant de moins de trois mois, conformément à l'annexe VII de l'arrêté du 02 mai 2005.
+Effectif entre 10 et 20 apprenants
 
 == 4) Objectifs pédagogiques
 
-listes des competences par domaines de compétence
+listes des compétences par domaines de compétence
 
+.Missions de l’agent SSIAP1
+* La prévention des incendies
+* La sensibilisation des employés en matière de sécurité contre l’incendie, et d’assistance à personnes
+* L’entretien élémentaire des moyens concourant à la sécurité incendie
+* L’alerte et l’accueil des secours
+* L’évacuation du public
+* L’intervention précoce fasse aux incendies
+* L’assistance à personnes au sein des établissements ou ils exercent
+* L’exploitation du PC de sécurité incendie
 
-== 5) Compétences visés
+== 5) Compétences visés(objectifs opérationnels)
 
 * Effectuer l'entretien et et les vérifications élémentaires des installations et équipements de sécurité
 * Appliquer des consignes de sécurité
