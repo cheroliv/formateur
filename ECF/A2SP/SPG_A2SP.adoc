@@ -1,4 +1,4 @@
-= A2SP - AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE
+= Scénario pédagogique global (SPG): A2SP - AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE
 
 == 1) Thème et titre
 A2SP = ADS + SSIAP 1 + SST + H0B0 +
