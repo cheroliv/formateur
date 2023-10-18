@@ -6,7 +6,7 @@
 * Téléphone : [Votre numéro de téléphone]
 * Email : [Votre adresse e-mail]
 
-= Résumé =
+== Résumé =
 
 ----
 Votre résumé de formateur en quelques phrases concises.
@@ -25,7 +25,7 @@ pour les aider à atteindre leur plein potentiel.
 ----
 
 
-link:02_exercice_cv_formateur_slide2.adoc#resume_slide_1[&#11013;] +
+link:02_exercice_cv_formateur_slide1.adoc#resume_slide_1[&#11013;] +
 link:04_exercice_cv_formateur_slide3.adoc#resume_slide_3[&#10145;]
 
 
