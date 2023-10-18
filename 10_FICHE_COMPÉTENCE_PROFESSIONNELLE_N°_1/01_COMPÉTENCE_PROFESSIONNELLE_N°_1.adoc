@@ -76,4 +76,6 @@ link:https://www.francecompetences.fr/[francecompetences]
 == Un objectif de formation est un verbe d'action plus un élèment de context
 
 
-== SPG, SPD
+== SPG, SPD, ECF
+
+link:../ECF/ECF.adoc[SPG, SPD, ECF kezako]
