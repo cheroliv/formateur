@@ -57,7 +57,7 @@ Effectif entre 10 et 20 apprenants
 
 == 6) Compétences visés(objectifs opérationnels)
 
-// peut se passer de la taxonomie de bloum
+// Elles peuvent se passer de la taxonomie de bloum
 * Effectuer l'entretien et et les vérifications élémentaires des installations et équipements de sécurité
 * Appliquer des consignes de sécurité
 * Lire et manipuler des tableaux de signalisation
