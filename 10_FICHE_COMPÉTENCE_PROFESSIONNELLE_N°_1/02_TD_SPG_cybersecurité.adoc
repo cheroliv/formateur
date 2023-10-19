@@ -1,0 +1,46 @@
+= Formation d'Administrateur Système
+
+[cols="2*"]
+|===
+|Objectifs Pédagogiques | Durée
+|Comprendre les principes fondamentaux de l'administration système.
+|Acquérir des compétences pratiques dans la gestion de serveurs et de réseaux.
+|Être capable de résoudre des problèmes courants liés aux systèmes informatiques.
+|12 semaines
+|===
+
+== Module 1 : Introduction à l'Administration Système (Semaines 1-2)
+- Objectif : Comprendre les rôles et les responsabilités de l'administrateur système.
+- Contenu : Présentation des concepts de base, des systèmes d'exploitation, des services réseau.
+
+== Module 2 : Gestion des Systèmes d'Exploitation (Semaines 3-4)
+- Objectif : Maîtriser l'installation et la configuration des systèmes d'exploitation.
+- Contenu : Installation de Linux et Windows, gestion des utilisateurs, configuration réseau.
+
+== Module 3 : Administration de Serveurs (Semaines 5-8)
+- Objectif : Apprendre à gérer des serveurs.
+- Contenu : Configuration de serveurs Web, bases de données, serveurs de fichiers. Sécurité des serveurs.
+
+== Module 4 : Gestion des Réseaux (Semaines 9-10)
+- Objectif : Comprendre la gestion des réseaux.
+- Contenu : Configuration de routeurs, commutateurs, pare-feu. Dépannage réseau.
+
+== Module 5 : Sécurité et Sauvegarde (Semaines 11-12)
+- Objectif : Maîtriser les concepts de sécurité et de sauvegarde.
+- Contenu : Stratégies de sécurité, gestion des vulnérabilités, sauvegarde et restauration.
+
+[cols="1,2,1,1"]
+|===
+| Méthodes d'Enseignement
+| Cours magistraux
+| Travaux pratiques en laboratoire
+| Études de cas
+| Projets individuels et en groupe
+| Auto-évaluations
+
+| Évaluation
+| Quiz hebdomadaires
+| Travaux pratiques en laboratoire notés
+| Projet de configuration d'un serveur
+| Examen final
+|===

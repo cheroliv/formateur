@@ -79,3 +79,9 @@ link:https://www.francecompetences.fr/[francecompetences]
 == SPG, SPD, ECF
 
 link:../ECF/ECF.adoc[SPG, SPD, ECF kezako]
+
+=== TD SPG cybersecurité
+
+prendre un sujet et concevoir un SPG simple sur une déclinaison (tout en elearning, tout en présentiel, hybridation). Faire un choix de sujet de formation courte, appliquer une des 3 modalités et préparer le SPG.
+
+link:02_TD_SPG_cybersecurité.adoc[SPG cybersecurité]
