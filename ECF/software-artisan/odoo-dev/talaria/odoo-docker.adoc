@@ -1,2 +1,10 @@
 = Odoo et docker
 
+.prérequis:
+- wsl
+- docker-desktop
+
+
+.liens:
+* link:https://www.nuxly.com/actualites/installer-odoo-sur-windows-subsystem-for-linux-wsl-2-avec-docker/[installer-odoo-sur-windows-subsystem-for-linux-wsl-2-avec-docker]
+* link:https://www.zehntech.com/how-to-configure-odoo-using-docker-compose-in-just-15-mins/[how-to-configure-odoo-using-docker-compose-in-just-15-mins]
