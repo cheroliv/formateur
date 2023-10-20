@@ -61,9 +61,9 @@ La formation vise souvent à développer et à améliorer les compétences des i
 
 == taxonomie
 
+link:https://fr.wikipedia.org/wiki/Didactique[Didactique] +
 link:https://fr.wikipedia.org/wiki/Taxonomie_de_Bloom[Taxonomie de Bloom]
- +
-link:https://fr.wikipedia.org/wiki/Didactique[Didactique]
+image:../img/La_roue_de_la_Taxonomie_de_BLoom.png[Taxonomie_de_BLoom]
 
 == Document légal sur la formation
 
@@ -85,3 +85,9 @@ link:../ECF/ECF.adoc[SPG, SPD, ECF kezako]
 prendre un sujet et concevoir un SPG simple sur une déclinaison (tout en elearning, tout en présentiel, hybridation). Faire un choix de sujet de formation courte, appliquer une des 3 modalités et préparer le SPG.
 
 link:02_TD_SPG_cybersecurité.adoc[SPG cybersecurité]
+
+=== TD SPG formation google sheet
+
+prendre un sujet et concevoir un SPG simple sur une déclinaison (tout en elearning, tout en présentiel, hybridation). Faire un choix de sujet de formation courte, appliquer une des 3 modalités et préparer le SPG.
+
+link:FORMATION_GOOGLE_SHEETS.docx[SPG google sheets]

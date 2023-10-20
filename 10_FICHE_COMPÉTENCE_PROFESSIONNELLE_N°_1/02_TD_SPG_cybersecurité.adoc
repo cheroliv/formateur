@@ -1,46 +1,110 @@
-= Formation d'Administrateur Système
+= Sensibilisation à la Cybersécurité
+Protégez vos Données et Votre Vie Numérique
 
-[cols="2*"]
-|===
-|Objectifs Pédagogiques | Durée
-|Comprendre les principes fondamentaux de l'administration système.
-|Acquérir des compétences pratiques dans la gestion de serveurs et de réseaux.
-|Être capable de résoudre des problèmes courants liés aux systèmes informatiques.
-|12 semaines
-|===
+== Présentation
+Cette formation met en lumière l'importance de la cybersécurité à l'ère du numérique. Elle souligne les risques auxquels les individus et les organisations sont confrontés, ainsi que l'importance d'accroître la sensibilisation pour prévenir les attaques. La formation de sensibilisation à la cybersécurité se révèle être un moyen efficace de se prémunir contre les cyberattaques. Elle permet aux participants d'acquérir les connaissances et compétences nécessaires pour se protéger efficacement.
 
-== Module 1 : Introduction à l'Administration Système (Semaines 1-2)
-- Objectif : Comprendre les rôles et les responsabilités de l'administrateur système.
-- Contenu : Présentation des concepts de base, des systèmes d'exploitation, des services réseau.
+== Public cible
+La formation de sensibilisation à la cybersécurité s'adresse à un large public, qu'il s'agisse de particuliers ou de professionnels. Elle est particulièrement recommandée pour ceux qui utilisent des outils numériques dans leur vie personnelle ou professionnelle, tels que les employés d'entreprise, les étudiants, les particuliers, et d'autres groupes. Cette formation peut accueillir de 10 à 20 apprenants.
 
-== Module 2 : Gestion des Systèmes d'Exploitation (Semaines 3-4)
-- Objectif : Maîtriser l'installation et la configuration des systèmes d'exploitation.
-- Contenu : Installation de Linux et Windows, gestion des utilisateurs, configuration réseau.
+== Prérequis
+Les participants doivent posséder un ordinateur avec un accès internet, savoir lire, écrire et se connecter à internet.
 
-== Module 3 : Administration de Serveurs (Semaines 5-8)
-- Objectif : Apprendre à gérer des serveurs.
-- Contenu : Configuration de serveurs Web, bases de données, serveurs de fichiers. Sécurité des serveurs.
+== Objectifs pédagogiques
+.Les objectifs pédagogiques de cette formation sont les suivants :
+- Sensibiliser et développer la compréhension des concepts de sécurité et de sauvegarde en entreprise et dans la vie privée.
+- Renforcer la sensibilisation des participants aux risques liés à la cybersécurité.
+- Fournir aux participants les connaissances et compétences nécessaires pour se protéger contre les cyberattaques.
+- Encourager les participants à adopter des comportements sûrs en ligne.
 
-== Module 4 : Gestion des Réseaux (Semaines 9-10)
-- Objectif : Comprendre la gestion des réseaux.
-- Contenu : Configuration de routeurs, commutateurs, pare-feu. Dépannage réseau.
+== Compétences visées
+.Les compétences visées dans cette formation incluent :
+- Sensibiliser les participants aux risques de faille de sécurité informatique.
+- Enseigner aux participants les bonnes pratiques pour se protéger.
+- Développer une attitude de vigilance et de prévention chez les participants.
+- Comprendre les menaces courantes en ligne.
+- Être capable de reconnaître les signes d'attaques potentielles sur ordinateur.
 
-== Module 5 : Sécurité et Sauvegarde (Semaines 11-12)
-- Objectif : Maîtriser les concepts de sécurité et de sauvegarde.
-- Contenu : Stratégies de sécurité, gestion des vulnérabilités, sauvegarde et restauration.
+== Durée
+La formation a une durée totale de 14 heures.
 
-[cols="1,2,1,1"]
-|===
-| Méthodes d'Enseignement
-| Cours magistraux
-| Travaux pratiques en laboratoire
-| Études de cas
-| Projets individuels et en groupe
-| Auto-évaluations
+== Suivi Pédagogique
 
-| Évaluation
-| Quiz hebdomadaires
-| Travaux pratiques en laboratoire notés
-| Projet de configuration d'un serveur
-| Examen final
-|===
+L'équipe pédagogique de la formation est composée de Claudith, experte en cybersécurité, Olivier, programmeur, et David, expert en cybersécurité.
+
+L'équipe pédagogique est également disponible sur Discord et au sein de la communauté des apprenants.
+
+== Modalités Pédagogiques
+
+Les modalités pédagogiques de la sensibilisation à la cybersécurité sont les suivantes :
+
+* Information : Il s'agit de fournir aux participants les connaissances et les informations nécessaires pour comprendre les risques en cybersécurité. Cette information peut être dispensée sous forme de présentations, de documents, de vidéos ou de simulations.
+* Formation : Il s'agit d'apprendre aux participants à mettre en place des mesures de cybersécurité pour se protéger. Cette formation peut être dispensée sous forme de cours, de tutoriels ou d'exercices pratiques.
+* Sensibilisation : Il s'agit de faire prendre conscience aux participants de l'importance de la cybersécurité et de leur responsabilité dans la protection de leurs données. Cette sensibilisation peut être réalisée par des campagnes de communication, des jeux concours ou des témoignages.
+
+La formation est interactive et participative, utilisant une variété de méthodes pédagogiques, notamment :
+
+* Des présentations PowerPoint
+* Des exercices pratiques
+* Des discussions en groupe
+
+Plutôt que d'être trop développée, l'approche favorise la mise en relation des modalités et leur mise en pratique dans des activités et/ou exercices.
+
+== Modalités d'Évaluation
+
+Les modalités d'évaluation de la sensibilisation à la cybersécurité peuvent être classées en deux catégories :
+
+* Questionnaires : Les questionnaires sont un moyen simple et efficace d'évaluer les connaissances et les compétences des participants. Ils peuvent être administrés en ligne ou en présentiel.
+* Exercices pratiques : Les exercices pratiques permettent aux participants de mettre en application les connaissances acquises. Ils peuvent être réalisés en individuel ou en groupe.
+* Simulations d'attaques : Les simulations d'attaques permettent aux participants de tester leurs compétences en cybersécurité dans un environnement sécurisé.
+* Entretiens individuels : Les entretiens individuels permettent au formateur d'obtenir un feedback plus approfondi sur les connaissances et les compétences des participants.
+
+
+== Modalités de Certification Visées
+
+Attestation de sensibilisation aux gestes et comportements sécurisés dans le cyberespace.
+
+== Lieux
+
+La formation se déroule au 123 avenue des Champs-Élysées, 75001 Paris, de 9h00 à 18h00.
+
+== Tarif
+
+Le prix du forfait de la prestation est de 1200 € TTC pour les deux jours. Les modalités de paiement sont spécifiées dans le contrat ou les CGV.
+
+== Moyens Matériels
+
+Les moyens matériels utilisés dans le cadre de la formation incluent :
+
+* Présentations : Les présentations sont un moyen efficace de transmettre des informations sur la cybersécurité. Elles peuvent être utilisées pour expliquer les concepts de base de la cybersécurité, les menaces et les risques, ainsi que les mesures de protection.
+* Vidéos : Les vidéos sont un moyen attrayant et engageant de transmettre des informations sur la cybersécurité. Elles peuvent être utilisées pour illustrer les concepts de cybersécurité, les menaces et les risques, et les mesures de protection.
+* Documents : Les documents, tels que les guides pratiques, les brochures et les articles, sont un moyen efficace de fournir des informations sur la cybersécurité. Ils peuvent être utilisés pour fournir des informations plus détaillées sur les concepts de cybersécurité, les menaces et les risques, ainsi que les mesures de protection.
+* Jeux et Simulations : Les jeux et les simulations sont un moyen interactif et engageant de sensibiliser à la cybersécurité. Ils peuvent être utilisés pour tester les connaissances et les compétences des participants en matière de cybersécurité.
+
+== Poursuite en Formation
+
+La cybersécurité est un domaine en constante évolution, et les professionnels de la cybersécurité doivent être prêts à apprendre et à évoluer au fur et à mesure que les menaces et les technologies évoluent. Il existe de nombreuses possibilités de poursuite en formation après la cybersécurité. Ces formations permettent aux professionnels de la cybersécurité de se spécialiser dans un domaine particulier, d'acquérir de nouvelles compétences ou de se préparer à des postes de direction.
+
+Voici quelques exemples de poursuites en formation possibles après la cybersécurité :
+
+* Master en Cybersécurité : Ce type de master permet aux professionnels de la cybersécurité d'acquérir des connaissances et des compétences avancées dans un domaine particulier de la cybersécurité, comme la sécurité des réseaux, la sécurité des applications ou la sécurité des données.
+* Certifications : Les certifications sont un moyen de démontrer ses compétences et ses connaissances en cybersécurité. Il existe de nombreuses certifications disponibles, correspondant à différents niveaux d'expertise.
+* Formations en Ligne : Les formations en ligne offrent une flexibilité importante et permettent aux professionnels de la cybersécurité de se former à leur rythme. Il existe de nombreuses formations en ligne disponibles, couvrant un large éventail de sujets.
+
+== Délai d'Accès
+
+La durée de mise à disposition par le Centre de Formation ou le Formateur de la formation est disponible sous un délai minimum de 14 jours.
+
+== Accessibilité et Handicap
+
+Pour toutes nos formations, nous réalisons des études préalables à la formation pour adapter les locaux, les modalités pédagogiques et l'animation de la formation en fonction de la situation de handicap annoncée. De plus, en fonction des demandes, nous mettrons tout en œuvre pour nous tourner vers les partenaires spécialisés.
+
+Notre Référent Handicap : M. David KRIEF, 6 rue de la Saône, 78310 Maurepas.
+
+== Témoignage et Évaluation de la Formation
+
+Mise à disposition de formulaires d'évaluation de la formation à la fin de la formation, puis à 3 mois pour un suivi d'activité et évaluer leurs nouvelles compétences.
+
+Témoignage Apprenant/Commanditaire
+
+Listes des clients éventuels et des témoignages comme gage de qualité.

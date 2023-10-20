@@ -1,23 +1,20 @@
 = Scénario pédagogique global (SPG): A2SP - AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE
 
+reference: link:https://www.afpa.fr/formation-qualifiante/agent-de-surete-et-de-securite-privee[A2SP AFPA]
+
 == 1) Thème et titre
-A2SP = ADS + SSIAP 1 + SST + H0B0 +
-Agent de sécurité incendie, au titre de SSIAP niveau 1 (Service de Sécurité Incendie et d'Assistance aux Personnes) et agent de sureté.
+titre: A2SP, Agent de sécurité incendie, au titre de SSIAP niveau 1 et agent de sureté. +
 
-
-// == ADS
-// == SST
-// == H0BO
-// == SSIAP 1
+* SSIAP 1 = Service de Sécurité Incendie et d’Assistance à Personnes niveau 1 +
+* ADS = agent de sécurité
+* SST = sauveteur secouriste du travail
+* BS-BE manoeuvre = Interventions élémentaires et/ou des manœuvres d’ordre électrique en basse tension dans un environnement présentant des risques électriques.
+* A2SP = ADS + SSIAP 1 + SST + BS-BE manoeuvre
 
 == 2) Description présentation
-// == Métier de SSIAP 1 et la Complémentarité Sécurité Incendie et Sûreté
 
-// Le métier de SSIAP 1 (Service de Sécurité Incendie et d'Assistance à Personnes de niveau 1) est
-
-Le poste central de sécurité ou PCS, est le lieux essentiel dans le secteur de la sécurité incendie, +
-où il s'agit de prévenir et de gérer les risques liés aux incendies dans les établissements recevant du public. +
-Cependant, dans le PCS il y a également des préoccupations de sûreté, contribuant ainsi à la sécurité globale de ces lieux.
+La sécurité indendie agit à prévenir et gérer les risques liés aux incendies dans les établissements recevant du public. +
+cette mission est piloté depuis le PCS(poste centrale de sécurité) ou il y a également des préoccupations de sûreté, contribuant ainsi à la sécurité globale de ces lieux.
 
 La certification SSIAP 1 et ADS sont une base solide pour aborder la question de la sûreté. Les professionnels de SSIAP 1 sont formés à identifier les situations potentiellement dangereuses, à gérer les accès aux bâtiments, à surveiller les systèmes de sécurité, et à coopérer avec les forces de l'ordre en cas de menaces ou d'incidents liés à la sûreté. Ils assurent la protection des personnes, des biens, et des informations sensibles.
 
@@ -30,7 +27,7 @@ Les évolutions professionnelles possibles pour les titulaires de la certificati
 mais aussi des opportunités de carrière dans le domaine de la sûreté, comme la sécurité privée, la gestion de crise, ou la prévention des risques liés aux menaces. +
 La polyvalence de ces professionnels les rend précieux pour les employeurs soucieux de garantir une sécurité complète.
 
-En somme, l'A2SP est au cœur de la sécurité incendie, mais il embrasse également les préoccupations de sûreté, +
+Le titre A2SP est au cœur de la sécurité incendie, mais il embrasse également les préoccupations de sûreté, +
 offrant ainsi une approche intégrée de la protection des personnes et des biens. +
 Cette complémentarité renforce la sécurité des établissements et ouvre des opportunités professionnelles diverses pour les spécialistes de la sécurité, de la maintenances des outils incendies, télésurveillance.
 
