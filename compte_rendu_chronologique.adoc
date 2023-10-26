@@ -323,10 +323,11 @@ formatrice: Magalie
 
 == 26/10/2023
 
-formateur: Thibault
+formateur: Thibault (distanciel)
 
 .matin
 ** rappel traitement de texte word
+** présentation (Nadia) : Audacity
 ** projet SPD-SPG Super-Piscine
 
 .apres-midi
