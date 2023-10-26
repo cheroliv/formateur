@@ -288,8 +288,6 @@ formateur: Thibault
 .apres-midi
 ** coaching CV
 
-
-
 == 16/10/2023
 
 formateur: Thibault
@@ -313,6 +311,28 @@ formateur: Thibault
 
 .apres-midi
 ** SPG-ECF A2SP SSIAP1 ADS
+
+
+== 25/10/2023
+
+formatrice: Magalie
+
+.matin
+** coaching sur le projet SPD-SPG Super-Piscine
+
+
+== 26/10/2023
+
+formateur: Thibault
+
+.matin
+** rappel traitement de texte word
+** projet SPD-SPG Super-Piscine
+
+.apres-midi
+** projet SPD-SPG Super-Piscine
+
+
 
 
 
