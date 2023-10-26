@@ -1,0 +1,90 @@
+= FICHE COMPÉTENCE PROFESSIONNELLE N° 1
+
+== Elaborer la progression pédagogique d’une formation multimodale à partir d'une demande
+
+pdf reac page 19
+
+devenir FPA lecture page 21 à 25
+
+=== RF = Référentiel de Formation
+
+=== REAC = Référentiel Emploi Activité Compétence
+
+=== Métier
+
+Un métier est une occupation ou une profession spécifique qui requiert un ensemble de compétences, de connaissances et d'expertise particulier. Un métier est généralement associé à une catégorie spécifique de travail ou à un domaine professionnel, et il peut exiger une formation, une éducation formelle et une expérience pratique pour être exercé de manière compétente.
+
+Un métier comprend souvent les éléments suivants :
+
+1. **Compétences et connaissances spécifiques** : Pour exercer un métier, il est nécessaire d'acquérir des compétences et des connaissances spécifiques liées à ce métier. Cela peut inclure des compétences techniques, des compétences interpersonnelles et des compétences spécialisées.
+
+2. **Formation et éducation** : De nombreux métiers exigent une formation formelle, qu'il s'agisse d'un diplôme universitaire, d'un apprentissage, d'une certification ou d'une formation professionnelle. Cette formation prépare les individus à exercer le métier de manière compétente.
+
+3. **Exigences légales et réglementations** : Certains métiers sont soumis à des réglementations gouvernementales ou à des exigences légales spécifiques. Cela peut inclure des licences, des certifications ou des accréditations.
+
+4. **Expérience pratique** : L'expérience pratique est souvent nécessaire pour devenir compétent dans un métier. Les stagiaires ou les apprentis travaillent aux côtés de professionnels expérimentés pour acquérir une expérience pratique.
+
+5. **Éthique et normes professionnelles** : De nombreux métiers ont des normes éthiques et professionnelles auxquelles les praticiens doivent adhérer. Cela peut inclure des codes de conduite, des responsabilités envers les clients ou les patients, et d'autres principes éthiques.
+
+6. **Opportunités de carrière** : Choisir un métier implique souvent de considérer les opportunités de carrière, y compris la demande du marché du travail, les perspectives de croissance, les salaires et les avantages.
+
+Les métiers peuvent couvrir une vaste gamme de domaines, de la médecine et de l'ingénierie à l'enseignement, à l'artisanat et à la gestion d'entreprise. Ils sont essentiels pour la société car ils fournissent une expertise spécialisée dans divers secteurs et contribuent au développement économique et social. La formation professionnelle et l'éducation continue sont souvent nécessaires pour rester à jour dans un métier et maintenir la compétence.
+
+
+=== Compétence
+
+Une compétence est une capacité ou un ensemble de capacités spécifiques qu'une personne développe pour accomplir efficacement une tâche, une activité ou un ensemble de tâches. Les compétences peuvent être acquises grâce à l'apprentissage, la pratique, la formation et l'expérience. Elles jouent un rôle essentiel dans la capacité d'un individu à exceller dans un domaine particulier, qu'il s'agisse d'une profession, d'un métier, d'un loisir ou d'une activité spécifique.
+
+[options="autowidth"]
+|===
+| Spécificité | Les compétences sont généralement spécifiques à des domaines ou des activités particuliers. Par exemple, la programmation informatique, la gestion de projet, la négociation, la couture, la communication orale, la cuisine, et bien d'autres, sont autant d'exemples de compétences spécifiques.
+
+| Apprentissage et développement | Les compétences ne sont pas innées, mais elles sont acquises et développées au fil du temps. Cela implique souvent un processus d'apprentissage, de formation et de pratique.
+
+| Éléments composants | Les compétences peuvent être décomposées en éléments composants. Par exemple, la compétence en gestion de projet comprend des sous-compétences telles que la planification, l'organisation, la budgétisation, etc.
+
+| Niveau de maîtrise | Les compétences peuvent être maîtrisées à différents niveaux, allant de débutant à expert. L'acquisition de compétences peut être un processus continu visant à améliorer constamment ses performances.
+
+| Transférabilité | Certaines compétences sont transférables d'un domaine à un autre. Par exemple, la capacité à résoudre des problèmes de manière logique peut être appliquée dans divers contextes, que ce soit en mathématiques, en sciences, en ingénierie, ou dans la vie quotidienne.
+
+| Évaluation | Les compétences peuvent être évaluées et mesurées pour déterminer le niveau de maîtrise d'un individu. Les évaluations peuvent être faites par des tests, des certifications, des démonstrations pratiques, des évaluations par les pairs, etc.
+|===
+
+La formation vise souvent à développer et à améliorer les compétences des individus, que ce soit dans un environnement éducatif formel, une formation professionnelle, ou par l'expérience pratique sur le terrain. L'acquisition de compétences joue un rôle clé dans l'amélioration des opportunités d'emploi, l'efficacité professionnelle et l'autonomie personnelle.
+
+
+
+=== RC = Référentiel de Certification (devenu le RE)
+
+=== RE = Référentiel d'Evaluation
+
+
+== taxonomie
+
+link:https://fr.wikipedia.org/wiki/Taxonomie_de_Bloom[Taxonomie de Bloom]
+ +
+link:https://fr.wikipedia.org/wiki/Didactique[Didactique]
+
+== Document légal sur la formation
+
+link:../docs/Modèle_Fiche_programme_avec_distanciel_1_2021_V02.pdf[Modèle Fiche programme]
+
+link:https://www.banque.di.afpa.fr/espaceemployeurscandidatsacteurs/egprecherche.aspx[banque des métiers]
+
+link:https://www.francecompetences.fr/[francecompetences]
+
+== Un objectif de formation est un verbe d'action plus un élèment de context
+
+
+== SPG, SPD, ECF
+
+link:../ECF/ECF.adoc[SPG, SPD, ECF kezako]
+
+=== construction des référentiels
+
+image::../img/conception_pédagogique.jpg[contruction des référentiels d'apprentissage]
+
+
+
+
+
