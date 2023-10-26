@@ -1,20 +1,26 @@
 = Scénario pédagogique global (SPG): A2SP - AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE
 
-reference: link:https://www.afpa.fr/formation-qualifiante/agent-de-surete-et-de-securite-privee[A2SP AFPA]
+.Réfèrence:
+* link:https://www.afpa.fr/formation-qualifiante/agent-de-surete-et-de-securite-privee[A2SP AFPA]
+* link:https://www.francecompetences.fr/recherche/rncp/34507/[REAC A2SP]
 
 == 1) Thème et titre
-titre: A2SP, Agent de sécurité incendie, au titre de SSIAP niveau 1 et agent de sureté. +
-
-* SSIAP 1 = Service de Sécurité Incendie et d’Assistance à Personnes niveau 1 +
-* ADS = agent de sécurité
-* SST = sauveteur secouriste du travail
-* BS-BE manoeuvre = Interventions élémentaires et/ou des manœuvres d’ordre électrique en basse tension dans un environnement présentant des risques électriques.
-* A2SP = ADS + SSIAP 1 + SST + BS-BE manoeuvre
+.A2SP, regroupe les certifications suivantes:
+* SSIAP 1, Service de Sécurité Incendie et d’Assistance à Personnes niveau 1
+* ADS, agent de sécurité
+* SST, sauveteur secouriste du travail
+* BS-BE manoeuvre, Interventions élémentaires et/ou des manœuvres d’ordre électrique en basse tension dans un environnement présentant des risques électriques.
 
 == 2) Description présentation
+La formation Agent de surete et de sécurité privé est un métier original qui regroupe plusieurs certifications reconnus par l'état pour une meilleur insertion profesionnelle.
 
-La sécurité indendie agit à prévenir et gérer les risques liés aux incendies dans les établissements recevant du public. +
-cette mission est piloté depuis le PCS(poste centrale de sécurité) ou il y a également des préoccupations de sûreté, contribuant ainsi à la sécurité globale de ces lieux.
+Le titre A2SP est au cœur de la sécurité incendie, mais il embrasse également les préoccupations de sûreté, +
+offrant ainsi une approche intégrée de la protection des personnes et des biens. +
+Cette complémentarité renforce la sécurité des établissements et ouvre des opportunités professionnelles diverses pour les spécialistes de la sécurité, de la maintenances des outils incendies, télésurveillance. +
+
+L'agent agit à prévenir et gérer les risques liés aux incendies dans les établissements recevant du public.
+
+Cette mission est piloté depuis le PCS(poste centrale de sécurité) ou il y a également des préoccupations de sûreté, contribuant ainsi à la sécurité globale de ces lieux.
 
 La certification SSIAP 1 et ADS sont une base solide pour aborder la question de la sûreté. Les professionnels de SSIAP 1 sont formés à identifier les situations potentiellement dangereuses, à gérer les accès aux bâtiments, à surveiller les systèmes de sécurité, et à coopérer avec les forces de l'ordre en cas de menaces ou d'incidents liés à la sûreté. Ils assurent la protection des personnes, des biens, et des informations sensibles.
 
@@ -27,9 +33,6 @@ Les évolutions professionnelles possibles pour les titulaires de la certificati
 mais aussi des opportunités de carrière dans le domaine de la sûreté, comme la sécurité privée, la gestion de crise, ou la prévention des risques liés aux menaces. +
 La polyvalence de ces professionnels les rend précieux pour les employeurs soucieux de garantir une sécurité complète.
 
-Le titre A2SP est au cœur de la sécurité incendie, mais il embrasse également les préoccupations de sûreté, +
-offrant ainsi une approche intégrée de la protection des personnes et des biens. +
-Cette complémentarité renforce la sécurité des établissements et ouvre des opportunités professionnelles diverses pour les spécialistes de la sécurité, de la maintenances des outils incendies, télésurveillance.
 
 == 3) Public
 
@@ -52,26 +55,82 @@ recyclage du BS-BE manoeuvre,
 * Le candidat est détenteur du diplôme SSIAP 1, en cours de validité, et si nécessaire, des
 attestations de recyclage ou de remise à niveau.
 
-Effectif entre 10 et 20 apprenants
+Effectif entre 10 et 20 apprenants.
 
 == 4) Objectifs pédagogiques
 
-// listes des compétences par domaines de compétence
+.Missions de l’agent A2SP
 
-.Missions de l’agent SSIAP1
-* La prévention des incendies
-* La sensibilisation des employés en matière de sécurité contre l’incendie, et d’assistance à personnes
-* L’entretien élémentaire des moyens concourant à la sécurité incendie
-* L’alerte et l’accueil des secours
-* L’évacuation du public
-* L’intervention précoce fasse aux incendies
-* L’assistance à personnes au sein des établissements ou ils exercent
-* L’exploitation du PC de sécurité incendie
-// a réécrire avec taxonomie de bloum
+. Sécurité incendie et assistance aux personnes
+** **Prévention des Incendies**
+- Identifier et évaluer les risques potentiels d'incendie.
+- Concevoir et mettre en œuvre des mesures préventives pour réduire les risques.
+
+** **Sensibilisation et Éducation en Sécurité Incendie**
+- Former et sensibiliser les employés aux procédures de sécurité incendie.
+- Fournir une assistance aux personnes en cas d'urgence incendie.
+
+** **Maintenance Élémentaire des Équipements de Sécurité Incendie**
+- Effectuer l'entretien de base des équipements de sécurité incendie.
+- S'assurer du bon fonctionnement des dispositifs de sécurité.
+
+** **Alerte et Accueil des Secours**
+- Être en mesure d'alerter les secours en cas d'incendie ou d'urgence.
+- Faciliter l'arrivée des services d'urgence et coordonner leur accueil.
+
+** **Évacuation du Public**
+- Organiser et superviser l'évacuation des occupants en cas d'incendie.
+- S'assurer que l'évacuation se déroule en toute sécurité.
+
+** **Intervention Précoce en Cas d'Incendie**
+- Agir rapidement pour maîtriser les débuts d'incendie.
+- Utiliser les équipements de lutte contre l'incendie de manière efficace.
+
+** **Assistance aux Personnes au Sein des Établissements**
+- Fournir une assistance aux personnes en situation d'urgence, y compris les personnes à mobilité réduite.
+- Coordonner les actions visant à garantir la sécurité de tous.
+
+** **Exploitation du Poste Central de Sécurité Incendie (PCSI)**
+- Surveiller et gérer les systèmes de sécurité incendie depuis le poste central.
+- Assurer la communication et la coordination en cas d'incident.
+
+. Sûreté, protection des biens et personnes
+** **Connaissance**
+- Identifier les procédures de sécurité et les réglementations en vigueur.
+- Mémoriser les protocoles de communication en cas d'urgence.
+- Décrire les types de menaces courantes en matière de sécurité.
+
+** **Compréhension**
+- Expliquer les principaux rôles et responsabilités d'un agent de sûreté.
+- Interpréter les consignes d'évacuation et les plans de sécurité.
+- Comprendre les procédures de contrôle d'accès et de vérification des personnes.
+
+** **Application**
+- Mettre en œuvre les mesures de contrôle d'accès en respectant les protocoles établis.
+- Utiliser efficacement les équipements de sécurité, tels que les scanners et les détecteurs.
+- Appliquer les techniques de communication en situation d'urgence.
+
+** **Analyse**
+- Évaluer les vulnérabilités potentielles dans un environnement sécurisé.
+- Analyser les menaces et les risques de manière proactive.
+- Identifier les domaines où des améliorations de la sécurité sont nécessaires.
+
+** **Synthèse**
+- Concevoir des plans d'intervention en cas d'incident ou de menace.
+- Élaborer des stratégies de sécurité pour des situations spécifiques.
+- Coordonner les efforts de l'équipe de sécurité pour garantir une réponse efficace.
+
+** **Évaluation**
+- Évaluer l'efficacité des mesures de sécurité mises en place.
+- Réviser les protocoles de sécurité en fonction des leçons apprises.
+- Superviser et former d'autres agents de sûreté pour améliorer leurs compétences et leurs performances.
+
+
+
 
 == 6) Compétences visés(objectifs opérationnels)
 
-// Elles peuvent se passer de la taxonomie de bloum
+.**Sécurité incendie et assistance aux personnes**
 * Effectuer l'entretien et et les vérifications élémentaires des installations et équipements de sécurité
 * Appliquer des consignes de sécurité
 * Lire et manipuler des tableaux de signalisation
@@ -82,18 +141,69 @@ Effectif entre 10 et 20 apprenants
 * Porter assistance à personnes
 * Mettre en œuvre des moyens de secours et de mise en sécurité
 
+.**Sûreté, protection des biens et personnes**
 
-== 6) Durée/Temporisation
+** **Surveillance et Patrouille** :
+- Effectuer des rondes régulières pour surveiller les zones désignées.
+- Détecter les comportements suspects ou les activités non autorisées.
+- Utiliser des équipements de surveillance, tels que des caméras de sécurité.
 
-.Durée de la formation : 140h
+** **Contrôle d'Accès** :
+- Vérifier l'identité des personnes et leur autorisation d'accès.
+- Gérer les points d'entrée et de sortie.
+- Appliquer des protocoles de contrôle d'accès stricts.
+
+** **Inspection et Détecteur de Menaces** :
+- Effectuer des inspections de sécurité pour détecter des objets ou substances dangereux.
+- Utiliser des détecteurs de métaux, des scanners et d'autres équipements de détection.
+- Appliquer des procédures pour les objets interdits.
+
+** **Gestion des Conflits et de l'Agitation** :
+- Intervenir de manière calme et professionnelle en cas de conflits ou d'incidents perturbateurs.
+- Appliquer des techniques de désescalade pour prévenir l'aggravation de la situation.
+- Collaborer avec les autorités locales en cas de besoin.
+
+** **Réponse aux Urgences** :
+- Agir rapidement en cas d'incidents de sécurité, tels que les vols, les incendies ou les évacuations d'urgence.
+- Suivre les procédures d'urgence établies pour garantir la sécurité des personnes et des biens.
+- Communiquer efficacement avec les services d'urgence.
+
+** **Rapports et Documentation** :
+- Rédiger des rapports détaillés sur les incidents, les activités de patrouille et les observations.
+- Conserver des enregistrements précis des événements pour référence future.
+- Fournir des informations aux autorités compétentes et à la direction de la sécurité.
+
+** **Communication et Coopération** :
+- Maintenir une communication efficace avec les autres membres de l'équipe de sécurité.
+- Collaborer avec d'autres parties prenantes, telles que la police, les services médicaux d'urgence et les gestionnaires de site.
+- Fournir des informations et des conseils aux personnes sur place.
+
+** **Formation Continue et Connaissance de la Législation** :
+- Se tenir informé des nouvelles réglementations et lois en matière de sécurité.
+- Participer à des formations continues pour développer ses compétences.
+- Être au fait des politiques de sécurité spécifiques au site ou à l'organisation.
+
+** **Gestion des Situations de Crise** :
+- Faire preuve de sang-froid et de leadership en cas de crises majeures.
+- Coordonner la réponse à la crise en collaboration avec les autorités et l'équipe de sécurité.
+- Mettre en œuvre des plans d'urgence pour minimiser les perturbations et les risques.
+
+** **Sensibilisation à la Sécurité** :
+- Sensibiliser les employés et le public aux procédures de sécurité et aux bonnes pratiques.
+- Fournir des conseils de sécurité aux visiteurs et aux personnes présentes sur le site.
+
+Des compétences spécifiques peuvent varier en fonction des besoins de l'entreprise ou du site où l'agent opère.
+
+== 6) Durée
+// /Temporisation
+
+.Durée de la formation : 133h
+* SST : 14h
+* BS-BE manoeuvre : 14h
 * SSIAP 1 : 70 heures + examen
 * ADS : 35 heures + examen
+* Présentiel complet (9h/12-13h/17h)
 
-.Deux formules possibles:
-* présentiel complet (9h/12-13h/17h)
-* hybridation présentiel/distanciel (9h/12-13h/17h) :
-** 50% e-learning async
-** 50% en centre de formation
 
 == 7) Moyen d’accompagnement/Suivis pédagogique
 
@@ -103,10 +213,5 @@ planning jours bloc de competences
 mode de communication
 
 
-
-Présentation :
-Faire une phrase en plus pour introduire la surete et la securité
-Remonter la description du métier plus haut et parler des certifications qui composent les compétences dans le programme plus bas
-Parler de la complémentarité pas que des compétences mais des certifications sur le marché du travail
 
 on ne fait pas 9) Programme pédagogique : contenu et séquencement

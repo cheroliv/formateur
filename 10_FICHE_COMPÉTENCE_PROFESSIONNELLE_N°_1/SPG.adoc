@@ -6,32 +6,39 @@ Les critères qui font un scénario pédagogique globale :
 on dissocie le thème qui est au global dans laquelle s'insère la formation, le thème n’est pas la formation mais le sujet général dans lequel il s'insère.
 
 == Titre (Qualiopi) :
-* La formulation du titre, elle reprends soit le titre d’un métier ou d’une posture professionnelle, ou bien un titre qui reprends la formulation d’un objectif pédagogique, commençant par un verbe d’action et un contexte professionnelle d’application, si on garde la notion de phrase génériques (les fondamentaux de l'élevage de poulet), on doit donner des éléments de contextes précisant le pourquoi et le comment de la formation pour être suffisamment spécifique
+* La formulation du titre, elle reprends soit le titre d’un métier ou d’une posture professionnelle, ou bien un titre qui reprends la formulation d’un objectif pédagogique, commençant par un verbe d’action et un contexte professionnelle d’application, si on garde la notion de phrases génériques (les fondamentaux de l'élevage de poulet), on doit donner des éléments de contextes précisant le pourquoi et le comment de la formation pour être suffisamment spécifique
 
 == Introduction : Présenter et Décrire
-* L’objectif est de donner des tendances sur le mood de la formation, l’orientation et le parti pris, c’est comme une bande annonce avec une introduction sur le secteur d’activité ou le domaine d’application, la description c’est la deuxième partie de l’introduction, où il est question de présenter en détail l’articulation, le fonctionnement de la formation ou les grandes thématiques abordées dans la formation
+* L’objectif est de donner des tendances sur le mood de la formation, l’orientation et le parti pris, c’est comme une bande-annonce avec une introduction sur le secteur d’activité ou le domaine d’application, la description, c'est la deuxième partie de l’introduction, où il est question de présenter en détail l’articulation, le fonctionnement de la formation ou les grandes thématiques abordées dans la formation
 
 == Public (Qualiopi) :
 * Cible privilégié pour les personnes amenés à suivre la formation, on ne donne pas de restriction sur les situations des personnes et sur les commanditaires, on va donner des critères d’expériences, d’objectif professionnelles, parfois d’âges, etc
 * On précise le nombre de personne minimum et maximum par session de formation
 
 == Pré-requis et conditions d’accès à la formation (Qualiopi) :
-Il faut préciser de manière spécifique les conditions minimales à maîtriser ou posséder : diplômes, âges, expériences,
-Le pré-requis ne concerne que la situation de la personne au moment de son entrée en formation, elle n’est pas dépendante de son évolution dans la formation (sur le plan pédagogique)
+* Il faut préciser de manière spécifique les conditions minimales à maîtriser ou posséder : diplômes, âges, expériences,
+* Le pré-requis ne concerne que la situation de la personne au moment de son entrée en formation, elle n’est pas dépendante de son évolution dans la formation (sur le plan pédagogique)
 
 == Objectifs pédagogiques (Qualiopi) et
-
 == Compétences visés (Qualiopi) :
-=== Référentiel emploi et activités : document qui décrit l’ensemble des différentes missions types d’un emploi en particulier
-=== Référentiel formation : document qui présente la transformation d’un ensemble d’activités en compétences professionnelles à développer en formation
-=== Scénario pédagogique globale (SPG) ou Fiche formation/programme : déclinaison du référentiel formation en proposition pédagogique avec une ingénierie pédagogique adapté à un public spécifique
-L’objectif pédagogique est une formulation explicite des savoir, savoir-faire et les savoir-être qui sont attendus à l’issue de la formation
-On utilisera toujours la Taxonomie de Bloom pour formaliser un objectif pédagogique
-Compétence visée ou objectif opérationnel ou objectif de formation : l’ensemble des acquis issus de la formation qui sont mobilisables en une situation professionnelle contextualisée
-On reprend une formulation plus globale qu’un objectif pédagogique d’une sous-compétence, soit la formulation d’un bloc de compétences ou domaines d’activités
-Il vise l’insertion des objectifs pédagogiques avec une application professionnelle, parfois on va juste reprendre les termes du commanditaire, la Taxonomie de Bloom peut-être utilisé, mais elle n’a pas de caractère obligatoire
-Ex 1 : “Analyser la situation financière d’une entreprise” est un objectif pédagogique mais qui est tellement large qu’il faut plusieurs savoir, savoir-faire et savoir-être pour mener à bien cette action sous forme de compétence. Cet objectif pédagogique pourrait être un bloc de compétences. On va la décomposer en plusieurs autres sous-objectif pédagogiques pour être plus précis dans les savoirs nécessaires, par exemple “Identifier les éléments clefs dans un bilan et un résultat comptable”, “Lister l’ensemble des critères de la Norme X pour vérifier la bonne tenu des comptes”, (ces exemples de compétences ne sont pas véritables, il s’agit d’un exemple de décomposition).
-Ex 2 : Concevoir une stratégie marketing adapté à un public cible (Bloc de compétences) :
+
+* Référentiel emploi et activités : document qui décrit l’ensemble des différentes missions types d’un emploi en particulier
+
+* Référentiel formation : document qui présente la transformation d’un ensemble d’activités en compétences professionnelles à développer en formation
+
+* Scénario pédagogique globale (SPG) ou Fiche formation/programme : déclinaison du référentiel formation en proposition pédagogique avec une ingénierie pédagogique adapté à un public spécifique
+
+* L’objectif pédagogique est une formulation explicite des savoir, savoir-faire et les savoir-être qui sont attendus à l’issue de la formation
+
+** On utilisera toujours la Taxonomie de Bloom pour formaliser un objectif pédagogique
+
+* Compétence visée ou objectif opérationnel ou objectif de formation :
+_l’ensemble des acquis issus de la formation qui sont mobilisables en une situation professionnelle contextualisée_
+
+** On reprend une formulation plus globale qu’un objectif pédagogique d’une sous-compétence, soit la formulation d’un bloc de compétences ou domaines d’activités
+** Il vise l’insertion des objectifs pédagogiques avec une application professionnelle, parfois on va juste reprendre les termes du commanditaire, la Taxonomie de Bloom peut-être utilisé, mais elle n’a pas de caractère obligatoire
+* Ex 1 : “Analyser la situation financière d’une entreprise” est un objectif pédagogique mais qui est tellement large qu’il faut plusieurs savoir, savoir-faire et savoir-être pour mener à bien cette action sous forme de compétence. Cet objectif pédagogique pourrait être un bloc de compétences. On va la décomposer en plusieurs autres sous-objectif pédagogiques pour être plus précis dans les savoirs nécessaires, par exemple “Identifier les éléments clefs dans un bilan et un résultat comptable”, “Lister l’ensemble des critères de la Norme X pour vérifier la bonne tenu des comptes”, (ces exemples de compétences ne sont pas véritables, il s’agit d’un exemple de décomposition).
+* Ex 2 : Concevoir une stratégie marketing adapté à un public cible (Bloc de compétences) :
 Définir le produit/service du public cible (objectif pédagogique et compétences à part entière)
 Concevoir des personas (clients types) du public cible
 Réaliser une enquête des besoins du public cible sur le produit/service
