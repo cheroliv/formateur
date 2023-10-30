@@ -33,6 +33,8 @@ Les évolutions professionnelles possibles pour les titulaires de la certificati
 mais aussi des opportunités de carrière dans le domaine de la sûreté, comme la sécurité privée, la gestion de crise, ou la prévention des risques liés aux menaces. +
 La polyvalence de ces professionnels les rend précieux pour les employeurs soucieux de garantir une sécurité complète.
 
+=== Carte thématique A2SP
+image::A2SP_mindmap.png[Carte thématique]
 
 == 3) Public
 
@@ -198,16 +200,16 @@ Des compétences spécifiques peuvent varier en fonction des besoins de l'entrep
 // /Temporisation
 
 .Durée de la formation : 133h
+* ADS : 35 heures + examen
 * SST : 14h
 * BS-BE manoeuvre : 14h
 * SSIAP 1 : 70 heures + examen
-* ADS : 35 heures + examen
 * Présentiel complet (9h/12-13h/17h)
 
 
 == 7) Moyen d’accompagnement/Suivis pédagogique
 
-détails de l'organisation des journées sur les differents formule pour dispenser la formation
+Détails de l'organisation des journées sur les differents formule pour dispenser la formation
 
 planning jours bloc de competences
 mode de communication
