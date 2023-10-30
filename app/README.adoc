@@ -1,0 +1,4 @@
+= Learning Management System (LMS)
+
+== on windows with wsl
+link:https://docs.portainer.io/start/install/server/docker/wsl[tuto wsl portainer]
