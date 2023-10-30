@@ -1,1 +1,356 @@
-﻿{"id":"9d0ae3ac-e068-4f24-95c4-9b6c8787f55c","title":"Titre: \n AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE (A2SP)","mindmap":{"root":{"id":"51b963aa-f8b8-433b-8830-34b273460df1","parentId":null,"text":{"caption":"Titre: \n AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE (A2SP)","font":{"style":"normal","weight":"bold","decoration":"underline","size":20,"color":"#000000"}},"offset":{"x":0,"y":0},"foldChildren":false,"branchColor":"#000000","children":[{"id":"ebbf02b1-3bf9-4b8b-a5d9-067de9064b7d","parentId":"51b963aa-f8b8-433b-8830-34b273460df1","text":{"caption":"Titre: Agent De Sécurité (ADS)","font":{"style":"normal","weight":"bold","decoration":"underline","size":19,"color":"#000000"}},"offset":{"x":-186.765625,"y":-166.015625},"foldChildren":false,"branchColor":"#6163c9","children":[{"id":"32aad2e0-54f1-495e-80e5-56b0a99cee49","parentId":"ebbf02b1-3bf9-4b8b-a5d9-067de9064b7d","text":{"caption":"sureté et de sécurité privée","font":{"style":"normal","weight":"normal","decoration":"underline","size":15,"color":"#000000"}},"offset":{"x":-320,"y":169.328125},"foldChildren":false,"branchColor":"#6163c9","children":[]},{"id":"13b1b61a-b687-48ce-aec1-b8f5a3db898e","parentId":"ebbf02b1-3bf9-4b8b-a5d9-067de9064b7d","text":{"caption":"Basique de communication","font":{"weight":"normal","style":"normal","decoration":"none","size":15,"color":"#000000"}},"offset":{"x":-193,"y":0},"foldChildren":false,"branchColor":"#8d2d1c","children":[{"id":"31a02776-122e-48f6-a933-79cce43fda00","parentId":"13b1b61a-b687-48ce-aec1-b8f5a3db898e","text":{"caption":"Lecture","font":{"weight":"normal","style":"normal","decoration":"none","size":15,"color":"#000000"}},"offset":{"x":-108,"y":-36},"foldChildren":false,"branchColor":"#8d2d1c","children":[]},{"id":"18b9d130-29ec-4889-af71-72371a61bd6e","parentId":"13b1b61a-b687-48ce-aec1-b8f5a3db898e","text":{"caption":"Ecriture","font":{"weight":"normal","style":"normal","decoration":"none","size":15,"color":"#000000"}},"offset":{"x":-110,"y":25},"foldChildren":false,"branchColor":"#8d2d1c","children":[]},{"id":"1ea134a1-667c-4bb0-9c60-29abb665b301","parentId":"13b1b61a-b687-48ce-aec1-b8f5a3db898e","text":{"caption":"Numérique","font":{"weight":"normal","style":"normal","decoration":"none","size":15,"color":"#000000"}},"offset":{"x":-102,"y":98},"foldChildren":false,"branchColor":"#8d2d1c","children":[]}]}]},{"id":"cf07af1c-74c6-4379-ab03-6791f84eac04","parentId":"51b963aa-f8b8-433b-8830-34b273460df1","text":{"caption":"Titre: SSIAP1","font":{"style":"normal","weight":"bold","decoration":"underline","size":19,"color":"#000000"}},"offset":{"x":93,"y":-96.328125},"foldChildren":false,"branchColor":"#ed0c1f","children":[{"id":"d22c3b08-f921-4179-8ed4-18386a98a0bc","parentId":"cf07af1c-74c6-4379-ab03-6791f84eac04","text":{"caption":"Sécurité incendie","font":{"style":"normal","weight":"normal","decoration":"none","size":15,"color":"#000000"}},"offset":{"x":168.4375,"y":-10},"foldChildren":false,"branchColor":"#c986c3","children":[]},{"id":"0381e3b7-b496-4b07-b84e-9802dbb8be95","parentId":"cf07af1c-74c6-4379-ab03-6791f84eac04","text":{"caption":"Habilitation: HOB0","font":{"style":"normal","weight":"normal","decoration":"underline","size":15,"color":"#000000"}},"offset":{"x":167,"y":37},"foldChildren":false,"branchColor":"#c986c3","children":[]},{"id":"d2a7322b-8766-4a59-b525-842b89af8220","parentId":"cf07af1c-74c6-4379-ab03-6791f84eac04","text":{"caption":"Certification: SST","font":{"style":"normal","weight":"normal","decoration":"underline","size":15,"color":"#000000"}},"offset":{"x":170,"y":91},"foldChildren":false,"branchColor":"#c986c3","children":[]}]},{"id":"ea411208-d757-465a-8fef-19f77f812ee0","parentId":"51b963aa-f8b8-433b-8830-34b273460df1","text":{"caption":"Technique de Recherche d'Emploi (TRE)","font":{"style":"italic","weight":"bold","decoration":"none","size":19,"color":"#000000"}},"offset":{"x":101,"y":220},"foldChildren":false,"branchColor":"#1b2b39","children":[{"id":"87eb7cff-8ab7-4373-8545-98fe043868f7","parentId":"ea411208-d757-465a-8fef-19f77f812ee0","text":{"caption":"CV","font":{"style":"normal","weight":"normal","decoration":"none","size":15,"color":"#000000"}},"offset":{"x":215,"y":-31},"foldChildren":false,"branchColor":"#1b2b39","children":[]},{"id":"998cbb31-20e1-4d16-9f0a-982d3c93851c","parentId":"ea411208-d757-465a-8fef-19f77f812ee0","text":{"caption":"LM","font":{"style":"normal","weight":"normal","decoration":"none","size":15,"color":"#000000"}},"offset":{"x":218,"y":30},"foldChildren":false,"branchColor":"#1b2b39","children":[]},{"id":"a456876d-f5d0-4c52-9ac5-a5b277497c14","parentId":"ea411208-d757-465a-8fef-19f77f812ee0","text":{"caption":"jobsearch","font":{"style":"normal","weight":"normal","decoration":"none","size":15,"color":"#000000"}},"offset":{"x":216,"y":83},"foldChildren":false,"branchColor":"#1b2b39","children":[]}]},{"id":"19fd07f9-dd22-43c0-8e19-5fee77bee31b","parentId":"51b963aa-f8b8-433b-8830-34b273460df1","text":{"caption":"Examen blanc","font":{"style":"italic","weight":"bold","decoration":"none","size":19,"color":"#000000"}},"offset":{"x":-373,"y":232},"foldChildren":false,"branchColor":"#316c3c","children":[]}]}},"dates":{"created":1698662242824,"modified":1698670428391},"dimensions":{"x":4000,"y":2000},"autosave":true}
+﻿{
+  "id": "9d0ae3ac-e068-4f24-95c4-9b6c8787f55c",
+  "title": "Titre: \n AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE (A2SP)",
+  "mindmap": {
+    "root": {
+      "id": "51b963aa-f8b8-433b-8830-34b273460df1",
+      "parentId": null,
+      "text": {
+        "caption": "Titre: \n AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE (A2SP)",
+        "font": {
+          "style": "normal",
+          "weight": "bold",
+          "decoration": "underline",
+          "size": 20,
+          "color": "#000000"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "foldChildren": false,
+      "branchColor": "#000000",
+      "children": [
+        {
+          "id": "ebbf02b1-3bf9-4b8b-a5d9-067de9064b7d",
+          "parentId": "51b963aa-f8b8-433b-8830-34b273460df1",
+          "text": {
+            "caption": "Titre: Agent De Sécurité (ADS)",
+            "font": {
+              "style": "normal",
+              "weight": "bold",
+              "decoration": "underline",
+              "size": 19,
+              "color": "#000000"
+            }
+          },
+          "offset": {
+            "x": -276.0833333333333,
+            "y": -64.66666666666667
+          },
+          "foldChildren": false,
+          "branchColor": "#6163c9",
+          "children": [
+            {
+              "id": "32aad2e0-54f1-495e-80e5-56b0a99cee49",
+              "parentId": "ebbf02b1-3bf9-4b8b-a5d9-067de9064b7d",
+              "text": {
+                "caption": "sureté et de sécurité privée",
+                "font": {
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none",
+                  "size": 15,
+                  "color": "#000000"
+                }
+              },
+              "offset": {
+                "x": -220,
+                "y": 191.97916666666666
+              },
+              "foldChildren": false,
+              "branchColor": "#6163c9",
+              "children": []
+            },
+            {
+              "id": "13b1b61a-b687-48ce-aec1-b8f5a3db898e",
+              "parentId": "ebbf02b1-3bf9-4b8b-a5d9-067de9064b7d",
+              "text": {
+                "caption": "Basique de communication",
+                "font": {
+                  "weight": "normal",
+                  "style": "normal",
+                  "decoration": "none",
+                  "size": 15,
+                  "color": "#000000"
+                }
+              },
+              "offset": {
+                "x": -230.33333333333334,
+                "y": -21.333333333333332
+              },
+              "foldChildren": false,
+              "branchColor": "#8d2d1c",
+              "children": [
+                {
+                  "id": "31a02776-122e-48f6-a933-79cce43fda00",
+                  "parentId": "13b1b61a-b687-48ce-aec1-b8f5a3db898e",
+                  "text": {
+                    "caption": "Lecture",
+                    "font": {
+                      "weight": "normal",
+                      "style": "normal",
+                      "decoration": "none",
+                      "size": 15,
+                      "color": "#000000"
+                    }
+                  },
+                  "offset": {
+                    "x": -108,
+                    "y": -36
+                  },
+                  "foldChildren": false,
+                  "branchColor": "#8d2d1c",
+                  "children": []
+                },
+                {
+                  "id": "18b9d130-29ec-4889-af71-72371a61bd6e",
+                  "parentId": "13b1b61a-b687-48ce-aec1-b8f5a3db898e",
+                  "text": {
+                    "caption": "Ecriture",
+                    "font": {
+                      "weight": "normal",
+                      "style": "normal",
+                      "decoration": "none",
+                      "size": 15,
+                      "color": "#000000"
+                    }
+                  },
+                  "offset": {
+                    "x": -110,
+                    "y": 25
+                  },
+                  "foldChildren": false,
+                  "branchColor": "#8d2d1c",
+                  "children": []
+                },
+                {
+                  "id": "1ea134a1-667c-4bb0-9c60-29abb665b301",
+                  "parentId": "13b1b61a-b687-48ce-aec1-b8f5a3db898e",
+                  "text": {
+                    "caption": "Numérique",
+                    "font": {
+                      "weight": "normal",
+                      "style": "normal",
+                      "decoration": "none",
+                      "size": 15,
+                      "color": "#000000"
+                    }
+                  },
+                  "offset": {
+                    "x": -102,
+                    "y": 98
+                  },
+                  "foldChildren": false,
+                  "branchColor": "#8d2d1c",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cf07af1c-74c6-4379-ab03-6791f84eac04",
+          "parentId": "51b963aa-f8b8-433b-8830-34b273460df1",
+          "text": {
+            "caption": "Titre: SSIAP1",
+            "font": {
+              "style": "normal",
+              "weight": "bold",
+              "decoration": "underline",
+              "size": 19,
+              "color": "#000000"
+            }
+          },
+          "offset": {
+            "x": 194.33333333333334,
+            "y": 103.6875
+          },
+          "foldChildren": false,
+          "branchColor": "#ed0c1f",
+          "children": [
+            {
+              "id": "d22c3b08-f921-4179-8ed4-18386a98a0bc",
+              "parentId": "cf07af1c-74c6-4379-ab03-6791f84eac04",
+              "text": {
+                "caption": "Sécurité incendie",
+                "font": {
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none",
+                  "size": 15,
+                  "color": "#000000"
+                }
+              },
+              "offset": {
+                "x": 168.4375,
+                "y": -10
+              },
+              "foldChildren": false,
+              "branchColor": "#c986c3",
+              "children": []
+            },
+            {
+              "id": "0381e3b7-b496-4b07-b84e-9802dbb8be95",
+              "parentId": "cf07af1c-74c6-4379-ab03-6791f84eac04",
+              "text": {
+                "caption": "Habilitation: HOB0",
+                "font": {
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "underline",
+                  "size": 15,
+                  "color": "#000000"
+                }
+              },
+              "offset": {
+                "x": 167,
+                "y": 37
+              },
+              "foldChildren": false,
+              "branchColor": "#c986c3",
+              "children": []
+            },
+            {
+              "id": "d2a7322b-8766-4a59-b525-842b89af8220",
+              "parentId": "cf07af1c-74c6-4379-ab03-6791f84eac04",
+              "text": {
+                "caption": "Certification: SST",
+                "font": {
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "underline",
+                  "size": 15,
+                  "color": "#000000"
+                }
+              },
+              "offset": {
+                "x": 170,
+                "y": 91
+              },
+              "foldChildren": false,
+              "branchColor": "#c986c3",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "19fd07f9-dd22-43c0-8e19-5fee77bee31b",
+          "parentId": "51b963aa-f8b8-433b-8830-34b273460df1",
+          "text": {
+            "caption": "Examen blanc",
+            "font": {
+              "style": "italic",
+              "weight": "bold",
+              "decoration": "none",
+              "size": 19,
+              "color": "#000000"
+            }
+          },
+          "offset": {
+            "x": -205,
+            "y": 172
+          },
+          "foldChildren": false,
+          "branchColor": "#316c3c",
+          "children": []
+        },
+        {
+          "id": "df32759e-fb94-410f-b7c9-105e3397044f",
+          "parentId": "51b963aa-f8b8-433b-8830-34b273460df1",
+          "text": {
+            "caption": "Technique de Recherche d'Emploi (TRE)",
+            "font": {
+              "weight": "bold",
+              "style": "italic",
+              "decoration": "none",
+              "size": 19,
+              "color": "#000000"
+            }
+          },
+          "offset": {
+            "x": 19.666666666666668,
+            "y": 237.33333333333334
+          },
+          "foldChildren": false,
+          "branchColor": "#1b2b39",
+          "children": [
+            {
+              "id": "1e79486d-fd9f-496e-874b-14b2cb07fdfe",
+              "parentId": "df32759e-fb94-410f-b7c9-105e3397044f",
+              "text": {
+                "caption": "CV",
+                "font": {
+                  "weight": "normal",
+                  "style": "normal",
+                  "decoration": "none",
+                  "size": 15,
+                  "color": "#000000"
+                }
+              },
+              "offset": {
+                "x": 215,
+                "y": -31
+              },
+              "foldChildren": false,
+              "branchColor": "#1b2b39",
+              "children": []
+            },
+            {
+              "id": "ae974fe1-6583-4b8b-aad3-caab826504af",
+              "parentId": "df32759e-fb94-410f-b7c9-105e3397044f",
+              "text": {
+                "caption": "LM",
+                "font": {
+                  "weight": "normal",
+                  "style": "normal",
+                  "decoration": "none",
+                  "size": 15,
+                  "color": "#000000"
+                }
+              },
+              "offset": {
+                "x": 218,
+                "y": 30
+              },
+              "foldChildren": false,
+              "branchColor": "#1b2b39",
+              "children": []
+            },
+            {
+              "id": "9cd8e665-c7c9-4266-8909-5dbbfcd792cb",
+              "parentId": "df32759e-fb94-410f-b7c9-105e3397044f",
+              "text": {
+                "caption": "jobsearch",
+                "font": {
+                  "weight": "normal",
+                  "style": "normal",
+                  "decoration": "none",
+                  "size": 15,
+                  "color": "#000000"
+                }
+              },
+              "offset": {
+                "x": 216,
+                "y": 83
+              },
+              "foldChildren": false,
+              "branchColor": "#1b2b39",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "dates": {
+    "created": 1698662242824,
+    "modified": 1698671733351
+  },
+  "dimensions": {
+    "x": 4000,
+    "y": 2000
+  },
+  "autosave": true
+}
