@@ -1,8 +1,15 @@
-buildscript {
+plugins {
+    //https://github.com/avast/gradle-docker-compose-plugin
+    id("com.avast.gradle.docker-compose") version ("0.17.5")
+}
 
+buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
+        }
     }
 
     dependencies {
@@ -13,9 +20,8 @@ buildscript {
         classpath("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:$jacksonVersion")
         classpath("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$jacksonVersion")
         classpath("org.tukaani:xz:1.9")
+        classpath("com.avast.gradle:gradle-docker-compose-plugin:0.17.5")
     }
 }
 
-repositories {
-    mavenCentral()
-}
+repositories { mavenCentral() }
