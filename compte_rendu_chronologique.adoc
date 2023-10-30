@@ -333,7 +333,16 @@ formateur: Thibault (distanciel)
 .apres-midi
 ** projet SPD-SPG Super-Piscine
 
+== 30/10/2023
 
+formateur: Thibault (distanciel)
+
+.matin
+** projet fil rouge(ECF:A2SP)
+*** Référentiel objectif pédagogique et certification A2SP
+
+.apres-midi
+** debrief fil rouge
 
 
 

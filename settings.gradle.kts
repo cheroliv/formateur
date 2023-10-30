@@ -3,5 +3,5 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.7.0"
 }
 
-rootProject.name = "formateur_numérique"
+rootProject.name = "formateur_numerique"
 include("app")
