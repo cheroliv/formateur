@@ -3,3 +3,6 @@
 == on windows with wsl
 
 link:https://docs.portainer.io/start/install/server/docker/wsl[tuto wsl portainer]
+
+== initiation à python
+link:https://python.doctor/page-apprendre-programmation-orientee-objet-poo-classes-python-cours-debutants[python POO]
