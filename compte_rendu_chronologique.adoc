@@ -357,8 +357,8 @@ link:https://www.wefiit.com/blog/rediger-une-epic[rediger-une-epic] +
 link:https://sydologie.com/2017/09/ingenierie-pedagogique-modele-addie/[ingenierie-pedagogique-modele-addie] +
 
 .apres-midi
-** futur
-
+** PFR: Projet Fil Rouge A2SP
+*** SPG-SPD-Pssage de détail à resources
 
 
 link:README.adoc#toc[Table des matieres]
