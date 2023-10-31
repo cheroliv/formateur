@@ -31,10 +31,17 @@ data class Formation(
     val spg:SPG
 )
 
+/**
+ * SPG: Scénario Pédagogique GLobal
+ */
 data class SPG(
     val theme:String,
     val spd:SPD
 )
+
+/**
+ * SPD: Scénario Pédagogique Détaillé
+ */
 data class SPD(
     val titre:String,
     val objectif:String
