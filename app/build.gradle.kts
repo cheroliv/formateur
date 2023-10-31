@@ -25,3 +25,17 @@ buildscript {
 }
 
 repositories { mavenCentral() }
+
+data class Formation(
+    val nom:String,
+    val spg:SPG
+)
+
+data class SPG(
+    val theme:String,
+    val spd:SPD
+)
+data class SPD(
+    val titre:String,
+    val objectif:String
+)
