@@ -323,7 +323,7 @@ formatrice: Magalie
 
 == 26/10/2023
 
-formateur: Thibault (distanciel)
+formateur: Thibault
 
 .matin
 ** rappel traitement de texte word
@@ -336,7 +336,7 @@ formateur: Thibault (distanciel)
 
 == 30/10/2023
 
-formateur: Thibault (distanciel)
+formateur: Thibault
 
 .matin
 ** projet fil rouge(ECF:A2SP)
@@ -344,6 +344,17 @@ formateur: Thibault (distanciel)
 
 .apres-midi
 ** debrief fil rouge
+
+== 31/10/2023
+
+formateur: Thibault
+
+.matin
+** Passage du SPD aux ressources : fiche activité ou nommé dans le REAC
+** Méthodes agiles & ADDIE
+
+.apres-midi
+** futur
 
 
 
