@@ -352,6 +352,9 @@ formateur: Thibault
 .matin
 ** Passage du SPD aux ressources : fiche activité ou nommé dans le REAC
 ** Méthodes agiles & ADDIE
+*** liens : +
+link:https://www.wefiit.com/blog/rediger-une-epic[rediger-une-epic] +
+link:https://sydologie.com/2017/09/ingenierie-pedagogique-modele-addie/[ingenierie-pedagogique-modele-addie] +
 
 .apres-midi
 ** futur
