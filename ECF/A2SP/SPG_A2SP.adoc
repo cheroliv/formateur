@@ -1,5 +1,9 @@
 = Scénario pédagogique global (SPG): A2SP - AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE
 
+
+
+
+
 .Réfèrence:
 * link:https://www.afpa.fr/formation-qualifiante/agent-de-surete-et-de-securite-privee[A2SP AFPA]
 * link:https://www.francecompetences.fr/recherche/rncp/34507/[REAC A2SP]
@@ -13,10 +17,8 @@
 
 == 2) Description présentation
 La formation Agent de surete et de sécurité privé est un métier original qui regroupe plusieurs certifications reconnus par l'état pour une meilleur insertion profesionnelle.
-
-Le titre A2SP est au cœur de la sécurité incendie, mais il embrasse également les préoccupations de sûreté, +
-offrant ainsi une approche intégrée de la protection des personnes et des biens. +
-Cette complémentarité renforce la sécurité des établissements et ouvre des opportunités professionnelles diverses pour les spécialistes de la sécurité, de la maintenances des outils incendies, télésurveillance. +
+Le titre A2SP est au cœur de la sécurité incendie, mais il embrasse également les préoccupations de sûreté, offrant ainsi une approche intégrée de la protection des personnes et des biens.
+Cette complémentarité renforce la sécurité des établissements et ouvre des opportunités professionnelles diverses pour les spécialistes de la sécurité, de la maintenances des outils incendies, télésurveillance.
 
 L'agent agit à prévenir et gérer les risques liés aux incendies dans les établissements recevant du public.
 
