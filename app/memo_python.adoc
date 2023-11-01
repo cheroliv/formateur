@@ -1,0 +1,20 @@
+= Python Mémo
+
+== initiation
+link:https://python.doctor/page-apprendre-programmation-orientee-objet-poo-classes-python-cours-debutants[python POO]
+
+== Functional programming
+=== side effects
+=== loops
+[source,python]
+----
+# impérative way
+result = []
+for i in inputs:
+    x = f(g(i))
+    result.append(x)
+
+# idiomatic way
+result = map(comp(f,g), inputs)
+----
+
