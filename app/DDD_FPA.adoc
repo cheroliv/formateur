@@ -1,4 +1,0 @@
-= DDD FPA: Domain Driven Development pour Formateur Professionnel pour Adultes
-
-
-== Construction du SPG - SPD - Ressources
