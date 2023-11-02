@@ -2,6 +2,10 @@
 
 == on windows with wsl
 
+link:https://github.com/linkedin/pygradle/[pygradle]
+
+link:https://attx-project.github.io/Building-with-Gradle.html[Building python with Gradle]
+
 link:https://docs.portainer.io/start/install/server/docker/wsl[tuto wsl portainer]
 
 == Mémo python
