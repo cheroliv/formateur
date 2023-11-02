@@ -3,26 +3,26 @@
 [[toc]]
 .*Sommaire*
 . xref:theme[Thème]
-. Titre
-. Présentation et description
-.. Carte thématique
-. Public
-. Pré-requis et conditions d’accès à la formation (Qualiopi)
-. Objectifs pédagogiques (Qualiopi)
-. Compétences visées (Qualiopi)
-. Durée (Temporisation) (Qualiopi)
-. Moyen d’accompagnement et Suivi pédagogique (Qualiopi)
-. Programme pédagogique (Modalités pédagogiques) (Qualiopi) : du contenu et du séquencement
-. Modalités d’évaluations (Qualiopi)
-. Modalités de certification et Certification visé (Qualiopi)
-. Lieux (Qualiopi)
-. Tarifs
-. Moyens logistique et matériels (Qualiopi)
-. Poursuite en formation (Qualiopi)
-. Délais d’accès (Réglementaire)
-. Accessibilité et Handicap (Qualiopi)
-. Témoignage Evaluation de la formation (Qualiopi)
-. Témoignage apprenant/commanditaire
+. xref:title[Titre]
+. xref:prez[Présentation et description]
+.. xref:mindmap[Carte thématique]
+. xref:public[Public]
+. xref:prerequiz[Pré-requis et conditions d’accès à la formation] (Qualiopi)
+. xref:objs[Objectifs pédagogiques] (Qualiopi)
+. xref:competences[Compétences visées] (Qualiopi)
+. xref:timing[Durée (Temporisation)] (Qualiopi)
+. xref:means[Moyen d’accompagnement et Suivi pédagogique] (Qualiopi)
+. xref:prgm[Programme pédagogique (Modalités pédagogiques)] (Qualiopi) : du contenu et du séquencement
+. xref:eval[Modalités d’évaluations] (Qualiopi)
+. xref:certif[Modalités de certification et Certification visé] (Qualiopi)
+. xref:place[Lieux] (Qualiopi)
+. xref:price[Tarifs]
+. xref:infra[Moyens logistique et matériels] (Qualiopi)
+. xref:pursuit[Poursuite en formation] (Qualiopi)
+. xref:access_time[Délais d’accès] (Réglementaire)
+. xref:mobility[Accessibilité et Handicap] (Qualiopi)
+. xref:testimony[Témoignage Evaluation de la formation] (Qualiopi)
+. xref:testimony_customer[Témoignage apprenant/commanditaire]
 
 .Réfèrence:
 * link:https://www.afpa.fr/formation-qualifiante/agent-de-surete-et-de-securite-privee[A2SP AFPA]
@@ -30,6 +30,7 @@
 
 [[theme]]
 == 1. Thème (Qualiopi)
+//TODO: revoir le theme en presentant generalement le domaine
 .A2SP, regroupe les certifications suivantes:
 * SSIAP 1, Service de Sécurité Incendie et d’Assistance à Personnes niveau 1
 * ADS, agent de sécurité
@@ -38,36 +39,41 @@
 
 xref:toc[sommaire]
 
+
+[[title]]
 == 2. Titre (Qualiopi)
-// xref:toc[sommaire]
+Agent de sûrete et de sécurité privée
 
-== 3. Description présentation
-La formation Agent de surete et de sécurité privé est un métier original qui regroupe plusieurs certifications reconnus par l'état pour une meilleur insertion profesionnelle.
+xref:toc[sommaire]
+
+
+[[prez]]
+== 3. Présentation & description
+
+La formation Agent de surete et de sécurité privé est un métier original qui regroupe plusieurs certifications reconnus par l'état pour une meilleur insertion profesionnelle. +
 Le titre A2SP est au cœur de la sécurité incendie, mais il embrasse également les préoccupations de sûreté, offrant ainsi une approche intégrée de la protection des personnes et des biens.
-Cette complémentarité renforce la sécurité des établissements et ouvre des opportunités professionnelles diverses pour les spécialistes de la sécurité, de la maintenances des outils incendies, télésurveillance.
-
-L'agent agit à prévenir et gérer les risques liés aux incendies dans les établissements recevant du public.
-
-Cette mission est piloté depuis le PCS(poste centrale de sécurité) ou il y a également des préoccupations de sûreté, contribuant ainsi à la sécurité globale de ces lieux.
-
-La certification SSIAP 1 et ADS sont une base solide pour aborder la question de la sûreté. Les professionnels de SSIAP 1 sont formés à identifier les situations potentiellement dangereuses, à gérer les accès aux bâtiments, à surveiller les systèmes de sécurité, et à coopérer avec les forces de l'ordre en cas de menaces ou d'incidents liés à la sûreté. Ils assurent la protection des personnes, des biens, et des informations sensibles.
-
+Cette complémentarité renforce la sécurité des établissements et ouvre des opportunités professionnelles diverses pour les spécialistes de la sécurité, de la maintenances des outils incendies, télésurveillance. +
+L'agent agit à prévenir et gérer les risques liés aux incendies dans les établissements recevant du public. +
+Cette mission est piloté depuis le PCS(poste centrale de sécurité) ou il y a également des préoccupations de sûreté, contribuant ainsi à la sécurité globale de ces lieux. +
+La certification SSIAP 1 et ADS sont une base solide pour aborder la question de la sûreté. Les professionnels de SSIAP 1 sont formés à identifier les situations potentiellement dangereuses, à gérer les accès aux bâtiments, à surveiller les systèmes de sécurité, et à coopérer avec les forces de l'ordre en cas de menaces ou d'incidents liés à la sûreté. Ils assurent la protection des personnes, des biens, et des informations sensibles. +
 L'un des avantages majeurs de la complémentarité entre la sécurité incendie et la sûreté réside dans la capacité à gérer de manière proactive +
 et intégrée les risques. Les agent A2SP sont formés pour réagir efficacement en cas d'incendie, +
 mais ils peuvent également contribuer à la prévention des actes malveillants et des situations d'urgence liées à la sûreté. +
-En intégrant ces deux domaines de la sécurité, les établissements assurent une protection plus globale et renforcent la sécurité de leurs occupants.
-
+En intégrant ces deux domaines de la sécurité, les établissements assurent une protection plus globale et renforcent la sécurité de leurs occupants. +
 Les évolutions professionnelles possibles pour les titulaires de la certification SSIAP 1 incluent non seulement des avancements dans la sécurité incendie, +
 mais aussi des opportunités de carrière dans le domaine de la sûreté, comme la sécurité privée, la gestion de crise, ou la prévention des risques liés aux menaces. +
 La polyvalence de ces professionnels les rend précieux pour les employeurs soucieux de garantir une sécurité complète.
 
+[[mindmap]]
 === Carte thématique A2SP
 image::A2SP_mindmap.png[Carte thématique]
 xref:toc[sommaire]
 
+[[public]]
 == 4. Public (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[prerequiz]]
 == 5. Pré-requis et conditions d’accès à la formation (Qualiopi)
 . Maîtriser la langue française est indispensable, à l'oral et à l'écrit, pour la
 compréhension et pour l'expression. Un résultat de niveau B1 au CECRL est requis.
@@ -92,10 +98,9 @@ Effectif entre 10 et 20 apprenants.
 
 xref:toc[sommaire]
 
+[[objs]]
 == 6. Objectifs pédagogiques (Qualiopi)
-
 // .Missions de l’agent A2SP
-
 . Sécurité incendie et assistance aux personnes
 ** **Prévention des Incendies**
 - Identifier et évaluer les risques potentiels d'incendie.
@@ -163,10 +168,11 @@ xref:toc[sommaire]
 xref:toc[sommaire]
 
 
+[[competences]]
 == 7. Compétences visés(objectifs opérationnels) (Qualiopi)
 
 .**Sécurité incendie et assistance aux personnes**
-* Effectuer l'entretien et et les vérifications élémentaires des installations et équipements de sécurité
+* Effectuer l'entretien et les vérifications élémentaires des installations et équipements de sécurité
 * Appliquer des consignes de sécurité
 * Lire et manipuler des tableaux de signalisation
 * Effectuer des rondes de sécurité et surveillance des travaux
@@ -231,6 +237,7 @@ Des compétences spécifiques peuvent varier en fonction des besoins de l'entrep
 
 xref:toc[sommaire]
 
+[[timing]]
 == 8. Durée (Qualiopi)
 // /Temporisation
 
@@ -243,6 +250,7 @@ xref:toc[sommaire]
 
 xref:toc[sommaire]
 
+[[means]]
 == 9. Moyen d’accompagnement/Suivis pédagogique (Qualiopi)
 
 Détails de l'organisation des journées sur les différents formules pour dispenser la formation
@@ -252,34 +260,46 @@ mode de communication
 
 xref:toc[sommaire]
 
+[[prgm]]
 == 10. Programme pédagogique : contenu et séquencement (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
+
+[[eval]]
 == 11. Modalités d’évaluations (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[certif]]
 == 12. Modalités de certification et Certification visé (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[place]]
 == 13. Lieux (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[price]]
 == 14. Tarifs
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[infra]]
 == 15. Moyens logistique et matériels (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[pursuit]]
 == 16. Poursuite en formation (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[access_time]]
 == 17. Délais d’accès (Réglementaire)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[mobility]]
 == 18. Accessibilité et Handicap (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[testimony]]
 == 19. Témoignage Evaluation de la formation (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
+[[testimony_customer]]
 == 20. Témoignage apprenants/commanditaires
-// xref:toc[sommaire]
+xref:toc[sommaire]
