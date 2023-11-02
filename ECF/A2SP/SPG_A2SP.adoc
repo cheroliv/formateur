@@ -22,7 +22,7 @@
 . Délais d’accès (Réglementaire)
 . Accessibilité et Handicap (Qualiopi)
 . Témoignage Evaluation de la formation (Qualiopi)
-. Témoignage apprenants/commanditaires
+. Témoignage apprenant/commanditaire
 
 .Réfèrence:
 * link:https://www.afpa.fr/formation-qualifiante/agent-de-surete-et-de-securite-privee[A2SP AFPA]
