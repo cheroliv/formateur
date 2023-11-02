@@ -2,8 +2,7 @@
 
 [[toc]]
 .*Sommaire*
-. <<theme,Thème>>
-//[Thème]
+. xref:theme[Thème]
 . xref:title[Titre]
 . xref:prez[Présentation et description]
 .. xref:mindmap[Carte thématique]
