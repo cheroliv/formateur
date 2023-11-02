@@ -17,7 +17,7 @@
 . xref:certif[Modalités de certification et Certification visé] (Qualiopi)
 . xref:place[Lieux] (Qualiopi)
 . xref:price[Tarifs]
-. xref:infra[Moyens logistique et matériels] (Qualiopi)
+. xref:infra[Moyens logistiques et matériels] (Qualiopi)
 . xref:pursuit[Poursuite en formation] (Qualiopi)
 . xref:access_time[Délais d’accès] (Réglementaire)
 . xref:mobility[Accessibilité et Handicap] (Qualiopi)
@@ -35,14 +35,14 @@
 * SSIAP 1, Service de Sécurité Incendie et d’Assistance à Personnes niveau 1
 * ADS, agent de sécurité
 * SST, sauveteur secouriste du travail
-* BS-BE manoeuvre, Interventions élémentaires et/ou des manœuvres d’ordre électrique en basse tension dans un environnement présentant des risques électriques.
+* BS-BE manœuvre, Interventions élémentaires et/ou des manœuvres d’ordre électrique en basse tension dans un environnement présentant des risques électriques.
 
 xref:toc[sommaire]
 
 
 [[title]]
 == 2. Titre (Qualiopi)
-Agent de sûrete et de sécurité privée
+Agent de sûreté et de sécurité privée
 
 xref:toc[sommaire]
 
@@ -50,15 +50,15 @@ xref:toc[sommaire]
 [[prez]]
 == 3. Présentation & description
 
-La formation Agent de surete et de sécurité privé est un métier original qui regroupe plusieurs certifications reconnus par l'état pour une meilleur insertion profesionnelle. +
+La formation Agent de sûreté et de sécurité privé est un métier original qui regroupe plusieurs certifications reconnues par l'état pour une meilleure insertion professionnelle. +
 Le titre A2SP est au cœur de la sécurité incendie, mais il embrasse également les préoccupations de sûreté, offrant ainsi une approche intégrée de la protection des personnes et des biens.
-Cette complémentarité renforce la sécurité des établissements et ouvre des opportunités professionnelles diverses pour les spécialistes de la sécurité, de la maintenances des outils incendies, télésurveillance. +
+Cette complémentarité renforce la sécurité des établissements et ouvre des opportunités professionnelles diverses pour les spécialistes de la sécurité, de la maintenance des outils incendies, télésurveillance. +
 L'agent agit à prévenir et gérer les risques liés aux incendies dans les établissements recevant du public. +
-Cette mission est piloté depuis le PCS(poste centrale de sécurité) ou il y a également des préoccupations de sûreté, contribuant ainsi à la sécurité globale de ces lieux. +
+Cette mission est piloté depuis le PCS(poste centrale de sécurité) où il y a aussi des préoccupations de sûreté, contribuant ainsi à la sécurité globale de ces lieux. +
 La certification SSIAP 1 et ADS sont une base solide pour aborder la question de la sûreté. Les professionnels de SSIAP 1 sont formés à identifier les situations potentiellement dangereuses, à gérer les accès aux bâtiments, à surveiller les systèmes de sécurité, et à coopérer avec les forces de l'ordre en cas de menaces ou d'incidents liés à la sûreté. Ils assurent la protection des personnes, des biens, et des informations sensibles. +
 L'un des avantages majeurs de la complémentarité entre la sécurité incendie et la sûreté réside dans la capacité à gérer de manière proactive +
-et intégrée les risques. Les agent A2SP sont formés pour réagir efficacement en cas d'incendie, +
-mais ils peuvent également contribuer à la prévention des actes malveillants et des situations d'urgence liées à la sûreté. +
+et intégrée les risques. Les agents A2SP sont formés pour réagir efficacement en cas d'incendie, +
+mais ils peuvent par ailleurs contribuer à la prévention des actes malveillants et des situations d'urgence liées à la sûreté. +
 En intégrant ces deux domaines de la sécurité, les établissements assurent une protection plus globale et renforcent la sécurité de leurs occupants. +
 Les évolutions professionnelles possibles pour les titulaires de la certification SSIAP 1 incluent non seulement des avancements dans la sécurité incendie, +
 mais aussi des opportunités de carrière dans le domaine de la sûreté, comme la sécurité privée, la gestion de crise, ou la prévention des risques liés aux menaces. +
