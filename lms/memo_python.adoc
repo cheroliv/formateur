@@ -1,5 +1,12 @@
 = Python Mémo
 
+link:https://ninite.com/pythonx3/[python on windows]
+
+https://python-docs.readthedocs.io/en/latest/starting/install3/win.html
+
+https://python-docs.readthedocs.io/en/latest/dev/virtualenvs.html#virtualenvironments-ref
+
+
 == initiation
 link:https://python.doctor/page-apprendre-programmation-orientee-objet-poo-classes-python-cours-debutants[python POO]
 
