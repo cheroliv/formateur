@@ -203,7 +203,7 @@ Formation multi-modulaire, individualisée, accompagnement personnalisé
 
 .Notre espace de formation dispose d’outils de formation modernes et performants comprenant :
 - Des salles polyvalentes
-- Des salles informatiques offrant l’accès à la plateforme numérique de formation Métis
+- Des salles informatiques offrant l’accès à des plateformes numériques en ligne pour les professionnels de la securité
 - Matériel audio-visuel : caméscope, vidéo projecteur...
 - Ressources documentaires
 - Plateau technique dédié qui reconstitue les conditions de réalisation des gestes professionnels; conforme aux RC des TP et CQP
@@ -233,45 +233,67 @@ xref:toc[sommaire]
 
 [[eval]]
 == 11. Modalités d’évaluations (Qualiopi)
+
+
 xref:toc[sommaire]
 
 [[certif]]
 == 12. Modalités de certification et Certification visé (Qualiopi)
+
+
 xref:toc[sommaire]
 
 [[place]]
 == 13. Lieux (Qualiopi)
 CFA - Union des travailleurs +
 Boulevard Stalingrad +
-92 Malakoff +
+92 Malakoff
+
 xref:toc[sommaire]
 
 [[price]]
 == 14. Tarifs
-4704€ HT +
+4704€ HT
+
 xref:toc[sommaire]
 
 [[infra]]
 == 15. Moyens logistique et matériels (Qualiopi)
+
+
 xref:toc[sommaire]
 
 [[pursuit]]
 == 16. Poursuite en formation (Qualiopi)
+Vous pouvez travailler directement et acceder à un poste d'encadrement en fonction de la
+politique de l'entreprise. Vous pouvez poursuivre dans la filière sécurité privée en passant
+les diplomes de management ou de prévention des risques (BTS éducation nationnale), mais aussi de chef d'equipe SSIAP 2 ou 3, ainsi que d'une licence sécurité en université de droits.
+
 xref:toc[sommaire]
 
 [[access_time]]
 == 17. Délais d’accès (Réglementaire)
+Les délais de remise du titre sont de 15 jours minimum.
+
 xref:toc[sommaire]
 
 [[mobility]]
 == 18. Accessibilité et Handicap (Qualiopi)
+L'accessibilité est un sujet que nous favorisons en preparant l'acces en formation aux apprenants avec des handicaps de s'inserer dans le domain professionnel de la securité et sureté. +
+Notre referant handicap est a la disposition de demande sur l'accessibilité et l'employabilité des personnes en hadicapes
 
 xref:toc[sommaire]
 
 [[testimony]]
 == 19. Témoignage Evaluation de la formation (Qualiopi)
+
+Apres la formation, nous recueillons les avis et impressions des apprenants sur la formation.
+
 xref:toc[sommaire]
 
 [[testimony_customer]]
 == 20. Témoignage apprenants/commanditaires
+
+Le site internet du centre de formation met a disposition les retour d'esxperiences d'apprenants et commenditaire pour leurs equipes.
+
 xref:toc[sommaire]
