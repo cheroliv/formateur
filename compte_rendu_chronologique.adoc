@@ -361,14 +361,23 @@ link:https://sydologie.com/2017/09/ingenierie-pedagogique-modele-addie/[ingenier
 *** SPG-SPD-Pssage de détail à resources
 
 
-== 31/10/2023
+== 02/11/2023
 
 formateur: Thibault (distanciel)
 
 .matin
 ** retour sur les fiches compétence 1 et 2
 
-.apres-midi
+.apres-midi SPD A2SP
+
+== 03/11/2023
+
+formateur: Thibault (distanciel)
+
+.matin SPD A2SP
+
+.apres-midi SPD A2SP
+link:https://www.bienenseigner.com/taxonomie-de-bloom/[taxonomie-de-bloom]
 
 link:README.adoc#toc[Table des matieres]
 ====
