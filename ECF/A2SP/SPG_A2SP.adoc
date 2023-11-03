@@ -250,10 +250,10 @@ xref:toc[sommaire]
 .Durée de la formation : 209h
 * Basiques de communication : 14h
 * ADS : 56 heures + examen
+* Technique de recherche d'emploi : 14h
 * SST : 14h
 * BS-BE manoeuvre : 14h
 * SSIAP 1 : 90 heures + examen
-* Technique de recherche d'emploi : 14h
 * examen blanc : 7h
 
 xref:toc[sommaire]
