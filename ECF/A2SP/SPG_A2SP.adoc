@@ -42,7 +42,8 @@ xref:toc[sommaire]
 
 [[title]]
 == 2. Titre (Qualiopi)
-Agent de sûreté et de sécurité privée
+Agent de sûreté et de sécurité privée +
+Niveau 4 (Cadre national des certifications 2019)
 
 xref:toc[sommaire]
 
