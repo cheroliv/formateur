@@ -24,7 +24,7 @@
 . xref:testimony[Témoignage Evaluation de la formation] (Qualiopi)
 . xref:testimony_customer[Témoignage apprenant/commanditaire]
 
-.Réfèrence:
+.Réfèrence :
 * link:https://www.afpa.fr/formation-qualifiante/agent-de-surete-et-de-securite-privee[A2SP AFPA]
 * link:https://www.francecompetences.fr/recherche/rncp/34507/[REAC A2SP]
 
