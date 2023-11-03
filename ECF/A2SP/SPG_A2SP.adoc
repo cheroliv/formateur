@@ -132,9 +132,9 @@ xref:toc[sommaire]
 == 6. Objectifs pédagogiques (Qualiopi)
 // .Missions de l’agent A2SP
 * Sûreté, protection des biens et personnes
-** **Connaissance des procédures de sécurité et les réglementations en vigueur**
-** **Utiliser des protocoles de communication en cas d'urgence et savoir décrire les types de menaces courantes en matière de sécurité**
-** **Compréhension du rôle et des responsabilités d'un agent**
+** Connaissance des procédures de sécurité et les réglementations en vigueur
+** Utiliser des protocoles de communication en cas d'urgence et savoir décrire les types de menaces courantes en matière de sécurité
+** Compréhension du rôle et des responsabilités d'un agent
 // - Expliquer les principaux rôles et responsabilités d'un agent de sûreté.
 // - Interpréter les consignes d'évacuation et les plans de sécurité.
 // - Comprendre les procédures de contrôle d'accès et de vérification des personnes.
@@ -142,7 +142,7 @@ xref:toc[sommaire]
 // - Mettre en œuvre les mesures de contrôle d'accès en respectant les protocoles établis.
 // - Utiliser efficacement les équipements de sécurité, tels que les scanners et les détecteurs.
 // - Appliquer les techniques de communication en situation d'urgence.
-** **Analyser les menaces et les risques de manière proactive**
+** Analyser les menaces et les risques de manière proactive
 // - Évaluer les vulnérabilités potentielles dans un environnement sécurisé.
 // - Analyser les menaces et les risques de manière proactive.
 // - Identifier les domaines où des améliorations de la sécurité sont nécessaires.
@@ -155,29 +155,29 @@ xref:toc[sommaire]
 // - Réviser les protocoles de sécurité en fonction des leçons apprises.
 // - Superviser et former d'autres agents de sûreté pour améliorer leurs compétences et leurs performances.
 * Sécurité incendie et assistance aux personnes
-** **Prévention des Incendies**
+** Prévention des Incendies
 // - Identifier et évaluer les risques potentiels d'incendie.
 // - Concevoir et mettre en œuvre des mesures préventives pour réduire les risques.
-** **Sensibilisation et Éducation en Sécurité Incendie**
+** Sensibilisation et Éducation en Sécurité Incendie
 // - Former et sensibiliser les employés aux procédures de sécurité incendie.
 // - Fournir une assistance aux personnes en cas d'urgence incendie.
 
-** **Maintenance Élémentaire des Équipements de Sécurité Incendie**
+** Maintenance Élémentaire des Équipements de Sécurité Incendie
 // - Effectuer l'entretien de base des équipements de sécurité incendie.
 // - S'assurer du bon fonctionnement des dispositifs de sécurité.
-** **Alerte et Accueil des Secours**
+** Alerte et Accueil des Secours
 // - Être en mesure d'alerter les secours en cas d'incendie ou d'urgence.
 // - Faciliter l'arrivée des services d'urgence et coordonner leur accueil.
-** **Évacuation du Public**
+** Évacuation du Public
 // - Organiser et superviser l'évacuation des occupants en cas d'incendie.
 // - S'assurer que l'évacuation se déroule en toute sécurité.
-** **Intervention Précoce en Cas d'Incendie**
+** Intervention Précoce en Cas d'Incendie
 // - Agir rapidement pour maîtriser les débuts d'incendie.
 // - Utiliser les équipements de lutte contre l'incendie de manière efficace.
-** **Assistance aux Personnes au Sein des Établissements**
+** Assistance aux Personnes au Sein des Établissements
 // - Fournir une assistance aux personnes en situation d'urgence, y compris les personnes à mobilité réduite.
 // - Coordonner les actions visant à garantir la sécurité de tous.
-** **Exploitation du Poste Central de Sécurité Incendie (PCSI)**
+** Exploitation du Poste Central de Sécurité Incendie (PCSI)
 // - Surveiller et gérer les systèmes de sécurité incendie depuis le poste central.
 // - Assurer la communication et la coordination en cas d'incident.
 
