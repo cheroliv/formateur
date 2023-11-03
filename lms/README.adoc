@@ -11,3 +11,5 @@ link:https://docs.portainer.io/start/install/server/docker/wsl[tuto wsl portaine
 
 == Mémo python
 link:memo_python.adoc[Mémo python]
+
+== Odon on windows
