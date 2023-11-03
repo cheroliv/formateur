@@ -12,8 +12,8 @@ on dissocie le thème qui est au global dans laquelle s'insère la formation, le
 * L’objectif est de donner des tendances sur le mood de la formation, l’orientation et le parti pris, c’est comme une bande-annonce avec une introduction sur le secteur d’activité ou le domaine d’application, la description, c'est la deuxième partie de l’introduction, où il est question de présenter en détail l’articulation, le fonctionnement de la formation ou les grandes thématiques abordées dans la formation
 
 == Public (Qualiopi) :
-* Cible privilégié pour les personnes amenés à suivre la formation, on ne donne pas de restriction sur les situations des personnes et sur les commanditaires, on va donner des critères d’expériences, d’objectif professionnelles, parfois d’âges, etc
-* On précise le nombre de personne minimum et maximum par session de formation
+* Cible privilégiée pour les personnes amenées à suivre la formation, on ne donne pas de restriction sur les situations des personnes et sur les commanditaires, on va donner des critères d’expériences, d’objectif professionnelles, parfois d’âges, etc
+* On précise le nombre de personnes minimum et maximum par session de formation
 
 == Pré-requis et conditions d’accès à la formation (Qualiopi) :
 * Il faut préciser de manière spécifique les conditions minimales à maîtriser ou posséder : diplômes, âges, expériences,

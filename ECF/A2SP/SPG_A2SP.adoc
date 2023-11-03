@@ -11,18 +11,18 @@
 . xref:objs[Objectifs pédagogiques] (Qualiopi)
 . xref:competences[Compétences visées] (Qualiopi)
 . xref:timing[Durée (Temporisation)] (Qualiopi)
-// . xref:means[Moyen d’accompagnement et Suivi pédagogique] (Qualiopi)
-// . xref:prgm[Programme pédagogique (Modalités pédagogiques)] (Qualiopi) : du contenu et du séquencement
-// . xref:eval[Modalités d’évaluations] (Qualiopi)
-// . xref:certif[Modalités de certification et Certification visé] (Qualiopi)
+. xref:means[Moyen d’accompagnement et Suivi pédagogique] (Qualiopi)
+. xref:prgm[Programme pédagogique (Modalités pédagogiques)] (Qualiopi) : du contenu et du séquencement
+. xref:eval[Modalités d’évaluations] (Qualiopi)
+. xref:certif[Modalités de certification et Certification visé] (Qualiopi)
 . xref:place[Lieux] (Qualiopi)
 . xref:price[Tarifs]
-// . xref:infra[Moyens logistiques et matériels] (Qualiopi)
-// . xref:pursuit[Poursuite en formation] (Qualiopi)
-// . xref:access_time[Délais d’accès] (Réglementaire)
-// . xref:mobility[Accessibilité et Handicap] (Qualiopi)
-// . xref:testimony[Témoignage Evaluation de la formation] (Qualiopi)
-// . xref:testimony_customer[Témoignage apprenant/commanditaire]
+. xref:infra[Moyens logistiques et matériels] (Qualiopi)
+. xref:pursuit[Poursuite en formation] (Qualiopi)
+. xref:access_time[Délais d’accès] (Réglementaire)
+. xref:mobility[Accessibilité et Handicap] (Qualiopi)
+. xref:testimony[Témoignage Evaluation de la formation] (Qualiopi)
+. xref:testimony_customer[Témoignage apprenant/commanditaire]
 
 .Réfèrence :
 * link:https://www.afpa.fr/formation-qualifiante/agent-de-surete-et-de-securite-privee[A2SP AFPA]
@@ -30,12 +30,7 @@
 
 [[theme]]
 == 1. Thème (Qualiopi)
-//TODO: revoir le theme en presentant generalement le domaine
-// .A2SP, regroupe les certifications suivantes:
-// * SSIAP 1, Service de Sécurité Incendie et d’Assistance à Personnes niveau 1
-// * ADS, agent de sécurité
-// * SST, sauveteur secouriste du travail
-// * BS-BE manœuvre, Interventions élémentaires et/ou des manœuvres d’ordre électrique en basse tension dans un environnement présentant des risques électriques.
+
 === Sécurité incendie, assistance à personne et sûreté des personnes et des biens
 
 La sécurité incendie, l'assistance à personne et la sûreté des personnes et des biens sont des domaines complémentaires qui visent à protéger les personnes et les biens des risques, dans des lieux recevant du public ou des travailleurs.
@@ -121,65 +116,38 @@ pour pouvoir se former et se présenter au SSIAP 1.
 Nota bene : Il est possible de bénéficier d’une adaptation de parcours si :
 * Le candidat est titulaire du SST, en cours de validité
 * Le candidat est détenteur d’un avis de formation initiale ou attestation de formation de
-recyclage du BS-BE manoeuvre,
+recyclage du BS-BE manœuvre,
 * Le candidat est détenteur du diplôme SSIAP 1, en cours de validité, et si nécessaire, des
 attestations de recyclage ou de remise à niveau.
 
 
 xref:toc[sommaire]
 
+
 [[objs]]
 == 6. Objectifs pédagogiques (Qualiopi)
-// .Missions de l’agent A2SP
-* Sûreté, protection des biens et personnes
-** Connaissance des procédures de sécurité et les réglementations en vigueur
-** Utiliser des protocoles de communication en cas d'urgence et savoir décrire les types de menaces courantes en matière de sécurité
-** Compréhension du rôle et des responsabilités d'un agent
-// - Expliquer les principaux rôles et responsabilités d'un agent de sûreté.
-// - Interpréter les consignes d'évacuation et les plans de sécurité.
-// - Comprendre les procédures de contrôle d'accès et de vérification des personnes.
-// ** **Application**
-// - Mettre en œuvre les mesures de contrôle d'accès en respectant les protocoles établis.
-// - Utiliser efficacement les équipements de sécurité, tels que les scanners et les détecteurs.
-// - Appliquer les techniques de communication en situation d'urgence.
-** Analyser les menaces et les risques de manière proactive
-// - Évaluer les vulnérabilités potentielles dans un environnement sécurisé.
-// - Analyser les menaces et les risques de manière proactive.
-// - Identifier les domaines où des améliorations de la sécurité sont nécessaires.
-// ** **Synthèse**
-// - Concevoir des plans d'intervention en cas d'incident ou de menace.
-// - Élaborer des stratégies de sécurité pour des situations spécifiques.
-// - Coordonner les efforts de l'équipe de sécurité pour garantir une réponse efficace.
-// ** **Évaluation**
-// - Évaluer l'efficacité des mesures de sécurité mises en place.
-// - Réviser les protocoles de sécurité en fonction des leçons apprises.
-// - Superviser et former d'autres agents de sûreté pour améliorer leurs compétences et leurs performances.
-* Sécurité incendie et assistance aux personnes
-** Prévention des Incendies
-// - Identifier et évaluer les risques potentiels d'incendie.
-// - Concevoir et mettre en œuvre des mesures préventives pour réduire les risques.
-** Sensibilisation et Éducation en Sécurité Incendie
-// - Former et sensibiliser les employés aux procédures de sécurité incendie.
-// - Fournir une assistance aux personnes en cas d'urgence incendie.
 
-** Maintenance Élémentaire des Équipements de Sécurité Incendie
-// - Effectuer l'entretien de base des équipements de sécurité incendie.
-// - S'assurer du bon fonctionnement des dispositifs de sécurité.
-** Alerte et Accueil des Secours
-// - Être en mesure d'alerter les secours en cas d'incendie ou d'urgence.
-// - Faciliter l'arrivée des services d'urgence et coordonner leur accueil.
-** Évacuation du Public
-// - Organiser et superviser l'évacuation des occupants en cas d'incendie.
-// - S'assurer que l'évacuation se déroule en toute sécurité.
-** Intervention Précoce en Cas d'Incendie
-// - Agir rapidement pour maîtriser les débuts d'incendie.
-// - Utiliser les équipements de lutte contre l'incendie de manière efficace.
-** Assistance aux Personnes au Sein des Établissements
-// - Fournir une assistance aux personnes en situation d'urgence, y compris les personnes à mobilité réduite.
-// - Coordonner les actions visant à garantir la sécurité de tous.
-** Exploitation du Poste Central de Sécurité Incendie (PCSI)
-// - Surveiller et gérer les systèmes de sécurité incendie depuis le poste central.
-// - Assurer la communication et la coordination en cas d'incident.
+.**Sûreté, protection des biens et personnes**
+* _Connaissance_ : Connaître les procédures de sécurité et les réglementations en vigueur en matière de sûreté, protection des biens et personnes.
+* _Compréhension_ : Comprendre les protocoles de communication en cas d’urgence et les types de menaces courantes en matière de sécurité.
+* _Application_ : Utiliser les protocoles de communication en cas d’urgence et décrire les types de menaces courantes en matière de sécurité.
+* _Compréhension_ : Comprendre le rôle et les responsabilités d’un agent en matière de sûreté, protection des biens et personnes.
+* _Analyse_ : Analyser les menaces et les risques de manière proactive en matière de sûreté, protection des biens et personnes.
+
+.**Sécurité incendie et assistance aux personnes**
+* _Connaissance_ : Connaître les causes, les conséquences et les moyens de prévention des incendies.
+* _Compréhension_ : Comprendre l'importance de la sensibilisation et de l'éducation en matière de sécurité incendie.
+* _Application_ : Sensibiliser et éduquer les personnes en matière de sécurité incendie.
+* _Compréhension_ : Comprendre les principes de base de la maintenance élémentaire des équipements de sécurité incendie.
+* _Application_ : Effectuer la maintenance élémentaire des équipements de sécurité incendie.
+* _Connaissance_ : Connaître les procédures d'alerte et d'accueil des secours en cas d'incendie.
+* _Application_ : Alerter et accueillir les secours en cas d'incendie.
+* _Connaissance_ : Connaître les procédures d'évacuation du public en cas d'incendie.
+* _Application_ : Evacuer le public en cas d'incendie.
+* _Connaissance_ : Connaître les techniques d'intervention précoce en cas d'incendie.
+* _Application_ : Intervenir précocement en cas d'incendie.
+* _Connaissance_ : Connaître les techniques d'assistance aux personnes en cas d'incendie ou d'autres situations d'urgence.
+* _Application_ : Assister les personnes en cas d'incendie ou d'autres situations d'urgence.
 
 xref:toc[sommaire]
 
@@ -194,50 +162,14 @@ xref:toc[sommaire]
 * Effectuer des rondes de sécurité et surveillance des travaux
 * Assurer la surveillance au PC
 * Passer des appels et réceptionner les services publics de secours
-// * Pratiquer le secours à victimes
 * Porter assistance à personnes
-// * Mettre en œuvre des moyens de secours et de mise en sécurité
 
 .**Sûreté, protection des biens et personnes**
 ** Surveillance et Patrouille
-// - Effectuer des rondes régulières pour surveiller les zones désignées.
-// - Détecter les comportements suspects ou les activités non autorisées.
-// - Utiliser des équipements de surveillance, tels que des caméras de sécurité.
 ** Contrôle d'Accès
-// - Vérifier l'identité des personnes et leur autorisation d'accès.
-// - Gérer les points d'entrée et de sortie.
-// - Appliquer des protocoles de contrôle d'accès stricts.
 ** Inspection et détection de Menaces
-// - Effectuer des inspections de sécurité pour détecter des objets ou substances dangereux.
-// - Utiliser des détecteurs de métaux, des scanners et d'autres équipements de détection.
-// - Appliquer des procédures pour les objets interdits.
 ** Gestion des conflits et de l'agitation
-// - Intervenir de manière calme et professionnelle en cas de conflits ou d'incidents perturbateurs.
-// - Appliquer des techniques de désescalade pour prévenir l'aggravation de la situation.
-// - Collaborer avec les autorités locales en cas de besoin.
-// ** Réponse aux Urgences
-// - Agir rapidement en cas d'incidents de sécurité, tels que les vols, les incendies ou les évacuations d'urgence.
-// - Suivre les procédures d'urgence établies pour garantir la sécurité des personnes et des biens.
-// - Communiquer efficacement avec les services d'urgence.
-// ** Rapports et Documentation
-// - Rédiger des rapports détaillés sur les incidents, les activités de patrouille et les observations.
-// - Conserver des enregistrements précis des événements pour référence future.
-// - Fournir des informations aux autorités compétentes et à la direction de la sécurité.
-// ** Communication et Coopération
-// - Maintenir une communication efficace avec les autres membres de l'équipe de sécurité.
-// - Collaborer avec d'autres parties prenantes, telles que la police, les services médicaux d'urgence et les gestionnaires de site.
-// - Fournir des informations et des conseils aux personnes sur place.
 ** Formation Continue et Connaissance de la Législation
-// - Se tenir informé des nouvelles réglementations et lois en matière de sécurité.
-// - Participer à des formations continues pour développer ses compétences.
-// - Être au fait des politiques de sécurité spécifiques au site ou à l'organisation.
-// ** Gestion des Situations de Crise
-// - Faire preuve de sang-froid et de leadership en cas de crises majeures.
-// - Coordonner la réponse à la crise en collaboration avec les autorités et l'équipe de sécurité.
-// - Mettre en œuvre des plans d'urgence pour minimiser les perturbations et les risques.
-// ** Sensibilisation à la Sécurité
-// - Sensibiliser les employés et le public aux procédures de sécurité et aux bonnes pratiques.
-// - Fournir des conseils de sécurité aux visiteurs et aux personnes présentes sur le site.
 
 Des compétences spécifiques peuvent varier en fonction des besoins de l'entreprise ou du site où l'agent opère.
 
@@ -245,7 +177,6 @@ xref:toc[sommaire]
 
 [[timing]]
 == 8. Durée (Qualiopi)
-// /Temporisation
 
 .Durée de la formation : 209h
 * Basiques de communication : 14h
@@ -258,26 +189,55 @@ xref:toc[sommaire]
 
 xref:toc[sommaire]
 
-// [[means]]
-// == 9. Moyen d’accompagnement/Suivis pédagogique (Qualiopi)
-//
-// Détails de l'organisation des journées sur les différents formules pour dispenser la formation +
+[[means]]
+== 9. Moyen d’accompagnement/Suivis pédagogique (Qualiopi)
+
+Formation multi-modulaire, individualisée, accompagnement personnalisé
+
+.Moyens pédagogiques :
+* Kit Pédagogique USB
+* Documents écrits
+* Diaporama
+* Supports audio et visuels
+* Outils multimédias(Quizz)
+
+.Notre espace de formation dispose d’outils de formation modernes et performants comprenant :
+- Des salles polyvalentes
+- Des salles informatiques offrant l’accès à la plateforme numérique de formation Métis
+- Matériel audio-visuel : caméscope, vidéo projecteur...
+- Ressources documentaires
+- Plateau technique dédié qui reconstitue les conditions de réalisation des gestes professionnels; conforme aux RC des TP et CQP
+
+.Equipe pédagogique
+* Responsable pédagogique : John Doe, jdoe@acme.com, 0607080910
+* Coordinateur pédagogique : Jane Doe, jane.doe@acme.com, 0611121314
+* Référent handicap : Henri Smith, h.smith@acme.com, 0615161718
+* Formateurs :
+    - David Snow, d.snow@acme.com, 0619202122
+    - Gwen Jones, g.jones@acme.com, 0623242526
+    - Charly Brown, c.brown@acme.com, 0627282930
+
+Selection à la formation après réunion d'information collective et entretien individuel.
+
+// Détails de l'organisation des journées sur les différentes formules pour dispenser la formation +
 // Planning jours bloc de competences
 // mode de communication
-//
-// xref:toc[sommaire]
 
-// [[prgm]]
-// == 10. Programme pédagogique : contenu et séquencement (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
-// [[eval]]
-// == 11. Modalités d’évaluations (Qualiopi)
-// xref:toc[sommaire]
+[[prgm]]
+== 10. Programme pédagogique : contenu et séquencement (Qualiopi)
 
-// [[certif]]
-// == 12. Modalités de certification et Certification visé (Qualiopi)
-// xref:toc[sommaire]
+
+xref:toc[sommaire]
+
+[[eval]]
+== 11. Modalités d’évaluations (Qualiopi)
+xref:toc[sommaire]
+
+[[certif]]
+== 12. Modalités de certification et Certification visé (Qualiopi)
+xref:toc[sommaire]
 
 [[place]]
 == 13. Lieux (Qualiopi)
@@ -291,27 +251,27 @@ xref:toc[sommaire]
 4704€ HT +
 xref:toc[sommaire]
 
-// [[infra]]
-// == 15. Moyens logistique et matériels (Qualiopi)
-// xref:toc[sommaire]
+[[infra]]
+== 15. Moyens logistique et matériels (Qualiopi)
+xref:toc[sommaire]
 
-// [[pursuit]]
-// == 16. Poursuite en formation (Qualiopi)
-// xref:toc[sommaire]
+[[pursuit]]
+== 16. Poursuite en formation (Qualiopi)
+xref:toc[sommaire]
 
-// [[access_time]]
-// == 17. Délais d’accès (Réglementaire)
-// xref:toc[sommaire]
+[[access_time]]
+== 17. Délais d’accès (Réglementaire)
+xref:toc[sommaire]
 
-// [[mobility]]
-// == 18. Accessibilité et Handicap (Qualiopi)
-//
-// xref:toc[sommaire]
+[[mobility]]
+== 18. Accessibilité et Handicap (Qualiopi)
 
-// [[testimony]]
-// == 19. Témoignage Evaluation de la formation (Qualiopi)
-// xref:toc[sommaire]
+xref:toc[sommaire]
 
-// [[testimony_customer]]
-// == 20. Témoignage apprenants/commanditaires
-// xref:toc[sommaire]
+[[testimony]]
+== 19. Témoignage Evaluation de la formation (Qualiopi)
+xref:toc[sommaire]
+
+[[testimony_customer]]
+== 20. Témoignage apprenants/commanditaires
+xref:toc[sommaire]
