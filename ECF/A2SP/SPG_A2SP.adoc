@@ -258,7 +258,7 @@ xref:toc[sommaire]
 xref:toc[sommaire]
 
 [[infra]]
-== 15. Moyens logistique et matériels (Qualiopi)
+== 15. Moyens logistiques et matériels (Qualiopi)
 
 
 xref:toc[sommaire]
@@ -280,7 +280,7 @@ xref:toc[sommaire]
 [[mobility]]
 == 18. Accessibilité et Handicap (Qualiopi)
 L'accessibilité est un sujet que nous favorisons en preparant l'acces en formation aux apprenants avec des handicaps de s'inserer dans le domain professionnel de la securité et sureté. +
-Notre referant handicap est a la disposition de demande sur l'accessibilité et l'employabilité des personnes en hadicapes
+Notre referant handicap est à votre disposition pour toutes demandes sur l'accessibilité et l'employabilité des personnes en hadicapes
 
 xref:toc[sommaire]
 
