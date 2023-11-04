@@ -31,31 +31,31 @@
 [[theme]]
 == 1. Thème (Qualiopi)
 
-=== Sécurité incendie, assistance à personne et sûreté des personnes et des biens
+**Sécurité incendie, assistance à personne et sûreté des personnes et des biens**
 
 La sécurité incendie, l'assistance à personne et la sûreté des personnes et des biens sont des domaines complémentaires qui visent à protéger les personnes et les biens des risques, dans des lieux recevant du public ou des travailleurs.
 
-=== Sécurité incendie
+**Sécurité incendie**
 
 La sécurité incendie vise à prévenir et à lutter contre les incendies. Elle comprend des mesures de prévention, telles que l'installation d'extincteurs et de détecteurs de fumée, et des mesures d'intervention, telles que la formation des salariés à l'évacuation des locaux.
 
-=== Assistance à personne
+**Assistance à personne**
 
 L'assistance à personne vise à venir en aide aux personnes en situation de danger. Elle comprend des activités de prévention, telles que l'information et la sensibilisation des publics, et des activités d'intervention, telles que les secours d'urgence.
 
-=== Sûreté des personnes et des biens
+**Sûreté des personnes et des biens**
 
 La sûreté des personnes et des biens vise à protéger les personnes et les biens des risques d'agression, de vol ou de vandalisme. Elle comprend des mesures de prévention, telles que l'installation de caméras de surveillance et de systèmes d'alarme, et des mesures d'intervention, telles que les équipes de sécurité.
 
 Ces trois domaines sont essentiels pour garantir la sécurité des personnes et des biens. Ils nécessitent une expertise et une formation spécifiques.
 
-=== Métiers
+**Métiers**
 
 Voici quelques exemples de métiers liés à ces domaines :
 
-* **Sécurité incendie** : pompier, sapeur-pompier professionnel, agent de sécurité incendie, technicien de maintenance incendie
-* **Assistance à personne** : pompier, sapeur-pompier professionnel, secouriste, infirmier, ambulancier, psychologue, assistant social
-* **Sûreté des personnes et des biens** : agent de sécurité, vigile, gardien d'immeuble, agent de prévention, agent de sûreté, agent de sécurité incendie
+* *Sécurité incendie* : pompier, sapeur-pompier professionnel, agent de sécurité incendie, technicien de maintenance incendie
+* *Assistance à personne* : pompier, sapeur-pompier professionnel, secouriste, infirmier, ambulancier, psychologue, assistant social
+* *Sûreté des personnes et des biens* : agent de sécurité, vigile, gardien d'immeuble, agent de prévention, agent de sûreté, agent de sécurité incendie
 
 Ces métiers sont à la fois variés et passionnants. Ils offrent de nombreuses opportunités de carrière dans un domaine à forte tension.
 
@@ -128,27 +128,28 @@ xref:toc[sommaire]
 == 6. Objectifs pédagogiques (Qualiopi)
 
 .**Sûreté, protection des biens et personnes**
-* _Connaissance_ : Connaître les procédures de sécurité et les réglementations en vigueur en matière de sûreté, protection des biens et personnes.
-* _Compréhension_ : Comprendre les protocoles de communication en cas d’urgence et les types de menaces courantes en matière de sécurité.
-* _Application_ : Utiliser les protocoles de communication en cas d’urgence et décrire les types de menaces courantes en matière de sécurité.
-* _Compréhension_ : Comprendre le rôle et les responsabilités d’un agent en matière de sûreté, protection des biens et personnes.
-* _Analyse_ : Analyser les menaces et les risques de manière proactive en matière de sûreté, protection des biens et personnes.
+* Connaître les procédures de sécurité et les réglementations en vigueur en matière de sûreté, protection des biens et personnes.
+* Comprendre les protocoles de communication en cas d’urgence et les types de menaces courantes en matière de sécurité.
+* Utiliser les protocoles de communication en cas d’urgence et décrire les types de menaces courantes en matière de sécurité.
+* Comprendre le rôle et les responsabilités d’un agent en matière de sûreté, protection des biens et personnes.
+* Analyser les menaces et les risques de manière proactive en matière de sûreté, protection des biens et personnes.
 
 .**Sécurité incendie et assistance aux personnes**
-* _Connaissance_ : Connaître les causes, les conséquences et les moyens de prévention des incendies.
-* _Compréhension_ : Comprendre l'importance de la sensibilisation et de l'éducation en matière de sécurité incendie.
-* _Application_ : Sensibiliser et éduquer les personnes en matière de sécurité incendie.
-* _Compréhension_ : Comprendre les principes de base de la maintenance élémentaire des équipements de sécurité incendie.
-* _Application_ : Effectuer la maintenance élémentaire des équipements de sécurité incendie.
-* _Connaissance_ : Connaître les procédures d'alerte et d'accueil des secours en cas d'incendie.
-* _Application_ : Alerter et accueillir les secours en cas d'incendie.
-* _Connaissance_ : Connaître les procédures d'évacuation du public en cas d'incendie.
-* _Application_ : Evacuer le public en cas d'incendie.
-* _Connaissance_ : Connaître les techniques d'intervention précoce en cas d'incendie.
-* _Application_ : Intervenir précocement en cas d'incendie.
-* _Connaissance_ : Connaître les techniques d'assistance aux personnes en cas d'incendie ou d'autres situations d'urgence.
-* _Application_ : Assister les personnes en cas d'incendie ou d'autres situations d'urgence.
+* Connaître les causes, les conséquences et les moyens de prévention des incendies.
+* Comprendre l'importance de la sensibilisation et de l'éducation en matière de sécurité incendie.
+* Sensibiliser et éduquer les personnes en matière de sécurité incendie.
+* Comprendre les principes de base de la maintenance élémentaire des équipements de sécurité incendie.
+* Effectuer la maintenance élémentaire des équipements de sécurité incendie.
+* Connaître les procédures d'alerte et d'accueil des secours en cas d'incendie.
+* Alerter et accueillir les secours en cas d'incendie.
+* Connaître les procédures d'évacuation du public en cas d'incendie.
+* Evacuer le public en cas d'incendie.
+* Connaître les techniques d'intervention précoce en cas d'incendie.
+* Intervenir précocement en cas d'incendie.
+* Connaître les techniques d'assistance aux personnes en cas d'incendie ou d'autres situations d'urgence.
+* Assister les personnes en cas d'incendie ou d'autres situations d'urgence.
 // ajouter francais basiques, tre, anglais, site sensible
+
 xref:toc[sommaire]
 
 
@@ -208,7 +209,7 @@ Formation multi-modulaire, individualisée, accompagnement personnalisé
 - Ressources documentaires
 - Plateau technique dédié qui reconstitue les conditions de réalisation des gestes professionnels; conforme aux RC des TP et CQP
 
-.Equipe pédagogique
+.Équipe pédagogique
 * Responsable pédagogique : John Doe, jdoe@acme.com, 0607080910
 * Coordinateur pédagogique : Jane Doe, jane.doe@acme.com, 0611121314
 * Référent handicap : Henri Smith, h.smith@acme.com, 0615161718
@@ -265,9 +266,9 @@ xref:toc[sommaire]
 
 [[pursuit]]
 == 16. Poursuite en formation (Qualiopi)
-Vous pouvez travailler directement et acceder à un poste d'encadrement en fonction de la
+Vous pouvez travailler directement et accéder à un poste d'encadrement en fonction de la
 politique de l'entreprise. Vous pouvez poursuivre dans la filière sécurité privée en passant
-les diplomes de management ou de prévention des risques (BTS éducation nationnale), mais aussi de chef d'equipe SSIAP 2 ou 3, ainsi que d'une licence sécurité en université de droits.
+les diplômes de management ou de prévention des risques (BTS éducation nationale), mais aussi de chef d'équipe SSIAP 2 ou 3, ainsi que d'une licence sécurité en université de droits.
 
 xref:toc[sommaire]
 
@@ -279,21 +280,21 @@ xref:toc[sommaire]
 
 [[mobility]]
 == 18. Accessibilité et Handicap (Qualiopi)
-L'accessibilité est un sujet que nous favorisons en preparant l'acces en formation aux apprenants avec des handicaps de s'inserer dans le domain professionnel de la securité et sureté. +
-Notre referant handicap est à votre disposition pour toutes demandes sur l'accessibilité et l'employabilité des personnes en hadicapes
+L'accessibilité est un sujet que nous favorisons, en préparant l'accès en formation aux apprenants avec des handicaps. Nous étudions individuellement avec notre référant les possibilités d'inclusion et d'insertion dans le domain professionnel de la sécurité et sureté. +
+Notre référant handicape est à votre disposition pour toutes demandes sur l'accessibilité et l'employabilité des personnes en hadicapes
 
 xref:toc[sommaire]
 
 [[testimony]]
-== 19. Témoignage Evaluation de la formation (Qualiopi)
+== 19. Témoignages évaluation de la formation (Qualiopi)
 
-Apres la formation, nous recueillons les avis et impressions des apprenants sur la formation.
+Apres la formation, nous recueillons les avis et impressions des apprenants sur la formation, dans un soucis d'amélioration continue, transparence avec l'organisme financeur et suivie d'activité professionnelle de l'apprenant.
 
 xref:toc[sommaire]
 
 [[testimony_customer]]
-== 20. Témoignage apprenants/commanditaires
+== 20. Témoignages apprenants/commanditaires
 
-Le site internet du centre de formation met a disposition les retour d'esxperiences d'apprenants et commenditaire pour leurs equipes.
+Le site internet du centre de formation met à disposition les retours d'experiencess d'apprenants et commanditaire pour leurs équipes.
 
 xref:toc[sommaire]
