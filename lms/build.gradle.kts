@@ -1,3 +1,4 @@
+import com.fasterxml.jackson.core.JsonFactory
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory
@@ -33,14 +34,6 @@ buildscript {
 repositories { mavenCentral() }
 /*=================================================================================*/
 
-private val mapper: ObjectMapper by lazy {
-    ObjectMapper(YAMLFactory()).apply {
-        disable(WRITE_DATES_AS_TIMESTAMPS)
-        registerKotlinModule()
-    }
-}
-/*=================================================================================*/
-
 data class Formation(
     val nom: String,
     val spg: SPG
@@ -50,54 +43,32 @@ data class Formation(
  * SPG: Scénario Pédagogique Global
  */
 data class SPG(
-    val theme: String = "",
-    val titre: String = "",
-    val presentation: String = "",
-    val mindmap: String = "",
-    val publicProspect: String = "",
-    val prerequiz: String = "",
-    val objs: String = "",
-    val competences: String = "",
-    val timing: String = "",
-    val means: String = "",
-    val prgm: String = "",
-    val eval: String = "",
-    val certif: String = "",
-    val place: String = "",
-    val price: String = "",
-    val infra: String = "",
-    val pursuit: String = "",
-    val accessTime: String = "",
-    val mobility: String = "",
-    val testimony: String = "",
-    val testimonyCustomer: String = "",
     val spd: SPD = SPD(),
-    val content: List<Triple<*, String, String>>? = listOf(
-        Triple(theme, "theme", "Thème"),
-        Triple(titre, "title", "Titre"),
-        Triple(presentation, "prez", "Présentation et description"),
-        Triple(mindmap, "mindmap", "Carte thématique"),
-        Triple(publicProspect, "public", "Public"),
-        Triple(prerequiz, "prerequiz", "Pré-requis et conditions d’accès à la formation (Qualiopi)"),
-        Triple(objs, "objs", "Objectifs pédagogiques (Qualiopi)"),
-        Triple(competences, "competences", "Compétences visées (Qualiopi)"),
-        Triple(timing, "timing", "Durée (Temporisation)] (Qualiopi)"),
-        Triple(means, "means", "Moyen d’accompagnement et Suivi pédagogique (Qualiopi)"),
+    val content: List<Triple<String, String, String>>? = listOf(
+        Triple("theme", "Thème", "theme"),
+        Triple("title", "Titre", "titre"),
+        Triple("prez", "Présentation et description", "presentation"),
+        Triple("mindmap", "Carte thématique", "mindmap"),
+        Triple("public", "Public", "publicProspect"),
+        Triple("prerequiz", "Pré-requis et conditions d’accès à la formation (Qualiopi)", "prerequiz"),
+        Triple("objs", "Objectifs pédagogiques (Qualiopi)", "objs"),
+        Triple("competences", "Compétences visées (Qualiopi)", "competences"),
+        Triple("timing", "Durée (Temporisation)] (Qualiopi)", "timing"),
+        Triple("means", "Moyen d’accompagnement et Suivi pédagogique (Qualiopi)", "means"),
         Triple(
-            prgm,
             "prgm",
-            "Programme pédagogique (Modalités pédagogiques)] (Qualiopi) : du contenu et du séquencement"
+            "Programme pédagogique (Modalités pédagogiques)] (Qualiopi) : du contenu et du séquencement", "prgm"
         ),
-        Triple(eval, "eval", "Modalités d’évaluations] (Qualiopi)"),
-        Triple(certif, "certif", "Modalités de certification et Certification visé] (Qualiopi)"),
-        Triple(place, "place", "Lieux] (Qualiopi)"),
-        Triple(price, "price", "Tarifs"),
-        Triple(infra, "infra", "Moyens logistiques et matériels] (Qualiopi)"),
-        Triple(pursuit, "pursuit", "Poursuite en formation] (Qualiopi)"),
-        Triple(accessTime, "access_time", "Délais d’accès] (Réglementaire)"),
-        Triple(mobility, "mobility", "Accessibilité et Handicap] (Qualiopi)"),
-        Triple(testimony, "testimony", "Témoignage Evaluation de la formation] (Qualiopi)"),
-        Triple(testimonyCustomer, "testimony_customer", "Témoignage apprenant/commanditaire")
+        Triple("eval", "Modalités d’évaluations] (Qualiopi)", "eval"),
+        Triple("certif", "Modalités de certification et Certification visé] (Qualiopi)", "certif"),
+        Triple("place", "Lieux] (Qualiopi)", "place"),
+        Triple("price", "Tarifs", "price"),
+        Triple("infra", "Moyens logistiques et matériels] (Qualiopi)", "infra"),
+        Triple("pursuit", "Poursuite en formation] (Qualiopi)", "pursuit"),
+        Triple("access_time", "Délais d’accès] (Réglementaire)", "accessTime"),
+        Triple("mobility", "Accessibilité et Handicap] (Qualiopi)", "mobility"),
+        Triple("testimony", "Témoignage Evaluation de la formation] (Qualiopi)", "testimony"),
+        Triple("testimony_customer", "Témoignage apprenant/commanditaire", "testimonyCustomer")
     )
 )
 
@@ -105,9 +76,26 @@ data class SPG(
  * SPD: Scénario Pédagogique Détaillé
  */
 data class SPD(
-    val titre: String="",
-    val objectif: String=""
+    val titre: String = "",
+    val objectif: String = ""
 )
+
+/*=================================================================================*/
+
+private val yaml: ObjectMapper by lazy {
+    ObjectMapper(YAMLFactory()).apply {
+        disable(WRITE_DATES_AS_TIMESTAMPS)
+        registerKotlinModule()
+    }
+}
+
+private val json: ObjectMapper by lazy {
+    ObjectMapper(JsonFactory()).apply {
+        disable(WRITE_DATES_AS_TIMESTAMPS)
+        registerKotlinModule()
+    }
+}
+
 /*=================================================================================*/
 
 tasks.register("spg") {
@@ -115,11 +103,12 @@ tasks.register("spg") {
     description = "Show SPG."
     doFirst {
         SPG().run {
-            println(mapper.writeValueAsString(this))
-            println(mapper.writeValueAsString(spd))
+            println(yaml.writeValueAsString(this))
+//            println(yaml.writeValueAsString(spd))
+            println(json.writeValueAsString(this))
+//            println(json.writeValueAsString(spd))
         }
     }
 }
-
 
 /*=================================================================================*/
