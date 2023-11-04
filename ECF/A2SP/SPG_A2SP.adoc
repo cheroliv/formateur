@@ -148,7 +148,7 @@ xref:toc[sommaire]
 * _Application_ : Intervenir précocement en cas d'incendie.
 * _Connaissance_ : Connaître les techniques d'assistance aux personnes en cas d'incendie ou d'autres situations d'urgence.
 * _Application_ : Assister les personnes en cas d'incendie ou d'autres situations d'urgence.
-
+// ajouter francais basiques, tre, anglais, site sensible
 xref:toc[sommaire]
 
 
