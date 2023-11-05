@@ -1,15 +1,8 @@
 = Learning Management System (LMS)
 
-
-== on windows with wsl
-
-link:https://github.com/linkedin/pygradle/[pygradle]
-
-link:https://attx-project.github.io/Building-with-Gradle.html[Building python with Gradle]
-
-link:https://docs.portainer.io/start/install/server/docker/wsl[tuto wsl portainer]
-
 == Mémo python
 link:memo_python.adoc[Mémo python]
 
-== Odon on windows
+== Odoo on windows
+
+
