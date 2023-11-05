@@ -238,7 +238,7 @@ xref:toc[sommaire]
 |            2 jours | Technique de recherche d'emploi (TRE) | Aucun | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche | Problèmes de confiance en soi : prévoir un accompagnement individualisé
 |            2 jours  | Habilitation électrique (H0B0)        | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel électrique | QCM, exercices pratiques | Problèmes de compréhension : prévoir des exercices supplémentaires
 |            2 jours | Sauveteur Secouriste du Travail (SST) | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de secours | QCM, exercices pratiques | Problèmes de coordination : prévoir des exercices plus intenses
-|            13 jours  | SSIAP 1                               | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques | Problèmes de compréhension : prévoir des exercices supplémentaires
+|            13 jours  | SSIAP 1                               | SST et HOB0 | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques | Problèmes de compréhension : prévoir des exercices supplémentaires
 |            1 jour  | Examen blanc                          | Aucun | QCM, exercices pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques | Problèmes de stress : prévoir un accompagnement individualisé
 |==========================================================
 .**Durée de la formation : 210h**
