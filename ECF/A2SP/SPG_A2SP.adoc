@@ -179,7 +179,7 @@ xref:toc[sommaire]
 [[timing]]
 == 8. Durée (Qualiopi)
 
-.Durée de la formation : 209h
+.Durée de la formation : 210h
 * Basiques de communication : 14h
 * ADS : 56 heures + examen
 * Technique de recherche d'emploi : 14h
@@ -229,8 +229,22 @@ xref:toc[sommaire]
 [[prgm]]
 == 10. Programme pédagogique : contenu et séquencement (Qualiopi)
 
+[options="header"]
+.Programme pédagogique
+|==========================================================
+| Jour & durée | Intitulé / objectif                   | Pré-requis / contexte | Modalités pédagogiques | Moyens, supports | Modalité d’évaluations | Constats et remédiations
+|            2 jours  | Basiques de communication             | Aucun | Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques | Problèmes de compréhension : prévoir des exercices supplémentaires
+|            8 jours  | ADS                                   | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques | Problèmes d'application : prévoir des exercices d'application plus concrets
+|            2 jours | Technique de recherche d'emploi (TRE) | Aucun | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche | Problèmes de confiance en soi : prévoir un accompagnement individualisé
+|            2 jours  | Habilitation électrique (H0B0)        | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel électrique | QCM, exercices pratiques | Problèmes de compréhension : prévoir des exercices supplémentaires
+|            2  | Sauveteur Secouriste du Travail (SST) | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de secours | QCM, exercices pratiques | Problèmes de coordination : prévoir des exercices plus intenses
+|            13 jours  | SSIAP 1                               | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques | Problèmes de compréhension : prévoir des exercices supplémentaires
+|            1 jours  | Examen blanc                          | Aucun | QCM, exercices pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques | Problèmes de stress : prévoir un accompagnement individualisé
+|==========================================================
+.**Durée de la formation : 210h**
 
 xref:toc[sommaire]
+
 
 [[eval]]
 == 11. Modalités d’évaluations (Qualiopi)
@@ -247,8 +261,8 @@ xref:toc[sommaire]
 [[place]]
 == 13. Lieux (Qualiopi)
 CFA - Union des travailleurs +
-Boulevard Stalingrad +
-92 Malakoff
+33 boulevard de Stalingrad +
+92240 Malakoff
 
 xref:toc[sommaire]
 
