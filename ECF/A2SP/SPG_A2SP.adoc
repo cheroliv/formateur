@@ -181,6 +181,7 @@ xref:toc[sommaire]
 
 .Durée de la formation : 230h
 * Basiques de communication : 14h
+* Cybersécurité - social engenering
 * ADS : 56 heures + examen
 * Technique de recherche d'emploi : 14h
 * SST : 14h
