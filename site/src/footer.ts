@@ -2,7 +2,7 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "./vite.svg";
 import bootstrapLogo from "./bootstrap.svg";
 
-const hero = () =>
+const footer = () =>
   (document.querySelector<HTMLDivElement>("#hero")!.innerHTML = `
       <div id="stack">
         <a href="https://vitejs.dev" target="_blank">
@@ -23,4 +23,4 @@ const hero = () =>
         </div>
         `);
 
-export default hero;
+export default footer;
