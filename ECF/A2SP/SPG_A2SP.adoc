@@ -230,6 +230,7 @@ xref:toc[sommaire]
 [[prgm]]
 == 10. Programme pédagogique : contenu et séquencement (Qualiopi)
 
+// Ancien
 // [options="header"]
 // .Programme pédagogique
 // |==========================================================
@@ -248,35 +249,21 @@ xref:toc[sommaire]
 [options="header"]
 .Programme pédagogique
 |==========================================================
-| Jour & durée | Intitulé / objectif | Pré-requis / contexte | Modalités pédagogiques | Moyens, supports | Modalité d’évaluations | Constats et remédiations
-| 2 jours      | Basiques de communication | Aucun | Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques | Problèmes de compréhension : prévoir des exercices supplémentaires
-| 2 jours      | Anglais| TOEIC 200 |Exercices, jeux de rôle|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques|Problèmes de compréhension : prévoir des exercices supplémentaires
-| 1 jour       | Inclusion et lutte contre les discriminations| Aucun | Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  ||
-| 8 jours      | ADS                                   | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques | Problèmes d'application : prévoir des exercices d'application plus concrets
-| 2 jours      | Technique de recherche d'emploi (TRE) | Aucun | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche | Problèmes de confiance en soi : prévoir un accompagnement individualisé
-| 2 jours      | Habilitation électrique (H0B0)        | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel électrique | QCM, exercices pratiques | Problèmes de compréhension : prévoir des exercices supplémentaires
-| 2 jours      | Sauveteur Secouriste du Travail (SST) | Aucun | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de secours | QCM, exercices pratiques | Problèmes de coordination : prévoir des exercices plus intenses
-| 5 jours      | stage sureté |||||
-| 13 jours     | SSIAP 1                               | SST et HOB0 | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques | Problèmes de compréhension : prévoir des exercices supplémentaires
-| 5 jours      | stage sécu incendie|||||
-| 1 jour  | Examen blanc A2SP                         | Aucun | QCM, exercices pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques | Problèmes de stress : prévoir un accompagnement individualisé
+| Jour & durée | Intitulé / objectif |  Modalités pédagogiques | Moyens, supports | Modalité d’évaluations
+| 2 jours      | *Basiques de communication* |  Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques
+| 2 jours      | *Anglais* (_Pré-requis: TOEIC 200_)|  Exercices, jeux de rôle|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques
+| 1/2 jours    | *Inclusion numérique* | Resources en ligne|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques
+| 1 jour       | *Inclusion et lutte contre les discriminations*| Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  |QCM, exercices pratiques
+| 8 jours      | *Agent De Sureté (ADS)*                                   | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques
+| 2 jours      | *Technique de recherche d'emploi (TRE)* | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche
+| 2 jours      | *Habilitation électrique (H0B0)*        | Cours magistral, travaux pratiques | Salle de formation équipée, matériel électrique | QCM, exercices pratiques
+| 2 jours      | *Sauveteur Secouriste du Travail (SST)* | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de secours | QCM, exercices pratiques
+| 5 jours      | *stage sureté* |||
+| 13 jours     | *SSIAP 1* (_Pré-requis: SST et HOB0_) | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques
+| 5 jours      | *stage sécu incendie*|||
+| 1 jour       | *Examen blanc A2SP*                         | QCM, exercices pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques
 |==========================================================
 .**Durée de la formation : 210h**
-
-// [options="header"]
-// |===================================================
-// | Thématique | Sujet | Modalité | Durée
-// |Basiques de communication|Le registre professionnel de communication dans la sécurité|Exercices, jeux de rôle|2 jours
-//  1 jour
-// |Agent de Sureté(ADS)|Sureté des biens et personnes|Cours magistral, travaux pratiques|8 jours
-// |Technique de recherche d’emploi (TRE)|CV, Lettre de motivation et réponse à une offre d'emploi|Ateliers, simulations| 2 jours
-// |Habilitation électrique (H0B0)|Sécurité des opérations simples d’ordre non électrique dans un environnement électrique| Cours magistral, travaux pratiques| 2 jours
-// |Sauveteur Secouriste du Travail (SST)|prévention des risques professionnels dans l’entreprise et intervenir efficacement face à une situation d’accident du travail|Cours magistral, travaux pratiques| 2 jours
-// |SSIAP 1|Sécurité incendie et assistance à personne|Cours magistral, travaux pratiques| 13 jours
-// |Examen blanc||| 1 jours
-// |===================================================
-// .**Durée de la formation : 210h**
-
 
 xref:toc[sommaire]
 

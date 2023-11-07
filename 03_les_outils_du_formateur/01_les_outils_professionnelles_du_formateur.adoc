@@ -5,6 +5,12 @@ link:../README.adoc#toc[Table des matieres] +
 link:Seance_4_Presentation.pdf[Séance 4 Presentation]
 
 
+== Compétences numériques
+
+link:https://pix.fr/[site pix]
+
+
+
 == Supports
 * Discord
 * social networks
