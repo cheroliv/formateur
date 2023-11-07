@@ -181,7 +181,7 @@ xref:toc[sommaire]
 
 .Durée de la formation : 230h
 * Basiques de communication : 14h
-* Cybersécurité - social engenering
+* Cybersécurité - social engineering
 * ADS : 56 heures + examen
 * Technique de recherche d'emploi : 14h
 * SST : 14h
@@ -249,19 +249,21 @@ xref:toc[sommaire]
 [options="header"]
 .Programme pédagogique
 |==========================================================
-| Jour & durée | Intitulé / objectif |  Modalités pédagogiques | Moyens, supports | Modalité d’évaluations
-| 2 jours      | *Basiques de communication* |  Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques
-| 2 jours      | *Anglais* (_Pré-requis: TOEIC 200_)|  Exercices, jeux de rôle|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques
-| 1/2 jours    | *Inclusion numérique* | Resources en ligne|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques
-| 1 jour       | *Inclusion et lutte contre les discriminations*| Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  |QCM, exercices pratiques
-| 8 jours      | *Agent De Sureté (ADS)*                                   | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques
-| 2 jours      | *Technique de recherche d'emploi (TRE)* | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche
-| 2 jours      | *Habilitation électrique (H0B0)*        | Cours magistral, travaux pratiques | Salle de formation équipée, matériel électrique | QCM, exercices pratiques
-| 2 jours      | *Sauveteur Secouriste du Travail (SST)* | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de secours | QCM, exercices pratiques
-| 5 jours      | *stage sureté* |||
-| 13 jours     | *SSIAP 1* (_Pré-requis: SST et HOB0_) | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques
-| 5 jours      | *stage sécu incendie*|||
-| 1 jour       | *Examen blanc A2SP*                         | QCM, exercices pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques
+| Intitulé / objectif |  Modalités pédagogiques | Moyens, supports | Modalité d’évaluations| Jour & durée
+| *Basiques de communication* |  Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques| 2 jours
+| *Anglais* (_Pré-requis : TOEIC 200_)|  Exercices, jeux de rôle|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques| 2 jours
+| *Inclusion numérique* | Resources en ligne|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques| 1/2 jours
+| *Inclusion sociétale et lutte contre les discriminations*| Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  |QCM, exercices pratiques| 1 jour
+| *Agent De Sureté (ADS)*                                   | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 8 jours
+| *Examen PIX*|||| 1/2 jours
+| *Technique de recherche d'emploi (TRE)* | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche| 2 jours
+| *Habilitation électrique (H0B0)*        | Cours magistral, travaux pratiques | Salle de formation équipée, matériel électrique | QCM, exercices pratiques| 2 jours
+| *Sauveteur Secouriste du Travail (SST)* | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de secours | QCM, exercices pratiques| 2 jours
+| *Stage sureté* |||| 5 jours
+| *SSIAP 1* (_Pré-requis : SST et HOB0_) | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 13 jours
+| *Stage sécu incendie*|||| 5 jours
+| *Examen blanc A2SP*                         | QCM, exercices pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 1 jour
+| | | | **Duréé total**| 1 jour
 |==========================================================
 .**Durée de la formation : 210h**
 
