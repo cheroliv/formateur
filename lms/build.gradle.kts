@@ -105,7 +105,7 @@ tasks.register("spg") {
         SPG().run {
             println(yaml.writeValueAsString(this))
 //            println(yaml.writeValueAsString(spd))
-            println(json.writeValueAsString(this))
+//            println(json.writeValueAsString(this))
 //            println(json.writeValueAsString(spd))
         }
     }
