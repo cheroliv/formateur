@@ -73,7 +73,7 @@ data class SPG(
 )
 
 /**
- * SPD: Scénario Pédagogique Détaillé
+ * SPD : Scénario Pédagogique Détaillé
  */
 data class SPD(
     val titre: String = "",
