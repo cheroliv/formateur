@@ -1,4 +1,4 @@
-= Scénario pédagogique global (SPG): A2SP - AGENT(E) DE SÛRETE ET DE SECURITE PRIVEE
+= Scénario pédagogique global (SPG) : A2SP - AGENT(E) DE SÛRETÉ ET DE SÉCURITÉ PRIVÉE
 
 [[toc]]
 .*Sommaire*
