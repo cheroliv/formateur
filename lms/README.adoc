@@ -5,7 +5,12 @@ link:memo_python.adoc[Mémo python]
 
 == Odoo on windows
 
-postgres info : +
+https://www.odoo.com/documentation/17.0/administration/install/source.html
+
+=== install local
+
+==== postgres info
+
 data directory = C:\Program Files\PostgreSQL\16\data
 
 
