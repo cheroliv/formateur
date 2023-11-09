@@ -1,1 +1,40 @@
-=
+= Design system - Personal branding
+
+== ❖ Trouvez une marque et définissez son identité visuelle.
+.Voici quelques questions qui peuvent vous aider à la définir
+* Quel est le style de la marque ?
+* Quelles sont les couleurs utilisées par la marque ?
+* Quels sont les éléments graphiques utilisés par la marque ?
+
+**Marque: Odoo**
+
+=== Quel est le style de la marque ?
+=== Quelles sont les couleurs utilisées par la marque ?
+[options="header"]
+|==========================
+| Name            | HEX
+| Primary         | #714B67
+| Gray            | #8F8F8F
+| Secondary       | #017E84
+| Secondary Light | #00A09D
+| Text            | #21272B
+|==========================
+
+
+
+La couleur #714B67 est un marron rougeâtre. Elle est souvent associée à la nature, à la terre et à la sécurité. Elle peut également être associée à la passion, à l'énergie et à la créativité. Dans le personal branding, cette couleur peut être utilisée pour véhiculer un message de confiance, de stabilité et d'authenticité.
+
+
+La couleur #8F8F8F, également connue sous le nom de gris clair, est une couleur neutre qui peut être utilisée pour créer un sentiment de calme, de tranquillité et de professionnalisme. Elle est souvent associée à la stabilité, à la fiabilité et à la crédibilité.
+
+Dans le personal branding, la couleur #8F8F8F peut être utilisée pour créer un sentiment de confiance et d'autorité. Elle peut également être utilisée pour créer un sentiment de calme et de paix, ce qui peut être utile pour les professionnels qui travaillent dans des industries où le stress est élevé.
+
+La couleur #017E84, également connue sous le nom de bleu turquoise, est une couleur audacieuse et dynamique qui peut être utilisée pour créer un sentiment d'énergie et de créativité. Elle est souvent associée à la nature, à la mer et au ciel.
+
+Dans le personal branding, la couleur #017E84 peut être utilisée pour créer une image de marque forte et distinctive. Elle peut être utilisée pour :
+
+Exprimer la créativité et l'innovation
+Créer un sentiment d'énergie et de dynamisme
+Associer la marque à la nature et à l'environnement
+
+=== Quels sont les éléments graphiques utilisés par la marque ?

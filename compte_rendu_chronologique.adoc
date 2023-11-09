@@ -395,7 +395,16 @@ Formateur : Magalie
 
 .matin Numerique - PIX
 
-.apres-midi
+.apres-midi PIX
+
+
+== 08/11/2023
+
+Formateur : Sandra
+
+.matin design system - personal branding
+
+.apres-midi design system - personal branding
 
 
 
