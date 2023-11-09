@@ -1,5 +1,9 @@
 = Design system - Personal branding
 
+
+Présentation théorique : link:Limage_de_marque_professionnelle.pdf[L'image de marque professionnelle]
+
+
 == ❖ Trouvez une marque et définissez son identité visuelle.
 .Voici quelques questions qui peuvent vous aider à la définir
 * Quel est le style de la marque ?
@@ -38,3 +42,4 @@ Créer un sentiment d'énergie et de dynamisme
 Associer la marque à la nature et à l'environnement
 
 === Quels sont les éléments graphiques utilisés par la marque ?
+
