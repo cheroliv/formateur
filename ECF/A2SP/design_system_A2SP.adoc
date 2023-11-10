@@ -1,7 +1,9 @@
 = Design system A2SP
 
 == Logo
+
 Hibou de Athena
+
 image::img/LogoSample_ByTailorBrands.jpg[Talaria-sécurité]
 
 == Couleurs
