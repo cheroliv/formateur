@@ -11,3 +11,62 @@ Original file is located at
 """
 
 print("Hello")
+
+"""# formateur numerique"""
+
+
+class SPD:
+    def __init__(self, titre="", objectif=""):
+        self.titre = titre
+        self.objectif = objectif
+
+
+class Formation:
+    def __init__(self, nom, spg):
+        self.nom = nom
+        self.spg = spg
+
+
+class SPG:
+    def __init__(self, spd=SPD(), content=None):
+        self.spd = spd
+        self.content = content or [
+            ("theme", "Thème", "theme"),
+            ("title", "Titre", "titre"),
+            ("prez", "Présentation et description", "presentation"),
+            ("mindmap", "Carte thématique", "mindmap"),
+            ("public", "Public", "publicProspect"),
+            ("prerequiz", "Pré-requis et conditions d’accès à la formation (Qualiopi)", "prerequiz"),
+            ("objs", "Objectifs pédagogiques (Qualiopi)", "objs"),
+            ("competences", "Compétences visées (Qualiopi)", "competences"),
+            ("timing", "Durée (Temporisation)] (Qualiopi)", "timing"),
+            ("means", "Moyen d’accompagnement et Suivi pédagogique (Qualiopi)", "means"),
+            (
+                "prgm",
+                "Programme pédagogique (Modalités pédagogiques)] (Qualiopi) : du contenu et du séquencement",
+                "prgm"
+            ),
+            ("eval", "Modalités d’évaluations] (Qualiopi)", "eval"),
+            ("certif", "Modalités de certification et Certification visé] (Qualiopi)", "certif"),
+            ("place", "Lieux] (Qualiopi)", "place"),
+            ("price", "Tarifs", "price"),
+            ("infra", "Moyens logistiques et matériels] (Qualiopi)", "infra"),
+            ("pursuit", "Poursuite en formation] (Qualiopi)", "pursuit"),
+            ("access_time", "Délais d’accès] (Réglementaire)", "accessTime"),
+            ("mobility", "Accessibilité et Handicap] (Qualiopi)", "mobility"),
+            ("testimony", "Témoignage Evaluation de la formation] (Qualiopi)", "testimony"),
+            ("testimony_customer", "Témoignage apprenant/commanditaire", "testimonyCustomer")
+        ]
+
+
+"""# Exemple d'utilisation"""
+
+spd_instance = SPD(titre="Titre du SPD", objectif="Objectif du SPD")
+spg_instance = SPG(spd=spd_instance)
+
+formation_instance = Formation(nom="Nom de la formation", spg=spg_instance)
+
+"""# Accès aux propriétés"""
+
+print(formation_instance.nom)
+print(formation_instance.spg.spd.titre)
