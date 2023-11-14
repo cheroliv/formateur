@@ -1,0 +1,36 @@
+= MOOC
+
+https://fr.wikipedia.org/wiki/Massive_open_online_course[Quézako]
+
+== Technos
+
+https://www.claroline.com/logiciel-libre
+
+https://learnybox.com/
+
+
+
+== Qualiopi
+
+https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation[qualiopi marque de certification qualite des prestataires de formation]
+
+link:https://euroscola.fr/quest-ce-que-la-certification-qualiopi/[Qu'est-ce que la certification qualiopi]
+
+document link:analyse_qualiopi.odt[analyse qualiopi]
+
+=== Mise en pratique : Francilin
+
+todo: mettre photo de l'enoncé
+
+liens:
+https://www.cpjeps.com/emploi-cpjeps/
+
+https://www.afmae.fr/form_continue/agent-de-surete-et-de-securite-privee-a2sp/
+
+https://alaji.fr/titre-professionnel-agent-de-surete-et-de-securite-privee-tp-a2sp/
+
+==== couleur
+
+https://coolors.co/visualizer/6e314a-4da30f-28518a-9ac3fc-405731
+
+

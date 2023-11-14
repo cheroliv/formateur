@@ -23,6 +23,8 @@
 . xref:mobility[Accessibilité et Handicap] (Qualiopi)
 . xref:testimony[Témoignage Evaluation de la formation] (Qualiopi)
 . xref:testimony_customer[Témoignage apprenant/commanditaire]
+. xref:links_benchmark[liens et benchmark]
+
 
 .Réfèrence :
 * link:https://www.afpa.fr/formation-qualifiante/agent-de-surete-et-de-securite-privee[A2SP AFPA]
@@ -329,3 +331,14 @@ xref:toc[sommaire]
 Le site internet du centre de formation met à disposition les retours d'experiencess d'apprenants et commanditaire pour leurs équipes.
 
 xref:toc[sommaire]
+
+
+[[links_benchmark]]
+
+== 21. Liens et benchmark
+
+https://www.irfa-formation.fr/formation/agent-de-surete-et-de-securite-privee-a2sp
+
+https://www.afmae.fr/form_continue/agent-de-surete-et-de-securite-privee-a2sp/
+
+
