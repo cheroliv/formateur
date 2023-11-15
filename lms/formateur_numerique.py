@@ -9,12 +9,12 @@ Original file is located at
     https://colab.research.google.com/drive/1rtSMO5uf_CwJI5RDuoS9VpIA8Hi-kaa6
 
 # Ma premiere commande python
-## Salut World
+## Afficher Formateur numérique
 """
 
-print("Hello")
+print("Formateur numérique")
 
-"""# formateur numerique"""
+"""# formateur numérique"""
 
 
 class SPD:
@@ -29,7 +29,7 @@ class Formation:
         self.spg = spg
 
 
-spg_content = [
+default_spg_content = [
     ("theme", "Thème", "theme"),
     ("title", "Titre", "titre"),
     ("prez", "Présentation et description", "presentation"),
@@ -61,7 +61,7 @@ spg_content = [
 class SPG:
     def __init__(self, spd=SPD(), content=None):
         self.spd = spd
-        self.content = content or spg_content
+        self.content = content or default_spg_content
 
 
 """# Exemple d'utilisation"""
@@ -73,15 +73,11 @@ formation_instance = Formation(nom="Nom de la formation", spg=spg_instance)
 
 """# Accès aux propriétés"""
 
-print(formation_instance.nom)
-print(formation_instance.spg.spd.titre)
+assert (formation_instance.nom == "Nom de la formation")
+assert (formation_instance.spg.spd.titre == "Titre du SPD")
 
-# Instanciation de l'objet SPG
-spd_instance = SPD(titre="Titre du SPD", objectif="Objectif du SPD")
-spg_instance = SPG(spd=spd_instance)
-
-# Conversion de l'objet SPG en format YAML
+"""# Conversion de l'objet SPG en format YAML"""
 spg_yaml = yaml.dump(spg_instance.__dict__, default_flow_style=False)
 
-# Affichage du résultat
-print(spg_yaml)
+"""# Affichage du résultat"""
+print(f"SPG {spg_yaml}")
