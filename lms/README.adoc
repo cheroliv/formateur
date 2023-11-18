@@ -1,7 +1,7 @@
 = Learning Management System (LMS)
 
 == Mémo python
-link:memo_python.adoc[Mémo python]
+link:https://cheroliv.github.io/blog/2023/0066_memo_python_post.html[Mémo python]
 
 == Odoo on windows
 
