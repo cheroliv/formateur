@@ -249,7 +249,7 @@ xref:toc[sommaire]
 | *Stage sureté* |||| 5 jours
 | *SSIAP 1* (_Pré-requis : SST et HOB0_) | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 13 jours
 | *Stage sécu incendie*|||| 5 jours
-| *Examen blanc A2SP*                         | QCM, exercices pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 1 jour
+| *Examen blanc A2SP*                         | | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques et présentation du dossier professionnel devant un jury interne.| 1 jour
 | | | | **Duréé total**| 1 jour
 |==========================================================
 .**Durée de la formation : 210h**
