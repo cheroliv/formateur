@@ -26,3 +26,14 @@ le rapport traite aussi de comment les elements qui ont retenu mon attention, so
 
 
 
+== Mon style pedagogique
+
+donné a l IA bard : +
+Développement de mon style pédagogique
+Introduction : Ce premier cours se focalise sur l'introduction à l'histoire de la pédagogie et de l'andragogie. L'objectif principal est de vous encourager à élaborer une synthèse de votre style pédagogique. Cette synthèse sera basée sur votre sensibilité personnelle et votre compréhension des divers courants et pédagogues abordés.
+Consignes de Rédaction : Vous êtes invités à rédiger un texte d'une longueur variant entre une et deux pages. Dans ce texte, vous devrez présenter le style pédagogique auquel vous vous identifiez le plus et expliquer pourquoi vous pensez qu'il correspond à votre approche personnelle de l'enseignement.
+Points à Aborder :
+Identification de votre style pédagogique : Décrivez le style ou la méthode d'enseignement avec laquelle vous ressentez une affinité parmi les pédagogies évoqués en cours. Expliquez en détail pourquoi ce style spécifique résonne avec vous.
+Motivations personnelles/professionnelles : Exprimez vos motivations personnelles en lien avec ce style pédagogique. Qu'est-ce qui, dans votre caractère ou vos expériences, vous attire vers ce mode d'enseignement ?
+Références aux pédagogues : Illustrez votre choix en faisant référence à des pédagogues spécifiques mentionnés durant le cours. Expliquez comment leurs idées et méthodes influencent votre vision de l'enseignement.
+moi j'aime le developement logiciel, les methodes agiles le TDD, peer programming, methode active pour le coté collaboratif, mais aussi methode formative pour passer de la theorie academique. j'aime aussi dans le cadre de mon projet de creation d'un oganisme formateur, la securité incendie et sureté, l'inclusion numérique, les actions de retour a l'emploi rapide ainsi que les dynamiques d'insertion professionnelle.
