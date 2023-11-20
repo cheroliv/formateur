@@ -294,6 +294,53 @@ xref:toc[sommaire]
 [[infra]]
 == 15. Moyens logistiques et matériels (Qualiopi)
 
+=== Logistique
+
+* **Salle de formation**
+* Surface : au moins 20 m² par apprenant
+* Mobilier confortable
+* Système de projection et d'équipement audio
+
+* **Matériel pédagogique**
+* Supports de cours adaptés aux besoins des apprenants et aux objectifs de la formation
+* Exercices et évaluations adaptés aux besoins des apprenants et aux objectifs de la formation
+
+* **Accès aux ressources**
+* Bibliothèque
+* Laboratoire de sécurité incendie
+* Espace numérique de travail
+
+=== Matériels
+
+* **Équipements de sécurité incendie**
+* Extincteurs de type A, B, C et D
+* Détecteurs de fumée
+* Alarmes incendie
+* Portes coupe-feu
+* Issues de secours
+
+* **Matériel de simulation**
+* Extincteurs
+* Feux de camp
+* Mannequins de secourisme
+* Simulateur d'évacuation
+
+=== Exigences spécifiques du titre A2SP du RNCP
+
+* **Salle de formation**
+* Système de désenfumage
+* Système de détection d'incendie
+
+* **Matériel pédagogique**
+* Supports de cours conformes aux référentiels de compétences du titre A2SP
+
+* **Matériel de simulation**
+* Permet aux apprenants de mettre en pratique les compétences suivantes :
+* La prévention des incendies
+* L'extinction des incendies
+* Le sauvetage et le secours
+* La gestion des situations d'urgence
+
 
 xref:toc[sommaire]
 
