@@ -1,0 +1,28 @@
+= Salon Educatech 2023 et essaie sur mon style de pedagogue
+
+rapport de sortie pedagogique et mise en relation avec le projet pro.
+
+
+prompt IA Bard : +
+le vendredi 17 novembre 2023, je me suis rendu au salon educatech à Paris, porte de Versailles.
+voici ce qui a retenu mon attention:
+
+ecole futee - ecolee-futee.com
+spicee.com
+le projet bien à l'ecole
+les solutions de client lourd de query-informatique
+humanum canope taralare.com
+citizencode.net
+diagoriente.beta.gouv
+ludomag.com
+log'issimo du groupe laposte
+le projet édito de short-edition.com
+pronote et docaposte
+smartintegrationsmag.com
+orthographiq.com
+
+ecris moi un rapport de sortie formater en asciidoc.
+le rapport traite aussi de comment les elements qui ont retenu mon attention, sont interressante quand a mon projet de création d'organisme de formation dans la thématique de l'inclusion numérique, la securité et sureté incendie ainsi que le developpement logiciel, design system, les réseau et la cybersecurité.
+
+
+
