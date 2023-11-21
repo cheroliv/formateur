@@ -224,7 +224,7 @@ Formation multi-modulaire, individualisée, accompagnement personnalisé
 - Des salles informatiques offrant l’accès à des plateformes numériques en ligne pour les professionnels de la securité
 - Matériel audio-visuel : caméscope, vidéo projecteur...
 - Ressources documentaires
-- Plateau technique dédié qui reconstitue les conditions de réalisation des gestes professionnels; conforme aux RC des TP et CQP
+- Plateau technique dédié qui reconstitue les conditions de réalisation des gestes professionnels ; conforme aux RC (Référentiels de Compétences) du TP (Titre Professionnel) et CQP (Certificat de Qualification Professionnelle)
 
 .Équipe pédagogique
 * Responsable pédagogique : John Doe, jdoe@acme.com, 0607080910
