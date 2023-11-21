@@ -185,13 +185,13 @@ xref:toc[sommaire]
 .Durée
 |==========================================================
 | Intitulé | durée
-| *Basiques de communication* | 2 jours et demi
+| *Basiques de communication* | 2,5 jours
 | *Anglais* | 2 jours
 | *Inclusion numérique & cybersécurité* | 1 jour
-| *Inclusion sociétale & lutte contre les discriminations*| 1 demi journée
+| *Inclusion sociétale & lutte contre les discriminations*| 1/2 jour
 | *Agent De Sureté (ADS)* | 9 jours
 | *Examen PIX* | 1/2 jours
-| *Technique de recherche d'emploi (TRE)* | 2 et demi jours
+| *Technique de recherche d'emploi (TRE)* | 2,5 jours
 | *Habilitation électrique (H0B0)* | 2 jours
 | *Sauveteur Secouriste du Travail (SST)* | 2 jours
 | *Stage sureté* | 5 jours
@@ -251,22 +251,23 @@ xref:toc[sommaire]
 .Programme pédagogique
 |==========================================================
 | Intitulé / objectif |  Modalités pédagogiques | Moyens, supports | Modalité d’évaluations| Jour & durée
-| *Basiques de communication* |  Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques| 2 jours et demi
+| *Basiques de communication* |  Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques| 2,5 jours
 | *Anglais* (_Pré-requis : TOEIC 200_)|  Exercices, jeux de rôle|Salle de formation équipée d'ordinateur et accès internet|QCM, exercices pratiques| 2 jours
-| *Inclusion numérique & cybersécurité* | Resources en ligne|Salle de formation équipée d'ordinateur et accès internet|QCM, exercices pratiques| 1 jours
-| *Inclusion sociétale & lutte contre les discriminations*| Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  |QCM, exercices pratiques| 1 jour
+| *Inclusion numérique & cybersécurité* | Resources en ligne|Salle de formation équipée d'ordinateur et accès internet|QCM, exercices pratiques| 1 jour
+| *Inclusion sociétale & lutte contre les discriminations*| Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  |QCM, exercices pratiques| 1/2 jour
 | *Agent De Sureté (ADS)*                                   | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 9 jours
 | *Examen PIX*|||| 1/2 jours
-| *Technique de recherche d'emploi (TRE)* | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche| 2 jours
+| *Technique de recherche d'emploi (TRE)* | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche| 2,5 jours
 | *Habilitation électrique (H0B0)*        | Cours magistral, travaux pratiques | Salle de formation équipée, matériel électrique | QCM, exercices pratiques| 2 jours
 | *Sauveteur Secouriste du Travail (SST)* | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de secours | QCM, exercices pratiques| 2 jours
 | *Stage sureté* |||| 5 jours
 | *SSIAP 1* (_Pré-requis : SST et HOB0_) | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 14 jours
 | *Stage sécu incendie*|||| 5 jours
 | *Examen blanc A2SP*                         | | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques et présentation du dossier professionnel devant un jury interne.| 1 jour
-| | | | **Duréé total**| 1 jour
+| | | | **Duréé total**| 47 jours
 |==========================================================
-.**Durée de la formation : 210h**
+.**Durée totale de la formation : 329 h**
+(70h en stage)
 
 xref:toc[sommaire]
 
