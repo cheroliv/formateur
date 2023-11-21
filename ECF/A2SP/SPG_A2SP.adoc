@@ -237,10 +237,10 @@ xref:toc[sommaire]
 .Programme pédagogique
 |==========================================================
 | Intitulé / objectif |  Modalités pédagogiques | Moyens, supports | Modalité d’évaluations| Jour & durée
-| *Basiques de communication* |  Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques| 2 jours
+| *Basiques de communication* |  Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques| 3 jours
 | *Anglais* (_Pré-requis : TOEIC 200_)|  Exercices, jeux de rôle|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques| 2 jours
-| *Inclusion numérique* | Resources en ligne|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques| 1/2 jours
-| *Inclusion sociétale et lutte contre les discriminations*| Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  |QCM, exercices pratiques| 1 jour
+| *Inclusion numérique & cybersécurité* | Resources en ligne|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques| 1 jours
+| *Inclusion sociétale & lutte contre les discriminations*| Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  |QCM, exercices pratiques| 1 jour
 | *Agent De Sureté (ADS)*                                   | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 8 jours
 | *Examen PIX*|||| 1/2 jours
 | *Technique de recherche d'emploi (TRE)* | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche| 2 jours
