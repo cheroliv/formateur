@@ -184,7 +184,7 @@ xref:toc[sommaire]
 [options="header"]
 .Durée
 |==========================================================
-| Intitulé | durée
+| Séquence | durée
 | *Basiques de communication* | 2,5 jours
 | *Anglais* | 2 jours
 | *Inclusion numérique & cybersécurité* | 1 jour
