@@ -294,7 +294,7 @@ xref:toc[sommaire]
 
 [[place]]
 == 13. Lieux (Qualiopi)
-Centre de formation - Union des travailleurs +
+Centre de formation Talaria +
 33 boulevard de Stalingrad +
 92240 Malakoff
 
@@ -375,15 +375,15 @@ xref:toc[sommaire]
 
 [[mobility]]
 == 18. Accessibilité et Handicap (Qualiopi)
-L'accessibilité est un sujet que nous favorisons, en préparant l'accès en formation aux apprenants avec des handicaps. Nous étudions individuellement avec notre référant les possibilités d'inclusion et d'insertion dans le domain professionnel de la sécurité et sureté. +
-Notre référant handicape est à votre disposition pour toutes demandes sur l'accessibilité et l'employabilité des personnes en hadicapes
+L'accessibilité et l'égalité devant l'emploi sont des sujets que nous favorisons, en préparant l'accès en formation aux apprenants avec handicaps. Nous étudions individuellement avec notre référant les possibilités d'inclusion et d'insertion dans le domain professionnel de la sécurité et sureté. +
+Notre référant handicap est à votre disposition pour toutes demandes sur l'accessibilité et l'employabilité des personnes en handicap.
 
 xref:toc[sommaire]
 
 [[testimony]]
 == 19. Témoignages évaluation de la formation (Qualiopi)
 
-Apres la formation, nous recueillons les avis et impressions des apprenants sur la formation, dans un soucis d'amélioration continue, transparence avec l'organisme financeur et suivie d'activité professionnelle de l'apprenant.
+Apres la formation, nous recueillons les avis et impressions des apprenants sur la formation, dans un souci d'amélioration continue, transparence avec l'organisme financeur et suivie d'activité professionnelle de l'apprenant.
 
 xref:toc[sommaire]
 
