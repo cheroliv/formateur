@@ -145,12 +145,14 @@ xref:toc[sommaire]
 * Connaître les procédures d'alerte et d'accueil des secours en cas d'incendie.
 * Alerter et accueillir les secours en cas d'incendie.
 * Connaître les procédures d'évacuation du public en cas d'incendie.
-* Evacuer le public en cas d'incendie.
+* Évacuer le public en cas d'incendie.
 * Connaître les techniques d'intervention précoce en cas d'incendie.
 * Intervenir précocement en cas d'incendie.
 * Connaître les techniques d'assistance aux personnes en cas d'incendie ou d'autres situations d'urgence.
 * Assister les personnes en cas d'incendie ou d'autres situations d'urgence.
 // ajouter francais basiques, tre, anglais, site sensible
+
+// Ajoutez une section sur les techniques de protection des informations sensibles. Cela peut inclure des informations sur les différentes mesures de sécurité, telles que la confidentialité ou la sécurisation des données.
 
 xref:toc[sommaire]
 
@@ -184,7 +186,7 @@ xref:toc[sommaire]
 [options="header"]
 .Durée
 |==========================================================
-| Séquence | durée
+| Séquences | durée
 | *Basiques de communication* | 2,5 jours
 | *Anglais* | 2 jours
 | *Inclusion numérique & cybersécurité* | 1 jour
