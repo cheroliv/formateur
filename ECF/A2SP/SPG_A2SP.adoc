@@ -181,39 +181,28 @@ xref:toc[sommaire]
 [[timing]]
 == 8. Durée (Qualiopi)
 
-.Durée de la formation : 230h
-* Basiques de communication : 14h
-* Cybersécurité - social engineering
-* ADS : 56 heures + examen
-* Technique de recherche d'emploi : 14h
-* SST : 14h
-* BS-BE manoeuvre : 14h
-* SSIAP 1 : 90 heures + examen
-* examen blanc : 7h
-
-
-
-
 [options="header"]
 .Durée
 |==========================================================
-| Intitulé / objectif | Jour & durée
+| Intitulé | durée
 | *Basiques de communication* | 2 jours et demi
 | *Anglais* | 2 jours
-| *Inclusion numérique & cybersécurité* | 1 jours
-| *Inclusion sociétale & lutte contre les discriminations*| Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  |QCM, exercices pratiques| 1 jour
-| *Agent De Sureté (ADS)*                                   | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 9 jours
-| *Examen PIX*|||| 1/2 jours
-| *Technique de recherche d'emploi (TRE)* | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche| 2 jours
-| *Habilitation électrique (H0B0)*        | Cours magistral, travaux pratiques | Salle de formation équipée, matériel électrique | QCM, exercices pratiques| 2 jours
-| *Sauveteur Secouriste du Travail (SST)* | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de secours | QCM, exercices pratiques| 2 jours
-| *Stage sureté* |||| 5 jours
-| *SSIAP 1* (_Pré-requis : SST et HOB0_) | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 14 jours
-| *Stage sécu incendie*|||| 5 jours
-| *Examen blanc A2SP*                         | | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques et présentation du dossier professionnel devant un jury interne.| 1 jour
-| | | | **Duréé total**| 1 jour
+| *Inclusion numérique & cybersécurité* | 1 jour
+| *Inclusion sociétale & lutte contre les discriminations*| 1 demi journée
+| *Agent De Sureté (ADS)* | 9 jours
+| *Examen PIX* | 1/2 jours
+| *Technique de recherche d'emploi (TRE)* | 2 et demi jours
+| *Habilitation électrique (H0B0)* | 2 jours
+| *Sauveteur Secouriste du Travail (SST)* | 2 jours
+| *Stage sureté* | 5 jours
+| *SSIAP 1* | 14 jours
+| *Stage sécu incendie*| 5 jours
+| *Examen blanc A2SP* | 1 jour
+| _**Durée totale**_| 47 jours
 |==========================================================
-.**Durée de la formation : 210h**
+
+.**Durée totale de la formation : 329h**
+(70h en stage)
 
 
 xref:toc[sommaire]

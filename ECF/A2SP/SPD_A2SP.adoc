@@ -1,13 +1,21 @@
 = Scénario pédagogique détaillé (SPD) : A2SP - AGENT(E) DE SÛRETÉ ET DE SÉCURITÉ PRIVÉE
 
-SPD du controle d'accées sur 2 jours
-1 er jours theorie et legislation// communication au talkie walkie
+SPD du controle d'accès sur 2 jours
+1ᵉʳ jours théorie et legislation// communication au talkiewalkie
 
-2 en jour mise en situation d'un point de controle d'acces
+2 jours, mise en situation d'un point de controle d'accès
 
 
-Activités types :
+.*Activités types :*
+Assurer une prestation de surveillance humaine dans
+une démarche d’amélioration continue de la sécurité.
 
+._Compétences professionnelles :_
+- FICHE COMPÉTENCE PROFESSIONNELLE N° 1
+Assurer un accueil physique et téléphonique de qualité en sécurité privée
+- FICHE COMPÉTENCE PROFESSIONNELLE N° 2
+Contrôler l’accès à l’aide de dispositifs technologiques et de matériels de
+détection
 
 
 
