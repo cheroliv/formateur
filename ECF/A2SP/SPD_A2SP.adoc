@@ -10,6 +10,10 @@ Activités types :
 
 
 
+
+// ,,Jour & durée,Intitulé / objectif,Pré-requis / contexte,Modalités pédagogiques,"Moyens, supports",Modalité d’évaluations,Constats et remédiations
+
+
 // [[toc]]
 // .*Sommaire*
 // . xref:theme[Thème]
