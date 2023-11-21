@@ -237,17 +237,17 @@ xref:toc[sommaire]
 .Programme pédagogique
 |==========================================================
 | Intitulé / objectif |  Modalités pédagogiques | Moyens, supports | Modalité d’évaluations| Jour & durée
-| *Basiques de communication* |  Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques| 3 jours
+| *Basiques de communication* |  Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs | QCM, exercices pratiques| 2 jours et demi
 | *Anglais* (_Pré-requis : TOEIC 200_)|  Exercices, jeux de rôle|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques| 2 jours
 | *Inclusion numérique & cybersécurité* | Resources en ligne|Salle de formation équipée d'ordinateur et accés internet|QCM, exercices pratiques| 1 jours
 | *Inclusion sociétale & lutte contre les discriminations*| Exercices, jeux de rôle | Salle de formation équipée, vidéoprojecteur, ordinateurs  |QCM, exercices pratiques| 1 jour
-| *Agent De Sureté (ADS)*                                   | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 8 jours
+| *Agent De Sureté (ADS)*                                   | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 9 jours
 | *Examen PIX*|||| 1/2 jours
 | *Technique de recherche d'emploi (TRE)* | Ateliers, simulations | Salle de formation équipée, ordinateurs | Simulation d'entretien d'embauche| 2 jours
 | *Habilitation électrique (H0B0)*        | Cours magistral, travaux pratiques | Salle de formation équipée, matériel électrique | QCM, exercices pratiques| 2 jours
 | *Sauveteur Secouriste du Travail (SST)* | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de secours | QCM, exercices pratiques| 2 jours
 | *Stage sureté* |||| 5 jours
-| *SSIAP 1* (_Pré-requis : SST et HOB0_) | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 13 jours
+| *SSIAP 1* (_Pré-requis : SST et HOB0_) | Cours magistral, travaux pratiques | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques| 14 jours
 | *Stage sécu incendie*|||| 5 jours
 | *Examen blanc A2SP*                         | | Salle de formation équipée, matériel de sécurité | QCM, exercices pratiques et présentation du dossier professionnel devant un jury interne.| 1 jour
 | | | | **Duréé total**| 1 jour
