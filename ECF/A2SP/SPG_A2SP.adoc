@@ -292,6 +292,9 @@ xref:toc[sommaire]
 RNCP Niveau 4 (Cadre national des certifications 2019)
 
 
+Ajoutez une section sur les modalités d'accès à la certification. Cela peut inclure des informations sur les conditions d'admission à l'examen, ainsi que sur les modalités de réinscription.
+
+
 xref:toc[sommaire]
 
 [[place]]
@@ -303,8 +306,11 @@ Centre de formation Talaria +
 xref:toc[sommaire]
 
 [[price]]
-== 14. Tarifs
+== 14. Tarifs et modalités de financement
 4704€ HT
+les modalités de financement de la formation : Cela peut être utile pour les apprenants potentiels qui souhaitent connaître les options qui s'offrent à eux.
+
+
 
 xref:toc[sommaire]
 
