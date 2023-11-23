@@ -277,6 +277,11 @@ xref:toc[sommaire]
 [[eval]]
 == 11. Modalités d’évaluations (Qualiopi)
 
+.Evaluation pour le passage de titre
+- **Questionnaire professionnel** : Cette épreuve écrite collective dure 45 minutes et permet d'évaluer les connaissances des stagiaires sur les compétences requises pour l'exercice des activités composant le titre visé ⁶.
+- **Mise en situation professionnelle** : Cette épreuve individuelle dure 1 heure 30 minutes et est suivie d'un entretien technique de 15 minutes. Elle permet d'évaluer la capacité des stagiaires à mobiliser les compétences acquises pour résoudre une situation professionnelle ⁶.
+- **Entretien final devant le jury** : Cette épreuve individuelle dure 10 minutes et permet de vérifier le niveau de maîtrise par le candidat des compétences requises pour l'exercice des activités composant le titre visé ⁶.
+
 
 xref:toc[sommaire]
 
@@ -292,7 +297,7 @@ xref:toc[sommaire]
 RNCP Niveau 4 (Cadre national des certifications 2019)
 
 
-Ajoutez une section sur les modalités d'accès à la certification. Cela peut inclure des informations sur les conditions d'admission à l'examen, ainsi que sur les modalités de réinscription.
+// TODO: Ajoutez une section sur les modalités d'accès à la certification. Cela peut inclure des informations sur les conditions d'admission à l'examen, ainsi que sur les modalités de réinscription.
 
 
 xref:toc[sommaire]
