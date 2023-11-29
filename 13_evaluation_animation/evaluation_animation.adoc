@@ -1,0 +1,38 @@
+= Évaluation & animation
+
+== Le jeu de role et l'étude de cas
+
+=== objectif pedagogique :
+
+A la fin de l'apres-midi les enfants seront en capacité de réaliser eux meme leur propres crepes au Nutella suivant la recette de Mamie gateau.
+
+=== Context
+
+Mamie gâteau et ses petits enfants veulent ce dimanche, faire des crèpes au Nutella.
+Ce dimanche sera l'occasion pour Mamie de transmettre sa recette des crèpes au nutella.
+
+.Grille Critériée
+[frame=sides,options="header"]
+|===
+|*Objectif pédagogique* | Excellent | Très Bien | Bien | Satisfaisant | Insatisfaisant
+// | *_Connaissance_* |||||
+|décrire les ingrédients.|||||
+|décrire les ustensiles.|||||
+// |*_Comprehension_*|||||
+|Explication des étapes|||||
+// |*_Application_*|||||
+|préparation de la pate|||||
+|mise en condition de la pate|||||
+|aménagement de l'espace de travail pour la cuisson|||||
+|chauffer et graisser la crèpiere|||||
+|passer la pate à la crèpiere pour la cuisson|||||
+|retourner la crèpe|||||
+|déposer la crèpe cuite sur les autres|||||
+|===
+
+== Jeu de roles
+
+En sous groupe, élaborez et animez une séance sur le théme de votre choix, en vous appuyant sur un SPD, incluant un jeu de role.
+Ce jeu de role sera evalué sur la base d'une grille criteriée.
+Durée de l'animation : 45 minutes.
+
