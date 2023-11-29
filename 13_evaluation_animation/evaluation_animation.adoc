@@ -2,11 +2,13 @@
 
 == Le jeu de role et l'étude de cas
 
-=== objectif pedagogique :
+=== Grille critériée
+
+==== objectif pedagogique :
 
 A la fin de l'apres-midi les enfants seront en capacité de réaliser eux meme leur propres crepes au Nutella suivant la recette de Mamie gateau.
 
-=== Context
+==== Context
 
 Mamie gâteau et ses petits enfants veulent ce dimanche, faire des crèpes au Nutella.
 Ce dimanche sera l'occasion pour Mamie de transmettre sa recette des crèpes au nutella.
