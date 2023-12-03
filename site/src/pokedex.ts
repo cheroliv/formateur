@@ -3,7 +3,8 @@ interface Pokemon {
     name: string;
 }
 
-type Result<T, E> = { type: "success"; value: T } | { type: "error"; error: E };
+type Result<T, E> = { type: "success"; value: T } 
+| { type: "error"; error: E };
 
 interface Cursor {
     position: number;
