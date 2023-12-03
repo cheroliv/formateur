@@ -31,3 +31,12 @@ Pour terminer, lancez une instance d’Odoo :
 $ docker run -p 8069:8069 --name odoo --link db:db -t odoo
 
 L’installation d’Odoo est maintenant terminée. Il ne vous reste plus qu’à lancer l’application à partir de l’adresse suivante : http://localhost:8069
+
+
+
+== creer un webservice avec fast api
+
+[source=python]
+---
+python -m uvicorn lms:app
+---
