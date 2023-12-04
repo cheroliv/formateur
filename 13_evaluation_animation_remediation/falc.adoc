@@ -1,0 +1,65 @@
+= Méthode FALC (Facile à Lire et Comprendre)
+
+_Énoncé :_ +
+Dans un texte d'une page, présente-moi la méthode FALC(facile à lire et comprendre)
+Pourquoi ces règles ? +
+Qui peut utiliser ces règles ? +
+Pourquoi avons-nous besoin de ces règles ? +
+
+.Puis en 5 parties telles que :
+. Règles générales pour les informations faciles à comprendre
+. Règles spécifiques aux informations écrites
+. Règles spécifiques aux informations électroniques
+. Règles spécifiques pour les informations vidéo
+. Règles spécifiques pour les informations audio
+
+== Introduction
+
+La méthode FALC, ou Facile à Lire et Comprendre, est une approche visant à rendre l'information accessible au plus grand nombre en simplifiant la langue et la présentation. Ces règles sont particulièrement utiles pour les personnes ayant des difficultés de compréhension, telles que celles avec des troubles cognitifs ou des handicaps intellectuels.
+
+== Pourquoi ces règles ?
+
+Les règles de la méthode FALC sont établies pour favoriser l'inclusion et garantir l'accès à l'information pour tous. En simplifiant le langage, en structurant clairement le contenu, et en utilisant des supports adaptés, la méthode FALC facilite la compréhension et renforce l'autonomie des personnes confrontées à des obstacles de lecture ou de compréhension.
+
+== Qui peut utiliser ces règles ?
+
+La méthode FALC est principalement conçue pour les personnes ayant des difficultés de compréhension, mais elle peut également bénéficier à un large public. Cela inclut les personnes ayant un faible niveau de littératie, les apprenants en langue seconde, les personnes âgées, et toute personne cherchant une information claire et concise.
+
+== Pourquoi avons-nous besoin de ces règles ?
+
+Nous avons besoin de la méthode FALC pour promouvoir l'égalité d'accès à l'information. En fournissant des documents, des instructions, et des communications conformes à la méthode FALC, nous réduisons les barrières à la compréhension et favorisons une société inclusive où chacun peut participer pleinement.
+
+== Règles générales pour les informations faciles à comprendre
+
+1. Utiliser un langage simple et clair.
+2. Limiter la longueur des phrases et des paragraphes.
+3. Définir les termes techniques.
+4. Utiliser des supports visuels pour renforcer la compréhension.
+5. Mettre en évidence les informations importantes.
+
+== Règles spécifiques aux informations écrites
+
+1. Choisir une police de caractères lisible(Arial, Roboto, Calibri).
+2. Utiliser un espacement adéquat entre les lignes et les mots.
+3. Utiliser une mise en page claire et structurée.
+4. Éviter les notations romaines pour les chiffres.
+
+== Règles spécifiques aux informations électroniques
+
+1. Assurer une navigation simple et intuitive.
+2. Fournir des descriptions alternatives pour les images.
+3. Éviter l'utilisation excessive de couleurs ou de formats complexes.
+
+== Règles spécifiques pour les informations vidéo
+
+1. Sous-titrer les vidéos pour une accessibilité accrue.
+2. Parler lentement et clairement.
+3. Utiliser des visuels simples et des animations compréhensibles.
+
+== Règles spécifiques pour les informations audio
+
+1. Parler de manière claire et audible.
+2. Éviter les bruits de fond distrayants.
+3. Répéter les informations importantes.
+
+Ces règles, appliquées de manière cohérente, contribuent à rendre l'information accessible à un public diversifié et à promouvoir une communication inclusive.

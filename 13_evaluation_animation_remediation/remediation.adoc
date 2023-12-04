@@ -1,0 +1,79 @@
+= Remediation
+
+
+== Roue des hypothese
+
+link:Roue_des_hypotheses.docx[support]
+
+
+== _exercice :_
+
+.Chercher :
+. les 6 types de handicap déterminés par la loi du 11 février 2005
+. De chercher la définition de vulnérabilité.
+. Quels sont les différents types de troubles dys ?
+
+
+=== Catégories de Handicap selon la Loi du 11 février 2005
+
+à corriger avec le cours
+
+* Handicap moteur: Difficultés ou incapacités liées à des atteintes physiques, motrices ou neuromusculaires.
+* Handicap sensoriel: Difficultés ou incapacités liées à des atteintes visuelles ou auditives.
+* Handicap cognitif: Difficultés liées à des troubles intellectuels, cognitifs, mentaux ou psychiques.
+* Handicap psychique: Difficultés liées à des troubles psychiques tels que la schizophrénie, les troubles bipolaires, etc.
+* Handicap viscéral: Difficultés liées à des troubles de santé entraînant une altération des fonctions des organes internes.
+* Polyhandicap: Situation de handicap grave associant une déficience motrice et des déficiences mentales sévères, nécessitant une assistance importante au quotidien.
+
+
+
+=== Vulnérabilité
+
+La vulnérabilité désigne la susceptibilité d'une personne ou d'un groupe à subir des dommages, des préjudices ou des difficultés, pouvant être liée à des facteurs sociaux, économiques, de santé, ou d'autres aspects.
+
+=== Troubles Dys
+
+* Dyslexie: Difficultés spécifiques liées à la lecture, à la compréhension et à l'orthographe.
+* Dyspraxie: Difficultés dans l'organisation et la coordination des mouvements, affectant la motricité fine et globale.
+* Dysphasie: Trouble du langage oral affectant la compréhension et/ou l'expression du langage.
+* Dyscalculie: Difficultés spécifiques liées à la compréhension et à la manipulation des nombres et des opérations mathématiques.
+
+Ces troubles ne sont pas liés à un manque d'intelligence, mais à des difficultés spécifiques dans certains domaines d'apprentissage.
+
+
+
+
+les style d'app
+kolb et henriloui
+
+- pres de leur style d app
+
+- relation entre les deux
+
+
+Fondé sur un modèle de l’apprentissage expérientiel
+
+|===
+|Auteurs |Date |Instrument|Style/Profil d’apprentissage
+|David Kolb
+|1975 1985
+|–   Learning Style Inventory (LSI)
+–   Learning Style Inventory (LSI 2e édition)
+
+–       Répertoire des styles d’apprentissage (RSA)
+|Style d’apprentissage identifié à partir de quatre styles issus de la combinaison de deux dimensions bipolaires : concret-abstrait, action-réflexion :
+1. Style convergent (abstrait-action)
+
+2. Style divergent (concret-réflexion)
+
+3. Style assimilateur (abstrait-réflexion)
+
+4. Style accommodateur (concret-action)
+|===
+
+
+
+
+
+
+
