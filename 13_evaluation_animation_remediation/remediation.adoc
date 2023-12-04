@@ -1,7 +1,7 @@
 = Remediation
 
 
-== Roue des hypothese
+== Roue des hypothèses
 
 link:Roue_des_hypotheses.docx[support]
 
@@ -43,16 +43,9 @@ Ces troubles ne sont pas liés à un manque d'intelligence, mais à des difficul
 
 
 
-les style d'app
-kolb et henriloui
+== Les styles d'apprentissages
 
-- pres de leur style d app
-
-- relation entre les deux
-
-
-Fondé sur un modèle de l’apprentissage expérientiel
-
+.Fondé sur un modèle de l’apprentissage expérientiel
 |===
 |Auteurs |Date |Instrument|Style/Profil d’apprentissage
 |David Kolb
