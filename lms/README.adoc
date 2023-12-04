@@ -14,29 +14,46 @@ https://www.odoo.com/documentation/17.0/administration/install/source.html
 
 data directory = C:\Program Files\PostgreSQL\16\data
 
-== Odoo depuis docker
+== Odoo depuis docker et docker-desktop
 
-Installation d’Odoo Community sur WSL 2
+_pre-requis : avoir docker installé sur le systeme_
+// === Installation d’Odoo Community sur WSL 2
 
-Dans une fenetre de powershell
+Dans une fenetre de terminal
+
 [source=bash]
 ----
 docker pull odoo
 ----
 
 Ensuite, lancez une instance de PostgreSQL server :
+
+[source=bash]
+----
 $ docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name db postgres:10
+----
 
 Pour terminer, lancez une instance d’Odoo :
+[source=bash]
+----
 $ docker run -p 8069:8069 --name odoo --link db:db -t odoo
+----
 
 L’installation d’Odoo est maintenant terminée. Il ne vous reste plus qu’à lancer l’application à partir de l’adresse suivante : http://localhost:8069
 
 
-
 == creer un webservice avec fast api
 
+=== Executer le server
+
 [source=python]
----
+----
 python -m uvicorn lms:app
----
+----
+
+=== lancer les tests
+
+[source=python]
+----
+python -m unittest test_lms.py
+----
