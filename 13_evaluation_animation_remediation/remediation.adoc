@@ -9,21 +9,21 @@ link:Roue_des_hypotheses.docx[support]
 == _exercice :_
 
 .Chercher :
-. les 6 types de handicap déterminés par la loi du 11 février 2005
+. Les 6 types de handicap déterminés par la loi du 11 février 2005
 . De chercher la définition de vulnérabilité.
 . Quels sont les différents types de troubles dys ?
 
 
 === Catégories de Handicap selon la Loi du 11 février 2005
 
-à corriger avec le cours
+À corriger avec le cours
 
-* Handicap moteur: Difficultés ou incapacités liées à des atteintes physiques, motrices ou neuromusculaires.
-* Handicap sensoriel: Difficultés ou incapacités liées à des atteintes visuelles ou auditives.
-* Handicap cognitif: Difficultés liées à des troubles intellectuels, cognitifs, mentaux ou psychiques.
-* Handicap psychique: Difficultés liées à des troubles psychiques tels que la schizophrénie, les troubles bipolaires, etc.
-* Handicap viscéral: Difficultés liées à des troubles de santé entraînant une altération des fonctions des organes internes.
-* Polyhandicap: Situation de handicap grave associant une déficience motrice et des déficiences mentales sévères, nécessitant une assistance importante au quotidien.
+* Handicap moteur : Difficultés ou incapacités liées à des atteintes physiques, motrices ou neuromusculaires.
+* Handicap sensoriel : Difficultés ou incapacités liées à des atteintes visuelles ou auditives.
+* Handicap cognitif : Difficultés liées à des troubles intellectuels, cognitifs, mentaux ou psychiques.
+* Handicap psychique : Difficultés liées à des troubles psychiques tels que la schizophrénie, les troubles bipolaires, etc.
+* Handicap viscéral : Difficultés liées à des troubles de santé entraînant une altération des fonctions des organes internes.
+* Polyhandicap : Situation de handicap grave associant une déficience motrice et des déficiences mentales sévères, nécessitant une assistance importante au quotidien.
 
 
 
@@ -33,10 +33,10 @@ La vulnérabilité désigne la susceptibilité d'une personne ou d'un groupe à 
 
 === Troubles Dys
 
-* Dyslexie: Difficultés spécifiques liées à la lecture, à la compréhension et à l'orthographe.
-* Dyspraxie: Difficultés dans l'organisation et la coordination des mouvements, affectant la motricité fine et globale.
-* Dysphasie: Trouble du langage oral affectant la compréhension et/ou l'expression du langage.
-* Dyscalculie: Difficultés spécifiques liées à la compréhension et à la manipulation des nombres et des opérations mathématiques.
+* Dyslexie : Difficultés spécifiques liées à la lecture, à la compréhension et à l'orthographe.
+* Dyspraxie : Difficultés dans l'organisation et la coordination des mouvements, affectant la motricité fine et globale.
+* Dysphasie : Trouble du langage oral affectant la compréhension et/ou l'expression du langage.
+* Dyscalculie : Difficultés spécifiques liées à la compréhension et à la manipulation des nombres et des opérations mathématiques.
 
 Ces troubles ne sont pas liés à un manque d'intelligence, mais à des difficultés spécifiques dans certains domaines d'apprentissage.
 
@@ -64,9 +64,89 @@ Ces troubles ne sont pas liés à un manque d'intelligence, mais à des difficul
 4. Style accommodateur (concret-action)
 |===
 
+APP : Analyse Des Pratiques Professionnelles
 
 
+== La structure de l'entretien semi-directif
 
 
+=== Trame d'entretien de remédiation entre un formateur et un apprenant
 
+==== Objectifs de l'entretien
 
+* Identifier les difficultés de l'apprenant
+* Élaborer un plan d'action pour surmonter ses difficultés
+
+=== Préparation de l'entretien
+
+* Collecter des informations sur l'apprenant (résultats aux évaluations, retour des formateurs et des autres apprenants)
+* Prévoir des questions ouvertes pour favoriser la discussion
+* S'entraîner à la conduite de l'entretien
+
+=== Déroulement de l'entretien
+
+* Accueillir l'apprenant et l'installer confortablement
+* Présenter les objectifs de l'entretien
+* Faire le point sur les difficultés de l'apprenant
+* Quelles sont les matières ou les compétences dans lesquelles l'apprenant rencontre des difficultés ?
+* Quelles sont les causes de ces difficultés ?
+* Quels sont les impacts de ces difficultés sur la formation de l'apprenant ?
+* Élaborer un plan d'action
+* Quelles sont les actions à mettre en place pour surmonter les difficultés ?
+* Qui sera responsable de ces actions ?
+* Quand seront-elles réalisées ?
+
+=== Conclusion de l'entretien
+
+* Remercier l'apprenant pour sa participation
+* Remettre un compte-rendu de l'entretien à l'apprenant
+
+=== Exemples de questions à poser
+
+==== Sur les difficultés de l'apprenant
+
+* Peux-tu me dire quelles matières ou compétences, tu trouves difficiles ?
+* Pourquoi trouves-tu ces matières ou compétences difficiles ?
+* Comment ces difficultés se manifestent-elles ?
+* Quelles sont les conséquences de ces difficultés sur ta formation ?
+
+==== Sur le plan d'action
+
+* Quelles actions penses-tu qu'il serait possible de mettre en place pour surmonter tes difficultés ?
+* Qui pourrait t'aider dans ces actions ?
+* Quand penses-tu pouvoir mettre en place ces actions ?
+
+=== Conseils pour la conduite de l'entretien
+
+* Bien écouter l'apprenant et le laisser s'exprimer librement.
+* Posez des questions ouvertes pour favoriser la discussion.
+* Évitez les jugements et les critiques.
+* Soyez positif et encourageant.
+
+=== Rédaction du compte-rendu de l'entretien
+
+Le compte-rendu concis et clair, doit contenir :
+
+* Les objectifs de l'entretien
+* Les difficultés de l'apprenant
+* Le plan d'action
+
+Le compte-rendu de l'entretien doit être remis à l'apprenant et l'équipe pédagogique. Il peut également être transmis aux autres professionnels impliqués dans l'accompagnement de l'apprenant. +
+Veiller à la confidentialité des sujets abordés en s'accordant avec l'apprenant.
+
+=== Adaptations possibles
+
+En fonction des besoins de l'apprenant, vous pouvez adapter la trame d'entretien de la manière suivante :
+
+* Si l'apprenant est en situation de handicap, vous pouvez prévoir des aménagements ou des adaptations pour faciliter sa participation à l'entretien.
+* Si l'apprenant est réticent à l'idée de participer à l'entretien, vous pouvez prendre des mesures pour le mettre à l'aise, par exemple en le rencontrant dans un lieu qu'il connait et en le laissant choisir la date et l'heure de l'entretien.
+* Si l'apprenant a des difficultés à s'exprimer, vous pouvez lui proposer de l'aide pour préparer l'entretien, par exemple en lui fournissant une liste de questions à poser.
+
+=== Conseils supplémentaires
+
+* Il est important de mettre l'apprenant à l'aise et de le rassurer sur le fait que l'objectif de l'entretien est de l'aider à réussir.
+* Encouragez l'apprenant à être honnête et à partager ses difficultés avec vous.
+* Soyez patient et à l'écoute.
+* Le plan d'action doit être réaliste et adapté aux besoins de l'apprenant.
+* Veillez à ce que l'apprenant soit impliqué dans l'élaboration du plan d'action.
+* Suivez régulièrement l'évolution de l'apprenant et ajustez le plan d'action si nécessaire.
