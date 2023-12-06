@@ -3,7 +3,6 @@ from fastapi import FastAPI
 import uvicorn
 
 if __name__ == "__main__":
-    print("Hello")
     # noinspection SpellCheckingInspection
     uvicorn.run('lms:app', reload=True)
 

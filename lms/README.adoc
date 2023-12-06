@@ -16,7 +16,7 @@ data directory = C:\Program Files\PostgreSQL\16\data
 
 == Odoo depuis docker et docker-desktop
 
-_pre-requis : avoir docker installé sur le systeme_
+_Prérequis : avoir docker installé sur le systeme_
 // === Installation d’Odoo Community sur WSL 2
 
 Dans une fenetre de terminal
@@ -44,6 +44,13 @@ L’installation d’Odoo est maintenant terminée. Il ne vous reste plus qu’�
 
 == creer un webservice avec fast api
 
+=== Installer les dépendances
+
+[source=python]
+----
+python.exe -m pip install -r requirements.txt
+----
+
 === Executer le server
 
 [source=python]
@@ -51,7 +58,7 @@ L’installation d’Odoo est maintenant terminée. Il ne vous reste plus qu’�
 python -m uvicorn lms:app
 ----
 
-=== lancer les tests
+=== Lancer les tests
 
 [source=python]
 ----
