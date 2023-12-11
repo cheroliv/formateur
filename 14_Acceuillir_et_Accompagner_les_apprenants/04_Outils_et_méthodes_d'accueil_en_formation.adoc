@@ -1,0 +1,27 @@
+= Outils et méthodes d'accueil en formation
+
+== Exercice : Par groupe de 3 avec un opérateur, un apprenant et un observateur réaliser un entretien comme il devrait-être fait en début de formation.
+
+En début de formation
+
+structure de l'entretien
+
+
+C = apprennant
+S = Formateur-Coach
+O = Observateur
+
+
+Observations:
+
+Recherche des objectifs du formateur, par des questions sur les projets specifique que l'apprenant vise.
+
+Une fois des proposition d'objectif, il y a mise en relations des objectifs si ils sont relié.
+Des question pour determiner si l'attirance vers un objectif est bien motivé et si elle est solide face a un autre objectif enoncé dans ceux qui ont emergé au debut de la conversation.
+Le formateur permet bien a l'apprennant d'exprimer son discours pour motiver l'objectif qu'il veux faire.
+Le formateur aussi en laissant le temps à la description du projet pose aussi des questions pour evaluer si le desir est bien aligné avec capacité, comprehension de ses enjeux, afin de faire prendre conscience du projet a l'apprenant en projet de reconversion vers l'emploi.
+Les questions du formateur pour vérifier l'alignement du projet avec le profil, tournent autour de multi aspect sur les difficutltes possibles pouvant etre un frein.
+Une fois la motivation et l'alignement avec les propres desirs de l'apprenant, alors le formateur tente de faire formuler l'apprenant en quoi ses competences dont elle a conscience pourrait etre un element pour valider un projet pro enoncé par l'apprenant.
+Le formateur a essayer de mettre en place une liste des criteres pour evaluer l'evolution de l'apprenant vers les objectifs de l'apprenant
+
+

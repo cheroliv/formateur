@@ -1,0 +1,97 @@
+= Exercice - Animer une séquence pédagogique
+
+Expérimentation en formation
+
+[#introduction]
+== Introduction
+
+Dans le cadre de cette expérimentation en formation, vous serez chargé d'animer une séquence pédagogique de 30 minutes. Cette animation pourra être basée sur votre PFR(Projet Fil-Rouge) ou sur un sujet de votre choix. En utilisant les méthodes et outils que vous sélectionnerez.
+
+.Au cours de cette demi-heure, vous devrez intégrer
+* Un segment théorique
+* Un segment pratique
+* Une période d’évaluation
+
+
+[#deroulement]
+== Déroulement de l'animation
+
+Il est possible d'inclure de brèves périodes de lecture durant l'exercice, mais l'usage de modalités de formation en e-learning asynchrone n'est pas autorisé.
+
+Durant ces 30 minutes, il vous incombe de gérer efficacement les trois phases susmentionnées, en bénéficiant d'une totale liberté dans leur mise en place. L'objectif est de parvenir à former l'intégralité de la promotion sur un thème de votre choix en 30 minutes, et d'être évalué par vos pairs sur la qualité de votre prestation en tant que formateur ou formatrice.
+
+[#evaluation]
+== Évaluation
+
+L'évaluation se fera par les pairs, c'est-à-dire que chacun d'entre vous évaluera chaque intervention pour en faire une moyenne de notes basées sur le barème ci-dessous.
+
+[#planning]
+== Planning
+
+|===
+| Date | Animateur
+
+| 22 décembre 2023 | Olivier
+|===
+
+[#bareme]
+== Barème
+
+.Planification et structure de l'animation | 20 points |
+|===
+| Critère | Poids
+
+| Clarté et pertinence des objectifs de la séance | 5 points
+| Organisation logique et cohérente du contenu | 5 points
+| Respect du temps imparti pour chaque phase (théorique, pratique, évaluation) | 5 points
+| Adaptation du contenu au niveau et aux besoins des apprenants | 5 points
+| Total sur 20 |
+|===
+
+
+.Contenu théorique | 20 points |
+|===
+| Critère | Poids
+
+| Pertinence et exactitude des informations théoriques présentées | 10 points
+| Capacité à lier la théorie à des exemples pratiques ou des cas d'étude | 5 points
+| Originalité et intérêt du sujet choisi | 5 points
+| Total sur 20 |
+|===
+
+
+.Animation pratique | 20 points |
+|===
+| Critère | Poids
+
+| Qualité et pertinence des activités pratiques proposées | 10 points
+| Interaction et engagement des apprenants dans les activités | 5 points
+| Capacité à donner des feedbacks constructifs et à orienter les apprenants | 5 points
+| Total sur 20 |
+|===
+
+
+.Évaluation et feedback | 20 points |
+|===
+| Critère | Poids
+
+| Pertinence des méthodes d'évaluation utilisées | 10 points
+| Capacité à évaluer de manière juste et équilibrée | 5 points
+| Utilisation des résultats de l'évaluation pour fournir des retours constructifs | 5 points
+| Total sur 20 |
+|===
+
+.Compétences de communication et pédagogiques | 20 points |
+|===
+| Critère | Poids
+
+| Clarté et efficacité de la communication | 10 points
+| Capacité à susciter l'intérêt et à maintenir l'attention des apprenants | 5 points
+| Adaptabilité et réactivité aux besoins et réactions des apprenants | 5 points
+| Total sur 20 |
+|===
+
+
+=== Lien vers l'évaluation
+
+link:http://localhost:8000[Evaluer la formation]
