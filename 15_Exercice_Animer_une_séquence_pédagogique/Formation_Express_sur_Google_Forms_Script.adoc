@@ -1,0 +1,38 @@
+= Formation Express sur Google Form Script et Automatisation
+
+Durée : 30 minutes
+
+== Objectifs
+- Comprendre les bases de Google Form Script
+- Apprendre à automatiser une tâche de sauvegarde vers un fichier Excel au déclencheur "on submit"
+
+== Temporisation
+. **Introduction à Google Form Script** (5 min)
+- Aperçu rapide de Google Form Script
+- Présentation des fonctionnalités principales
+
+. **Création d'un Formulaire Google et d'un Script associé** (5 min)
+- Création d'un formulaire simple avec Google Forms
+- Introduction à l'éditeur de script associé
+
+. **Automatisation de la Tâche de Sauvegarde** (10 min)
+- Configuration du déclencheur "on submit"
+- Écriture d'un script pour extraire les données du formulaire et les sauvegarder dans un fichier Excel
+- Tests rapides pour vérifier le bon fonctionnement
+
+. **Analyse des Résultats et Bonnes Pratiques** (5 min)
+- Vérification des résultats de l'automatisation
+- Discussion sur les bonnes pratiques pour l'automatisation avec Google Form Script
+
+. **Conclusion et Questions** (5 min)
+- Récapitulatif des étapes clés
+- Possibilité de poser des questions
+
+== Prérequis
+- Avoir un compte Google et accès à Google Forms et Google Sheets
+
+== Matériel
+- Ordinateur avec un navigateur web
+
+== Remarque
+Cette formation express offre une introduction rapide à l'automatisation avec Google Form Script. Pour une compréhension plus approfondie, des formations plus longues sont recommandées.

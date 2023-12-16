@@ -1,0 +1,28 @@
+@startuml
+
+title Diagramme de séquence pour le script Google Form
+
+participant "Formulaire" as form
+participant "Script" as script
+
+activate form
+
+
+form -[#0000FF]> script: onSubmit()
+note left: Déclenchement de l'événement \n"à la soumission du formulaire"
+
+script -[#0000FF]> script: value = e.values["name"]
+note right: déclenchement de l'événement \n"à la soumission du formulaire"
+
+script -[#FF0000]> script: if (value == "")
+
+note over script: Vérifier que la valeur n'est pas vide
+
+script -[#FF0000]> script: alert("Veuillez saisir votre nom.")
+script -[#FF0000]> script: e.preventDefault()
+
+'vert : #00FF00
+
+deactivate form
+
+@enduml

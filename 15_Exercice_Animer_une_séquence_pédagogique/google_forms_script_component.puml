@@ -1,0 +1,13 @@
+@startuml
+
+title Google Form Script
+
+rectangle "Google Forms" as forms
+rectangle "Google Script" as script
+
+forms <- script : liaison programmatique
+
+note bottom of forms: Formulaires Google
+note bottom of script: Langage de programmation basé sur JavaScript
+
+@enduml

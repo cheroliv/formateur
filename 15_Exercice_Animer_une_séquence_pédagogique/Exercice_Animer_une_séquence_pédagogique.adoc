@@ -96,5 +96,5 @@ L'évaluation se fera par les pairs, c'est-à-dire que chacun d'entre vous éval
 
 link:http://localhost:8000[Evaluer la formation]
 
+== link:Formation_Express_sur_Google_Forms_Script.adoc[Formation Express sur Google Form Script et Automatisation]
 
-== Ma proposition de formation
