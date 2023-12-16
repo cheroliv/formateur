@@ -1,0 +1,51 @@
+= QCM d'Évaluation - Formation Express sur Google Form Script et Automatisation
+
+1. Qu'est-ce que Google Form Script ?
+a. Un service de traitement de texte en ligne
+b. Un langage de programmation pour automatiser des actions dans Google Forms
+c. Un outil de conception graphique pour formulaires
+
+2. Quel est l'objectif principal de la section "Création d'un Formulaire Google et d'un Script associé" ?
+a. Explorer les fonctionnalités avancées de Google Forms
+b. Apprendre à lier des formulaires à des scripts dans Google Apps Script
+c. Configurer des déclencheurs pour automatiser des tâches
+
+3. Quelle est l'utilité du déclencheur "on submit" dans Google Form Script ?
+a. Pour déclencher une alerte à chaque soumission de formulaire
+b. Pour automatiser des actions lorsqu'un formulaire est soumis
+c. Pour archiver les formulaires après leur soumission
+
+4. Comment peut-on configurer un déclencheur "on submit" dans Google Form Script ?
+a. Via l'interface graphique de Google Forms
+b. En utilisant l'éditeur de script dans Google Sheets
+c. En créant une nouvelle feuille de calcul Google
+
+5. Quelle est la fonction principale du script dans la section "Automatisation de la Tâche de Sauvegarde" ?
+a. Calculer la somme des réponses dans le formulaire
+b. Extraire les données du formulaire et les sauvegarder dans un fichier Excel
+c. Afficher un message de remerciement aux participants du formulaire
+
+6. Quel type de fichier est utilisé pour sauvegarder les données dans la section "Automatisation de la Tâche de Sauvegarde" ?
+a. CSV
+b. PDF
+c. TXT
+
+7. Quelle étape est incluse dans la section "Analyse des Résultats et Bonnes Pratiques" ?
+a. Vérification des résultats de l'automatisation
+b. Configuration du formulaire initial
+c. Création d'un nouveau formulaire
+
+8. Que permet de faire le script au déclencheur "on submit" dans la formation-gscript ?
+a. Ajouter des colonnes au formulaire Google
+b. Modifier le texte des questions dans le formulaire
+c. Automatiser des actions en réponse à la soumission d'un formulaire
+
+9. Quel est l'avantage principal de l'automatisation dans Google Form Script ?
+a. Ajouter des fonctionnalités avancées au formulaire
+b. Gagner du temps en automatisant des tâches répétitives
+c. Renforcer la sécurité du formulaire
+
+10. Pourquoi est-il important de suivre les bonnes pratiques lors de l'automatisation avec Google Form Script ?
+a. Pour rendre les scripts plus compliqués
+b. Pour assurer la compatibilité avec d'autres applications
+c. Pour garantir la fiabilité et la maintenance du code
