@@ -3,10 +3,12 @@
 Durée : 30 minutes
 
 == Objectifs
+
 - Comprendre les bases de Google Form Script
 - Apprendre à automatiser une tâche de sauvegarde vers un fichier Excel au déclencheur "on submit"
 
 == Temporisation
+
 . **Introduction à Google Form Script** (5 min)
 - Aperçu rapide de Google Form Script
 - Présentation des fonctionnalités principales
@@ -29,45 +31,52 @@ Durée : 30 minutes
 - Possibilité de poser des questions
 
 == Prérequis
+
 - Avoir un compte Google et accès à Google Forms et Google Sheets
 
 == Matériel
-- Ordinateur avec un navigateur web
+
+- Ordinateur avec un navigateur web et une connexion internet
 
 == Remarque
-Cette formation express offre une introduction rapide à l'automatisation avec Google Form Script. Pour une compréhension plus approfondie, des formations plus longues sont recommandées.
 
-
+Cette formation express offre une introduction rapide à l'automatisation avec Google Form Script.
+Pour une compréhension plus approfondie, des formations plus longues sont recommandées.
 
 == 1 - Introduction à Google Form Script
 :duration: 5 min
 
 === Slide 1: Aperçu rapide de Google Form Script
+
 - Google Form Script est une plateforme de scripting intégrée à Google Forms.
 - Elle permet d'ajouter des fonctionnalités personnalisées et d'automatiser des tâches.
 
 === Slide 2: Présentation des fonctionnalités principales
+
 - Script Editor : L'éditeur de script intégré pour écrire des scripts Google Apps Script.
 - Déclencheurs : Des événements comme "on submit" qui activent l'exécution des scripts.
 - API Google Apps Script : Une interface pour interagir avec d'autres services Google.
 
 === Slide 3: Avantages de l'utilisation de Google Form Script
+
 - Personnalisation : Créez des formulaires personnalisés avec des fonctionnalités uniques.
 - Automatisation : Automatisez des actions en réponse aux réponses des formulaires.
 - Intégration : Intégrez des scripts avec d'autres services Google pour une expérience plus riche.
 
 === Slide 4: Exemples d'utilisation courante
+
 - Envoi automatique de courriels de confirmation après la soumission d'un formulaire.
 - Création automatique de rapports dans Google Sheets à partir des réponses.
 - Validation personnalisée des réponses avec des scripts.
 
 === Slide 5: Débutons avec une démo rapide
+
 - Créons un script simple pour afficher un message lors de la soumission du formulaire.
 - Démonstration en direct dans l'éditeur de script.
 
 === Note pour le présentateur :
-Ces fonctionnalités offrent un potentiel considérable pour personnaliser et automatiser les formulaires. La suite de cette formation explorera plus en détail la création de scripts et d'automatisations spécifiques.
 
-
+Ces fonctionnalités offrent un potentiel considérable pour personnaliser et automatiser les formulaires.
+La suite de cette formation explorera plus en détail la création de scripts et d'automatisations spécifiques.
 
 == **Création d'un Formulaire Google et d'un Script associé** (5 min)
