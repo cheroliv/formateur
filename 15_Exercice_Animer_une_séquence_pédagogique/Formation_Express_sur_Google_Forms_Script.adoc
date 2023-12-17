@@ -79,4 +79,10 @@ Pour une compréhension plus approfondie, des formations plus longues sont recom
 Ces fonctionnalités offrent un potentiel considérable pour personnaliser et automatiser les formulaires.
 La suite de cette formation explorera plus en détail la création de scripts et d'automatisations spécifiques.
 
+https://developers.google.com/apps-script/add-ons/editors/forms?hl=fr
+
+https://developers.google.com/apps-script/reference/forms?hl=fr
+
+https://developers.google.com/apps-script/reference/forms/form-app?hl=fr
+
 == **Création d'un Formulaire Google et d'un Script associé** (5 min)
