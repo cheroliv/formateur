@@ -33,6 +33,10 @@ const EvaluationManager = {
     .slice(1)
     .map((exercice) => exercice[0]),
 
+  getExistingTitles: (form) => new Set(form
+    .getItems()
+    .map(item => item.getTitle())
+  ),
 
   loadFormQuestions: (evaluation) => {
     try {
@@ -52,8 +56,6 @@ const EvaluationManager = {
       throw new Error(`Erreur lors du chargement des questions du formulaire : ${error.message}`);
     }
   },
-
-  getExistingTitles: (form) => new Set(form.getItems().map(item => item.getTitle())),
 
   loadEvaluation: (form_id, spreadsheets_url) => {
     try {
