@@ -1,6 +1,8 @@
 [#toc]
 = Formateur numérique
 
+site pro cheroliv : link:https://sites.google.com/view/cheroliv/[https://sites.google.com/view/cheroliv]
+
 link:compte_rendu_chronologique.adoc[compte rendu chronologique]
 
 == Intro
@@ -21,11 +23,9 @@ link:compte_rendu_chronologique.adoc[compte rendu chronologique]
 
 === link:02_scratch/synthese_scratch.adoc#scratch_workshop[Scratch workshop]
 
-
 == link:03_les_outils_du_formateur/01_les_outils_professionnelles_du_formateur.adoc#colab[Les outils du formateur]
 
 == link:04_andragogie/01_le_metier_de_formateur.adoc#metier[L'andragogie]
-
 
 ====
 link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
