@@ -74,64 +74,74 @@ Quels freins ou leviers avez-vous pu identifier ?
 
 == 10. Conseils pour Surmonter les Freins
 
-Conseils Pratiques pour Surmonter les Freins (1/2)
+*Conseils Pratiques pour Surmonter les Freins*
 
 .Expérience Professionnelle :
 - Stages et apprentissages en entreprise.
 - Projets bénévoles pour acquérir de l'expérience.
 
-Confiance en Soi :
+.Confiance en Soi :
 - Ateliers de développement personnel.
 - Mentorat pour renforcer la confiance.
-- Barrières Culturelles ou Linguistiques :
+
+.Barrières Culturelles ou Linguistiques :
 - Cours de langues et formations interculturelles.
 - Diversité au sein de la formation.
-- Ressources Financières :
+
+.Ressources Financières :
 - Solutions d'aide financière, bourses.
 - Emplois rémunérés pendant la formation.
 
-== 11. Conseils pour Surmonter les Freins
-
-Conseils Pratiques pour Surmonter les Freins (2/2) - Peur de l'Inconnu ou de l'Échec :
+.Peur de l'Inconnu ou de l'Échec :
 - Ateliers sur la gestion du stress et la prise de risques.
 - Témoignages de réussites malgré les obstacles.
-- Résistance au Changement :
+
+.Résistance au Changement :
 - Sensibilisation à l'adaptabilité.
 - Études de cas sur des réussites grâce au changement.
-- Discriminations :
+
+.Discriminations :
 - Sensibilisation à la diversité et à l'inclusion.
 - Politiques anti-discrimination.
-- Perte d'Identité Professionnelle :
+
+.Perte d'Identité Professionnelle :
 - Ateliers sur la reconversion professionnelle.
 - Valorisation des compétences transférables.
 
 == 12. Conseils pour Enclencher les Leviers
 
-Comment Surmonter les Freins (1/2) - Accompagnement Personnalisé :
+*Comment Surmonter les Freins*
+
+.Accompagnement Personnalisé :
 - Identifiez des mentors ou coachs adaptés.
 - Créez des parcours individualisés.
-- Réseautage Professionnel :
+
+.Réseautage Professionnel :
 - Participez activement à des événements de réseautage.
 - Utilisez les médias sociaux pour élargir votre réseau.
-- Validation des Acquis :
+
+.Validation des Acquis :
 - Cherchez des opportunités de certification et de validation.
 - Mettez en avant vos réalisations dans un portfolio.
-- Motivation :
+
+.Motivation :
 - Fixez-vous des objectifs clairs et atteignables.
 - Entourez-vous de personnes positives et inspirantes.
 
-== 13. Conseils pour Enclencher les Leviers
 
-.Comment Surmonter les Freins (2/2) - Ressources Financières :
+.Ressources Financières :
 - Explorez les options de financement disponibles.
 - Recherchez des bourses ou aides spécifiques.
-- Marché du Travail :
+
+.Marché du Travail :
 - Effectuez une veille constante sur les tendances du marché.
 - Adaptez vos compétences en fonction des besoins du marché.
-- Formation Adéquate :
+
+.Formation Adéquate :
 - Choisissez des formations alignées sur vos objectifs professionnels.
 - Explorez les opportunités de formation continue.
-- Compétences Acquises et Transmises :
+
+.Compétences Acquises et Transmises :
 - Mettez en avant vos compétences transférables.
 - Partagez vos connaissances avec d'autres.
 
@@ -139,10 +149,8 @@ Comment Surmonter les Freins (1/2) - Accompagnement Personnalisé :
 
 Récapitulons les points clés.
 Synthèse des points clefs L’identification des facteurs au changement est le résultat d’un processus d’analyse singulier menant à une réponse adaptée inscrit dans un suivi.
-Questions et discussions.
 
 [[Evaluation-Ressources-Insertion-Professionnelle]]
 == 15. Evaluation et Ressources complémentaires
 
-A vous de jouer !
 QCM : link:https://forms.gle/3Mom3GSC1BoE8Wb16[]
