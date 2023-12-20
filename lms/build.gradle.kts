@@ -3,6 +3,11 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
+import java.awt.Color
+import java.awt.image.BufferedImage
+import java.awt.image.BufferedImage.TYPE_INT_ARGB
+import javax.imageio.ImageIO.read
+import javax.imageio.ImageIO.write
 
 
 plugins {
@@ -112,3 +117,82 @@ tasks.register("spg") {
 }
 
 /*=================================================================================*/
+
+
+
+/**
+ * Remplace la couleur d'une image.
+ *
+ * @param imagePath Chemin de l'image
+ * @param oldColor Ancienne couleur
+ * @param newColor Nouvelle couleur
+ * @param outputPath Chemin de l'image de sortie
+ * @return Un `Result` représentant le succès ou l'échec de l'opération
+ */
+fun replaceColor(
+    imagePath: String,
+    oldColor: Color,
+    newColor: Color,
+    outputPath: String
+): Result<Unit> = runCatching {
+    val inputFile = File(imagePath)
+    assert(inputFile.exists() && inputFile.isFile())
+
+    read(inputFile).runCatching {
+        BufferedImage(width, height, TYPE_INT_ARGB).let {
+            (0 until height).forEach { y ->
+                (0 until width).forEach { x ->
+                    Color(getRGB(x, y), true).run {
+                        it.setRGB(
+                            x, y, when (rgb) {
+                                oldColor.rgb -> newColor.rgb
+                                else -> rgb
+                            }
+                        )
+                    }
+                }
+            }
+            val outputFile = File(outputPath)
+            write(it, "png", outputFile)
+            println("Changement de couleur réussi. Image enregistrée à : ${outputFile.absolutePath}")
+        }
+    }
+}
+
+/**
+ * Tâche Gradle pour changer la couleur de l'image.
+ */
+tasks.register("changeColor") {
+    group = "FPA"
+    description = "Change color of image."
+
+    doFirst {
+        val inputFilePath = "/ECF/A2SP/img/logo_free_4.png"
+        val outputFilePath = "/ECF/A2SP/img/logo_site.png"
+
+        listOf(
+            listOf(Color(255, 249, 250), Color(28, 28, 28)),
+            listOf(Color(89, 47, 55), Color(249, 249, 249))
+            // Ajoutez d'autres paires de couleurs au besoin
+        ).forEach { pair ->
+            when (pair.size) {
+                2 -> {
+                    replaceColor(
+                        file("$projectDir$inputFilePath").apply {
+                            assert(exists() && isFile())
+                        }.absolutePath,
+                        pair.first(),
+                        pair.last(),
+                        "$projectDir$outputFilePath"
+                    ).onFailure { e ->
+                        println("Erreur lors du changement de couleur : $e")
+                    }
+                }
+
+                else -> {
+                    println("Chaque paire de couleurs doit contenir exactement deux couleurs.")
+                }
+            }
+        }
+    }
+}
