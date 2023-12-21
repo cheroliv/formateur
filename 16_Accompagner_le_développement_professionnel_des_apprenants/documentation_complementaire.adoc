@@ -11,8 +11,7 @@
 
 == 1. Introduction
 
-Accompagner nos apprenants à réussir leur projet professionnel dddfgubiusbisubiusiuzgiubnidundiuhni Dans cet accompagnement, il apparaît deux éléments :
-Freins Leviers
+Accompagner nos apprenants à réussir leur projet professionnel, dans un accompagnement sur leurs freins et leviers
 
 == 2. Leviers
 
@@ -47,6 +46,7 @@ Freins Leviers
 - Veille dans la recherche d’emploi
 - Auto-formation
 - Diagnostic territorial
+- Bilan de compétences
 
 == 5. Diagnostic territorial
 
@@ -58,21 +58,15 @@ Freins Leviers
 - PIX
 - Formation annexe et complémentaire
 
-== 6. Campagnes de sensibilisation
-
-.Partenariats avec les entreprises
-- Événements et ateliers thématiques
-- Bilan de compétences
-
-== 7. Modalité numérique !
+== 6. Modalité numérique !
 
 Nuage de mots link:https://app.wooclap.com/DBGLGJ[]
 
-== 9. Analyse et Discussion
+== 7. Analyse et Discussion
 
 Quels freins ou leviers avez-vous pu identifier ?
 
-== 10. Conseils pour Surmonter les Freins
+== 8. Conseils pour Surmonter les Freins
 
 *Conseils Pratiques pour Surmonter les Freins*
 
@@ -108,7 +102,7 @@ Quels freins ou leviers avez-vous pu identifier ?
 - Ateliers sur la reconversion professionnelle.
 - Valorisation des compétences transférables.
 
-== 12. Conseils pour Enclencher les Leviers
+== 9. Conseils pour Enclencher les Leviers
 
 *Comment Surmonter les Freins*
 
@@ -145,12 +139,12 @@ Quels freins ou leviers avez-vous pu identifier ?
 - Mettez en avant vos compétences transférables.
 - Partagez vos connaissances avec d'autres.
 
-== 14. A retenir
+== 10. A retenir
 
 Récapitulons les points clés.
 Synthèse des points clefs L’identification des facteurs au changement est le résultat d’un processus d’analyse singulier menant à une réponse adaptée inscrit dans un suivi.
 
 [[Evaluation-Ressources-Insertion-Professionnelle]]
-== 15. Evaluation et Ressources complémentaires
+== 11. Evaluation et Ressources complémentaires
 
 QCM : link:https://forms.gle/3Mom3GSC1BoE8Wb16[]
