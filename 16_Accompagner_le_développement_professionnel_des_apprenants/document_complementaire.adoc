@@ -139,10 +139,10 @@ Quels freins ou leviers avez-vous pu identifier ?
 - Mettez en avant vos compétences transférables.
 - Partagez vos connaissances avec d'autres.
 
+[[remind]]
 == 10. A retenir
 
-Récapitulons les points clés.
-Synthèse des points clefs L’identification des facteurs au changement est le résultat d’un processus d’analyse singulier menant à une réponse adaptée inscrit dans un suivi.
+*L’identification des facteurs au changement est le résultat d’un processus d’analyse singulier menant à une réponse adaptée inscrit dans un suivi.*
 
 [[Evaluation-Ressources-Insertion-Professionnelle]]
 == 11. Evaluation et Ressources complémentaires
