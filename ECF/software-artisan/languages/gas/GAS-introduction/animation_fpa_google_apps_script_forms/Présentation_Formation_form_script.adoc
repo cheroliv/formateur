@@ -1,0 +1,117 @@
+= Introduction à Google Forms et Apps Script
+
+.Objectifs
+- Comprendre les bases de Google Forms et Apps Script
+- Apprendre à accéder à l'éditeur de scripts et exécuter une instruction au déclencheur
+
+_Durée : 30 minutes_
+
+Création d'un Formulaire Google et d'un Script associé
+
+Automatisation de la Tâche avec un déclencheur
+
+Visualisation dans le journal
+
+Conclusion et Questions
+
+Introduction à Google Forms et Apps Script
+
+Création d'un Formulaire Google et d'un Script associé (5 min)
+
+Automatisation de la Tâche de Sauvegarde (10 min)
+
+Analyse des Résultats et Bonnes Pratiques (5 min)
+
+Conclusion et Questions (5 min)
+
+Google Forms Script
+
+Contenu
+
+- Aperçu rapide de Google Forms
+
+- Présentation des fonctionnalités principales
+
+- Javascript et Apps Script intro didactitiel à javascript https://bit.ly/3vaOfiC
+
+Cheroliv Formation Introduction à Google Form Script (5 min)
+
+Création d'un Formulaire Google et d'un Script associé
+
+Automatisation de la Tâche de Sauvegarde (10 min)
+
+Analyse des Résultats et Bonnes Pratiques (5 min)
+
+Conclusion et Questions (5 min)
+
+Google Forms Script
+
+Contenu - Création d'un formulaire simple avec Google Forms
+
+- Introduction à l'éditeur de script associé
+
+Cheroliv Formation Introduction à Google Form Script (5 min)
+
+Création d'un Formulaire Google et d'un Script associé (5 min)
+
+Automatisation de la Tâche avec un déclencheur
+
+Analyse des Résultats et Bonnes Pratiques (5 min)
+
+Conclusion et Questions (5 min)
+
+Google Forms Script
+
+Contenu - Configuration du déclencheur "on start"
+
+- Configuration du déclencheur "on submit"
+
+- Écriture d'un script pour exécuter une instruction
+
+- Tests rapides pour vérifier le bon fonctionnement dans le journal d'exécution de script
+
+Cheroliv Formation Introduction à Google Form Script (5 min)
+
+Création d'un Formulaire Google et d'un Script associé (5 min)
+
+Automatisation de la Tâche de Sauvegarde (10 min)
+
+Visualisation dans le journal
+
+Conclusion et Questions (5 min)
+
+Google Forms Script
+
+Contenu
+
+- Exécution d'un formulaire simple
+
+- Visualisation des log dans le journal du formulaire
+
+Cheroliv Formation Introduction à Google Form Script (5 min)
+
+Création d'un Formulaire Google et d'un Script associé (5 min)
+
+Automatisation de la Tâche de Sauvegarde (10 min)
+
+Analyse des Résultats et Bonnes Pratiques (5 min)
+
+Conclusion et Questions
+
+Google Forms Script
+
+Conclusion GAS (Google Apps Script) est une solution efficace pour automatiser des tâches et industrialiser son activité.
+C’est aussi un environnement pratique intégré pour former à la programmation vers des utilisations très concrète et transposable au métier de formateur comme par les forms pour l'évaluation mais aussi tout l'écosystème Google.
+
+Tuto GAS:
+https://youtu.be/peE-2UrqEbI?si=bNrXIod_X-PZ4HTK
+
+Extension de Google Forms avec des modules complémentaires
+https://developers.google.com/apps-script/add-ons/editors/forms?hl=fr
+
+Forms Service
+https://developers.google.com/apps-script/reference/forms?hl=fr
+
+Class FormApp
+https://developers.google.com/apps-script/reference/forms/form-app?hl=fr
+
