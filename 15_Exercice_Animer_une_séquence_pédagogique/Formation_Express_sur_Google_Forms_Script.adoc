@@ -4,8 +4,8 @@ Durée : 30 minutes
 
 == Objectifs
 
-- Comprendre les bases de Google Form Script
-- Apprendre à acceder a l'editeur de script et executer une instruction au déclencheur
+- Comprendre les bases de Google Apps Script dans Forms
+- Apprendre à acceder à l'editeur de script et executer une instruction au déclencheur
 
 == Temporisation
 
