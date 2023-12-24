@@ -1,0 +1,162 @@
+= Utilisation de Moodle avec Docker Desktop
+@CherOliv
+2023-12-22
+:toc:
+:jbake-title: Moodle Document
+:jbake-type: post
+:jbake-tags: blog, ticket, moodle, memo
+:jbake-status: published
+:jbake-date: 2023-12-22
+:summary: simple document sur Moodle
+
+
+== Table des Matières
+
+:toc:
+:leveloffset: 1
+
+1. Prérequis
+2. Exécution de Moodle avec Docker 2.1. Configuration des volumes de données 2.2. Exposition des ports 2.3. Utilisation de PostgreSQL comme base de données
+3. Exécution et Relance de Moodle 3.1. Exécution initiale de Moodle 3.2. Relance de Moodle 3.3. Vérification de l'état de Moodle
+4. Captures d'écran Didactiques 4.1. Configuration des Volumes 4.2. Exposition des Ports 4.3. Exécution Initiale de Moodle 4.4. Relance de Moodle
+
+== Objectifs du Document
+
+Ce document vise à fournir aux formateurs numériques les connaissances nécessaires pour maîtriser l'utilisation de Moodle dans le contexte de l'e-learning.
+Les objectifs spécifiques comprennent :
+
+1. Comprendre les prérequis nécessaires pour l'installation de Moodle avec Docker Desktop.
+2. Apprendre à configurer les volumes pour assurer la sauvegarde des données.
+3. Maîtriser l'exposition des ports pour permettre l'accès à Moodle depuis l'extérieur de la machine.
+4. Choisir et configurer PostgreSQL comme base de données pour Moodle.
+5. Acquérir les compétences nécessaires pour exécuter et relancer l'image Moodle avec Docker.
+6. Savoir vérifier l'état actuel du conteneur Moodle.
+7. Visualiser chaque étape du processus à l'aide de captures d'écran didactiques.
+
+Ce document est conçu pour vous accompagner pas à pas dans la mise en place de Moodle, en mettant l'accent sur la simplicité et la compréhension approfondie des étapes impliquées.
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+== Exécution de Moodle avec Docker
+
+=== Configuration des volumes de données
+
+Pour assurer la sauvegarde des données Moodle, nous devons configurer des volumes Docker.
+Créez les volumes en utilisant les commandes suivantes :
+
+[source,bash]
+----
+docker volume create moodle_data
+docker volume create moodle_db_data
+----
+
+Ces volumes garantissent que les données de Moodle persistent même après l'arrêt du conteneur.
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+=== Exposition des ports
+
+Pour permettre l'accès à Moodle depuis l'extérieur de la machine, exposez les ports nécessaires avec la commande suivante :
+
+[source,bash]
+----
+docker run -d -p 8080:80 -p 443:443 \
+  --name moodle \
+  -v moodle_data:/var/www/html \
+  -v moodle_db_data:/var/lib/postgresql/data \
+  moodlehq/moodle:latest
+----
+
+Cette commande expose les ports 8080 et 443 sur votre machine hôte.
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+=== Utilisation de PostgreSQL comme base de données
+
+Moodle prend en charge différentes bases de données, mais nous privilégions PostgreSQL.
+Lancez le conteneur PostgreSQL avec la commande suivante :
+
+[source,bash]
+----
+docker run -d --name moodle-db \
+  -e POSTGRES_PASSWORD=your_password \
+  -v moodle_db_data:/var/lib/postgresql/data \
+  postgres:latest
+----
+
+Remplacez `your_password` par un mot de passe sécurisé.
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+== Exécution et Relance de Moodle
+
+=== Exécution initiale de Moodle
+
+1. Ouvrez une fenêtre de terminal.
+
+2. Assurez-vous que Docker Desktop est en cours d'exécution.
+
+3. Exécutez la commande suivante pour lancer Moodle pour la première fois :
+
+[source,bash]
+----
+docker run -d -p 8080:80 -p 443:443 \
+  --name moodle \
+  -v moodle_data:/var/www/html \
+  -v moodle_db_data:/var/lib/postgresql/data \
+  moodlehq/moodle:latest
+----
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+=== Relance de Moodle
+
+Si vous devez relancer Moodle après l'avoir arrêté ou redémarré votre machine, utilisez la commande suivante :
+
+[source,bash]
+----
+docker start moodle
+----
+
+Cela relance le conteneur Moodle avec les mêmes paramètres que précédemment.
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+=== Vérification de l'état de Moodle
+
+Vous pouvez vérifier l'état actuel du conteneur en utilisant la commande suivante :
+
+[source,bash]
+----
+docker ps
+----
+
+Assurez-vous que le conteneur "moodle" est en cours d'exécution.
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+== Captures d'écran Didactiques
+
+=== Configuration des Volumes
+
+- [Capture d'écran : Configuration des Volumes](lien_vers_capture_d_ecran_volumes)
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+=== Exposition des Ports
+
+- [Capture d'écran : Exposition des Ports](lien_vers_capture_d_ecran_ports)
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+=== Exécution Initiale de Moodle
+
+- [Capture d'écran : Exécution Initiale de Moodle](lien_vers_capture_d_ecran_execution)
+
+link:#table-des-matieres[Retour à la Table des Matières]
+
+=== Relance de Moodle
+
+- [Capture d'écran : Relance de Moodle](lien_vers_capture_d_ecran_relance)
+
+link:#table-des-matieres[Retour à la Table des Matières]

@@ -1,0 +1,127 @@
+= Types de Questions dans Google Forms avec Google Apps Script =
+
+== Question de Texte ==
+
+Une question qui attend une réponse textuelle.
+
+Exemple de code Google Apps Script :
+
+[source,javascript]
+----
+form.addTextItem().setTitle('Quel est votre prénom ?');
+----
+
+Feedback :
+Les questions de texte peuvent avoir des retours, mais le modèle de formulaire standard de Google Forms ne prend pas en charge le feedback personnalisé par question.
+
+== Choix Multiple ==
+
+Une question avec plusieurs options de réponse, permettant aux utilisateurs de sélectionner une ou plusieurs réponses.
+
+Exemple de code Google Apps Script :
+
+[source,javascript]
+----
+form.addMultipleChoiceItem()
+    .setTitle('Quelle est votre couleur préférée ?')
+    .setChoiceValues(['Rouge', 'Bleu', 'Vert']);
+----
+
+Feedback :
+Les questions à choix multiple peuvent avoir des retours personnalisés en utilisant `setFeedbackForChoice(value, feedback)`, où `value` est la valeur de l'option et `feedback` est le feedback associé.
+
+== Choix Unique ==
+
+Une question avec plusieurs options de réponse, mais les utilisateurs ne peuvent sélectionner qu'une seule réponse.
+
+Exemple de code Google Apps Script :
+
+[source,javascript]
+----
+form.addMultipleChoiceItem()
+    .setTitle('Quel genre de musique préférez-vous ?')
+    .setChoiceValues(['Pop', 'Rock', 'Jazz'])
+    .setRequired(true);
+----
+
+Feedback :
+Les questions à choix unique peuvent également avoir des retours personnalisés avec `setFeedbackForCorrectAnswer(feedback)`.
+
+== Échelle Linéaire ==
+
+Une question où les utilisateurs attribuent une note numérique sur une échelle linéaire.
+
+Exemple de code Google Apps Script :
+
+[source,javascript]
+----
+form.addScaleItem()
+    .setTitle('À quel point êtes-vous satisfait de nos services ?')
+    .setBounds(1, 5);
+----
+
+Feedback :
+Les échelles linéaires ne prennent pas en charge de feedback personnalisé par question.
+
+== Case à Cocher ==
+
+Une question avec des cases à cocher permettant aux utilisateurs de sélectionner plusieurs options.
+
+Exemple de code Google Apps Script :
+
+[source,javascript]
+----
+form.addCheckboxItem()
+    .setTitle('Quels sont vos loisirs ?')
+    .setChoiceValues(['Lecture', 'Sport', 'Voyages']);
+----
+
+Feedback :
+Les cases à cocher peuvent avoir des retours personnalisés avec `setFeedbackForChoice(value, feedback)`.
+
+== Date/Heure ==
+
+Une question demandant aux utilisateurs de saisir une date ou une heure.
+
+Exemple de code Google Apps Script :
+
+[source,javascript]
+----
+form.addDateItem().setTitle('Quelle est votre date de naissance ?');
+----
+
+Feedback :
+Les questions de date/heure ne prennent pas en charge de feedback personnalisé par question.
+
+== Paragraphe Long ==
+
+Une question qui permet aux utilisateurs de fournir une réponse détaillée sous forme de paragraphe.
+
+Exemple de code Google Apps Script :
+
+[source,javascript]
+----
+form.addParagraphTextItem().setTitle('Expliquez brièvement vos projets futurs.');
+----
+
+Feedback :
+Les paragraphes longs ne prennent pas en charge de feedback personnalisé par question.
+
+== Section/Page (Simulée) ==
+
+Bien que Google Apps Script ne fournisse pas de section native, vous pouvez utiliser des pages pour simuler des sections.
+
+Exemple de code Google Apps Script :
+
+[source,javascript]
+----
+form.addPageBreakItem();
+----
+
+Feedback :
+Les sections/pages simulées ne prennent pas en charge de feedback personnalisé par question.
+
+Ces exemples couvrent une variété de types de questions disponibles dans Google Forms via Google Apps Script.
+Utilisez ces références pour créer des formulaires interactifs et personnalisés.
+
+Pour plus d'informations, consultez la [documentation officielle de Google Apps Script Forms](https://developers.google.com/apps-script/reference/forms).
