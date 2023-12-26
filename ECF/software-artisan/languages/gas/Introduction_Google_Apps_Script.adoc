@@ -1,5 +1,4 @@
 = Introduction à Google Apps Script
-
 CherOliv
 2023-08-04
 :jbake-title: Introduction à Google Apps Script
@@ -27,13 +26,13 @@ CherOliv
 * <<Opérateurs de Repos et de Propagation en Google Apps Script>>
 * <<Affectation par Décomposition en Google Apps Script>>
 
-
-
 == Introduction
 
-Google Apps Script (GAS) est une plateforme de développement de scripts associée à divers services Google tels que Google Sheets, Google Docs et Google Forms. Elle permet d'automatiser des tâches, d'ajouter des fonctionnalités personnalisées et d'intégrer des services Google.
+Google Apps Script (GAS) est une plateforme de développement de scripts associée à divers services Google tels que Google Sheets, Google Docs et Google Forms.
+Elle permet d'automatiser des tâches, d'ajouter des fonctionnalités personnalisées et d'intégrer des services Google.
 
-Dans ce mémo, nous allons explorer les principaux concepts de Google Apps Script en nous appuyant sur des exemples concrets. Nous aborderons des notions telles que les variables, les boucles, les fonctions, et bien d'autres, en les adaptant au contexte spécifique de GAS.
+Dans ce mémo, nous allons explorer les principaux concepts de Google Apps Script en nous appuyant sur des exemples concrets.
+Nous aborderons des notions telles que les variables, les boucles, les fonctions, et bien d'autres, en les adaptant au contexte spécifique de GAS.
 
 == Structure de base en Google Apps Script
 
@@ -52,7 +51,8 @@ function exempleStructureGAS() {
 
 == Types et Variables en Google Apps Script
 
-Google Apps Script utilise JavaScript en tant que langage de programmation. Les types de données et les variables fonctionnent de manière similaire à JavaScript standard.
+Google Apps Script utilise JavaScript en tant que langage de programmation.
+Les types de données et les variables fonctionnent de manière similaire à JavaScript standard.
 
 [source,javascript]
 ----
@@ -88,7 +88,8 @@ function exempleOperationsGAS() {
 
 == Var, Let et Const en Google Apps Script
 
-En GAS, les concepts de `var`, `let`, et `const` sont utilisés pour déclarer des variables. Cependant, il est essentiel de comprendre leurs différences et leurs implications.
+En GAS, les concepts de `var`, `let`, et `const` sont utilisés pour déclarer des variables.
+Cependant, il est essentiel de comprendre leurs différences et leurs implications.
 
 [source,javascript]
 ----
@@ -184,7 +185,8 @@ function exempleStructuresControleGAS() {
 
 == Fonctions en Google Apps Script
 
-Les fonctions sont des éléments fondamentaux en programmation. En GAS, elles peuvent être déclarées et appelées de différentes manières.
+Les fonctions sont des éléments fondamentaux en programmation.
+En GAS, elles peuvent être déclarées et appelées de différentes manières.
 
 [source,javascript]
 ----
@@ -211,7 +213,8 @@ function exempleFonctionsGAS() {
 
 == Paramètres et Scopes en Google Apps Script
 
-Les paramètres et les scopes jouent un rôle crucial dans le développement de scripts en GAS. Comprenez comment ils fonctionnent pour éviter des comportements inattendus.
+Les paramètres et les scopes jouent un rôle crucial dans le développement de scripts en GAS.
+Comprenez comment ils fonctionnent pour éviter des comportements inattendus.
 
 [source,javascript]
 ----
@@ -233,7 +236,8 @@ function exempleParametresScopesGAS(parametre) {
 
 == Objets en Google Apps Script
 
-Les objets sont utilisés pour structurer les données. Dans GAS, de nombreux objets intégrés facilitent l'interaction avec les services Google.
+Les objets sont utilisés pour structurer les données.
+Dans GAS, de nombreux objets intégrés facilitent l'interaction avec les services Google.
 
 [source,javascript]
 ----
@@ -344,7 +348,7 @@ function exempleAffectationDecompositionGAS() {
 }
 ----
 
-
 == Conclusion
 
-Ce mémo a couvert les concepts fondamentaux de Google Apps Script en les illustrant à l'aide d'exemples de code concrets. Utilisez ces connaissances pour automatiser vos tâches quotidiennes, personnaliser vos documents et exploiter pleinement les fonctionnalités de Google Apps Script.
+Ce mémo a couvert les concepts fondamentaux de Google Apps Script en les illustrant à l'aide d'exemples de code concrets.
+Utilisez ces connaissances pour automatiser vos tâches quotidiennes, personnaliser vos documents et exploiter pleinement les fonctionnalités de Google Apps Script.

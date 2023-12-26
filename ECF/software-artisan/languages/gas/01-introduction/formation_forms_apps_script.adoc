@@ -1,10 +1,21 @@
-= Introduction à Google Forms et Apps Script
+Google Forms Script
 
-.Objectifs
+Objectifs
+
 - Comprendre les bases de Google Forms et Apps Script
-- Apprendre à accéder à l'éditeur de scripts et exécuter une instruction au déclencheur
+- Apprendre à accéder à l'éditeur de scripts et exécuter une instruction au déclencheur Durée : 30 minutes
 
-_Durée : 30 minutes_
+toc Introduction à Google Forms et Apps Script
+
+Création d'un Formulaire Google et d'un Script associé
+
+Automatisation de la Tâche avec un déclencheur
+
+Visualisation dans le journal
+
+Conclusion et Questions
+
+Introduction à Google Forms et Apps Script
 
 Création d'un Formulaire Google et d'un Script associé
 
@@ -34,7 +45,7 @@ Contenu
 
 - Javascript et Apps Script intro didactitiel à javascript https://bit.ly/3vaOfiC
 
-Cheroliv Formation Introduction à Google Form Script (5 min)
+Introduction à Google Form Script (5 min)
 
 Création d'un Formulaire Google et d'un Script associé
 
@@ -50,7 +61,7 @@ Contenu - Création d'un formulaire simple avec Google Forms
 
 - Introduction à l'éditeur de script associé
 
-Cheroliv Formation Introduction à Google Form Script (5 min)
+Introduction à Google Form Script (5 min)
 
 Création d'un Formulaire Google et d'un Script associé (5 min)
 
@@ -70,7 +81,7 @@ Contenu - Configuration du déclencheur "on start"
 
 - Tests rapides pour vérifier le bon fonctionnement dans le journal d'exécution de script
 
-Cheroliv Formation Introduction à Google Form Script (5 min)
+Introduction à Google Form Script (5 min)
 
 Création d'un Formulaire Google et d'un Script associé (5 min)
 
@@ -88,7 +99,7 @@ Contenu
 
 - Visualisation des log dans le journal du formulaire
 
-Cheroliv Formation Introduction à Google Form Script (5 min)
+Introduction à Google Form Script (5 min)
 
 Création d'un Formulaire Google et d'un Script associé (5 min)
 
