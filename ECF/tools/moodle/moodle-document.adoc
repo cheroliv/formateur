@@ -9,7 +9,7 @@
 :summary: Simple document sur Moodle
 
 [[toc]]
-.[Underline]#Table des Matières#
+.[Underline]*Table des Matières*
 . <<goals>>
 .. <<prerequis>>
 . <<exec_docker>>
@@ -76,6 +76,9 @@ Ce document est aussi conçu pour vous accompagner pas à pas dans la mise en pl
 . *Vérification de l'État de Moodle :*
 - Connaissance de la commande pour vérifier l'état actuel du conteneur Moodle.
 
+
+screenshots : <<screenshot_status>>
+
 <<toc>>
 
 [[exec_docker]]
@@ -95,6 +98,9 @@ docker volume create moodle_db_data
 
 Ces volumes garantissent que les données de Moodle persistent même après l'arrêt du conteneur.
 
+
+screenshots : <<screenshot_status>>
+
 <<toc>>
 
 [[expose_port]]
@@ -113,6 +119,9 @@ docker run -d -p 8080:80 -p 443:443 \
 
 Cette commande expose les ports 8080 et 443 sur votre machine hôte.
 
+
+screenshots : <<screenshot_status>>
+
 <<toc>>
 
 [[use_postgres]]
@@ -130,6 +139,9 @@ docker run -d --name moodle-db \
 ----
 
 Remplacez `your_password` par un mot de passe sécurisé.
+
+
+screenshots : <<screenshot_status>>
 
 <<toc>>
 
@@ -151,6 +163,9 @@ docker run -d -p 8080:80 -p 443:443 \
   moodlehq/moodle:latest
 ----
 
+
+screenshots : <<screenshot_status>>
+
 <<toc>>
 
 [[reload_moodle]]
@@ -164,6 +179,9 @@ docker start moodle
 ----
 
 Cela relance le conteneur Moodle avec les mêmes paramètres que précédemment.
+
+
+screenshots : <<screenshot_status>>
 
 <<toc>>
 
@@ -179,6 +197,8 @@ docker ps
 
 Assurez-vous que le conteneur "moodle" est en cours d'exécution.
 
+screenshots : <<screenshot_status>>
+
 <<toc>>
 
 [[screenshots]]
@@ -188,33 +208,33 @@ Assurez-vous que le conteneur "moodle" est en cours d'exécution.
 [[screenshots_first_exec]]
 === Exécution Initiale de Moodle
 
-- [Capture d'écran : Exécution Initiale de Moodle](lien_vers_capture_d_ecran_execution)
+- TODO : [Capture d'écran : Exécution Initiale de Moodle](lien_vers_capture_d_ecran_execution)
 
 <<toc>>
 
 [[screenshots_volumes]]
 === Configuration des Volumes
 
-- [Capture d'écran : Configuration des Volumes](lien_vers_capture_d_ecran_volumes)
+- TODO : [Capture d'écran : Configuration des Volumes](lien_vers_capture_d_ecran_volumes)
 
 <<toc>>
 
 [[screenshots_expose_port]]
 === Exposition des Ports
 
-- [Capture d'écran : Exposition des Ports](lien_vers_capture_d_ecran_ports)
+- TODO : [Capture d'écran : Exposition des Ports](lien_vers_capture_d_ecran_ports)
 
 <<toc>>
 
 
 === Relance de Moodle [[screenshot_reload]]
 
-- [Capture d'écran : Relance de Moodle](lien_vers_capture_d_ecran_relance)
+- TODO : [Capture d'écran : Relance de Moodle](lien_vers_capture_d_ecran_relance)
 
 <<toc>>
 
 === Statut de Moodle [[screenshot_status]]
 
-- [Capture d'écran : Relance de Moodle](lien_vers_capture_d_ecran_relance)
+- TODO : [Capture d'écran : Relance de Moodle](lien_vers_capture_d_ecran_relance)
 
 <<toc>>
