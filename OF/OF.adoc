@@ -1,0 +1,117 @@
+= Guide de Création d'un Organisme de Formation Agile
+CherOliv
+2024-01-01
+
+:jbake-title: Guide de Création d'un Organisme de Formation Agile
+:jbake-type: post
+:jbake-tags: guide, formation, agile
+:jbake-status: draft
+:jbake-date: 2024-01-01
+
+== Table des Matières
+:toc: macro
+:toc-placement!:
+
+* [Atelier 1: Vision](#atelier-1-vision)
+** [Pattern "QQOQCP"](#pattern-qqoqcp)
+** [Product Vision Board](#product-vision-board)
+
+* [Atelier 2: Personas/Parcours Apprenants](#atelier-2-personasparcours-apprenants)
+
+* [Atelier 3: Zoning, Storyboard, Sitemap](#atelier-3-zoning-storyboard-sitemap)
+** [Zoning](#zoning)
+** [Storyboard](#storyboard)
+** [Sitemap](#sitemap)
+
+* [Atelier 4: Wireframe/Moodboard](#atelier-4-wireframemoodboard)
+** [Wireframes](#wireframes)
+** [Moodboard](#moodboard)
+
+* [Atelier 5: Story Mapping/ Modules de Formation](#atelier-5-story-mapping-modules-de-formation)
+** [Story Mapping](#story-mapping)
+** [User Stories](#user-stories)
+
+* [Atelier 6: Backlog](#atelier-6-backlog)
+
+* [Atelier 7: Technique et Architecture](#atelier-7-technique-et-architecture)
+
+* [Mindmap](#mindmap)
+
+* [La légende des cinq projets (Adaptée à l'Éducation)](#la-légende-des-cinq-projets-adaptée-à-léducation)
+
+* [Itération et Amélioration Continue](#itération-et-amélioration-continue)
+
+== Atelier 1: Vision
+
+=== Pattern "QQOQCP"
+Qui seront les apprenants potentiels ?
+Quoi vont-ils apprendre ?
+Où se déroulera la formation ?
+Quand auront lieu les sessions ?
+Comment la formation sera-t-elle dispensée ?
+Pourquoi est-ce important pour les apprenants ?
+
+=== Product Vision Board
+==== Target Group
+Identifier les types d'apprenants (entreprises, individus).
+==== Needs
+Définir les principales compétences que les apprenants cherchent à acquérir.
+==== Product
+Énoncer la proposition de valeur et les principales fonctionnalités de la formation.
+==== Business Goal
+Établir des critères de succès pour mesurer l'efficacité.
+==== Vision
+Résumer la vision en une phrase.
+
+== Atelier 2: Personas/Parcours Apprenants
+
+Identifier les différents types d'apprenants.
+Définir les objectifs d'apprentissage spécifiques pour chaque groupe.
+Élaborer les parcours d'apprentissage adaptés à chaque persona.
+
+== Atelier 3: Zoning, Storyboard, Sitemap
+
+=== Zoning
+Organiser les contenus et les activités de formation.
+=== Storyboard
+Créer des scénarios pédagogiques pour les cours.
+=== Sitemap
+Développer une structure logique pour les différentes parties du programme.
+
+== Atelier 4: Wireframe/Moodboard
+
+=== Wireframes
+Esquisses visuelles des supports de cours, des plateformes en ligne, etc.
+=== Moodboard
+Rassembler des inspirations visuelles pour le style et la tonalité de la formation.
+
+== Atelier 5: Story Mapping/ Modules de Formation
+
+=== Story Mapping
+Prioriser les modules de formation en fonction de leur importance.
+=== User Stories
+Définir chaque module en tant que "En tant qu'apprenant, je veux apprendre [sujet] afin de [raison]."
+
+== Atelier 6: Backlog
+
+Créer un backlog de tâches pour le développement et la mise en œuvre de la formation.
+Prioriser les éléments du backlog en fonction des besoins urgents et des retours des apprenants.
+
+== Atelier 7: Technique et Architecture
+
+Sélectionner les technologies nécessaires pour la plateforme de formation.
+Concevoir l'architecture technique, en tenant compte de la flexibilité et de l'évolutivité.
+
+== Mindmap
+
+== La légende des cinq projets (Adaptée à l'Éducation)
+
+=== Cours en Ligne : Nom
+=== Formation en Entreprise : Nom
+=== Plateforme de Tutorat : Nom
+=== Ateliers Pratiques : Nom
+=== Certifications : Nom
+
+== Itération et Amélioration Continue
+
+Adopter un cycle d'itération régulier pour améliorer constamment les programmes de formation en fonction des retours des apprenants et des évolutions du marché.

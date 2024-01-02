@@ -1,0 +1,62 @@
+= Script Python pour Captures d'Écran de Formation Moodle
+
+[source,python]
+----
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
+import os
+
+# Chemin où vous souhaitez enregistrer les captures d'écran
+screenshots_folder = "chemin/vers/dossier/captures"
+
+# URL de votre formation Moodle
+moodle_url = "URL_DE_VOTRE_FORMATION_MOODLE"
+
+# Chemin vers le navigateur WebDriver (téléchargez le bon pilote pour votre navigateur)
+driver_path = "chemin/vers/le/driver/chromedriver"
+
+# Créer le dossier pour les captures d'écran s'il n'existe pas
+if not os.path.exists(screenshots_folder):
+    os.makedirs(screenshots_folder)
+
+# Configuration du navigateur
+options = webdriver.ChromeOptions()
+options.add_argument("--headless")  # Exécution en mode sans tête (invisible)
+options.add_argument("--disable-gpu")
+options.add_argument("--start-maximized")  # Maximiser la fenêtre du navigateur
+
+# Initialiser le navigateur
+driver = webdriver.Chrome(executable_path=driver_path, options=options)
+
+# Accéder à la page Moodle
+driver.get(moodle_url)
+
+# (Ajoutez ici le code pour vous connecter à votre compte Moodle si nécessaire)
+
+# Attendre que la page se charge complètement (ajustez le temps en fonction de la vitesse de chargement de votre page)
+time.sleep(5)
+
+# Récupérer tous les liens vers les sections de la formation
+section_links = driver.find_elements_by_css_selector(".section a")
+
+# Parcourir chaque section et prendre une capture d'écran
+for index, section_link in enumerate(section_links, start=1):
+    # Accéder à la section
+    section_link.click()
+
+    # Attendre que la section se charge complètement (ajustez le temps en fonction de la vitesse de chargement)
+    time.sleep(3)
+
+    # Prendre une capture d'écran
+    screenshot_path = os.path.join(screenshots_folder, "section_" + str(index) + ".png")
+    driver.save_screenshot(screenshot_path)
+    print("Capture d'écran de la section " + str(index) + " enregistrée : " + screenshot_path)
+
+# Fermer le navigateur
+driver.quit()
+----
+
+N'oubliez pas de personnaliser les variables comme `screenshots_folder`, `moodle_url` et `driver_path` selon votre configuration. Ce script utilise ChromeDriver, alors assurez-vous de télécharger la version appropriée pour votre navigateur Chrome.
+
+Notez que l'utilisation de scripts pour interagir avec des sites Web doit être conforme aux conditions d'utilisation du site et respecter la légalité.

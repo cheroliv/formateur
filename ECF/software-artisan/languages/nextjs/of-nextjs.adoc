@@ -1,0 +1,204 @@
+= Fiche Pédagogique : Création d'un Organisme de Formation avec TypeScript, Clasp, et Next.js
+
+:jbake-title: Organisme de Formation avec TypeScript, Clasp, et Next.js
+:jbake-type: post
+:jbake-tags: next.js, google-apps-script, jest, gh-pages, typescript, tdd, qunit
+:jbake-status: draft
+:jbake-date: 2024-01-01
+:summary: Guide détaillé pour créer un organisme de formation avec TypeScript, Clasp, Next.js, et le développement guidé par les tests (TDD) avec QUnit.
+
+[[toc]]
+== Table des Matières
+
+. Objectifs du Document
+. Prérequis
+. Création d'un Projet Next.js avec TypeScript
+. Configuration du Backend avec TypeScript et Clasp
+. Mise en Place de l'Environnement de Test avec Jest et TypeScript
+. Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+. Développement Guidé par les Tests (TDD) avec QUnit
+. Déploiement de l'Application sur GitHub Pages
+
+[[objectifs]]
+== Objectifs du Document
+
+Ce document a pour objectif de guider les formateurs numériques dans la création d'un organisme de formation en utilisant TypeScript pour le backend (Clasp et Google Apps Script) et le frontend (Next.js). Les points spécifiques abordés comprennent la mise en place du projet, la configuration de l'environnement de test avec Jest et TypeScript, le développement avec Google Apps Script via Clasp en TypeScript, le développement guidé par les tests (TDD) avec QUnit, et enfin, le déploiement de l'application sur GitHub Pages.
+
+[[prerequis]]
+== Prérequis
+
+Les prérequis suggérés pour suivre cette formation incluent :
+
+- Connaissance de base de TypeScript.
+- Compréhension des concepts de Next.js.
+- Familiarité avec Jest pour les tests unitaires.
+- Un compte GitHub pour le déploiement sur GitHub Pages.
+
+[[creation_projet]]
+== Création d'un Projet Next.js avec TypeScript
+
+=== Installation de Next.js avec TypeScript
+
+Pour créer un nouveau projet Next.js avec TypeScript, installez Next.js avec l'option `--template typescript` :
+
+[source, bash]
+----
+npx create-next-app@latest training --template typescript
+----
+
+Suivez les instructions pour terminer le processus de création.
+
+[[configuration_backend]]
+== Configuration du Backend avec TypeScript et Clasp
+
+1. **Installation de Clasp Localement avec TypeScript :**
+
+   ```bash
+   npm install @google/clasp typescript @types/google-apps-script
+   ```
+
+2. **Configuration de TypeScript :**
+
+   - Ajoutez un fichier `tsconfig.json` à la racine du projet avec la configuration TypeScript nécessaire pour le backend Google Apps Script.
+
+   ```json
+   {
+     "compilerOptions": {
+       "lib": ["es6"],
+       "target": "ESNext",
+       "module": "CommonJS",
+       "strict": true,
+       "esModuleInterop": true
+     },
+     "include": ["google-apps-script/**/*.ts"]
+   }
+   ```
+
+3. **Développement du Backend avec TypeScript :**
+
+   - Utilisez Clasp pour créer ou lier un projet Google Apps Script.
+   - Utilisez TypeScript pour écrire des fichiers `.ts` dans le dossier `google-apps-script`.
+
+4. **Déploiement du Backend avec Clasp :**
+
+   - Utilisez la commande suivante pour déployer le backend sur Google Apps Script :
+
+     ```bash
+     npx clasp push
+     ```
+
+[[environnement_test]]
+== Mise en Place de l'Environnement de Test avec Jest et TypeScript
+
+1. **Installation de Jest, TypeScript et les Dépendances Nécessaires :**
+
+   ```bash
+   npm install --save-dev jest ts-jest @types/jest @testing-library/react @testing-library/jest-dom
+   ```
+
+2. **Ajout d'une Tâche de Test dans le Fichier `package.json` :**
+
+   ```json
+   "scripts": {
+     "test": "jest"
+   }
+   ```
+
+3. **Configuration de Jest avec `jest.config.js` :**
+
+   ```js
+   module.exports = {
+     preset: 'ts-jest',
+     testEnvironment: 'jsdom',
+     moduleNameMapper: {
+       '\\.(css)$': '<rootDir>/__mocks__/styleMock.js',
+     },
+   };
+   ```
+
+4. **Création du Fichier `__mocks__/styleMock.js` pour Gérer les Fichiers CSS dans les Tests :**
+
+   ```js
+   module.exports = {};
+   ```
+
+[[environnement_dev]]
+== Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+
+Suivez les étapes du point "Mise en Place de l'Environnement de Développement avec Clasp (Google
+
+ Apps Script)" en remplaçant `Code.gs` par `Code.ts` dans vos fichiers Google Apps Script.
+
+[[tdd_qunit]]
+== Développement Guidé par les Tests (TDD) avec QUnit
+
+1. **Installation de QUnit :**
+
+   ```bash
+   npm install --save-dev qunit
+   ```
+
+2. **Configuration de QUnit :**
+
+   - Ajoutez un fichier de configuration pour QUnit, par exemple, `qunit.config.js` :
+
+   ```js
+   export default {
+     files: [
+       'tests/**/*.test.ts',
+     ],
+   };
+   ```
+
+3. **Création d'un Premier Test :**
+
+   - Créez un fichier de test, par exemple, `tests/example.test.ts` :
+
+   ```typescript
+   import { module, test } from 'qunit';
+
+   module('Example Test', function () {
+     test('It should pass', function (assert) {
+       assert.ok(true);
+     });
+   });
+   ```
+
+4. **Exécution des Tests :**
+
+   - Ajoutez une tâche de test QUnit dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-qunit": "qunit"
+   }
+   ```
+
+   - Exécutez les tests avec la commande suivante :
+
+   ```bash
+   npm run test-qunit
+   ```
+
+[[deploiement_github_pages]]
+== Déploiement de l'Application sur GitHub Pages
+
+Suivez les étapes du point "Déploiement de l'Application sur GitHub Pages".
+
+=== Proposition de Captures d'Écran Didactiques
+
+1. Capture d'écran : Installation de Next.js avec TypeScript.
+
+2. Capture d'écran : Configuration de TypeScript pour le backend avec Clasp.
+
+3. Capture d'écran : Développement du backend avec TypeScript et Clasp.
+
+4. Capture d'écran : Configuration de Jest et TypeScript pour les tests.
+
+5. Capture d'écran : Configuration de QUnit pour le développement guidé par les tests.
+
+6. Capture d'écran : Développement guidé par les tests (TDD) avec QUnit.
+
+7. Capture d'écran : Déploiement de l'application sur GitHub Pages.
+
+Ces captures d'écran devraient vous guider à travers chaque étape du processus, y compris le développement guidé par les tests avec QUnit.
