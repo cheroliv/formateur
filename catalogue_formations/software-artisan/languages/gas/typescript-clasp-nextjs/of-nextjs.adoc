@@ -180,6 +180,104 @@ Suivez les étapes du point "Mise en Place de l'Environnement de Développement 
    npm run test-qunit
    ```
 
+
+[[crud_api]]
+== Mise en Place d'une API CRUD avec Clasp et Google Sheets
+
+L'utilisation de Google Sheets comme backend pour une API CRUD est une solution simple et efficace. Avec Clasp, nous pouvons créer des scripts Google Apps Script et les déployer pour fournir des services CRUD. Suivez ces étapes pour mettre en place votre API CRUD.
+
+[[etape_1]]
+=== Étape 1 : Création du Script Google Apps Script
+
+1.1 Créez un nouveau script dans Google Apps Script : [Google Apps Script](https://script.google.com/).
+
+1.2 Dans l'éditeur de script, remplacez le contenu du fichier `Code.gs` par le code suivant :
+
+[source,js]
+----
+function createRecord(data) {
+  // Logique pour créer un enregistrement
+}
+
+function readRecords() {
+  // Logique pour lire les enregistrements
+}
+
+function updateRecord(id, data) {
+  // Logique pour mettre à jour un enregistrement
+}
+
+function deleteRecord(id) {
+  // Logique pour supprimer un enregistrement
+}
+----
+
+[[etape_2]]
+=== Étape 2 : Déploiement du Script avec Clasp
+
+2.1 Installez Clasp localement si ce n'est pas déjà fait :
+
+[source,bash]
+----
+npm install -g @google/clasp
+----
+
+2.2 Initialisez un nouveau projet Clasp dans le dossier de votre choix :
+
+[source,bash]
+----
+clasp create --type standalone
+----
+
+2.3 Déployez le script sur Google Apps Script :
+
+[source,bash]
+----
+clasp push
+----
+
+[[etape_3]]
+=== Étape 3 : Utilisation de l'API CRUD
+
+3.1 Obtenez l'URL de l'API après le déploiement du script.
+
+3.2 Utilisez des requêtes HTTP (par exemple, avec Axios) pour interagir avec l'API depuis votre application Next.js.
+
+Exemple avec Axios en TypeScript :
+
+[source,typescript]
+----
+import axios from 'axios';
+
+const apiUrl = 'URL_DE_VOTRE_API';
+
+// Créer un enregistrement
+axios.post(apiUrl, { /* Données de l'enregistrement */ });
+
+// Lire les enregistrements
+axios.get(apiUrl);
+
+// Mettre à jour un enregistrement
+axios.put(`${apiUrl}/{id}`, { /* Nouvelles données de l'enregistrement */ });
+
+// Supprimer un enregistrement
+axios.delete(`${apiUrl}/{id}`);
+----
+
+[[etape_4]]
+=== Étape 4 : Intégration avec Next.js
+
+4.1 Intégrez l'API CRUD dans votre application Next.js.
+
+4.2 Utilisez les fonctionnalités CRUD dans vos composants ou pages Next.js.
+
+Ces étapes fournissent une base solide pour la création d'une API CRUD avec Clasp et Google Sheets intégrée à votre application Next.js.
+
+
+
+
+
+
 [[deploiement_github_pages]]
 == Déploiement de l'Application sur GitHub Pages
 
@@ -202,3 +300,117 @@ Suivez les étapes du point "Déploiement de l'Application sur GitHub Pages".
 7. Capture d'écran : Déploiement de l'application sur GitHub Pages.
 
 Ces captures d'écran devraient vous guider à travers chaque étape du processus, y compris le développement guidé par les tests avec QUnit.
+
+
+
+[[crud_api]]
+== Mise en Place d'une API CRUD avec Clasp et Google Sheets
+
+L'utilisation de Google Sheets comme backend pour une API CRUD est une solution simple et efficace. Avec Clasp, nous pouvons créer des scripts Google Apps Script et les déployer pour fournir des services CRUD. Suivez ces étapes pour mettre en place votre API CRUD.
+
+[[etape_1]]
+=== Étape 1 : Création du Script Google Apps Script
+
+1.1 Créez un nouveau script dans Google Apps Script : [Google Apps Script](https://script.google.com/).
+
+1.2 Dans l'éditeur de script, remplacez le contenu du fichier `Code.gs` par le code TypeScript suivant :
+
+[source,typescript]
+----
+function createRecord(data: any): void {
+  // Logique pour créer un enregistrement
+}
+
+function readRecords(): any[] {
+  // Logique pour lire les enregistrements
+  return [];
+}
+
+function updateRecord(id: string, data: any): void {
+  // Logique pour mettre à jour un enregistrement
+}
+
+function deleteRecord(id: string): void {
+  // Logique pour supprimer un enregistrement
+}
+----
+
+[[etape_2]]
+=== Étape 2 : Déploiement du Script avec Clasp
+
+2.1 Installez Clasp localement si ce n'est pas déjà fait :
+
+[source,bash]
+----
+npm install -g @google/clasp
+----
+
+2.2 Initialisez un nouveau projet Clasp dans le dossier de votre choix :
+
+[source,bash]
+----
+clasp create --type standalone
+----
+
+2.3 Déployez le script sur Google Apps Script :
+
+[source,bash]
+----
+clasp push
+----
+
+[[etape_3]]
+=== Étape 3 : Utilisation de l'API CRUD
+
+3.1 Obtenez l'URL de l'API après le déploiement du script.
+
+3.2 Utilisez des requêtes HTTP avec `fetch` pour interagir avec l'API depuis votre application TypeScript.
+
+Exemple en TypeScript avec `fetch` :
+
+[source,typescript]
+----
+type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
+
+async function apiRequest(url: string, method: HttpMethod, data?: any): Promise<any> {
+  const options: RequestInit = {
+    method,
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: data ? JSON.stringify(data) : undefined,
+  };
+
+  const response = await fetch(url, options);
+
+  if (!response.ok) {
+    throw new Error(`Erreur HTTP : ${response.status}`);
+  }
+
+  return response.json();
+}
+
+// Exemples d'utilisation
+const apiUrl = 'URL_DE_VOTRE_API';
+
+// Créer un enregistrement
+await apiRequest(apiUrl, 'POST', { /* Données de l'enregistrement */ });
+
+// Lire les enregistrements
+const records = await apiRequest(apiUrl, 'GET');
+
+// Mettre à jour un enregistrement
+await apiRequest(`${apiUrl}/{id}`, 'PUT', { /* Nouvelles données de l'enregistrement */ });
+
+// Supprimer un enregistrement
+await apiRequest(`${apiUrl}/{id}`, 'DELETE');
+----
+
+[[etape_4]]
+=== Étape 4 : Intégration avec votre Application TypeScript
+
+4.1 Intégrez l'API CRUD dans votre application TypeScript.
+
+4.2 Utilisez les fonctionnalités CRUD dans vos composants, pages, ou services TypeScript.
+
+Ces étapes fournissent une base solide pour la création d'une API CRUD avec Clasp et Google Sheets intégrée à votre application TypeScript.
