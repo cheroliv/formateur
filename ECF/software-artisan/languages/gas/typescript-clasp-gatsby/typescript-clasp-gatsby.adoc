@@ -1,0 +1,295 @@
+= Fiche Pédagogique : Création d'un Organisme de Formation avec TypeScript, Clasp, et Gatsby
+
+:jbake-title: Organisme de Formation avec TypeScript, Clasp, et Gatsby
+:jbake-type: post
+:jbake-tags: gatsby, google-apps-script, jest, gh-pages, typescript, tdd, qunit
+:jbake-status: draft
+:jbake-date: 2024-01-01
+
+[[toc]]
+== Table des Matières
+
+. Objectifs du Document
+. Prérequis
+. Création d'un Projet Gatsby avec TypeScript
+. Configuration du Backend avec TypeScript et Clasp
+. Mise en Place de l'Environnement de Test avec Jest et TypeScript
+. Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+. Développement Guidé par les Tests (TDD) avec QUnit
+. Déploiement de l'Application sur GitHub Pages
+. Proposition de Captures d'Écran Didactiques
+
+[[objectifs]]
+== Objectifs du Document
+
+Ce document a pour objectif de guider les formateurs numériques dans la création d'un organisme de formation en utilisant TypeScript pour le backend (Clasp et Google Apps Script) et le frontend (Gatsby). Les points spécifiques abordés comprennent la mise en place du projet, la configuration de l'environnement de test avec Jest et TypeScript, le développement avec Google Apps Script via Clasp en TypeScript, le développement guidé par les tests (TDD) avec QUnit, et enfin, le déploiement de l'application sur GitHub Pages.
+
+[[prerequis]]
+== Prérequis
+
+Les prérequis suggérés pour suivre cette formation incluent :
+
+- Connaissance de base de TypeScript.
+- Compréhension des concepts de Gatsby.
+- Familiarité avec Jest pour les tests unitaires.
+- Un compte GitHub pour le déploiement sur GitHub Pages.
+
+[[creation_projet]]
+== Création d'un Projet Gatsby avec TypeScript
+
+Part 0: Set Up Your Development Environment
+https://www.gatsbyjs.com/docs/tutorial/getting-started/part-0/
+
+Créer un projet Gatsby
+
+Ajouter TypeScript
+Gatsby supports TypeScript automatically, with the ability to modify the default configuration if desired. Gatsby also supports GraphQL Typegen.
+
+Bundling and transpilation
+Gatsby uses webpack to bundle files and Babel to transpile Javascript.
+
+How to configure webpack : https://www.gatsbyjs.com/docs/how-to/custom-configuration/add-custom-webpack-config/
+How to configure Babel : https://www.gatsbyjs.com/docs/how-to/custom-configuration/babel/
+
+Most sites work great with the default configuration. Many common changes have Gatsby plugins already which you can install in your gatsby-config.js.
+
+Linting and auto-formatting
+Gatsby supports the use of ESLint and Prettier to enforce code styling standards.
+
+
+
+=== Installation de Gatsby avec TypeScript
+
+Pour créer un nouveau projet Gatsby avec TypeScript, installez Gatsby avec l'option `gatsby-plugin-typescript` :
+
+```bash
+npx gatsby new my-training-app
+```
+
+Suivez les instructions pour terminer le processus de création.
+
+[[configuration_backend]]
+== Configuration du Backend avec TypeScript et Clasp
+
+1. **Installation de Clasp Localement avec TypeScript :**
+
+   ```bash
+   npm install @google/clasp typescript @types/google-apps-script
+   ```
+
+2. **Configuration de TypeScript :**
+
+   - Ajoutez un fichier `tsconfig.json` à la racine du projet avec la configuration TypeScript nécessaire pour le backend Google Apps Script.
+
+   ```json
+   {
+     "compilerOptions": {
+       "lib": ["es6"],
+       "target": "ESNext",
+       "module": "CommonJS",
+       "strict": true,
+       "esModuleInterop": true
+     },
+     "include": ["google-apps-script/**/*.ts"]
+   }
+   ```
+
+3. **Développement du Backend avec TypeScript :**
+
+   - Utilisez Clasp pour créer ou lier un projet Google Apps Script.
+   - Utilisez TypeScript pour écrire des fichiers `.ts` dans le dossier `google-apps-script`.
+
+4. **Déploiement du Backend avec Clasp :**
+
+   - Utilisez la commande suivante pour déployer le backend sur Google Apps Script :
+
+     ```bash
+     npx clasp push
+     ```
+
+[[environnement_test]]
+== Mise en Place de l'Environnement de Test avec Jest et TypeScript
+
+1. **Installation de Jest, TypeScript et les Dépendances Nécessaires :**
+
+   ```bash
+   npm install --save-dev jest ts-jest @types/jest @testing-library/react @testing-library/jest-dom
+   ```
+
+2. **Ajout d'une Tâche de Test dans le Fichier `package.json` :**
+
+   ```json
+   "scripts": {
+     "test": "jest"
+   }
+   ```
+
+3. **Configuration de Jest avec `jest.config.js` :**
+
+   ```js
+   module.exports = {
+     preset: 'ts-jest',
+     testEnvironment: 'jsdom',
+     moduleNameMapper: {
+       '\\.(css)$': '<rootDir>/__mocks__/styleMock.js',
+     },
+   };
+   ```
+
+4. **Création du Fichier `__mocks__/styleMock.js` pour Gérer les Fichiers CSS dans les Tests :**
+
+   ```js
+   module.exports = {};
+   ```
+
+[[environnement_dev]]
+== Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+
+Suivez les étapes du point "Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script)" en remplaçant `Code.gs` par `Code.ts` dans vos fichiers Google Apps Script.
+
+[[tdd_qunit]]
+== Développement Guidé par les Tests (TDD) avec QUnit
+
+1. **Installation de QUnit :**
+
+   ```bash
+   npm install --save-dev qunit
+   ```
+
+2. **Configuration de QUnit :**
+
+   - Ajoutez un fichier de configuration pour QUnit, par exemple, `qunit.config.js` :
+
+   ```js
+   export default {
+     files: [
+       'tests/**/*.test.ts',
+     ],
+   };
+   ```
+
+3. **Création d'un Premier Test :**
+
+   - Créez un fichier de test, par exemple, `tests/example.test.ts` :
+
+   ```typescript
+   import { module, test } from 'qunit';
+
+   module('Example Test', function () {
+     test('It should pass', function (assert) {
+       assert.ok(true);
+     });
+   });
+   ```
+
+4. **Exécution des Tests :**
+
+   - Ajoutez une tâche de test QUnit dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-qunit": "qunit"
+   }
+   ```
+
+   - Exécutez les tests avec la commande suivante :
+
+   ```bash
+   npm run test-qunit
+   ```
+
+[[deploiement_github_pages]]
+== Déploiement de l'Application sur GitHub Pages
+
+Suivez les étapes du point "Déploiement de l'Application sur GitHub Pages".
+
+[[captures_ecran]]
+== Proposition de Captures d'Écran Didactiques
+
+1. Capture d'écran : Installation de Gatsby avec TypeScript.
+   ![Installation de Gatsby avec TypeScript](lien_vers_capture_installation_gatsby)
+
+2. Capture d'écran : Configuration de TypeScript pour le backend avec Clasp.
+   ![Configuration de TypeScript pour le backend avec Clasp](lien_vers_capture_configuration_backend)
+
+3. Capture d'écran : Développement du backend avec TypeScript et Clasp.
+   ![Développement du backend avec TypeScript et Clasp](lien_vers_capture_develop
+
+pement_backend)
+
+4. Capture d'écran : Configuration de Jest et TypeScript pour les tests.
+   ![Configuration de Jest et TypeScript pour les tests](lien_vers_capture_configuration_tests)
+
+5. Capture d'écran : Configuration de QUnit pour le développement guidé par les tests.
+   ![Configuration de QUnit pour le développement guidé par les tests](lien_vers_capture_configuration_qunit)
+
+6. Capture d'écran : Développement guidé par les tests (TDD) avec QUnit.
+   ![Développement guidé par les tests (TDD) avec QUnit](lien_vers_capture_tdd_qunit)
+
+7. Capture d'écran : Déploiement de l'application sur GitHub Pages.
+   ![Déploiement de l'application sur GitHub Pages](lien_vers_capture_deploiement_github_pages)
+
+8. Capture d'écran : Page d'accueil de l'organisme de formation avec Gatsby.
+   ![Page d'accueil de l'organisme de formation avec Gatsby](lien_vers_capture_page_accueil)
+
+9. Capture d'écran : Configuration de l'environnement de test avec Jest.
+   ![Configuration de l'environnement de test avec Jest](lien_vers_capture_configuration_test_jest)
+
+10. Capture d'écran : Exécution des tests unitaires avec Jest.
+   ![Exécution des tests unitaires avec Jest](lien_vers_capture_execution_tests_jest)
+
+11. Capture d'écran : Configuration de l'environnement de développement avec Clasp.
+    ![Configuration de l'environnement de développement avec Clasp](lien_vers_capture_configuration_dev_clasp)
+
+12. Capture d'écran : Développement du backend avec TypeScript et Clasp.
+    ![Développement du backend avec TypeScript et Clasp](lien_vers_capture_developpement_backend_clasp)
+
+13. Capture d'écran : Configuration de QUnit pour le développement guidé par les tests.
+    ![Configuration de QUnit pour le développement guidé par les tests](lien_vers_capture_configuration_qunit_dev)
+
+14. Capture d'écran : Développement guidé par les tests (TDD) avec QUnit.
+    ![Développement guidé par les tests (TDD) avec QUnit](lien_vers_capture_tdd_qunit_dev)
+
+15. Capture d'écran : Déploiement de l'application sur GitHub Pages.
+    ![Déploiement de l'application sur GitHub Pages](lien_vers_capture_deploiement_github_pages_dev)
+
+16. Capture d'écran : Ajout d'un test unitaire pour une fonction spécifique.
+    ![Ajout d'un test unitaire pour une fonction spécifique](lien_vers_capture_ajout_test_unitaire)
+
+17. Capture d'écran : Exécution des tests unitaires localement.
+    ![Exécution des tests unitaires localement](lien_vers_capture_execution_tests_unitaires)
+
+18. Capture d'écran : Déploiement du backend sur Google Apps Script avec Clasp.
+    ![Déploiement du backend sur Google Apps Script avec Clasp](lien_vers_capture_deploiement_backend_clasp)
+
+19. Capture d'écran : Exécution des tests d'intégration avec QUnit.
+    ![Exécution des tests d'intégration avec QUnit](lien_vers_capture_execution_tests_integration_qunit)
+
+20. Capture d'écran : Réussite des tests d'intégration.
+    ![Réussite des tests d'intégration](lien_vers_capture_reussite_tests_integration)
+
+Ces captures d'écran devraient vous guider à travers chaque étape du processus, y compris le développement guidé par les tests avec QUnit.
+```
+
+
+```asciidoc
+== Conclusion
+
+Cette fiche pédagogique détaille pas à pas la création d'un organisme de formation en utilisant TypeScript, Clasp (Google Apps Script), et Gatsby. Les formateurs numériques trouveront ici une ressource complète, allant de la création du projet à son déploiement sur GitHub Pages.
+
+Les étapes sont guidées par des captures d'écran didactiques, fournissant une référence visuelle à chaque phase du processus. En suivant ce guide, les apprenants pourront non seulement maîtriser les aspects techniques du développement, mais aussi acquérir des compétences en développement guidé par les tests (TDD) avec Jest et QUnit.
+
+[[footer]]
+== Ressources Additionnelles
+
+Pour plus de détails sur les outils mentionnés, consultez les liens ci-dessous :
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Clasp](https://developers.google.com/apps-script/guides/clasp)
+- [Gatsby](https://www.gatsbyjs.com/)
+- [Jest](https://jestjs.io/)
+- [QUnit](https://qunitjs.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+N'oubliez pas de consulter les documentations officielles pour obtenir les informations les plus récentes et les meilleures pratiques.
+```
