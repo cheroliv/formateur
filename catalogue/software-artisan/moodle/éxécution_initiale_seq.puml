@@ -1,0 +1,17 @@
+@startuml
+actor User
+participant Terminal
+participant DockerDesktop
+participant DockerContainer
+
+User -> Terminal: Ouvre une fenêtre de terminal
+User -> DockerDesktop: Assurez-vous que Docker Desktop est en cours d'exécution
+User -> Terminal: Exécute la commande Docker pour lancer Moodle
+
+activate Terminal
+DockerDesktop -> DockerContainer: Commande Docker pour lancer Moodle
+activate DockerContainer
+DockerContainer --> DockerDesktop: Moodle lancé avec succès
+deactivate DockerContainer
+deactivate Terminal
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+actor User
+participant Terminal
+participant DockerDesktop
+participant DockerContainer
+
+User -> Terminal: Exécute la commande Docker pour relancer Moodle
+
+activate Terminal
+DockerDesktop -> DockerContainer: Commande Docker pour relancer Moodle
+activate DockerContainer
+DockerContainer --> DockerDesktop: Moodle relancé avec succès
+deactivate DockerContainer
+deactivate Terminal
+@enduml

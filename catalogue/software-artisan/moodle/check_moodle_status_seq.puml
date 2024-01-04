@@ -1,0 +1,15 @@
+@startuml
+actor User
+participant Terminal
+participant DockerDesktop
+participant DockerContainer
+
+User -> Terminal: Exécute la commande Docker pour vérifier l'état de Moodle
+
+activate Terminal
+DockerDesktop -> DockerContainer: Commande Docker pour vérifier l'état de Moodle
+activate DockerContainer
+DockerContainer --> DockerDesktop: État actuel du conteneur Moodle
+deactivate DockerContainer
+deactivate Terminal
+@enduml

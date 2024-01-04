@@ -210,6 +210,12 @@ screenshots : <<screenshot_status>>
 
 - TODO : [Capture d'écran : Exécution Initiale de Moodle](lien_vers_capture_d_ecran_execution)
 
+
+
+Diagramme de Séquence pour l'Exécution Initiale de Moodle :
+
+image::img/éxécution_initiale_seq.png[]
+
 <<toc>>
 
 [[screenshots_volumes]]
@@ -231,10 +237,18 @@ screenshots : <<screenshot_status>>
 
 - TODO : [Capture d'écran : Relance de Moodle](lien_vers_capture_d_ecran_relance)
 
+Diagramme de Séquence pour la Relance de Moodle :
+
+image::img/restart_moodle_seq.png[]
+
 <<toc>>
 
 === Statut de Moodle [[screenshot_status]]
 
 - TODO : [Capture d'écran : Relance de Moodle](lien_vers_capture_d_ecran_relance)
+
+Diagramme de Séquence pour la Vérification de l'État de Moodle :
+
+image::img/check_moodle_status_seq.png[]
 
 <<toc>>

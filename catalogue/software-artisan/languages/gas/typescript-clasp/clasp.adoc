@@ -1,0 +1,133 @@
+= Fiche Pédagogique : Utilisation de TypeScript avec Clasp
+
+:jbake-title: Utilisation de TypeScript avec Clasp et QUnit
+:jbake-type: post
+:jbake-tags: clasp, typescript, google-apps-script, qunit, tdd
+:jbake-status: draft
+:jbake-date: 2024-01-01
+:summary: Guide détaillé pour utiliser TypeScript avec Clasp et QUnit pour le développement Google Apps Script.
+
+== Table des Matières
+
+.Objectifs du Document
+.Prérequis
+.Installation de Clasp avec TypeScript
+.Exécution de Clasp
+.Tests avec QUnit
+.Compréhension du Langage TypeScript
+
+== Objectifs du Document
+
+Ce document a pour objectif de guider les formateurs numériques dans l'utilisation de TypeScript avec Clasp et QUnit pour le développement Google Apps Script. Les points spécifiques abordés comprennent l'installation de Clasp avec TypeScript, l'exécution de Clasp, les tests avec QUnit, et la compréhension du langage TypeScript.
+
+== Prérequis
+
+Les prérequis suggérés pour suivre cette formation incluent :
+
+- Connaissance de base de TypeScript.
+- Un compte Google pour utiliser Clasp.
+- Node.js installé sur votre machine.
+
+== Installation de Clasp avec TypeScript
+
+.Installation de Clasp Localement avec TypeScript
+
+[source,bash]
+----
+npm install -g @google/clasp typescript @types/google-apps-script
+----
+
+.Configuration de TypeScript
+
+[source,json]
+----
+{
+  "compilerOptions": {
+    "lib": ["es6"],
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["google-apps-script/**/*.ts"]
+}
+----
+
+== Exécution de Clasp
+
+.Création ou Liaison d'un Projet Google Apps Script
+
+[source,bash]
+----
+npx clasp create
+----
+
+.Déploiement du Projet sur Google Apps Script
+
+[source,bash]
+----
+npx clasp push
+----
+
+.Ouverture de l'Éditeur de Scripts Google Apps Script
+
+[source,bash]
+----
+npx clasp open
+----
+
+== Tests avec QUnit
+
+.Installation de QUnit
+
+[source,bash]
+----
+npm install --save-dev qunit
+----
+
+.Configuration de QUnit
+
+[source,json]
+----
+{
+  "files": [
+    'tests/**/*.test.ts',
+  ],
+}
+----
+
+.Écriture et Exécution des Tests
+
+[source,bash]
+----
+npx qunit
+----
+
+== Compréhension du Langage TypeScript
+
+
+Types de Base :
+
+Comprenez les types de base tels que string, number, boolean, etc.
+Interfaces et Types Personnalisés :
+
+Apprenez à définir des interfaces et des types personnalisés.
+Fonctions :
+
+Explorez les fonctions en TypeScript, y compris les fonctions fléchées et les paramètres optionnels.
+Classes et Héritage :
+
+Comprenez l'utilisation des classes et de l'héritage en TypeScript.
+Modules et Espace de Noms :
+
+Apprenez à organiser votre code avec des modules et des espaces de noms.
+Génériques :
+
+Explorez les génériques en TypeScript pour écrire du code réutilisable.
+Types d'Union et Types Intersection :
+
+Comprenez les types d'union (|) et les types d'intersection (&).
+Inferrence de Type :
+
+Apprenez comment TypeScript infère les types.
+Ces étapes vous fourniront une solide base pour utiliser TypeScript avec Clasp et développer des scripts Google Apps Script de manière efficace.
