@@ -1,0 +1,327 @@
+= Formation : Création d'un PDF à partir d'un OCR avec Gradle et Python
+
+== Table des matières
+
+1. Objectifs du Document
+2. Prérequis
+3. Installation de Pymonad
+4. Structure du Projet
+5. Script Gradle
+6. Script Python pour l'OCR
+7. Génération du PDF
+8. Tests Unitaires
+9. TestKit gradle
+10. Conclusion
+
+== Objectifs du Document
+
+Ce document vise à fournir aux participants les compétences nécessaires pour automatiser la création d'un PDF à partir d'un texte extrait d'un OCR en utilisant Gradle comme outil de build et Python pour l'OCR.
+
+== Prérequis
+
+=== Connaissances Nécessaires
+
+- Compréhension des bases de Gradle.
+- Connaissance des principes de base d'OCR.
+- Notions de base en Python.
+
+=== Outils Installés
+
+- Gradle installé sur votre système.
+- Python installé sur votre système.
+- Pymonad installé via `pip install pymonad`.
+
+== Installation de Pymonad
+
+Assurez-vous d'avoir Pymonad installé en utilisant la commande suivante :
+
+[source,bash]
+----
+pip install pymonad
+----
+
+== Structure du Projet
+
+[.projet_ocr_to_pdf]
+|===
+| src/
+|   |── main/
+|       |── python/
+|           |── ocr_script.py
+|       |── resources/
+|           |── input_image.png
+|===
+
+== Script Gradle
+
+Utilisons Gradle pour automatiser le processus. Voici un exemple de script `build.gradle` :
+
+[source,groovy]
+----
+plugins {
+    id 'java'
+}
+
+task ocrToPdf {
+    doLast {
+        exec {
+            commandLine 'python', 'src/main/python/ocr_script.py'
+        }
+    }
+}
+
+// Ajoutez d'autres tâches Gradle selon les besoins.
+----
+
+== Script Python pour l'OCR
+
+Utilisons un script Python (`src/main/python/ocr_script.py`) pour effectuer l'OCR avec `Either` de `pymonad` :
+
+[source,python]
+----
+from pymonad.Either import Left, Right
+
+# Fonctions d'OCR simulées
+def perform_ocr(image_path):
+    # Code d'OCR simulé
+    # ...
+
+    # Retourne le texte extrait ou une erreur
+    return Right("Texte extrait de l'OCR")
+
+# Exécution de l'OCR
+result = perform_ocr('src/main/resources/input_image.png')
+
+# Affichage du résultat
+result.cata(
+    lambda x: print(f"OCR réussi : {x}"),
+    lambda x: print(f"Une erreur s'est produite lors de l'OCR : {x}")
+)
+----
+
+== Génération du PDF
+
+Le texte extrait peut maintenant être utilisé pour générer un PDF en utilisant d'autres bibliothèques ou outils selon vos besoins.
+
+
+== Tests unitaires python
+
+
+Pour les tests unitaires en Python, vous pouvez utiliser le module `unittest` intégré. Voici un exemple de structure de tests pour vos scripts Python :
+
+Créez un répertoire `tests` à la racine de votre projet, et à l'intérieur, ajoutez des fichiers de test Python, par exemple : `test_read_ocr.py`, `test_write_pdf.py`, et `test_ocr_to_pdf.py`.
+
+Voici un exemple de structure :
+
+```
+/projet_ocr_to_pdf
+|-- src
+|   |-- main
+|       |-- python
+|           |-- ocr_script.py
+|       |-- resources
+|           |-- input_image.png
+|-- tests
+|   |-- test_read_ocr.py
+|   |-- test_write_pdf.py
+|   |-- test_ocr_to_pdf.py
+```
+
+Contenu des fichiers de test :
+
+`test_read_ocr.py` :
+```python
+import unittest
+from unittest.mock import patch
+from src.main.python import ocr_script
+
+class TestReadOcr(unittest.TestCase):
+    @patch('builtins.input', return_value='input_image.png')
+    def test_read_ocr(self, mock_input):
+        # Vos tests pour la tâche readOcr
+        result = ocr_script.read_ocr()
+        self.assertEqual(result, expected_value)
+```
+
+`test_write_pdf.py` :
+```python
+import unittest
+from unittest.mock import patch
+from src.main.python import ocr_script
+
+class TestWritePdf(unittest.TestCase):
+    @patch('builtins.input', return_value='output_file.pdf')
+    def test_write_pdf(self, mock_input):
+        # Vos tests pour la tâche writePdf
+        result = ocr_script.write_pdf()
+        self.assertEqual(result, expected_value)
+```
+
+`test_ocr_to_pdf.py` :
+```python
+import unittest
+from unittest.mock import patch
+from src.main.python import ocr_script
+
+class TestOcrToPdf(unittest.TestCase):
+    @patch('src.main.python.ocr_script.read_ocr', return_value='text_content')
+    @patch('src.main.python.ocr_script.write_pdf')
+    def test_ocr_to_pdf(self, mock_read_ocr, mock_write_pdf):
+        # Vos tests pour la tâche ocrToPdf
+        result = ocr_script.ocr_to_pdf()
+        self.assertEqual(result, expected_value)
+```
+
+Assurez-vous que vos scripts Python et vos fichiers de test sont correctement organisés dans votre projet, et ajustez les tests en fonction de la logique spécifique de vos tâches.
+
+
+
+== TestKit gradle
+
+Si vous souhaitez implémenter des tests basés sur des propriétés pour vos tâches Gradle, vous pouvez utiliser le plugin Gradle TestKit. Cela vous permettra de tester vos tâches avec différentes configurations de propriétés.
+
+Voici un exemple de comment vous pouvez organiser vos tests Gradle avec le plugin TestKit :
+
+1. Assurez-vous d'ajouter le plugin `application` à votre `build.gradle.kts` :
+
+```kotlin
+plugins {
+    kotlin("jvm") version "1.5.21"
+    application
+}
+
+application {
+    // Définissez les paramètres de votre application si nécessaire
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Dépendances de votre projet
+    implementation(kotlin("stdlib-jdk8"))
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.5.21")
+}
+
+tasks.register("readOcr") {
+    doLast {
+        // Implémentation pour la tâche readOcr
+    }
+}
+
+tasks.register("writePdf") {
+    doLast {
+        // Implémentation pour la tâche writePdf
+    }
+}
+
+tasks.register("ocrToPdf") {
+    dependsOn("readOcr", "writePdf")
+    doLast {
+        // Implémentation pour la tâche ocrToPdf
+    }
+}
+```
+
+2. Créez un répertoire `src/testKit` à la racine de votre projet.
+
+3. À l'intérieur du répertoire `src/testKit`, créez un fichier `settings.gradle.kts` :
+
+```kotlin
+rootProject.name = "votre-projet"
+```
+
+4. Ajoutez un fichier de test pour chaque tâche que vous voulez tester dans le répertoire `src/testKit`. Par exemple, `src/testKit/ReadOcrTest.kt` :
+
+```kotlin
+import org.gradle.testkit.runner.GradleRunner
+import org.gradle.testkit.runner.TaskOutcome
+import org.junit.Test
+import kotlin.test.assertEquals
+
+class ReadOcrTest {
+    @Test
+    fun `readOcr task should succeed`() {
+        // Spécifiez les propriétés du projet
+        val buildResult = GradleRunner.create()
+            .withProjectDir(projectDir)
+            .withArguments("readOcr")
+            .build()
+
+        // Vérifiez le résultat de la tâche
+        assertEquals(TaskOutcome.SUCCESS, buildResult.task(":readOcr")?.outcome)
+    }
+}
+```
+
+5. Répétez l'étape 4 pour chaque tâche que vous voulez tester.
+
+6. Exécutez vos tests Gradle en utilisant la ligne de commande ou votre IDE favori.
+
+N'oubliez pas d'ajuster les propriétés de vos projets dans les fichiers de test en fonction de vos besoins spécifiques. Cette approche vous permet de tester vos tâches Gradle avec différentes configurations de propriétés.
+
+
+
+=== Intégrer le framework Kotlin Spek
+
+Intégrer le framework Kotlin Spek pour écrire des tests TestKit avec une syntaxe specification. Assurez-vous d'avoir ajouté le plugin `org.jetbrains.spek.spek` à votre `build.gradle.kts`.
+
+Voici comment vous pourriez structurer vos tests :
+
+1. **Mettez à jour vos dépendances dans le `build.gradle.kts`** :
+
+```kotlin
+plugins {
+    kotlin("jvm") version "1.5.21"
+    application
+    kotlin("spek") version "2.0.17"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(kotlin("stdlib-jdk8"))
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.5.21")
+    testImplementation("org.jetbrains.spek:spek-dsl-jvm:2.0.17")
+}
+```
+
+2. **Créez un fichier de spécification Kotlin Spek pour votre tâche dans `src/testKit`**. Par exemple, `src/testKit/ReadOcrSpec.kt` :
+
+```kotlin
+import org.gradle.testkit.runner.GradleRunner
+import org.gradle.testkit.runner.TaskOutcome
+import org.spekframework.spek2.Spek
+import org.spekframework.spek2.dsl.specification.describe
+import kotlin.test.assertEquals
+
+object ReadOcrSpec : Spek({
+    describe("readOcr task") {
+        it("should succeed") {
+            // Spécifiez les propriétés du projet
+            val buildResult = GradleRunner.create()
+                .withProjectDir(projectDir)
+                .withArguments("readOcr")
+                .build()
+
+            // Vérifiez le résultat de la tâche
+            assertEquals(TaskOutcome.SUCCESS, buildResult.task(":readOcr")?.outcome)
+        }
+    }
+})
+```
+
+3. **Répétez ces étapes pour chaque tâche que vous souhaitez tester**.
+
+4. **Exécutez vos tests Spek en utilisant la ligne de commande ou votre IDE favori**.
+
+Avec cette structure, vous pouvez écrire des spécifications Spek pour vos tâches Gradle avec une syntaxe Gherkin. Modifiez les spécifications en fonction de vos besoins spécifiques et répétez le processus pour chaque tâche à tester.
+
+== Conclusion
+
+En suivant ce guide, vous avez appris à automatiser la création d'un PDF à partir d'un OCR en utilisant Gradle comme outil de build et Python pour l'OCR. Continuez à explorer et personnaliser le processus en fonction des exigences spécifiques de votre projet.
+
+ce type de tâche s'appelle de l'automatisation. L'automatisation consiste à créer des processus ou des scripts qui permettent d'accomplir des tâches répétitives ou complexes de manière automatique, sans intervention manuelle constante. Dans le contexte de votre formation, vous automatisez le processus de création d'un PDF à partir d'un texte extrait d'un OCR en utilisant Gradle comme outil de build et Python pour l'OCR. L'automatisation peut grandement améliorer l'efficacité des workflows et réduire les erreurs humaines.

@@ -1,0 +1,14 @@
+@startuml
+[*] --> Idle
+
+Idle --> Authorized: User authorizes Add-On
+Idle --> Unauthorized: User denies authorization
+
+Authorized --> Processing: Event Triggered
+Authorized --> Authorized: User interacts with Add-On
+
+Processing --> Authorized: Processing Completed
+Processing --> Idle: No More Events
+
+Unauthorized --> Idle: Retry Authorization
+@enduml

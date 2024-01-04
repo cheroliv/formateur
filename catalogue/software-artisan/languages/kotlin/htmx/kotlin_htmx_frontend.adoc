@@ -1,0 +1,41 @@
+Si vous cherchez à coder un client léger web hébergé sur GitHub Pages, alors Kotlin JS semble être le choix le plus approprié. Kotlin JS vous permet d'écrire du code Kotlin qui sera ensuite transpilé en JavaScript pour s'exécuter dans le navigateur. Cela convient particulièrement bien pour le développement front-end.
+
+Voici quelques étapes pour commencer avec un projet Kotlin JS hébergé sur GitHub Pages :
+
+1. **Initialisation du Projet Kotlin JS :**
+- Créez un nouveau projet Kotlin JS. Vous pouvez le faire avec IntelliJ IDEA ou en utilisant la ligne de commande avec `kotlin-dsl`.
+
+2. **Structure du Projet :**
+- Assurez-vous que votre projet a une structure appropriée pour un projet Kotlin JS. Il devrait inclure un dossier pour le code source Kotlin, un fichier `build.gradle.kts` pour configurer votre projet, etc.
+
+3. **Code Kotlin JS :**
+- Écrivez votre code Kotlin JS pour le client léger web. Utilisez des bibliothèques telles que htmx pour faciliter les interactions avec le serveur.
+
+4. **Configuration de GitHub Pages :**
+- Ajoutez un fichier `index.html` à la racine de votre projet. C'est le fichier qui sera servi par GitHub Pages. Configurez-le pour inclure le JavaScript généré à partir de votre code Kotlin JS.
+
+5. **Déploiement sur GitHub Pages :**
+- Utilisez les fonctionnalités de déploiement de GitHub Pages pour déployer votre application. Vous pouvez configurer cela dans les paramètres de votre dépôt GitHub.
+
+Voici un exemple minimal de fichier `index.html` :
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Client Léger Web</title>
+</head>
+<body>
+    <script src="build/.../votre_fichier_js_generated.js"></script>
+</body>
+</html>
+```
+
+N'oubliez pas de remplacer `"build/.../votre_fichier_js_generated.js"` par le chemin correct vers le fichier JavaScript généré lors de la compilation de votre projet Kotlin JS.
+
+Une fois que tout est configuré, chaque fois que vous poussez des modifications vers votre dépôt GitHub, GitHub Pages mettra à jour votre application et la rendra disponible en ligne.
+
+N'oubliez pas de consulter la documentation de Kotlin JS et GitHub Pages pour des informations plus détaillées sur la configuration et le déploiement.
+

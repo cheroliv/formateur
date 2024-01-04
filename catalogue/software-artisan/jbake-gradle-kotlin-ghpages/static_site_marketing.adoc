@@ -1,0 +1,68 @@
+## Formation "static_site_marketing" : Comment Vendre un Site Statique Généré
+
+### Objectifs
+
+- Comprendre les avantages d'un site statique en termes de performance, de sécurité et de coûts.
+- Apprendre à communiquer efficacement les avantages d'un site statique à des clients potentiels.
+- Mettre en place une stratégie de marketing pour vendre des sites statiques.
+
+### Prérequis
+
+- Connaissance de base sur les avantages d'un site statique.
+- Compréhension des principaux concepts du marketing en ligne.
+
+### Étapes
+
+1. **Introduction aux Sites Statiques**
+
+- Revue des avantages : performances élevées, sécurité renforcée, coûts réduits.
+- Comparaison avec les sites dynamiques.
+
+2. **Compréhension des Besoins du Client**
+
+- Identifier les besoins spécifiques du client.
+- Mettre en évidence les avantages du site statique en fonction des besoins identifiés.
+
+3. **Stratégies de Communication**
+
+- Élaborer des messages clés pour promouvoir les avantages des sites statiques.
+- Créer du contenu persuasif pour expliquer la valeur ajoutée.
+
+4. **Études de Cas et Témoignages**
+
+- Présenter des études de cas de succès de sites statiques.
+- Recueillir des témoignages de clients satisfaits.
+
+5. **Offres Spéciales et Tarification Transparente**
+
+- Créer des offres spéciales pour attirer de nouveaux clients.
+- Adopter une tarification transparente et compréhensible.
+
+6. **Création d'un Site Marketing Statique**
+
+- Utiliser des outils tels que JBake pour créer un site marketing statique.
+- Mettre en avant les avantages du site statique à travers le site marketing.
+
+7. **Utilisation des Réseaux Sociaux et du SEO**
+
+- Exploiter les réseaux sociaux pour promouvoir les sites statiques.
+- Optimiser le référencement (SEO) pour attirer un trafic qualifié.
+
+8. **Mise en Place d'un Processus de Vente**
+
+- Élaborer un processus de vente étape par étape.
+- Former l'équipe de vente sur la vente de sites statiques.
+
+9. **Analyse des Résultats et Ajustements**
+
+- Utiliser des outils d'analyse pour mesurer l'efficacité de la stratégie marketing.
+- Ajuster la stratégie en fonction des résultats obtenus.
+
+10. **Conclusion et Perspectives d'Avenir**
+
+- Récapitulation des principales stratégies de marketing.
+- Perspectives d'avenir pour le marché des sites statiques.
+
+### Conclusion
+
+Félicitations ! Vous avez maintenant les connaissances nécessaires pour commercialiser efficacement des sites statiques. Mettez en œuvre ces stratégies et adaptez-les en fonction des besoins spécifiques de votre entreprise et de votre marché cible. Bonne chance dans la vente de vos sites statiques !

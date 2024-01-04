@@ -6,10 +6,10 @@
 
 image::img/vue_synoptique_a2sp.png[vue synoptique de l'A2SP]
 
-.Le controle d'accès, sur 2 jours
+.Le contrôle d'accès, sur 2 jours
 * Premier jour : théorie et legislation, communication au talkiewalkie
 
-* Deuxième jour :  mise en situation d'un point de controle d'accès
+* Deuxième jour :  mise en situation d'un point de contrôle d'accès
 
 
 .*Activités types :*

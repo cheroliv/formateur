@@ -1,0 +1,16 @@
+@startuml
+actor User
+participant "Google Sheets" as Sheets
+participant "Google Apps Script" as Script
+participant "GitHub Actions" as Actions
+participant "Continuous Integration" as CI
+
+User -> Sheets: Interact with Add-On
+Sheets -> Script: Trigger Event
+Script -> Actions: Push Event
+Actions -> CI: Run Tests and Build
+CI -> Actions: Tests Passed
+Actions -> Script: Deploy Add-On
+Script -> Sheets: Respond to User
+
+@enduml

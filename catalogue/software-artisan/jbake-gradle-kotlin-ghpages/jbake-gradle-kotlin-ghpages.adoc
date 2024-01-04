@@ -1,0 +1,85 @@
+### Formation "jbake-gradle-kotlin-ghpages"
+
+#### Objectifs
+- Personnaliser le template JBake avec Freemarker.
+- Utiliser Gradle avec DSL Kotlin pour automatiser la génération du site JBake.
+- Déployer le site statique sur GitHub Pages avec une tâche Gradle dédiée.
+
+#### Prérequis
+- Connaissance de JBake, Gradle, et Kotlin DSL.
+- Accès à un compte GitHub.
+
+#### Étapes
+
+1. **Personnaliser le Template JBake avec Freemarker**
+
+- Ouvrez le dossier contenant votre projet JBake.
+- Personnalisez le template Freemarker selon vos besoins.
+
+2. **Configurer le Fichier `build.gradle.kts`**
+
+- Assurez-vous d'avoir les plugins nécessaires dans le fichier `build.gradle.kts`.
+```kotlin
+plugins {
+id("org.jbake.site")
+}
+```
+
+3. **Configurer le Fichier `settings.gradle.kts`**
+
+- Assurez-vous que le fichier `settings.gradle.kts` contient la configuration du plugin JBake.
+```kotlin
+pluginManagement {
+buildscript {
+repositories {
+gradlePluginPortal()
+mavenCentral()
+}
+}
+plugins {
+id("org.jbake.site").version(extra["jbake_gradle_plugin_version"].toString())
+}
+}
+```
+
+4. **Configurer le Fichier `site.yml`**
+
+- Assurez-vous que le fichier `site.yml` contient les configurations nécessaires pour JBake.
+
+5. **Tâche Gradle pour Générer le Site**
+
+- Ajoutez une tâche Gradle pour générer le site JBake.
+```kotlin
+tasks.register("generateSite") {
+dependsOn("jbake")
+}
+```
+
+6. **Tâche Gradle pour Déployer sur GitHub Pages**
+
+- Ajoutez une tâche Gradle pour déployer le site sur GitHub Pages.
+```kotlin
+tasks.register("deployGitHubPages") {
+dependsOn("generateSite")
+doLast {
+// Implémentez la logique de déploiement sur GitHub Pages
+// Utilisez les informations du fichier site.yml
+}
+}
+```
+
+7. **Exécuter la Génération et le Déploiement**
+
+- Exécutez la tâche Gradle pour générer le site.
+```bash
+./gradlew generateSite
+```
+
+- Exécutez la tâche Gradle pour déployer le site sur GitHub Pages.
+```bash
+./gradlew deployGitHubPages
+```
+
+#### Conclusion
+
+Félicitations ! Vous avez maintenant automatisé la génération et le déploiement d'un site statique JBake à l'aide de Gradle avec DSL Kotlin. Continuez à personnaliser votre site selon vos besoins.

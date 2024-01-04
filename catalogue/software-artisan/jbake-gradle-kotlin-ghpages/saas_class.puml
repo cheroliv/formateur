@@ -1,0 +1,21 @@
+@startuml
+class GoogleSheetsAddOn {
+  +handleEvent(event: Event): void
+  +processData(data: any): void
+  +authorizeUser(): void
+}
+
+class GitHubActionsWorkflow {
+  +onPush(): void
+  +onPullRequest(): void
+  +onRelease(): void
+}
+
+class ContinuousIntegration {
+  +runTests(): void
+  +buildArtifact(): void
+}
+
+GoogleSheetsAddOn -- GitHubActionsWorkflow
+GitHubActionsWorkflow -- ContinuousIntegration
+@enduml

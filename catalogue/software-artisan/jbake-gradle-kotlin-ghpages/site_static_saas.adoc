@@ -1,0 +1,67 @@
+# Formation "Création d'un SaaS avec Google Clasp et Automatisation GitHub"
+
+## Objectifs
+
+- Comprendre les concepts de base de Google Clasp et de l'automatisation GitHub.
+- Apprendre à créer un SaaS (Software as a Service) utilisant Google Clasp pour les fonctionnalités côté client et l'automatisation GitHub pour les workflows de développement.
+
+## Prérequis
+
+- Connaissance de base en développement web (HTML, CSS, JavaScript).
+- Compréhension des bases de GitHub.
+
+## Étapes
+
+### 1. Introduction à Google Clasp
+
+- Présentation de Google Clasp et son utilisation pour le développement d'Add-ons Google Workspace.
+- Installation et configuration de l'environnement de développement avec Clasp.
+
+### 2. Création d'un Add-on Google Workspace
+
+- Création d'un Add-on Google Sheets simple avec Clasp.
+- Intégration de fonctionnalités côté client avec Google Apps Script.
+
+### 3. Automatisation GitHub avec GitHub Actions
+
+- Présentation des GitHub Actions pour automatiser les workflows de développement.
+- Configuration de workflows pour les tests, la construction et le déploiement.
+
+### 4. Intégration Continue et Déploiement (CI/CD)
+
+- Mise en place d'une CI/CD avec GitHub Actions.
+- Déploiement automatique des mises à jour de l'Add-on via GitHub Actions.
+
+### 5. Interaction Client-Serveur
+
+- Mise en place d'une interaction entre le client (Google Sheets) et le serveur (backend).
+- Utilisation de Google Apps Script pour gérer les requêtes côté serveur.
+
+### 6. Sécurité et Gestion des Autorisations
+
+- Implémentation de la sécurité côté client et serveur.
+- Gestion des autorisations et des scopes dans l'Add-on Google Workspace.
+
+### 7. Tests et Débogage
+
+- Écriture de tests pour l'Add-on avec Google Apps Script.
+- Utilisation d'outils de débogage pour identifier et résoudre les problèmes.
+
+### 8. Personnalisation de l'Interface Utilisateur
+
+- Personnalisation de l'interface utilisateur de l'Add-on avec HTML et CSS.
+- Intégration d'une expérience utilisateur fluide.
+
+### 9. Gestion des Versions avec GitHub
+
+- Utilisation efficace de GitHub pour gérer les versions de l'Add-on.
+- Stratégies de versionnement pour les Add-ons Google Workspace.
+
+### 10. Documentation et Support
+
+- Rédaction d'une documentation complète pour l'Add-on.
+- Mise en place d'un système de support pour les utilisateurs.
+
+## Conclusion
+
+Félicitations ! Vous avez maintenant les connaissances nécessaires pour créer un SaaS en utilisant Google Clasp pour le développement d'Add-ons Google Workspace et l'automatisation GitHub pour simplifier les workflows de développement. Mettez ces compétences en pratique pour développer des applications web robustes et automatisées. Bonne création de SaaS !

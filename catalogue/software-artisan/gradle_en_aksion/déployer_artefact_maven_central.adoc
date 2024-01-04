@@ -1,0 +1,66 @@
+Bien sûr, voici un guide pas à pas plus détaillé pour déployer un module Gradle sur Maven Central :
+
+### Étape 1: Créez un compte Sonatype JIRA
+1. Rendez-vous sur [Sonatype JIRA](https://issues.sonatype.org/).
+2. Créez un compte si vous n'en avez pas déjà un.
+3. Connectez-vous et ouvrez un ticket pour demander les droits de déploiement sur Maven Central. Attendez l'approbation de votre demande.
+
+### Étape 2: Configurez Gradle pour le déploiement
+Modifiez le fichier `build.gradle.kts` de votre module pour inclure les configurations de publication Maven :
+
+```kotlin
+plugins {
+    kotlin("jvm") version "1.5.31"
+    `maven-publish`
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("mavenJava") {
+            from(components["java"])
+        }
+    }
+    repositories {
+        maven {
+            url = uri("https://oss.sonatype.org/service/local/staging/deploy/maven2/")
+        }
+    }
+}
+```
+
+### Étape 3: Ajoutez les informations de publication
+Ajoutez les informations de publication telles que le groupe et la version dans la même section :
+
+```kotlin
+group = "votre.groupe"
+version = "1.0.0"
+```
+
+Assurez-vous que le `group` est unique et correspond à votre espace de noms sur Maven Central.
+
+### Étape 4: Configurez vos identifiants de déploiement
+Ajoutez vos identifiants Sonatype dans le fichier `gradle.properties` à la racine du projet :
+
+```properties
+signing.gnupg.keyId=VOTRE_CLE_GPG
+signing.gnupg.secretKeyRingFile=VOTRE_FICHIER_SECRET_GPG
+signing.gnupg.secretKeyPassphrase=VOTRE_PASSPHRASE_SECRET_GPG
+
+ossrhUsername=VOTRE_NOM_UTILISATEUR_SONATYPE
+ossrhPassword=VOTRE_MOT_DE_PASSE_SONATYPE
+```
+
+### Étape 5: Exécutez la tâche de publication
+Exécutez la tâche de publication pour déployer votre module :
+
+```bash
+./gradlew publish
+```
+
+### Étape 6: Vérifiez et publiez sur Maven Central
+1. Connectez-vous à [Sonatype Nexus](https://oss.sonatype.org/).
+2. Trouvez votre artefact dans l'onglet "Staging Repositories".
+3. Si tout est correct, cliquez sur le bouton "Close" pour fermer le dépôt de staging.
+4. Ensuite, cliquez sur "Release" pour le publier sur Maven Central.
+
+Le processus de publication sur Maven Central peut prendre un certain temps. Soyez patient et vérifiez la [Central Repository Search](https://search.maven.org/) une fois le déploiement terminé.

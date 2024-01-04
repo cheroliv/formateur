@@ -1,0 +1,16 @@
+@startuml
+|User|
+start
+:User triggers workflow;
+if (Code changes or event?) then (yes)
+  :GitHub Actions Workflow;
+  if (Build passes?) then (yes)
+    :Deploy to Production;
+  else (no)
+    :Notify Developers;
+  endif
+else (no)
+  :Idle;
+endif
+stop
+@enduml
