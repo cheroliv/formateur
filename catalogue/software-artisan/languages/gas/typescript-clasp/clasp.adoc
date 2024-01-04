@@ -32,10 +32,16 @@ Les prérequis suggérés pour suivre cette formation incluent :
 
 .Installation de Clasp Localement avec TypeScript
 
+https://github.com/google/clasp/blob/master/docs/typescript.md
+
 [source,bash]
 ----
-npm install -g @google/clasp typescript @types/google-apps-script
+npm i -g @google/clasp
+npm i typescript @types/google-apps-script
+npm i ts2gas
 ----
+
+https://github.com/grant/ts2gas
 
 .Configuration de TypeScript
 
