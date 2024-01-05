@@ -77,8 +77,22 @@ right side
 ** Mindmap
 *** Représentation visuelle des liens entre différentes idées ou concepts
 
+** Log Driven Development (LDD)
+*** Intégration des Journaux dans le Processus de Développement
+****_ Dans le cadre du projet Talaria, l'intégration des journaux sera une composante essentielle du processus de développement. Chaque composant du système devrait générer des journaux significatifs, permettant une traçabilité efficace.
+*** Structure des Journaux
+****_ Les journaux doivent être structurés de manière claire et contenir des informations pertinentes, telles que les actions effectuées, les erreurs rencontrées, et les données importantes pour le suivi et l'analyse.
+*** Outils de Gestion des Journaux
+****_ L'utilisation d'outils de gestion des journaux, tels que ELK Stack (Elasticsearch, Logstash, Kibana), peut être envisagée pour agréger, analyser et visualiser les journaux de manière centralisée.
+*** Utilisation des Journaux dans le Cycle de Vie du Projet
+**** Les journaux seront utilisés à différentes étapes du cycle de vie du projet :
+*****_ Pendant le développement pour comprendre le flux d'exécution et détecter les problèmes potentiels.
+*****_ Dans le cadre des tests pour évaluer la robustesse du système.
+*****_ En production pour effectuer un suivi en temps réel et diagnostiquer rapidement les incidents.
+
 ** Conclusion
 *** Résumé des principales conclusions et prochaines étapes
+****_ formalisation des documents de suivis
 
 ** Table des matières
 @endmindmap
