@@ -28,5 +28,5 @@ link:compte_rendu_chronologique.adoc[compte rendu chronologique]
 == link:04_andragogie/01_le_metier_de_formateur.adoc#metier[L'andragogie]
 
 ====
-link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2023 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
+link:https://cheroliv.github.io[*cheroliv*] | &copy; 2019-2024 | link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Licence Creative Commons BY-NC-SA] image:https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[Creative Commons License]
 ====
