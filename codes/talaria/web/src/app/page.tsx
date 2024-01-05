@@ -1,12 +1,13 @@
 import React from 'react';
 
+
 const Home: React.FC = () => {
   return (
-    <div>
-      {/* Header */}
-      <header id="header" style={{ backgroundColor: '#007bff', color: 'white', textAlign: 'center', padding: '1em 0' }}>
-        <h1>Talaria - Organisme Formateur</h1>
-      </header>
+        <div style={{ backgroundColor: '#2b2b2b', color: '#c5c8c6', minHeight: '100vh' }}>
+          {/* Header */}
+          <header id="header" style={{ backgroundColor: '#007bff', color: 'white', textAlign: 'center', padding: '1em 0' }}>
+            <h1>Talaria - Organisme Formateur</h1>
+          </header>
 
       {/* Catalogue des Formations */}
       <section id="catalogue" style={{ padding: '2em 0' }}>
@@ -62,7 +63,17 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+      {/* Footer */}
+      <Footer />
     </div>
+  );
+};
+
+const Footer: React.FC = () => {
+  return (
+    <footer style={{ backgroundColor: '#4285f4', color: 'white', padding: '2em 0', textAlign: 'center' }}>
+      <p>&copy; 2024 Talaria - Organisme Formateur. Tous droits réservés.</p>
+    </footer>
   );
 };
 
