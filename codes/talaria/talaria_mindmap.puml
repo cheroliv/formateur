@@ -1,0 +1,84 @@
+@startmindmap
+* Projet Talaria - Mindmap
+
+left side
+
+** Introduction
+*** Objectif du Document
+*** Contexte
+
+** Vision du Projet
+*** Pattern "QQOQCP"
+**** Qui
+**** Quoi
+**** Où
+**** Quand
+**** Comment
+**** Pourquoi
+*** Product Vision Board
+**** Target Group
+**** Needs
+**** Product
+**** Business Goal
+**** Vision
+
+** Personas et Parcours Utilisateurs
+*** Personas
+**** Persona 1
+***** Cible
+***** But
+***** Parcours Utilisateur
+**** Persona 2
+***** Cible
+***** But
+***** Parcours Utilisateur
+*** ...
+
+** Zoning, Storyboard, Sitemap
+*** Zoning
+**** Organisation de l'interface
+*** Storyboard
+**** Illustration séquentielle de l'expérience utilisateur
+*** Sitemap
+**** Représentation structurée de la navigation du site
+
+** Wireframe/Moodboard
+*** Wireframes
+**** Représentations visuelles des pages
+*** Moodboard
+**** Collection d'éléments visuels pour définir le ton et l'esthétique
+
+
+right side
+
+** Story Mapping/User Stories
+*** Story Mapping
+**** Priorisation des User Stories
+*** User Stories
+**** En tant que [type d'utilisateur], je veux [un objectif] afin que [une raison]
+
+** Backlog
+*** Liste des tâches à accomplir
+*** ...
+
+** Technique et Architecture
+*** Collaboration et Documentation
+**** Aspects techniques et architecturaux du projet
+***** Architecture de collaboration et documentation
+***** Architecture d'implémentation
+***** Architecture de test metiers
+***** Architecture de test d'accéptances
+***** Architecture de déploiement
+*** Implementation
+*** Test Metiers
+*** Test d'Acceptance
+*** Déploiement
+
+** Mindmap
+*** Représentation visuelle des liens entre différentes idées ou concepts
+
+** Conclusion
+*** Résumé des principales conclusions et prochaines étapes
+
+** Table des matières
+@endmindmap

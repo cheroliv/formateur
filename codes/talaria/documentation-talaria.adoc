@@ -81,12 +81,43 @@ Le backlog du projet Talaria comprend les tâches suivantes...
 Le backlog du projet Talaria comprend les tâches suivantes...
 
 == 8. Technique et Architecture
-- Aspects techniques et architecturaux du projet.
+.Aspects techniques et architecturaux du projet.
+- architecture de collaboration et documentation
+- architecture d'implémentation
+- architecture de test metiers
+- architecture de test d'acceptance
+- architecture de déploiment
+
 
 == 9. Mindmap
 - Représentation visuelle des liens entre différentes idées ou concepts.
 La mindmap illustre visuellement les liens entre différentes idées ou concepts...
 
-== 10. Conclusion
+image::img/talaria_mindmap.png[]
+
+== 10. Log Driven Development (LDD)
+
+=== 10.1 Objectifs du Log Driven Development
+Le Log Driven Development (LDD) est une pratique visant à guider le développement en se basant sur les informations contenues dans les journaux (logs). Cela permet de mieux comprendre le comportement du système, d'identifier les problèmes potentiels et de faciliter le débogage.
+
+=== 10.2 Intégration des Journaux dans le Processus de Développement
+Dans le cadre du projet Talaria, l'intégration des journaux sera une composante essentielle du processus de développement. Chaque composant du système devrait générer des journaux significatifs, permettant une traçabilité efficace.
+
+=== 10.3 Structure des Journaux
+Les journaux doivent être structurés de manière claire et contenir des informations pertinentes, telles que les actions effectuées, les erreurs rencontrées, et les données importantes pour le suivi et l'analyse.
+
+=== 10.4 Outils de Gestion des Journaux
+L'utilisation d'outils de gestion des journaux, tels que ELK Stack (Elasticsearch, Logstash, Kibana), peut être envisagée pour agréger, analyser et visualiser les journaux de manière centralisée.
+
+=== 10.5 Utilisation des Journaux dans le Cycle de Vie du Projet
+Les journaux seront utilisés à différentes étapes du cycle de vie du projet :
+- Pendant le développement pour comprendre le flux d'exécution et détecter les problèmes potentiels.
+- Dans le cadre des tests pour évaluer la robustesse du système.
+- En production pour effectuer un suivi en temps réel et diagnostiquer rapidement les incidents.
+
+=== 10.6 Formation et Sensibilisation
+Une formation sur l'utilisation des journaux et la compréhension de leurs informations sera dispensée aux membres de l'équipe de développement. Il est essentiel que toute l'équipe comprenne l'importance des journaux dans le processus de développement.
+
+== 11. Conclusion
 Résumé des principales conclusions et prochaines étapes.
 Le document de cadrage énonce clairement les principales conclusions et les prochaines étapes du projet Talaria.
