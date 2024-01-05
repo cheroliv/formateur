@@ -4,4 +4,4 @@ plugins {
 }
 
 rootProject.name = "formateur"
-include("codes:lms")
+include("codebase:lms")
