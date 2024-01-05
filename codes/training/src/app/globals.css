@@ -1,3 +1,7 @@
+/* styles/globals.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Autres styles globaux */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
