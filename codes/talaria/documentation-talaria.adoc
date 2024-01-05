@@ -82,11 +82,11 @@ Le backlog du projet Talaria comprend les tâches suivantes...
 
 == 8. Technique et Architecture
 .Aspects techniques et architecturaux du projet.
-- architecture de collaboration et documentation
-- architecture d'implémentation
-- architecture de test metiers
-- architecture de test d'acceptance
-- architecture de déploiment
+- Architecture de collaboration et documentation
+- Architecture d'implémentation
+- Architecture de tests métiers
+- Architecture de tests d'accéptance
+- Architecture de déploiment
 
 
 == 9. Mindmap
