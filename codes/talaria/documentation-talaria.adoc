@@ -1,0 +1,92 @@
+= Cadrage pour le Projet Talaria
+@CherOliv
+:jbake-title: Mémo Cadrage - Projet Talaria
+:jbake-type: post
+:jbake-tags: projet, cadrage, formation, Talaria
+:jbake-status: draft
+:jbake-date: 2024-01-01
+:summary: Document de cadrage pour le projet Talaria - Organisme Formateur.
+2024-01-01
+
+
+== 1. Introduction
+=== 1.1 Objectif du Document
+Ce document a pour objectif de définir le cadre et les principales lignes directrices du projet Talaria, un organisme formateur.
+
+=== 1.2 Contexte
+Le projet Talaria vise à créér un OF multimodale remote-first.
+
+== 2. Vision du Projet
+=== 2.1 Pattern "QQOQCP"
+- Qui : Définition des parties prenantes.
+- Quoi : Objectifs et résultats attendus.
+- Où : Lieux géographiques d'opération.
+- Quand : Calendrier prévu du projet.
+- Comment : Approche et méthodologie.
+- Pourquoi : Justification et bénéfices attendus.
+
+=== 2.2 Product Vision Board
+==== 2.2.1 Target Group
+==== 2.2.2 Needs
+==== 2.2.3 Product
+==== 2.2.4 Business Goal
+==== 2.2.5 Vision
+
+== 3. Personas et Parcours Utilisateurs
+=== 3.1 Personas
+- Persona 1
+  - Cible
+  - But
+  - Parcours Utilisateur
+- Persona 2
+  - Cible
+  - But
+  - Parcours Utilisateur
+- [... Ajouter autant de personas que nécessaire ...]
+
+
+== 4. Zoning, Storyboard, Sitemap
+=== 4.1 Zoning
+- Organisation de l'interface.
+L'organisation de l'interface du projet Talaria est définie comme suit...
+
+
+=== 4.2 Storyboard
+- Illustration séquentielle de l'expérience utilisateur.
+Le storyboard illustre de manière séquentielle l'expérience utilisateur à travers...
+
+=== 4.3 Sitemap
+- Représentation structurée de la navigation du site.
+La structure de navigation du site est représentée dans le sitemap comme suit...
+
+== 5. Wireframe/Moodboard
+=== 5.1 Wireframes
+- Représentations visuelles des pages.
+Les wireframes fournissent une représentation visuelle des pages clés du projet...
+
+=== 5.2 Moodboard
+- Collection d'éléments visuels pour définir le ton et l'esthétique.
+Le moodboard rassemble des éléments visuels pour définir le ton et l'esthétique du projet...
+
+== 6. Story Mapping/User Stories
+=== 6.1 Story Mapping
+- Priorisation des User Stories.
+Le backlog du projet Talaria comprend les tâches suivantes...
+
+=== 6.2 User Stories
+- En tant que [type d'utilisateur], je veux [un objectif] afin que [une raison].
+
+== 7. Backlog
+- Liste des tâches à accomplir.
+Le backlog du projet Talaria comprend les tâches suivantes...
+
+== 8. Technique et Architecture
+- Aspects techniques et architecturaux du projet.
+
+== 9. Mindmap
+- Représentation visuelle des liens entre différentes idées ou concepts.
+La mindmap illustre visuellement les liens entre différentes idées ou concepts...
+
+== 10. Conclusion
+Résumé des principales conclusions et prochaines étapes.
+Le document de cadrage énonce clairement les principales conclusions et les prochaines étapes du projet Talaria.
