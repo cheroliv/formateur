@@ -12,11 +12,16 @@ github repository: https://github.com/cheroliv/ts-codebase[ts-codebase, window="
 
 == [underline]#Intro typescript# [[toc_ts]]
 . <<ts_types>>
+. <<fonctions>>
 . <<data_struct>>
 . <<enums_tuples>>
 . <<void_never>>
 . <<class_interface>>
 . <<tsconfig>>
+. <<modules>>
+. <<promesses>>
+. <<async-await>>
+. <<generiques>>
 
 
 index.html
@@ -65,16 +70,28 @@ console.assert(my_var === true);
 let age = 1;
 console.assert(age === 1);
 age = 2;
-// age="trois" c'est impossible 
+// age="trois" c'est impossible
 // car l'inference de type a attribué le type number
 console.assert(age === 2);
 
-// Déclaration explicite de type  
+// Déclaration explicite de type
 let pi: Number = 3.14;
 console.assert(typeof pi === "number");
 ----
 
 <<toc_ts>>
+
+== Fonctions [[fonctions]]
+Les fonctions sont des blocs de code réutilisables.
+
+Exemple de cote :
+[source,typescript]
+----
+const add = (a: number, b: number): number => a + b;
+----
+
+<<toc_ts>>
+
 
 == Structure de données [[data_struct]]
 
@@ -83,9 +100,9 @@ console.assert(typeof pi === "number");
 ----
 /***
  * Structure de données:
- * Avec le type any on peut changer 
+ * Avec le type any on peut changer
  * le type de la variable à tout instruction
- * Lorsque l'on fixe le type 
+ * Lorsque l'on fixe le type
  * alors il n'est plus possible de le changer
  * lors d'une assignation
  */
@@ -102,7 +119,7 @@ console.assert(buddies[0] === "cheroliv");
 console.assert(buddies[1] === "imrandeh");
 console.assert(buddies[2] === "issoudeh");
 console.assert(buddies[3] === "soumi92");
-// Déclaré en type any, l'inference de type 
+// Déclaré en type any, l'inference de type
 // a bien réaligné en type string
 console.assert(typeof buddies[0] === "string");
 console.assert(typeof buddies[1] === "string");
@@ -170,13 +187,13 @@ console.assert(typeof author["century"] === "number");
 ----
 /**
  * Enums et Tuples
- * 
- * Enum: il existe les enums numérique 
+ *
+ * Enum: il existe les enums numérique
  * et les enums chaine de caracteres.
- * 
+ *
  * Tuple: similaire aux arrays mais ne peut
  * contenir qu'une valeur de type spécifié.
- * 
+ *
  */
 
 //Enum numérique
@@ -325,7 +342,7 @@ display_motd(motd_en);
 console.log("---------");
 test_motd(motd_en, motd_arr_en);
 
-// Un tuple (triple) utilisant le type 
+// Un tuple (triple) utilisant le type
 // Meaning_of_the_day pour peupler le meaning
 let motd_triple: [
     Number,
@@ -396,9 +413,9 @@ function fail(message: String): never {
  * nommage,
  * accesseurs
  * scope identifier: static,private,protected
- * 
+ *
  * convention de nommage :
- * Les membres private sont préfixés avec un _ * 
+ * Les membres private sont préfixés avec un _ *
  */
 
 class Member {
@@ -469,7 +486,8 @@ class Square extends Rectangle {
 
 
 /**
- * Interface donne un contrat à un type
+ * Interface donne un contrat à un type.
+ * Les interfaces permettent de définir la structure d'un objet.
  */
 
 interface IPerson {
@@ -477,7 +495,6 @@ interface IPerson {
     email: String;
     readonly signup_date: Date;
 }
-
 
 const user1: IPerson = {
     username: Member.fromAuthor(author)["username"],
@@ -522,3 +539,63 @@ tsconfig.json
 
 // <<toc_ts>>
 
+
+== Modules [[modules]]
+Les modules permettent d'organiser le code en plusieurs fichiers.
+
+Exemple de cote :
+[source,typescript]
+----
+// Dans un fichier math.ts
+export const add = (a: number, b: number): number => a + b;
+
+// Dans un autre fichier
+import { add } from './math';
+let result = add(2, 3);
+----
+
+<<toc_ts>>
+
+== Promesses [[promesses]]
+Les promesses sont utilisées pour effectuer des opérations asynchrones.
+
+Exemple de cote :
+[source,typescript]
+----
+const promise = new Promise<string>((resolve) => {
+    // Code asynchrone ici
+    resolve("Succès");
+});
+
+promise.then((result) => {
+    console.log(result);
+});
+----
+
+<<toc_ts>>
+
+== async/await [[async-await]]
+L'async/await simplifie la gestion des promesses.
+
+Exemple de cote :
+[source,typescript]
+----
+const fetchData = async (): Promise<void> => {
+    const result = await someAsyncFunction();
+    console.log(result);
+};
+----
+
+<<toc_ts>>
+
+== Génériques [[generiques]]
+Les génériques permettent de créer des composants réutilisables avec des types dynamiques.
+
+Exemple de cote :
+[source,typescript]
+----
+const identity = <T>(arg: T): T => arg;
+
+const output = identity<string>("hello");
+console.log(output);
+----
