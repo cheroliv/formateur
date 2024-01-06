@@ -48,6 +48,18 @@ npx create-next-app@latest training --template typescript
 
 Suivez les instructions pour terminer le processus de création.
 
+TODO: cucumber, canary
+
+[source,bash]
+----
+npm install --save-dev @cucumber/cucumber
+npm install --save-dev @types/cucumber
+npm install --save-dev ts-node
+----
+
+pas a pas du front end, ici c'est tout le front end. Apres on passe au backend
+
+
 [[configuration_backend]]
 == Configuration du Backend avec TypeScript et Clasp
 
@@ -414,3 +426,6 @@ await apiRequest(`${apiUrl}/{id}`, 'DELETE');
 4.2 Utilisez les fonctionnalités CRUD dans vos composants, pages, ou services TypeScript.
 
 Ces étapes fournissent une base solide pour la création d'une API CRUD avec Clasp et Google Sheets intégrée à votre application TypeScript.
+
+
+
