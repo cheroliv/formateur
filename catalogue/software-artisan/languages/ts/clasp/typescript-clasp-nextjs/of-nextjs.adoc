@@ -62,6 +62,50 @@ npm install --save-dev ts-node
 
 pas a pas du front end, ici c'est tout le front end. Apres on passe au backend
 
+== Configuration du TDD avec Next.js
+
+
+Le Test-Driven Development (TDD) est une approche de développement logiciel où les tests sont écrits avant le code de production. Dans ce document, nous allons explorer la configuration du TDD avec Next.js, un framework JavaScript populaire pour le développement côté client.
+
+
+
+2. Installez Jest et les dépendances nécessaires pour le TDD :
+
+[source,bash]
+----
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom
+----
+
+== Configuration de Jest
+
+Créez un fichier de configuration Jest appelé `jest.config.js` à la racine du projet avec le contenu suivant :
+
+[source,javascript]
+----
+module.exports = {
+  testEnvironment: 'jsdom',
+};
+----
+
+== Scripts NPM
+
+Ajoutez les scripts suivants à votre fichier `package.json` :
+
+[source,json]
+----
+"scripts": {
+  "test": "jest"
+}
+----
+
+Cela vous permettra d'exécuter vos tests avec la commande `npm test`.
+
+== Références
+
+Pour plus d'informations sur le TDD avec Next.js, consultez la documentation officielle de Next.js et Jest :
+- link:https://nextjs.org/docs/getting-started[Test-Driven Development with Next.js]
+- link:https://jestjs.io/[Jest Documentation]
+
 
 [[configuration_backend]]
 == Configuration du Backend avec TypeScript et Clasp
