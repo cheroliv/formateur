@@ -1,0 +1,33 @@
+= Web Sémantique
+
+link:https://www.culture.gouv.fr/Thematiques/Innovation-numerique[Thématique global : culture.gouv.fr et Innovation-numerique]
+
+.link:https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Faciliter-l-acces-aux-donnees-et-aux-contenus-culturels/Web-semantique-outils-pratiques#:~:text=Le%20%22Web%20s%C3%A9mantique%22%2C%20un,des%20normes%20fondamentales%20du%20web.[Web sémantique : outils pratiques]
+* Feuille de route Métadonnées culturelles et transition Web 3.0 : link:rsrc/doc/Feuille%20de%20route%20métadonnées%20et%203.0%20VF.pdf[Feuille de route métadonnées et 3.0 VF.pdf]
+
+==== Vade-mecum pour les producteurs de données
+
+Vademecum_Identifiants_web_semantique.pdf
+
+
+== Des guides pratiques
+
+Recommandations_techniques_metadonnees_standards.pdf
+
+Les_enjeux_des_metadonnees_et_des_standards.pdf
+
+
+
+== Un programme de formation
+Referentiel-Formation_web_semantique.pdf
+
+
+== Retracer la provenance des données pour plus de fiabilité et de confiance
+EtatDelArt_Tracabilite.pdf
+
+
+
+== Application des technologies 3.0 à la description des événements culturels
+MCC_technologies_3-0_web_evenements_culturels.pdf
+
+
