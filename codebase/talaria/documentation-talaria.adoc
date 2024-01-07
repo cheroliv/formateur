@@ -10,14 +10,19 @@
 
 
 == 1. Introduction
+
 === 1.1 Objectif du Document
+
 Ce document a pour objectif de définir le cadre et les principales lignes directrices du projet Talaria, un organisme formateur.
 
 === 1.2 Contexte
+
 Le projet Talaria vise à créér un OF multimodale remote-first.
 
 == 2. Vision du Projet
+
 === 2.1 Pattern "QQOQCP"
+
 - Qui : Définition des parties prenantes.
 - Quoi : Objectifs et résultats attendus.
 - Où : Lieux géographiques d'opération.
@@ -26,61 +31,78 @@ Le projet Talaria vise à créér un OF multimodale remote-first.
 - Pourquoi : Justification et bénéfices attendus.
 
 === 2.2 Product Vision Board
+
 ==== 2.2.1 Target Group
+
 ==== 2.2.2 Needs
+
 ==== 2.2.3 Product
+
 ==== 2.2.4 Business Goal
+
 ==== 2.2.5 Vision
 
 == 3. Personas et Parcours Utilisateurs
+
 === 3.1 Personas
+
 - Persona 1
-  - Cible
-  - But
-  - Parcours Utilisateur
+- Cible
+- But
+- Parcours Utilisateur
 - Persona 2
-  - Cible
-  - But
-  - Parcours Utilisateur
+- Cible
+- But
+- Parcours Utilisateur
 - [... Ajouter autant de personas que nécessaire ...]
 
-
 == 4. Zoning, Storyboard, Sitemap
+
 === 4.1 Zoning
+
 - Organisation de l'interface.
 L'organisation de l'interface du projet Talaria est définie comme suit...
 
-
 === 4.2 Storyboard
+
 - Illustration séquentielle de l'expérience utilisateur.
 Le storyboard illustre de manière séquentielle l'expérience utilisateur à travers...
 
 === 4.3 Sitemap
+
 - Représentation structurée de la navigation du site.
 La structure de navigation du site est représentée dans le sitemap comme suit...
 
 == 5. Wireframe/Moodboard
+
 === 5.1 Wireframes
+
 - Représentations visuelles des pages.
 Les wireframes fournissent une représentation visuelle des pages clés du projet...
 
 === 5.2 Moodboard
+
 - Collection d'éléments visuels pour définir le ton et l'esthétique.
 Le moodboard rassemble des éléments visuels pour définir le ton et l'esthétique du projet...
 
 == 6. Story Mapping/User Stories
+
 === 6.1 Story Mapping
+
 - Priorisation des User Stories.
 Le backlog du projet Talaria comprend les tâches suivantes...
 
 === 6.2 User Stories
+
 - En tant que [type d'utilisateur], je veux [un objectif] afin que [une raison].
 
 == 7. Backlog
+
 - Liste des tâches à accomplir.
 Le backlog du projet Talaria comprend les tâches suivantes...
 
 == 8. Technique et Architecture
+
 .Aspects techniques et architecturaux du projet.
 - Architecture de collaboration et documentation
 - Architecture d'implémentation
@@ -88,8 +110,8 @@ Le backlog du projet Talaria comprend les tâches suivantes...
 - Architecture de tests d'accéptance
 - Architecture de déploiment
 
-
 == 9. Mindmap
+
 - Représentation visuelle des liens entre différentes idées ou concepts.
 La mindmap illustre visuellement les liens entre différentes idées ou concepts...
 
@@ -98,26 +120,306 @@ image::img/talaria_mindmap.png[]
 == 10. Log Driven Development (LDD)
 
 === 10.1 Objectifs du Log Driven Development
-Le Log Driven Development (LDD) est une pratique visant à guider le développement en se basant sur les informations contenues dans les journaux (logs). Cela permet de mieux comprendre le comportement du système, d'identifier les problèmes potentiels et de faciliter le débogage.
+
+Le Log Driven Development (LDD) est une pratique visant à guider le développement en se basant sur les informations contenues dans les journaux (logs).
+Cela permet de mieux comprendre le comportement du système, d'identifier les problèmes potentiels et de faciliter le débogage.
 
 === 10.2 Intégration des Journaux dans le Processus de Développement
-Dans le cadre du projet Talaria, l'intégration des journaux sera une composante essentielle du processus de développement. Chaque composant du système devrait générer des journaux significatifs, permettant une traçabilité efficace.
+
+Dans le cadre du projet Talaria, l'intégration des journaux sera une composante essentielle du processus de développement.
+Chaque composant du système devrait générer des journaux significatifs, permettant une traçabilité efficace.
 
 === 10.3 Structure des Journaux
+
 Les journaux doivent être structurés de manière claire et contenir des informations pertinentes, telles que les actions effectuées, les erreurs rencontrées, et les données importantes pour le suivi et l'analyse.
 
 === 10.4 Outils de Gestion des Journaux
+
 L'utilisation d'outils de gestion des journaux, tels que ELK Stack (Elasticsearch, Logstash, Kibana), peut être envisagée pour agréger, analyser et visualiser les journaux de manière centralisée.
 
 === 10.5 Utilisation des Journaux dans le Cycle de Vie du Projet
+
 Les journaux seront utilisés à différentes étapes du cycle de vie du projet :
 - Pendant le développement pour comprendre le flux d'exécution et détecter les problèmes potentiels.
 - Dans le cadre des tests pour évaluer la robustesse du système.
 - En production pour effectuer un suivi en temps réel et diagnostiquer rapidement les incidents.
 
 === 10.6 Formation et Sensibilisation
-Une formation sur l'utilisation des journaux et la compréhension de leurs informations sera dispensée aux membres de l'équipe de développement. Il est essentiel que toute l'équipe comprenne l'importance des journaux dans le processus de développement.
+
+Une formation sur l'utilisation des journaux et la compréhension de leurs informations sera dispensée aux membres de l'équipe de développement.
+Il est essentiel que toute l'équipe comprenne l'importance des journaux dans le processus de développement.
 
 == 11. Conclusion
+
 Résumé des principales conclusions et prochaines étapes.
 Le document de cadrage énonce clairement les principales conclusions et les prochaines étapes du projet Talaria.
+
+### Ubiquitous Language du Métier de Formateur :
+
+#### 1. **Formateur :**
+
+- Personne responsable de dispenser des cours de formation.
+- Impliqué dans la conception, la planification et la mise en œuvre des programmes de formation.
+
+#### 2. **Apprenant :**
+
+- Individu suivant la formation dispensée par le formateur.
+- Peut être caractérisé par différents profils, besoins et niveaux d'expérience.
+
+#### 3. **Programme de Formation :**
+
+- Ensemble structuré de cours et de matériels pédagogiques.
+- Vise à atteindre des objectifs éducatifs spécifiques.
+
+#### 4. **Séance de Formation :**
+
+- Période définie pendant laquelle le formateur dispense des connaissances aux apprenants.
+- Peut inclure des présentations, des discussions et des activités pratiques.
+
+#### 5. **Évaluation :**
+
+- Processus visant à mesurer la compréhension et les compétences des apprenants.
+- Peut prendre la forme de tests, de projets ou d'évaluations continues.
+
+#### 6. **Méthodologie Pédagogique :**
+
+- Approche utilisée par le formateur pour enseigner.
+- Peut inclure des méthodes interactives, des études de cas, des démonstrations, etc.
+
+#### 7. **Feedback :**
+
+- Retour d'information fourni par les apprenants sur la qualité de la formation.
+- Permet d'ajuster et d'améliorer les sessions futures.
+
+### Boundaries du Métier de Formateur :
+
+#### 1. **Responsabilités du Formateur :**
+
+- Conception de programmes de formation.
+- Animation de séances de formation.
+- Évaluation des progrès des apprenants.
+
+#### 2. **Interaction avec les Apprenants :**
+
+- Communication pour comprendre les besoins et s'assurer de la compréhension.
+- Fourniture de soutien individuel si nécessaire.
+
+#### 3. **Création de Contenu Pédagogique :**
+
+- Développement de matériel pédagogique, y compris des supports de cours et des exercices.
+- Adaptation du contenu en fonction des besoins spécifiques des apprenants.
+
+#### 4. **Suivi et Évaluation :**
+
+- Surveillance des progrès des apprenants.
+- Ajustement des méthodes d'enseignement en fonction des retours et des résultats.
+
+
+== Diagramme pour documenter
+
+Bien sûr, voici des exemples de diagrammes PlantUML pour illustrer certains des points mentionnés précédemment.
+
+### Diagrammes PlantUML :
+
+#### 1. **Diagramme d'Activité pour une Séance de Formation :**
+```plantuml
+@startuml
+!define RECTANGLE class
+RECTANGLE Formateur {
+  + AnimerSéance()
+  + PréparerMatériel()
+}
+RECTANGLE Apprenant {
+  + SuivreFormation()
+  + DonnerFeedback()
+}
+RECTANGLE ProgrammeFormation {
+  + Objectifs
+  + Contenu
+}
+Formateur --|> ProgrammeFormation : Conçoit
+Apprenant --|> ProgrammeFormation : Suit
+@enduml
+```
+
+#### 2. **Diagramme de Cas d'Utilisation pour l'Évaluation :**
+```plantuml
+@startuml
+!define USECASE usecase
+USECASE Apprenant {
+  - SuivreFormation()
+  - ParticiperÉvaluations()
+}
+USECASE Formateur {
+  - ÉvaluerCompréhension()
+  - AjusterProgramme()
+}
+USECASE ProgrammeFormation {
+  - DéfinirObjectifs()
+  - CréerContenuPédagogique()
+}
+Apprenant -->|> ProgrammeFormation : Suit
+Formateur -->|> ProgrammeFormation : Conçoit
+Formateur -->|> Apprenant : DonneFeedback
+@enduml
+```
+
+Ces diagrammes sont des exemples généraux et peuvent être ajustés en fonction de la complexité et des détails spécifiques de votre contexte. N'hésitez pas à les personnaliser en ajoutant des détails supplémentaires ou en les adaptant à vos besoins spécifiques.
+
+
+Bien sûr, voici des exemples supplémentaires de diagrammes PlantUML pour illustrer davantage les différents points du document, en se concentrant sur les différentes boundaries du métier de formateur et de l'organisme formateur.
+
+### Diagrammes PlantUML supplémentaires :
+
+#### 3. **Diagramme de Classe pour les Personas et Parcours Utilisateurs :**
+```plantuml
+@startuml
+!define CLASS class
+CLASS Persona {
+  + Nom
+  + Objectif
+  + ParcoursUtilisateur
+}
+Persona --|> ProgrammeFormation : Suit
+@enduml
+```
+
+#### 4. **Diagramme de Séquence pour la Création d'une Nouvelle Formation :**
+```plantuml
+@startuml
+!define PARTICIPANT participant
+!define ACTIVATE activate
+!define DEACTIVATE deactivate
+PARTICIPANT Formateur
+PARTICIPANT ProgrammeFormation
+PARTICIPANT BaseDeDonnées
+Formateur -> ProgrammeFormation : DéfinirObjectifs()
+Formateur -> ProgrammeFormation : CréerContenuPédagogique()
+Formateur -> BaseDeDonnées : SauvegarderProgramme()
+@enduml
+```
+
+#### 5. **Diagramme de Composants pour l'Architecture Technique :**
+```plantuml
+@startuml
+!define COMPONENT component
+!define DATABASE database
+COMPONENT "Application Web" {
+  [Frontend]
+  [Backend]
+  [API]
+}
+DATABASE "Base de Données" {
+  [ProgrammesFormations]
+  [DonnéesApprenants]
+}
+[Frontend] --> [API]
+[Backend] --> [API]
+[API] --> [ProgrammesFormations]
+[API] --> [DonnéesApprenants]
+@enduml
+```
+
+#### 6. **Diagramme de Package pour les Différents Modules du Système :**
+```plantuml
+@startuml
+!define PACKAGE package
+PACKAGE "Modules du Système" {
+  [GestionFormation]
+  [Évaluation]
+  [Authentification]
+}
+[GestionFormation] --> [ProgrammesFormations]
+[Évaluation] --> [Feedbacks]
+[Authentification] --> [Utilisateurs]
+@enduml
+```
+
+N'hésitez pas à ajuster ces exemples en fonction des détails spécifiques de votre système et de vos besoins. Ces diagrammes fournissent une base visuelle pour comprendre la structure et les interactions entre les différentes parties du système dans le contexte du métier de formateur et de l'organisme formateur.
+
+
+Bien sûr, voici des diagrammes PlantUML supplémentaires pour illustrer le flux d'inscription, le journal de suivi de l'apprenant, la certification, la remédiation et l'évaluation.
+
+### Diagrammes PlantUML supplémentaires :
+
+#### **Diagramme de Séquence pour le Flux d'Inscription :**
+```plantuml
+@startuml
+!define PARTICIPANT participant
+!define ACTIVATE activate
+!define DEACTIVATE deactivate
+PARTICIPANT Apprenant
+PARTICIPANT PlateformeInscription
+PARTICIPANT BaseDeDonnées
+Apprenant -> PlateformeInscription: RemplirFormulaire()
+PlateformeInscription -> BaseDeDonnées: VérifierDisponibilité()
+BaseDeDonnées --> PlateformeInscription: ConfirmerInscription()
+PlateformeInscription --> Apprenant: EnvoyerConfirmation()
+@enduml
+```
+
+#### **Diagramme de Séquence pour le Journal de Suivi de l'Apprenant :**
+```plantuml
+@startuml
+!define PARTICIPANT participant
+!define ACTIVATE activate
+!define DEACTIVATE deactivate
+PARTICIPANT Apprenant
+PARTICIPANT PlateformeSuivi
+PARTICIPANT BaseDeDonnées
+Apprenant -> PlateformeSuivi: ConsulterJournal()
+PlateformeSuivi -> BaseDeDonnées: RécupérerDonnées()
+BaseDeDonnées --> PlateformeSuivi: EnvoyerJournal()
+PlateformeSuivi --> Apprenant: AfficherJournal()
+@enduml
+```
+
+#### **Diagramme de Séquence pour le Processus de Certification :**
+```plantuml
+@startuml
+!define PARTICIPANT participant
+!define ACTIVATE activate
+!define DEACTIVATE deactivate
+PARTICIPANT Apprenant
+PARTICIPANT PlateformeCertification
+PARTICIPANT BaseDeDonnées
+Apprenant -> PlateformeCertification: DemanderCertification()
+PlateformeCertification -> BaseDeDonnées: VérifierEligibilité()
+BaseDeDonnées --> PlateformeCertification: ValiderCertification()
+PlateformeCertification --> Apprenant: EnvoyerCertificat()
+@enduml
+```
+
+#### **Diagramme de Séquence pour la Remédiation :**
+```plantuml
+@startuml
+!define PARTICIPANT participant
+!define ACTIVATE activate
+!define DEACTIVATE deactivate
+PARTICIPANT Apprenant
+PARTICIPANT PlateformeRemédiation
+PARTICIPANT BaseDeDonnées
+Apprenant -> PlateformeRemédiation: DemanderAide()
+PlateformeRemédiation -> BaseDeDonnées: AnalyserBesoin()
+BaseDeDonnées --> PlateformeRemédiation: ProposerSolution()
+PlateformeRemédiation --> Apprenant: RecevoirAide()
+@enduml
+```
+
+#### **Diagramme de Séquence pour le Processus d'Évaluation :**
+```plantuml
+@startuml
+!define PARTICIPANT participant
+!define ACTIVATE activate
+!define DEACTIVATE deactivate
+PARTICIPANT Apprenant
+PARTICIPANT PlateformeÉvaluation
+PARTICIPANT BaseDeDonnées
+Apprenant -> PlateformeÉvaluation: SoumettreÉvaluation()
+PlateformeÉvaluation -> BaseDeDonnées: AnalyserRéponses()
+BaseDeDonnées --> PlateformeÉvaluation: CalculerScore()
+PlateformeÉvaluation --> Apprenant: AfficherRésultats()
+@enduml
+```
+
+Ces diagrammes illustrent les interactions entre les différents acteurs et composants lors des processus d'inscription, de suivi, de certification, de remédiation et d'évaluation dans le contexte du métier de formateur et de l'organisme formateur. N'hésitez pas à les adapter selon vos besoins spécifiques.

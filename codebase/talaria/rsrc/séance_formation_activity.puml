@@ -1,0 +1,17 @@
+@startuml
+!define RECTANGLE class
+RECTANGLE Formateur {
+  + AnimerSéance()
+  + PréparerMatériel()
+}
+RECTANGLE Apprenant {
+  + SuivreFormation()
+  + DonnerFeedback()
+}
+RECTANGLE ProgrammeFormation {
+  + Objectifs
+  + Contenu
+}
+Formateur --|> ProgrammeFormation : Conçoit
+Apprenant --|> ProgrammeFormation : Suit
+@enduml

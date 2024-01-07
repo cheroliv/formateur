@@ -1,0 +1,18 @@
+@startuml
+!define USECASE usecase
+USECASE Apprenant {
+  - SuivreFormation()
+  - ParticiperÉvaluations()
+}
+USECASE Formateur {
+  - ÉvaluerCompréhension()
+  - AjusterProgramme()
+}
+USECASE ProgrammeFormation {
+  - DéfinirObjectifs()
+  - CréerContenuPédagogique()
+}
+Apprenant -->|> ProgrammeFormation : Suit
+Formateur -->|> ProgrammeFormation : Conçoit
+Formateur -->|> Apprenant : DonneFeedback
+@enduml

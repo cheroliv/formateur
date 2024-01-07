@@ -1,9 +1,24 @@
 import React from 'react';
 
-const Home: React.FC = () => {
-  // Log LDD: Page d'accueil chargée
-  console.log('Page d\'accueil chargée');
 
+const Footer: React.FC = () => {
+  // Log LDD: Pied de page affiché
+  console.log('Pied de page affiché');
+
+  return (
+    <footer style={{ backgroundColor: '#4285f4', color: 'white', padding: '2em 0', textAlign: 'center' }}>
+      <p>&copy; 2024 Talaria - Organisme Formateur. Tous droits réservés.</p>
+    </footer>
+  );
+};
+
+const logHomeLoaded = () => console.log('Page d\'accueil chargée');
+
+const logTrainingDisplayed = (id:string) => console.log(`Formation ${id} affichée`);
+
+
+const Home: React.FC = () => {
+  logHomeLoaded();
   return (
     <div style={{ backgroundColor: '#2b2b2b', color: '#c5c8c6', minHeight: '100vh' }}>
       {/* Header */}
@@ -79,17 +94,6 @@ const Home: React.FC = () => {
       {/* Footer */}
       <Footer />
     </div>
-  );
-};
-
-const Footer: React.FC = () => {
-  // Log LDD: Pied de page affiché
-  console.log('Pied de page affiché');
-
-  return (
-    <footer style={{ backgroundColor: '#4285f4', color: 'white', padding: '2em 0', textAlign: 'center' }}>
-      <p>&copy; 2024 Talaria - Organisme Formateur. Tous droits réservés.</p>
-    </footer>
   );
 };
 
