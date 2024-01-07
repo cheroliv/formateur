@@ -48,7 +48,10 @@ npx create-next-app@latest training --template typescript
 
 Suivez les instructions pour terminer le processus de création.
 
-TODO: cucumber, canary
+TODO: playwright, cucumber, canary
+
+=== Playwright
+
 
 [source,bash]
 ----
