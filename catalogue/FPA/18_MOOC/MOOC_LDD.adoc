@@ -1,0 +1,149 @@
+= Plan du MOOC : Log Driven Development
+
+//TODO: toc
+
+
+== Module 1 : Introduction au Log Driven Development
+//TODO: toc_module_1
+
+
+=== 1.1 Objectifs du Module
+Ce module présente les concepts de base du Log Driven Development (LDD) et explique son importance dans le processus de développement logiciel.
+
+=== 1.2 Contenu
+- Test Driven Development (TDD)
+- Behavior Driven Development (BDD)
+- Définition du Log Driven Development
+- Avantages et bénéfices du LDD
+- Importance des journaux dans le développement
+
+== Module 2 : Intégration des Journaux dans le Processus de Développement
+
+=== 2.1 Objectifs du Module
+Comprendre comment intégrer efficacement les journaux dans le processus de développement.
+
+=== 2.2 Contenu
+- Intégration des journaux dans le cycle de vie du projet
+- Rôle des journaux pendant le développement, les tests et en production
+- Utilisation des journaux pour la traçabilité
+
+== Module 3 : Structure des Journaux
+
+=== 3.1 Objectifs du Module
+Apprendre à structurer les journaux de manière claire et informative.
+
+=== 3.2 Contenu
+- Principes de structuration des journaux
+- Informations essentielles à inclure dans les journaux
+- Exemples de structures de journaux
+
+== Module 4 : Outils de Gestion des Journaux
+
+=== 4.1 Objectifs du Module
+Explorer les outils de gestion des journaux disponibles pour faciliter l'agrégation, l'analyse et la visualisation.
+
+=== 4.2 Contenu
+- Présentation d'outils tels que ELK Stack (Elasticsearch, Logstash, Kibana)
+- Mise en place et configuration d'outils de gestion des journaux
+- Utilisation pratique des outils dans un environnement de développement
+
+== Module 5 : Utilisation des Journaux dans le Cycle de Vie du Projet
+
+=== 5.1 Objectifs du Module
+Découvrir comment les journaux sont utilisés à différentes étapes du cycle de vie du projet.
+
+=== 5.2 Contenu
+- Utilisation des journaux pendant le développement pour comprendre le flux d'exécution
+- Évaluation de la robustesse du système à travers les tests
+- Suivi en temps réel des journaux en production pour diagnostiquer les incidents
+
+== Module 6 : Formation et Sensibilisation
+
+=== 6.1 Objectifs du Module
+Former les membres de l'équipe sur l'utilisation des journaux et leur importance.
+
+=== 6.2 Contenu
+- Sessions de formation sur l'utilisation des journaux
+- Compréhension des informations contenues dans les journaux
+- Sensibilisation à l'importance des journaux dans le processus de développement
+
+== Module 7 : Études de Cas et Exemples Pratiques
+
+=== 7.1 Objectifs du Module
+Analyser des cas concrets d'application du Log Driven Development.
+
+=== 7.2 Contenu
+. Études de cas de projets réussis grâce au LDD +
+
+. Analyse des erreurs détectées et résolues à l'aide des journaux +
+
+. Exemples pratiques d'implémentation du LDD +
+En Google Apps Script, vous pouvez utiliser la fonction `Logger.log()` pour enregistrer des messages dans les journaux de script. Cependant, par défaut, ces journaux sont visibles uniquement dans l'éditeur de script de Google Apps Script. Si vous souhaitez rediriger ces logs vers un autre emplacement ou service, il existe quelques approches possibles :
+
+.**Google Cloud Logging :**
+- Vous pouvez intégrer votre script avec Google Cloud Logging pour stocker et gérer les journaux de manière plus avancée.
+- Pour ce faire, vous pouvez utiliser les fonctionnalités `console` de Google Apps Script et configurer le journal vers Stackdriver Logging. Cela nécessite généralement une configuration supplémentaire dans le projet Google Cloud associé à votre script.
+
+[source,javascript]
+----
+console.log("Votre message de journal");
+----
+
+.**Envoyer des Logs par Courriel ou vers une Feuille de Calcul Google :**
+- Vous pouvez également envoyer des logs par courriel ou les stocker dans une feuille de calcul Google.
+- Par exemple, vous pouvez envoyer un e-mail ou ajouter une ligne à une feuille de calcul chaque fois que vous utilisez `Logger.log()`.
+
+[source,javascript]
+----
+Logger.log("Votre message de journal");
+
+// Envoyer un e-mail avec les logs
+MailApp.sendEmail({
+  to: "votre@email.com",
+  subject: "Logs de Google Apps Script",
+  body: Logger.getLog(),
+});
+
+// Ajouter une ligne à une feuille de calcul
+var feuilleDeCalcul = SpreadsheetApp.openById("ID_de_votre_feuille_de_calcul");
+var onglet = feuilleDeCalcul.getSheetByName("Nom_de_votre_onglet");
+onglet.appendRow([new Date(), Logger.getLog()]);
+----
+
+.**Utilisation d'un Service Externe :**
+- Si vous avez un service externe où vous souhaitez stocker vos logs, vous pouvez également faire des requêtes HTTP pour envoyer les logs vers ce service.
+
+[source,javascript]
+----
+var urlDuService = "https://votre-service-de-logs.com/api/log";
+
+// Utiliser UrlFetchApp pour envoyer des logs vers le service
+var logs = Logger.getLog();
+var payload = {
+  logs: logs,
+  // Autres données que vous souhaitez inclure
+};
+
+var options = {
+  method: "post",
+  payload: JSON.stringify(payload),
+  contentType: "application/json",
+};
+
+UrlFetchApp.fetch(urlDuService, options);
+----
+
+Assurez-vous de prendre en compte les autorisations et les restrictions associées à l'environnement Google Apps Script lorsque vous utilisez ces approches.
+
+
+
+== Module 8 : Conclusion
+
+=== 8.1 Objectifs du Module
+Résumer les principaux enseignements du MOOC et orienter les apprenants vers des ressources supplémentaires.
+
+=== 8.2 Contenu
+- Principales conclusions sur le Log Driven Development
+- Prochaines étapes pour approfondir les connaissances
+- Ressources complémentaires
+
