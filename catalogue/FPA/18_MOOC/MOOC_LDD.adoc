@@ -84,7 +84,7 @@ En Google Apps Script, vous pouvez utiliser la fonction `Logger.log()` pour enre
 - Vous pouvez intégrer votre script avec Google Cloud Logging pour stocker et gérer les journaux de manière plus avancée.
 - Pour ce faire, vous pouvez utiliser les fonctionnalités `console` de Google Apps Script et configurer le journal vers Stackdriver Logging. Cela nécessite généralement une configuration supplémentaire dans le projet Google Cloud associé à votre script.
 
-[source,javascript]
+[source,typescript]
 ----
 console.log("Votre message de journal");
 ----
@@ -93,7 +93,7 @@ console.log("Votre message de journal");
 - Vous pouvez également envoyer des logs par courriel ou les stocker dans une feuille de calcul Google.
 - Par exemple, vous pouvez envoyer un e-mail ou ajouter une ligne à une feuille de calcul chaque fois que vous utilisez `Logger.log()`.
 
-[source,javascript]
+[source,typescript]
 ----
 Logger.log("Votre message de journal");
 
@@ -113,18 +113,18 @@ onglet.appendRow([new Date(), Logger.getLog()]);
 .**Utilisation d'un Service Externe :**
 - Si vous avez un service externe où vous souhaitez stocker vos logs, vous pouvez également faire des requêtes HTTP pour envoyer les logs vers ce service.
 
-[source,javascript]
+[source,typescript]
 ----
-var urlDuService = "https://votre-service-de-logs.com/api/log";
+const urlDuService = "https://votre-service-de-logs.com/api/log";
 
 // Utiliser UrlFetchApp pour envoyer des logs vers le service
-var logs = Logger.getLog();
-var payload = {
+const logs = Logger.getLog();
+const payload = {
   logs: logs,
   // Autres données que vous souhaitez inclure
 };
 
-var options = {
+const options: GoogleAppsScript.URL_Fetch.URLFetchRequestOptions = {
   method: "post",
   payload: JSON.stringify(payload),
   contentType: "application/json",
@@ -134,8 +134,6 @@ UrlFetchApp.fetch(urlDuService, options);
 ----
 
 Assurez-vous de prendre en compte les autorisations et les restrictions associées à l'environnement Google Apps Script lorsque vous utilisez ces approches.
-
-
 
 == Module 8 : Conclusion
 
