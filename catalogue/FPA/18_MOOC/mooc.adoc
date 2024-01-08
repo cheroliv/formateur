@@ -1,0 +1,13 @@
+= Massive Open Online Course (MOOC)
+
+*_But : Créer son propre MOOC_*
+
+.Liens utiles
+- link:Publics_et_usages_numerique.pdf[MOOC kezako (pdf)]
+- link:https://www.linkedin.com/pulse/7-bonnes-questions-avant-de-cr%C3%A9er-un-mooc-stephane-diebold/?originalSubdomain=fr[7 bonnes questions avant de créer un mooc]
+- link:[Feuille de route pour créer un MOOC]
+- link:https://relayeur.wordpress.com/2014/02/26/feuille-de-route-pour-creer-un-mooc/[Feuille de route pour créer un mooc]
+- link:136168-mini-guide-a-la-decouverte-des-mooc-original.pdf[Guide à la découverte des MOOC]
+- link:136169-guide-du-mooc-original.pdf[Guide du MOOC (pdf)]
+
+
