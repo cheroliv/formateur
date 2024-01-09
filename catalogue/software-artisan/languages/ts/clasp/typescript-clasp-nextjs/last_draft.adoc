@@ -1,0 +1,503 @@
+= Mise en Place de l'Environnement de Développement pour le TDD, BDD avec Cucumber Gherkin et Playwright
+
+[[tdd_bdd_frontend]]
+== Mise en Place de l'Environnement de Développement pour le TDD, BDD avec Cucumber Gherkin et Playwright
+
+1. **Installation de Cucumber, Gherkin et Playwright :**
+
+   ```bash
+   npm install --save-dev @cucumber/cucumber playwright
+   ```
+
+2. **Configuration de Cucumber avec TypeScript :**
+
+- Ajoutez un fichier de configuration pour Cucumber, par exemple, `cucumber.config.js` :
+
+   ```js
+   module.exports = {
+     require: ['./src/**/*.steps.ts'], // Chemin des fichiers de définition de pas
+     // Autres configurations nécessaires
+   };
+   ```
+
+3. **Écriture de Scénarios BDD avec Gherkin :**
+
+- Créez des fichiers `.feature` avec des scénarios en langage Gherkin.
+
+   Exemple (`login.feature`) :
+
+   ```gherkin
+   Feature: Login Feature
+
+   Scenario: User can log in with valid credentials
+     Given the user is on the login page
+     When they enter valid username and password
+     Then they should be redirected to the dashboard
+   ```
+
+4. **Mise en Place de Scénarios de Test Playwright :**
+
+- Écrivez des fichiers de définition de pas (steps) pour vos scénarios Cucumber en utilisant Playwright.
+
+   Exemple (`login.steps.ts`) :
+
+   ```typescript
+   import { Given, When, Then } from '@cucumber/cucumber';
+   import { test, expect } from '@playwright/test';
+
+   Given('the user is on the login page', async () => {
+     // Logique pour naviguer vers la page de connexion
+   });
+
+   When('they enter valid username and password', async () => {
+     // Logique pour saisir les informations de connexion
+   });
+
+   Then('they should be redirected to the dashboard', async () => {
+     // Logique pour vérifier la redirection
+   });
+   ```
+
+5. **Exécution des Scénarios de Test :**
+
+- Ajoutez une tâche de test Cucumber dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-cucumber": "cucumber-js"
+   }
+   ```
+
+- Exécutez les scénarios de test avec la commande suivante :
+
+   ```bash
+   npm run test-cucumber
+   ```
+
+6. **Canary pour le Frontend :**
+
+- Ajoutez des tests unitaires pour le frontend avec QUnit ou le framework de test de votre choix.
+- Exécutez les tests pour s'assurer que le frontend reste stable pendant le développement du backend.
+
+[[canary_backend]]
+=== Canary pour le Backend (Google Apps Script avec Clasp)
+
+1. **Ajout de Tests Unitaires pour le Backend :**
+
+- Utilisez QUnit ou le framework de test de votre choix pour écrire des tests unitaires pour les fonctions du backend.
+
+   Exemple (`backend.test.ts`) :
+
+   ```typescript
+   import { test, expect } from 'qunit';
+   import { createRecord, readRecords } from './google-apps-script/Code';
+
+   test('createRecord should create a new record', function (assert) {
+     // Logique pour tester createRecord
+   });
+
+   test('readRecords should return an array of records', function (assert) {
+     // Logique pour tester readRecords
+   });
+   ```
+
+2. **Exécution des Tests Unitaires pour le Backend :**
+
+- Ajoutez une tâche de test QUnit pour le backend dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-backend": "qunit tests/backend.test.ts"
+   }
+   ```
+
+- Exécutez les tests pour le backend avec la commande suivante :
+
+   ```bash
+   npm run test-backend
+   ```
+
+Ces étapes ajoutent la mise en place de l'environnement de développement pour le TDD, BDD avec Cucumber Gherkin et Playwright, ainsi que des canary tests pour le frontend et le backend du projet.
+/////////////////////////////////////
+
+= Mise en Place d'une API CRUD avec Clasp et Google Sheets
+
+[[crud_api]]
+== Mise en Place d'une API CRUD avec Clasp et Google Sheets
+
+[[etape_1]]
+=== Étape 1 : Création du Script Google Apps Script
+
+1.1 Créez un nouveau script dans Google Apps Script : [Google Apps Script](https://script.google.com/).
+
+1.2 Dans l'éditeur de script, remplacez le contenu du fichier `Code.gs` par le code suivant :
+
+```typescript
+function createRecord(data: any): void {
+  // Logique pour créer un enregistrement
+}
+
+function readRecords(): any[] {
+  // Logique pour lire les enregistrements
+  return [];
+}
+
+function updateRecord(id: string, data: any): void {
+  // Logique pour mettre à jour un enregistrement
+}
+
+function deleteRecord(id: string): void {
+  // Logique pour supprimer un enregistrement
+}
+```
+
+[[etape_2]]
+=== Étape 2 : Déploiement du Script avec Clasp
+
+2.1 Installez Clasp localement si ce n'est pas déjà fait :
+
+```bash
+npm install -g @google/clasp
+```
+
+2.2 Initialisez un nouveau projet Clasp dans le dossier de votre choix :
+
+```bash
+clasp create --type standalone
+```
+
+2.3 Déployez le script sur Google Apps Script :
+
+```bash
+clasp push
+```
+
+[[etape_3]]
+=== Étape 3 : Utilisation de l'API CRUD
+
+3.1 Obtenez l'URL de l'API après le déploiement du script.
+
+3.2 Utilisez des requêtes HTTP avec `fetch` pour interagir avec l'API depuis votre application TypeScript.
+
+Exemple en TypeScript avec `fetch` :
+
+```typescript
+type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
+
+async function apiRequest(url: string, method: HttpMethod, data?: any): Promise<any> {
+  const options: RequestInit = {
+    method,
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: data ? JSON.stringify(data) : undefined,
+  };
+
+  const response = await fetch(url, options);
+
+  if (!response.ok) {
+    throw new Error(`Erreur HTTP : ${response.status}`);
+  }
+
+  return response.json();
+}
+
+// Exemples d'utilisation
+const apiUrl = 'URL_DE_VOTRE_API';
+
+// Créer un enregistrement
+await apiRequest(apiUrl, 'POST', { /* Données de l'enregistrement */ });
+
+// Lire les enregistrements
+const records = await apiRequest(apiUrl, 'GET');
+
+// Mettre à jour un enregistrement
+await apiRequest(`${apiUrl}/{id}`, 'PUT', { /* Nouvelles données de l'enregistrement */ });
+
+// Supprimer un enregistrement
+await apiRequest(`${apiUrl}/{id}`, 'DELETE');
+```
+
+[[etape_4]]
+=== Étape 4 : Intégration avec votre Application TypeScript
+
+4.1 Intégrez l'API CRUD dans votre application TypeScript.
+
+4.2 Utilisez les fonctionnalités CRUD dans vos composants, pages, ou services TypeScript.
+
+Ces étapes fournissent une base solide pour la création d'une API CRUD avec Clasp et Google Sheets intégrée à votre application TypeScript.
+
+[[deploiement_github_pages]]
+== Déploiement de l'Application sur GitHub Pages
+
+Suivez les étapes du point "Déploiement de l'Application sur GitHub Pages".
+
+///////////////////////////
+
+= Formation TypeScript, CLASP et Next.js pour la Gestion Organisationnelle
+
+== Introduction
+
+Dans le monde dynamique de la gestion organisationnelle, la nécessité d'un backoffice efficace et d'un frontend réactif est cruciale. Cette formation propose une approche complète en utilisant TypeScript et CLASP pour le backoffice et Next.js pour le frontend.
+
+=== Objectifs de la Formation
+
+L'objectif principal de cette formation est de fournir aux participants les compétences nécessaires pour créer et gérer un système organisationnel robuste. Les points clés incluent :
+
+* Compréhension approfondie de TypeScript et de son utilisation dans le contexte de Google Apps Script via CLASP.
+* Mise en œuvre d'un backoffice fonctionnel pour la gestion organisationnelle.
+* Intégration de Next.js pour le développement d'un frontend moderne et réactif.
+
+== Contenu de la Formation
+
+La formation sera structurée autour des modules suivants :
+
+[[objectifs]]
+=== Objectifs de la Formation
+
+L'objectif principal de cette formation est de fournir aux participants les compétences nécessaires pour créer et gérer un système organisationnel robuste. Les points clés incluent :
+
+* Compréhension approfondie de TypeScript et de son utilisation dans le contexte de Google Apps Script via CLASP.
+* Mise en œuvre d'un backoffice fonctionnel pour la gestion organisationnelle.
+* Intégration de Next.js pour le développement d'un frontend moderne et réactif.
+
+[[prerequis]]
+=== Prérequis
+
+* Connaissance de base de JavaScript.
+* Familiarité avec les concepts de développement web.
+
+[[creation_projet]]
+=== Création d'un Projet Next.js avec TypeScript
+
+==== Installation de Next.js avec TypeScript
+
+Pour créer un nouveau projet Next.js avec TypeScript, installez Next.js avec l'option `--template typescript` :
+
+```bash
+npx create-next-app@latest training --template typescript
+```
+
+Suivez les instructions pour terminer le processus de création.
+
+TODO: playwright, cucumber, canary
+
+==== Playwright
+
+```bash
+npm install --save-dev @cucumber/cucumber
+npm install --save-dev @types/cucumber
+npm install --save-dev ts-node
+```
+
+Pas à pas du frontend, ici c'est tout le frontend. Après, on passe au backend.
+
+[[configuration_backend]]
+=== Configuration du Backend avec TypeScript et Clasp
+
+1. **Installation de Clasp Localement avec TypeScript :**
+
+   ```bash
+   npm install @google/clasp typescript @types/google-apps-script
+   ```
+
+2. **Configuration de TypeScript :**
+
+- Ajoutez un fichier `tsconfig.json` à la racine du projet avec la configuration TypeScript nécessaire pour le backend Google Apps Script.
+
+   ```json
+   {
+     "compilerOptions": {
+       "lib": ["es6"],
+       "target": "ESNext",
+       "module": "CommonJS",
+       "strict": true,
+       "esModuleInterop": true
+     },
+     "include": ["google-apps-script/**/*.ts"]
+   }
+   ```
+
+3. **Développement du Backend avec TypeScript :**
+
+- Utilisez Clasp pour créer ou lier un projet Google Apps Script.
+- Utilisez TypeScript pour écrire des fichiers `.ts` dans le dossier `google-apps-script`.
+
+4. **Déploiement du Backend avec Clasp :**
+
+- Utilisez la commande suivante pour déployer le backend sur Google Apps Script :
+
+     ```bash
+     npx clasp push
+     ```
+
+[[environnement_test]]
+=== Mise en Place de l'Environnement de Test avec Jest et TypeScript
+
+1. **Installation de Jest, TypeScript et les Dépendances Nécessaires :**
+
+   ```bash
+   npm install --save-dev jest ts-jest @types/jest @testing-library/react @testing-library/jest-dom
+   ```
+
+2. **Ajout d'une Tâche de Test dans le Fichier `package.json` :**
+
+   ```json
+   "scripts": {
+     "test": "jest"
+   }
+   ```
+
+3. **Configuration de Jest avec `jest.config.js` :**
+
+   ```js
+   module.exports = {
+     preset: 'ts-jest',
+     testEnvironment: 'jsdom',
+     moduleNameMapper: {
+       '\\.(css)$': '<rootDir>/__mocks__/styleMock.js',
+     },
+   };
+   ```
+
+4. **Création du Fichier `__mocks__/styleMock.js` pour Gérer les Fichiers CSS dans les Tests :**
+
+   ```js
+   module.exports = {};
+   ```
+
+[[environnement_dev]]
+=== Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+
+Suivez les étapes du point "Mise en Place de l'Environnement de Développement avec Clasp
+
+ (Google Apps Script) et TypeScript".
+
+[[frontend_integration]]
+=== Intégration du Frontend avec le Backend
+
+1. **Communication Frontend-Backend :**
+
+- Utilisez des requêtes HTTP ou des appels de fonction pour la communication entre le frontend (Next.js) et le backend (Google Apps Script).
+
+   Exemple d'appel de fonction depuis Next.js vers Google Apps Script :
+
+   ```typescript
+   // Dans le frontend (Next.js)
+   const response = await googleAppsScriptFunction(param1, param2);
+   ```
+
+   Exemple de requête HTTP depuis Next.js vers le backend :
+
+   ```typescript
+   // Dans le frontend (Next.js)
+   const response = await fetch('/api/backend-endpoint', {
+     method: 'POST',
+     headers: {
+       'Content-Type': 'application/json',
+     },
+     body: JSON.stringify({ param1, param2 }),
+   });
+   ```
+
+2. **Gestion des Authentifications :**
+
+- Mettez en place un système d'authentification sécurisé entre le frontend et le backend pour assurer la sécurité des données.
+
+[[deploiement]]
+=== Déploiement de l'Application sur GitHub Pages
+
+1. **Configuration de `package.json` pour GitHub Pages :**
+
+- Ajoutez les scripts suivants dans le fichier `package.json` pour faciliter le déploiement sur GitHub Pages.
+
+   ```json
+   "scripts": {
+     "build": "next build",
+     "export": "next export",
+     "deploy": "npm run build && npm run export && gh-pages -d out"
+   }
+   ```
+
+- Installez les dépendances nécessaires :
+
+   ```bash
+   npm install --save-dev gh-pages
+   ```
+
+2. **Déploiement sur GitHub Pages :**
+
+- Exécutez la commande suivante pour déployer l'application sur GitHub Pages :
+
+   ```bash
+   npm run deploy
+   ```
+
+- Accédez à votre application via le lien GitHub Pages généré.
+
+== Conclusion
+
+Cette formation fournit une base solide pour développer une application de gestion organisationnelle complète en utilisant TypeScript, CLASP pour Google Apps Script, et Next.js pour le frontend. Les participants seront en mesure de créer un backoffice fonctionnel, d'intégrer un frontend moderne, et de déployer leur application sur GitHub Pages. La combinaison de ces technologies offre une solution puissante pour répondre aux besoins de gestion organisationnelle dans divers contextes.
+
+Sure, voici comment vous pouvez moderniser et adopter un style de programmation plus fonctionnel en utilisant TypeScript dans le document existant. Je vais montrer cela dans le contexte de la communication entre le frontend Next.js et le backend Google Apps Script.
+
+Remplacez le code existant dans la section "Communication Frontend-Backend" par le code TypeScript moderne avec une approche plus fonctionnelle :
+
+```typescript
+// Dans le frontend (Next.js)
+
+// Importez les types nécessaires
+type GoogleAppsScriptFunctionResponse = /* définissez le type de la réponse */;
+
+// Utilisez une fonction asynchrone pour effectuer l'appel de fonction vers Google Apps Script
+const callGoogleAppsScriptFunction = async (param1: string, param2: number): Promise<GoogleAppsScriptFunctionResponse> => {
+  try {
+    // Utilisez fetch pour effectuer la requête HTTP
+    const response = await fetch('/api/backend-endpoint', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ param1, param2 }),
+    });
+
+    // Assurez-vous que la requête s'est déroulée avec succès
+    if (!response.ok) {
+      throw new Error(`HTTP Error: ${response.status}`);
+    }
+
+    // Parsez la réponse JSON
+    const result: GoogleAppsScriptFunctionResponse = await response.json();
+
+    return result;
+  } catch (error) {
+    console.error('Error calling Google Apps Script function:', error);
+    throw error; // Rejetez l'erreur pour la gestion ultérieure
+  }
+};
+
+// Utilisez la fonction asynchrone dans votre code
+const exampleFunction = async () => {
+  try {
+    const result = await callGoogleAppsScriptFunction('exampleParam', 42);
+    console.log('Result from Google Apps Script:', result);
+    // Continuez avec le traitement des données
+  } catch (error) {
+    // Gérez les erreurs ici
+  }
+};
+```
+
+Quelques points à noter dans cette mise à jour :
+
+1. J'ai utilisé `fetch` directement au lieu d'Axios pour la requête HTTP, car `fetch` est une fonctionnalité standard moderne prise en charge par les navigateurs, et TypeScript peut bien l'inférer.
+
+2. J'ai ajouté des types pour la réponse de la fonction Google Apps Script (`GoogleAppsScriptFunctionResponse`). Vous devriez définir ce type en fonction de la structure réelle de vos données.
+
+3. J'ai encapsulé l'appel de fonction dans une fonction asynchrone (`callGoogleAppsScriptFunction`) pour une gestion plus propre des erreurs.
+
+4. J'ai utilisé une syntaxe de fonction fléchée (`() => {}`) pour les fonctions, ce qui est plus concis et compatible avec un style de programmation fonctionnelle.
+
+5. J'ai ajouté une gestion appropriée des erreurs avec les blocs `try-catch` pour une meilleure robustesse.
+
+Assurez-vous d'adapter ces modifications en fonction de la structure réelle de votre application et de vos besoins spécifiques.

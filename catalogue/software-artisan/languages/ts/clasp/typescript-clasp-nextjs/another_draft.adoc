@@ -1,0 +1,410 @@
+```asciidoc
+= Fiche Pédagogique : Création d'un Organisme de Formation avec TypeScript, CLASP, et Next.js
+
+:jbake-title: Organisme de Formation avec TypeScript, CLASP, et Next.js
+:jbake-type: post
+:jbake-tags: next.js, google-apps-script, jest, gh-pages, typescript, tdd, qunit
+:jbake-status: draft
+:jbake-date: 2024-01-01
+:summary: Guide détaillé pour créer un organisme de formation avec TypeScript, CLASP, Next.js, et le développement guidé par les tests (TDD) avec QUnit.
+
+[[toc]]
+== Table des Matières
+
+. Objectifs du Document
+. Prérequis
+. Création d'un Projet Next.js avec TypeScript
+. Configuration du Backend avec TypeScript et Clasp
+. Mise en Place de l'Environnement de Test avec Jest et TypeScript
+. Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+. Développement Guidé par les Tests (TDD) avec QUnit
+. Déploiement de l'Application sur GitHub Pages
+. Mise en Place de l'Environnement de Développement pour le TDD, BDD avec Cucumber Gherkin et Playwright
+
+[[objectifs]]
+== Objectifs du Document
+
+Ce document a pour objectif de guider les formateurs numériques dans la création d'un organisme de formation en utilisant TypeScript pour le backend (Clasp et Google Apps Script) et le frontend (Next.js). Les points spécifiques abordés comprennent la mise en place du projet, la configuration de l'environnement de test avec Jest et TypeScript, le développement avec Google Apps Script via Clasp en TypeScript, le développement guidé par les tests (TDD) avec QUnit, et enfin, le déploiement de l'application sur GitHub Pages.
+
+[[prerequis]]
+== Prérequis
+
+Les prérequis suggérés pour suivre cette formation incluent :
+
+- Connaissance de base de TypeScript.
+- Compréhension des concepts de Next.js.
+- Familiarité avec Jest pour les tests unitaires.
+- Un compte GitHub pour le déploiement sur GitHub Pages.
+
+[[creation_projet]]
+== Création d'un Projet Next.js avec TypeScript
+
+=== Installation de Next.js avec TypeScript
+
+Pour créer un nouveau projet Next.js avec TypeScript, installez Next.js avec l'option `--template typescript` :
+
+[source, bash]
+----
+npx create-next-app@latest training --template typescript
+----
+
+Suivez les instructions pour terminer le processus de création.
+
+TODO: playwright, cucumber, canary
+
+=== Playwright
+
+
+[source,bash]
+----
+npm install --save-dev @cucumber/cucumber
+npm install --save-dev @types/cucumber
+npm install --save-dev ts-node
+----
+
+pas a pas du front end, ici c'est tout le front end. Après, on passe au backend
+
+[[configuration_backend]]
+== Configuration du Backend avec TypeScript et Clasp
+
+1. **Installation de Clasp Localement avec TypeScript :**
+
+   ```bash
+   npm install @google/clasp typescript @types/google-apps-script
+   ```
+
+2. **Configuration de TypeScript :**
+
+   - Ajoutez un fichier `tsconfig.json` à la racine du projet avec la configuration TypeScript nécessaire pour le backend Google Apps Script.
+
+   ```json
+   {
+     "compilerOptions": {
+       "lib": ["es6"],
+       "target": "ESNext",
+       "module": "CommonJS",
+       "strict": true,
+       "esModuleInterop": true
+     },
+     "include": ["google-apps-script/**/*.ts"]
+   }
+   ```
+
+3. **Développement du Backend avec TypeScript :**
+
+   - Utilisez Clasp pour créer ou lier un projet Google Apps Script.
+   - Utilisez TypeScript pour écrire des fichiers `.ts` dans le dossier `google-apps-script`.
+
+4. **Déploiement du Backend avec Clasp :**
+
+   - Utilisez la commande suivante pour déployer le backend sur Google Apps Script :
+
+     ```bash
+     npx clasp push
+     ```
+
+[[environnement_test]]
+== Mise en Place de l'Environnement de Test avec Jest et TypeScript
+
+1. **Installation de Jest, TypeScript et les Dépendances Nécessaires :**
+
+   ```bash
+   npm install --save-dev jest ts-jest @types/jest @testing-library/react @testing-library/jest-dom
+   ```
+
+2. **Ajout d'une Tâche de Test dans le Fichier `package.json` :**
+
+   ```json
+   "scripts": {
+     "test": "jest"
+   }
+   ```
+
+3. **Configuration de Jest avec `jest.config.js` :**
+
+   ```js
+   module.exports = {
+     preset: 'ts-jest',
+     testEnvironment: 'jsdom',
+     moduleNameMapper: {
+       '\\.(css)$': '<rootDir>/__mocks__/styleMock.js',
+     },
+   };
+   ```
+
+4. **Création du Fichier `__mocks__/styleMock.js` pour Gérer les Fichiers CSS dans les Tests :**
+
+   ```js
+   module.exports = {};
+   ```
+
+[[environnement_dev]]
+== Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+
+Suivez les étapes du point "Mise en Place de l'Environnement de Développement avec Clasp (Google
+
+ Apps Script)" en remplaçant `Code.gs` par `Code.ts` dans vos fichiers Google Apps Script.
+
+[[tdd_qunit]]
+== Développement Guidé par les Tests (TDD) avec QUnit
+
+1. **Installation de QUnit :**
+
+   ```bash
+   npm install --save-dev qunit
+   ```
+
+2. **Configuration de QUnit :**
+
+   - Ajoutez un fichier de configuration pour QUnit, par exemple, `qunit.config.js` :
+
+   ```js
+   export default {
+     files: [
+       'tests/**/*.test.ts',
+     ],
+   };
+   ```
+
+3. **Création d'un Premier Test :**
+
+   - Créez un fichier de test, par exemple, `tests/example.test.ts` :
+
+   ```typescript
+   import { module, test } from 'qunit';
+
+   module('Example Test', function () {
+     test('It should pass', function (assert) {
+       assert.ok(true);
+     });
+   });
+   ```
+
+4. **Exécution des Tests :**
+
+   - Ajoutez une tâche de test QUnit dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-qunit": "qunit"
+   }
+   ```
+
+   - Exécutez les tests avec la commande suivante :
+
+   ```bash
+   npm run test-qunit
+   ```
+
+[[crud_api]]
+== Mise en Place d'une API CRUD avec Clasp et Google Sheets
+
+L'utilisation de Google Sheets comme backend pour une API
+
+ CRUD offre une solution simple et efficace pour la gestion des données.
+
+TODO: Étapes détaillées pour créer une API CRUD avec Clasp et Google Sheets.
+
+[[deploiement_github]]
+== Déploiement de l'Application sur GitHub Pages
+
+Suivez les étapes pour déployer l'application sur GitHub Pages, assurant ainsi sa disponibilité en ligne.
+
+TODO: Étapes détaillées pour le déploiement sur GitHub Pages.
+
+[[tdd_bdd_playwright]]
+== Mise en Place de l'Environnement de Développement pour le TDD, BDD avec Cucumber Gherkin et Playwright
+
+TODO: Étapes détaillées pour la mise en place de l'environnement de développement pour le TDD, BDD avec Cucumber Gherkin et Playwright.
+
+Ces modules fournissent une progression logique pour créer un organisme de formation complet avec une stack technologique moderne.
+```
+
+
+```asciidoc
+[[canary_frontend]]
+== Canary pour le Frontend (Next.js)
+
+1. **Ajout de Tests Unitaires pour le Frontend :**
+
+   - Utilisez QUnit ou le framework de test de votre choix pour écrire des tests unitaires pour les composants et pages du frontend.
+
+   Exemple (`frontend.test.ts`) :
+
+   ```typescript
+   import { test, expect } from 'qunit';
+   import { render } from '@testing-library/react';
+   import HomePage from '../pages/index';
+
+   test('HomePage should render correctly', function (assert) {
+     // Logique pour tester le rendu de la page d'accueil
+   });
+   ```
+
+2. **Exécution des Tests Unitaires pour le Frontend :**
+
+   - Ajoutez une tâche de test QUnit pour le frontend dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-frontend": "qunit tests/frontend.test.ts"
+   }
+   ```
+
+   - Exécutez les tests pour le frontend avec la commande suivante :
+
+   ```bash
+   npm run test-frontend
+   ```
+
+[[canary_backend]]
+== Canary pour le Backend (Google Apps Script avec Clasp)
+
+1. **Ajout de Tests Unitaires pour le Backend :**
+
+   - Utilisez QUnit ou le framework de test de votre choix pour écrire des tests unitaires pour les fonctions du backend.
+
+   Exemple (`backend.test.ts`) :
+
+   ```typescript
+   import { test, expect } from 'qunit';
+   import { createRecord, readRecords } from './google-apps-script/Code';
+
+   test('createRecord should create a new record', function (assert) {
+     // Logique pour tester createRecord
+   });
+
+   test('readRecords should return an array of records', function (assert) {
+     // Logique pour tester readRecords
+   });
+   ```
+
+2. **Exécution des Tests Unitaires pour le Backend :**
+
+   - Ajoutez une tâche de test QUnit pour le backend dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-backend": "qunit tests/backend.test.ts"
+   }
+   ```
+
+   - Exécutez les tests pour le backend avec la commande suivante :
+
+   ```bash
+   npm run test-backend
+   ```
+
+[[crud_api]]
+== Mise en Place d'une API CRUD avec Clasp et Google Sheets
+
+L'utilisation de Google Sheets comme backend pour une API CRUD offre une solution simple et efficace pour la gestion des données.
+
+TODO: Étapes détaillées pour créer une API CRUD avec Clasp et Google Sheets.
+
+[[deploiement_github]]
+== Déploiement de l'Application sur GitHub Pages
+
+Suivez les étapes pour déployer l'application sur GitHub Pages, assurant ainsi sa disponibilité en ligne.
+
+TODO: Étapes détaillées pour le déploiement sur GitHub Pages.
+
+[[tdd_bdd_playwright]]
+== Mise en Place de l'Environnement de Développement pour le TDD, BDD avec Cucumber Gherkin et Playwright
+
+TODO: Étapes détaillées pour la mise en place de l'environnement de développement pour le TDD, BDD avec Cucumber Gherkin et Playwright.
+
+Ces modules fournissent une progression logique pour créer un organisme de formation complet avec une stack technologique moderne.
+```
+
+
+
+Je m'excuse pour la confusion. Il semble y avoir eu une erreur dans la réponse précédente. Voici la suite et la conclusion de la réponse :
+
+```asciidoc
+[[tdd_bdd_playwright]]
+== Mise en Place de l'Environnement de Développement pour le TDD, BDD avec Cucumber Gherkin et Playwright
+
+1. **Installation de Cucumber, Gherkin et Playwright :**
+
+   ```bash
+   npm install --save-dev @cucumber/cucumber playwright
+   ```
+
+2. **Configuration de Cucumber avec TypeScript :**
+
+   - Ajoutez un fichier de configuration pour Cucumber, par exemple, `cucumber.config.js` :
+
+   ```js
+   module.exports = {
+     require: ['./src/**/*.steps.ts'], // Chemin des fichiers de définition de pas
+     // Autres configurations nécessaires
+   };
+   ```
+
+3. **Écriture de Scénarios BDD avec Gherkin :**
+
+   - Créez des fichiers `.feature` avec des scénarios en langage Gherkin.
+
+   Exemple (`login.feature`) :
+
+   ```gherkin
+   Feature: Login Feature
+
+   Scenario: User can log in with valid credentials
+     Given the user is on the login page
+     When they enter valid username and password
+     Then they should be redirected to the dashboard
+   ```
+
+4. **Mise en Place de Scénarios de Test Playwright :**
+
+   - Écrivez des fichiers de définition de pas (steps) pour vos scénarios Cucumber en utilisant Playwright.
+
+   Exemple (`login.steps.ts`) :
+
+   ```typescript
+   import { Given, When, Then } from '@cucumber/cucumber';
+   import { test, expect } from '@playwright/test';
+
+   Given('the user is on the login page', async () => {
+     // Logique pour naviguer vers la page de connexion
+   });
+
+   When('they enter valid username and password', async () => {
+     // Logique pour saisir les informations de connexion
+   });
+
+   Then('they should be redirected to the dashboard', async () => {
+     // Logique pour vérifier la redirection
+   });
+   ```
+
+5. **Exécution des Scénarios de Test :**
+
+   - Ajoutez une tâche de test Cucumber dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-cucumber": "cucumber-js"
+   }
+   ```
+
+   - Exécutez les scénarios de test avec la commande suivante :
+
+   ```bash
+   npm run test-cucumber
+   ```
+
+6. **Canary pour le Frontend :**
+
+   - Ajoutez des tests unitaires pour le frontend avec QUnit ou le framework de test de votre choix.
+   - Exécutez les tests pour s'assurer que le frontend reste stable pendant le développement du backend.
+
+[[formation_conclusion]]
+== Conclusion
+
+Cette formation a guidé les participants à travers chaque étape du processus de création d'un organisme de formation complet avec une stack technologique moderne. De la configuration de l'environnement de développement, du développement guidé par les tests, à l'intégration de technologies telles que Cucumber, Gherkin, et Playwright, chaque module a renforcé les compétences nécessaires pour gérer efficacement un organisme de formation.
+
+Préparez-vous à maîtriser ces technologies et à transformer la manière dont vous abordez la gestion organisationnelle.
+```

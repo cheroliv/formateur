@@ -1,0 +1,299 @@
+= Fiche Pédagogique : Création d'un Organisme de Formation avec TypeScript, Clasp, et Next.js
+
+:jbake-title: Organisme de Formation avec TypeScript, Clasp, et Next.js
+:jbake-type: post
+:jbake-tags: next.js, google-apps-script, jest, gh-pages, typescript, tdd, qunit
+:jbake-status: draft
+:jbake-date: 2024-01-01
+:summary: Guide détaillé pour créer un organisme de formation avec TypeScript, Clasp, Next.js, et le développement guidé par les tests (TDD) avec QUnit.
+
+[[toc]]
+== Table des Matières
+
+. Objectifs du Document
+. Prérequis
+. Création d'un Projet Next.js avec TypeScript
+. Configuration du Backend avec TypeScript et Clasp
+. Mise en Place de l'Environnement de Test avec Jest et TypeScript
+. Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+. Développement Guidé par les Tests (TDD) avec QUnit
+. Déploiement de l'Application sur GitHub Pages
+. Mise en Place de l'Environnement de Développement pour le TDD, BDD avec Cucumber Gherkin et Playwright
+. Canary pour le Frontend
+. Canary pour le Backend (Google Apps Script avec Clasp)
+
+[[objectifs]]
+== Objectifs du Document
+
+Ce document a pour objectif de guider les formateurs numériques dans la création d'un organisme de formation en utilisant TypeScript pour le backend (Clasp et Google Apps Script) et le frontend (Next.js). Les points spécifiques abordés comprennent la mise en place du projet, la configuration de l'environnement de test avec Jest et TypeScript, le développement avec Google Apps Script via Clasp en TypeScript, le développement guidé par les tests (TDD) avec QUnit, et enfin, le déploiement de l'application sur GitHub Pages.
+
+[[prerequis]]
+== Prérequis
+
+Les prérequis suggérés pour suivre cette formation incluent :
+
+- Connaissance de base de TypeScript.
+- Compréhension des concepts de Next.js.
+- Familiarité avec Jest pour les tests unitaires.
+- Un compte GitHub pour le déploiement sur GitHub Pages.
+
+[[creation_projet]]
+== Création d'un Projet Next.js avec TypeScript
+
+=== Installation de Next.js avec TypeScript
+
+Pour créer un nouveau projet Next.js avec TypeScript, installez Next.js avec l'option `--template typescript` :
+
+[source, bash]
+----
+npx create-next-app@latest training --template typescript
+----
+
+Suivez les instructions pour terminer le processus de création.
+
+TODO: playwright, cucumber, canary
+
+=== Playwright
+
+```bash
+npm install --save-dev @cucumber/cucumber playwright
+```
+
+=== Canary pour le Frontend
+
+Ajoutez des tests unitaires pour le frontend avec QUnit ou le framework de test de votre choix. Exécutez les tests pour s'assurer que le frontend reste stable pendant le développement du backend.
+
+[[configuration_backend]]
+== Configuration du Backend avec TypeScript et Clasp
+
+1. **Installation de Clasp Localement avec TypeScript :**
+
+   ```bash
+   npm install @google/clasp typescript @types/google-apps-script
+   ```
+
+2. **Configuration de TypeScript :**
+
+- Ajoutez un fichier `tsconfig.json` à la racine du projet avec la configuration TypeScript nécessaire pour le backend Google Apps Script.
+
+   ```json
+   {
+     "compilerOptions": {
+       "lib": ["es6"],
+       "target": "ESNext",
+       "module": "CommonJS",
+       "strict": true,
+       "esModuleInterop": true
+     },
+     "include": ["google-apps-script/**/*.ts"]
+   }
+   ```
+
+3. **Développement du Backend avec TypeScript :**
+
+- Utilisez Clasp pour créer ou lier un projet Google Apps Script.
+- Utilisez TypeScript pour écrire des fichiers `.ts` dans le dossier `google-apps-script`.
+
+4. **Déploiement du Backend avec Clasp :**
+
+- Utilisez la commande suivante pour déployer le backend sur Google Apps Script :
+
+     ```bash
+     npx clasp push
+     ```
+
+[[environnement_test]]
+== Mise en Place de l'Environnement de Test avec Jest et TypeScript
+
+1. **Installation de Jest, TypeScript et les Dépendances Nécessaires :**
+
+   ```bash
+   npm install --save-dev jest ts-jest @types/jest @testing-library/react @testing-library/jest-dom
+   ```
+
+2. **Ajout d'une Tâche de Test dans le Fichier `package.json` :**
+
+   ```json
+   "scripts": {
+     "test": "jest"
+   }
+   ```
+
+3. **Configuration de Jest avec `jest.config.js` :**
+
+   ```js
+   module.exports = {
+     preset: 'ts-jest',
+     testEnvironment: 'jsdom',
+     moduleNameMapper: {
+       '\\.(css)$': '<rootDir>/__mocks__/styleMock.js',
+     },
+   };
+   ```
+
+4. **Création du Fichier `__mocks__/styleMock.js` pour Gérer les Fichiers CSS dans les Tests :**
+
+   ```js
+   module.exports = {};
+   ```
+
+
+
+[[environnement_dev]]
+== Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+
+Suivez les étapes du point "Mise en Place de l'Environnement de Développement avec Clasp (Google
+
+ Apps Script)" en remplaçant `Code.gs` par `Code.ts` dans vos fichiers Google Apps Script.
+
+[[tdd_qunit]]
+== Développement Guidé par les Tests (TDD) avec QUnit
+
+1. **Installation de QUnit :**
+
+   ```bash
+   npm install --save-dev qunit
+   ```
+
+2. **Configuration de QUnit :**
+
+- Ajoutez un fichier de configuration pour QUnit, par exemple, `qunit.config.js` :
+
+   ```js
+   export default {
+     files: [
+       'tests/**/*.test.ts',
+     ],
+   };
+   ```
+
+3. **Création d'un Premier Test :**
+
+- Créez un fichier de test, par exemple, `tests/example.test.ts` :
+
+   ```typescript
+   import { module, test } from 'qunit';
+
+   module('Example Test', function () {
+     test('It should pass', function (assert) {
+       assert.ok(true);
+     });
+   });
+   ```
+
+4. **Exécution des Tests :**
+
+- Ajoutez une tâche de test QUnit dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-qunit": "qunit"
+   }
+   ```
+
+- Exécutez les tests avec la commande suivante :
+
+   ```bash
+   npm run test-qunit
+   ```
+
+[[crud_api]]
+== Mise en Place d'une API CRUD avec Clasp et Google Sheets
+
+L'utilisation de Google Sheets comme backend pour une API CRUD est une solution simple et efficace. Avec Clasp, nous pouvons créer des scripts Google Apps Script et les déployer pour fournir des services CRUD. Suivez ces étapes pour mettre en place votre API CRUD.
+
+[[etape_1]]
+=== Étape 1 : Création du Script Google Apps Script
+
+1.1 Créez un nouveau script dans Google Apps Script : [Google Apps Script](https://script.google.com/).
+
+1.2 Dans l'éditeur de script, remplacez le contenu du fichier `Code.gs` par le code TypeScript suivant :
+
+```typescript
+function createRecord(data: any): void {
+  // Logique pour créer un enregistrement
+}
+
+function readRecords(): any[] {
+  // Logique pour lire les enregistrements
+  return [];
+}
+
+function updateRecord(id: string, data: any): void {
+  // Logique pour mettre à jour un enregistrement
+}
+
+function deleteRecord(id: string): void {
+  // Logique pour supprimer un enregistrement
+}
+```
+
+[[etape_2]]
+=== Étape 2 : Déploiement du Script avec Clasp
+
+2.1 Installez Clasp localement si ce n'est pas déjà fait :
+
+```bash
+npm install -g @google/clasp
+```
+
+2.2 Initialisez un nouveau projet Clasp dans le dossier de votre choix :
+
+```bash
+clasp create --type standalone
+```
+
+2.3 Déployez le script sur Google Apps Script :
+
+```bash
+clasp push
+```
+
+[[etape_3]]
+=== Étape 3 : Utilisation de l'API CRUD
+
+3.1 Obtenez l'URL de l'API après le déploiement du script.
+
+3.2 Utilisez des requêtes HTTP avec `fetch` pour interagir avec l'API depuis votre application TypeScript.
+
+Exemple en TypeScript avec `fetch` :
+
+```typescript
+type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
+
+async function apiRequest(url: string, method: HttpMethod, data?: any): Promise<any> {
+  const options: RequestInit = {
+    method,
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: data ? JSON.stringify(data) : undefined,
+  };
+
+  const response = await fetch(url, options);
+
+  if (!response.ok) {
+    throw new Error(`Erreur HTTP : ${response.status}`);
+  }
+
+  return response.json();
+}
+
+// Exemples d'utilisation
+const apiUrl = 'URL_DE_VOTRE_API';
+
+// Créer un enregistrement
+await apiRequest(apiUrl, 'POST', { /* Données de l'enregistrement */ });
+
+// Lire les enregistrements
+const records = await apiRequest(apiUrl, 'GET');
+
+// Mettre à jour un enregistrement
+await apiRequest(`${apiUrl}/{id}`, 'PUT', { /* Nouvelles données de l'enregistrement */ });
+
+// Supprimer un enregistrement
+await apiRequest(`${apiUrl}/{id}`, 'DELETE');
+```
+
+[[etape_4]]
+=== Étape 4 : Inté

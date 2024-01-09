@@ -8,11 +8,15 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "gtest": "qunit",
+    "testw": "jest --watch",
     "export": "next export",
     "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out",
-    "bdd": "cucumberjs"
+    "play": "npx playwright test",
+    "playui": "npx playwright test --ui",
+    "playreport": "npx playwright show-report",
+    "bdd": "cucumberjs",
+    "gtest": "qunit"
   },
   "dependencies": {
     "@google/clasp": "^2.4.2",
@@ -25,7 +29,7 @@
   "devDependencies": {
     "@cucumber/cucumber": "^10.1.0",
     "@playwright/test": "^1.40.1",
-    "@testing-library/jest-dom": "^6.1.6",
+    "@testing-library/jest-dom": "^6.2.0",
     "@testing-library/react": "^14.1.2",
     "@types/cucumber": "^7.0.0",
     "@types/jest": "^29.5.11",
@@ -37,6 +41,7 @@
     "eslint-config-next": "14.0.4",
     "gh-pages": "^6.1.1",
     "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8",
     "qunit": "^2.20.0",
     "tailwindcss": "^3.3.0",

@@ -8,9 +8,68 @@
 
 
 === 1.1 Objectifs du Module
-Ce module présente les concepts de base du Log Driven Development (LDD) et explique son importance dans le processus de développement logiciel.
+Ce module présente les concepts de base du Log Driven Development (LDD) et explique son importance dans le processus de développement logiciel. +
+link:https://www.youtube.com/watch?v=kgqDx8Dq2_U[Vidéo]
 
 === 1.2 Contenu
+- Typescript, Clasp
+En Google Apps Script en utilisant la bibliothèque Clasp avec Typescript, vous pouvez utiliser la fonction `Logger.log()` pour enregistrer des messages dans les journaux de script. Cependant, par défaut, ces journaux sont visibles uniquement dans l'éditeur de script de Google Apps Script. Si vous souhaitez rediriger ces logs vers un autre emplacement ou service, il existe quelques approches possibles :
+
+.**Google Cloud Logging :**
+- Vous pouvez intégrer votre script avec Google Cloud Logging pour stocker et gérer les journaux de manière plus avancée.
+- Pour ce faire, vous pouvez utiliser les fonctionnalités `console` de Google Apps Script et configurer le journal vers Stackdriver Logging. Cela nécessite généralement une configuration supplémentaire dans le projet Google Cloud associé à votre script.
+
+[source,typescript]
+----
+console.log("Votre message de journal");
+----
+
+.**Envoyer des Logs par Courriel ou vers une Feuille de Calcul Google :**
+- Vous pouvez également envoyer des logs par courriel ou les stocker dans une feuille de calcul Google.
+- Par exemple, vous pouvez envoyer un e-mail ou ajouter une ligne à une feuille de calcul chaque fois que vous utilisez `Logger.log()`.
+
+[source,typescript]
+----
+Logger.log("Votre message de journal");
+
+// Envoyer un e-mail avec les logs
+MailApp.sendEmail({
+  to: "votre@email.com",
+  subject: "Logs de Google Apps Script",
+  body: Logger.getLog(),
+});
+
+// Ajouter une ligne à une feuille de calcul
+var feuilleDeCalcul = SpreadsheetApp.openById("ID_de_votre_feuille_de_calcul");
+var onglet = feuilleDeCalcul.getSheetByName("Nom_de_votre_onglet");
+onglet.appendRow([new Date(), Logger.getLog()]);
+----
+
+.**Utilisation d'un Service Externe :**
+- Si vous avez un service externe où vous souhaitez stocker vos logs, vous pouvez également faire des requêtes HTTP pour envoyer les logs vers ce service.
+
+[source,typescript]
+----
+const urlDuService = "https://votre-service-de-logs.com/api/log";
+
+// Utiliser UrlFetchApp pour envoyer des logs vers le service
+const logs = Logger.getLog();
+const payload = {
+  logs: logs,
+  // Autres données que vous souhaitez inclure
+};
+
+const options: GoogleAppsScript.URL_Fetch.URLFetchRequestOptions = {
+  method: "post",
+  payload: JSON.stringify(payload),
+  contentType: "application/json",
+};
+
+UrlFetchApp.fetch(urlDuService, options);
+----
+
+Assurez-vous de prendre en compte les autorisations et les restrictions associées à l'environnement Google Apps Script lorsque vous utilisez ces approches.
+
 - Test Driven Development (TDD)
 - Behavior Driven Development (BDD)
 - Définition du Log Driven Development
@@ -73,67 +132,9 @@ Former les membres de l'équipe sur l'utilisation des journaux et leur importanc
 Analyser des cas concrets d'application du Log Driven Development.
 
 === 7.2 Contenu
-. Études de cas de projets réussis grâce au LDD +
-
-. Analyse des erreurs détectées et résolues à l'aide des journaux +
-
-. Exemples pratiques d'implémentation du LDD +
-En Google Apps Script, vous pouvez utiliser la fonction `Logger.log()` pour enregistrer des messages dans les journaux de script. Cependant, par défaut, ces journaux sont visibles uniquement dans l'éditeur de script de Google Apps Script. Si vous souhaitez rediriger ces logs vers un autre emplacement ou service, il existe quelques approches possibles :
-
-.**Google Cloud Logging :**
-- Vous pouvez intégrer votre script avec Google Cloud Logging pour stocker et gérer les journaux de manière plus avancée.
-- Pour ce faire, vous pouvez utiliser les fonctionnalités `console` de Google Apps Script et configurer le journal vers Stackdriver Logging. Cela nécessite généralement une configuration supplémentaire dans le projet Google Cloud associé à votre script.
-
-[source,typescript]
-----
-console.log("Votre message de journal");
-----
-
-.**Envoyer des Logs par Courriel ou vers une Feuille de Calcul Google :**
-- Vous pouvez également envoyer des logs par courriel ou les stocker dans une feuille de calcul Google.
-- Par exemple, vous pouvez envoyer un e-mail ou ajouter une ligne à une feuille de calcul chaque fois que vous utilisez `Logger.log()`.
-
-[source,typescript]
-----
-Logger.log("Votre message de journal");
-
-// Envoyer un e-mail avec les logs
-MailApp.sendEmail({
-  to: "votre@email.com",
-  subject: "Logs de Google Apps Script",
-  body: Logger.getLog(),
-});
-
-// Ajouter une ligne à une feuille de calcul
-var feuilleDeCalcul = SpreadsheetApp.openById("ID_de_votre_feuille_de_calcul");
-var onglet = feuilleDeCalcul.getSheetByName("Nom_de_votre_onglet");
-onglet.appendRow([new Date(), Logger.getLog()]);
-----
-
-.**Utilisation d'un Service Externe :**
-- Si vous avez un service externe où vous souhaitez stocker vos logs, vous pouvez également faire des requêtes HTTP pour envoyer les logs vers ce service.
-
-[source,typescript]
-----
-const urlDuService = "https://votre-service-de-logs.com/api/log";
-
-// Utiliser UrlFetchApp pour envoyer des logs vers le service
-const logs = Logger.getLog();
-const payload = {
-  logs: logs,
-  // Autres données que vous souhaitez inclure
-};
-
-const options: GoogleAppsScript.URL_Fetch.URLFetchRequestOptions = {
-  method: "post",
-  payload: JSON.stringify(payload),
-  contentType: "application/json",
-};
-
-UrlFetchApp.fetch(urlDuService, options);
-----
-
-Assurez-vous de prendre en compte les autorisations et les restrictions associées à l'environnement Google Apps Script lorsque vous utilisez ces approches.
+. Études de cas de projets réussis grâce au LDD
+. Analyse des erreurs détectées et résolues à l'aide des journaux
+. Exemples pratiques d'implémentation du LDD
 
 == Module 8 : Conclusion
 

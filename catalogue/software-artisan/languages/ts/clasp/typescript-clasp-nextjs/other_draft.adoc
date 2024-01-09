@@ -1,0 +1,283 @@
+```asciidoc
+= Fiche Pédagogique : Création d'un Organisme de Formation avec TypeScript, Clasp, et Next.js
+
+:jbake-title: Organisme de Formation avec TypeScript, Clasp, et Next.js
+:jbake-type: post
+:jbake-tags: next.js, google-apps-script, jest, gh-pages, typescript, tdd, qunit
+:jbake-status: draft
+:jbake-date: 2024-01-01
+:summary: Guide détaillé pour créer un organisme de formation avec TypeScript, Clasp, Next.js, et le développement guidé par les tests (TDD) avec QUnit.
+
+[[toc]]
+== Table des Matières
+
+. Objectifs du Document
+. Prérequis
+. Création d'un Projet Next.js avec TypeScript
+. Configuration du Backend avec TypeScript et Clasp
+. Mise en Place de l'Environnement de Test avec Jest et TypeScript
+. Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+. Développement Guidé par les Tests (TDD) avec QUnit
+. Déploiement de l'Application sur GitHub Pages
+. Mise en Place d'une API CRUD avec Clasp et Google Sheets
+. Mise en Place de l'Environnement de Développement pour le TDD, BDD avec Cucumber Gherkin et Playwright
+. Canary pour le Frontend (Next.js)
+. Canary pour le Backend (Google Apps Script avec Clasp)
+. Déploiement de l'Application sur GitHub Pages
+
+[[objectifs]]
+== Objectifs du Document
+
+Ce document a pour objectif de guider les formateurs numériques dans la création d'un organisme de formation en utilisant TypeScript pour le backend (Clasp et Google Apps Script) et le frontend (Next.js). Les points spécifiques abordés comprennent la mise en place du projet, la configuration de l'environnement de test avec Jest et TypeScript, le développement avec Google Apps Script via Clasp en TypeScript, le développement guidé par les tests (TDD) avec QUnit, et enfin, le déploiement de l'application sur GitHub Pages.
+
+[[prerequis]]
+== Prérequis
+
+Les prérequis suggérés pour suivre cette formation incluent :
+
+- Connaissance de base de TypeScript.
+- Compréhension des concepts de Next.js.
+- Familiarité avec Jest pour les tests unitaires.
+- Un compte GitHub pour le déploiement sur GitHub Pages.
+
+[[creation_projet]]
+== Création d'un Projet Next.js avec TypeScript
+
+=== Installation de Next.js avec TypeScript
+
+Pour créer un nouveau projet Next.js avec TypeScript, installez Next.js avec l'option `--template typescript` :
+
+[source, bash]
+----
+npx create-next-app@latest training --template typescript
+----
+
+Suivez les instructions pour terminer le processus de création.
+
+TODO: playwright, cucumber, canary
+
+=== Playwright
+
+[source,bash]
+----
+npm install --save-dev @cucumber/cucumber playwright
+----
+
+== Configuration du TDD avec Next.js
+
+Le Test-Driven Development (TDD) est une approche de développement logiciel où les tests sont écrits avant le code de production. Dans ce document, nous allons explorer la configuration du TDD avec Next.js, un framework JavaScript populaire pour le développement côté client.
+
+2. Installez Jest et les dépendances nécessaires pour le TDD :
+
+[source,bash]
+----
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom
+----
+
+== Configuration de Jest
+
+Créez un fichier de configuration Jest appelé `jest.config.js` à la racine du projet avec le contenu suivant :
+
+[source,javascript]
+----
+module.exports = {
+  testEnvironment: 'jsdom',
+};
+----
+
+== Scripts NPM
+
+Ajoutez les scripts suivants à votre fichier `package.json` :
+
+[source,json]
+----
+"scripts": {
+  "test": "jest"
+}
+----
+
+Cela vous permettra d'exécuter vos tests avec la commande `npm test`.
+
+== Références
+
+Pour plus d'informations sur le TDD avec Next.js, consultez la documentation officielle de Next.js et Jest :
+- link:https://nextjs.org/docs/getting-started[Test-Driven Development with Next.js]
+- link:https://jestjs.io/[Jest Documentation]
+
+[[configuration_backend]]
+== Configuration du Backend avec TypeScript et Clasp
+
+1. **Installation de Clasp Localement avec TypeScript :**
+
+   ```bash
+   npm install @google/clasp typescript @types/google-apps-script
+   ```
+
+2. **Configuration de TypeScript :**
+
+   - Ajoutez un fichier `tsconfig.json` à la racine du projet avec la configuration TypeScript nécessaire pour le backend Google Apps Script.
+
+   ```json
+   {
+     "compilerOptions": {
+       "lib": ["es6"],
+       "target": "ESNext",
+       "module": "CommonJS",
+       "strict": true,
+       "esModuleInterop": true
+     },
+     "include": ["google-apps-script/**/*.ts"]
+   }
+   ```
+
+3. **Développement du Backend avec TypeScript :**
+
+   - Utilisez Clasp pour créer ou lier un projet Google Apps Script.
+   - Utilisez TypeScript pour écrire des fichiers `.ts` dans le dossier `google-apps-script`.
+
+4. **Déploiement du Backend avec Clasp :**
+
+   - Utilisez la commande suivante pour déployer le backend sur Google Apps Script :
+
+     ```bash
+     npx clasp push
+     ```
+
+[[environnement_test]]
+== Mise en Place de l'Environnement de Test avec Jest et TypeScript
+
+1. **Installation de Jest, TypeScript et les Dépendances Nécessaires :**
+
+   ```bash
+   npm install --save-dev jest ts-jest @types/jest @testing-library/react @testing-library/jest-dom
+   ```
+
+2. **Ajout d'une Tâche de Test dans le Fichier `package.json` :**
+
+   ```json
+   "scripts": {
+     "test": "jest"
+   }
+   ```
+
+3. **Configuration de Jest avec `jest.config.js` :**
+
+   ```js
+   module.exports = {
+     preset: 'ts-jest',
+     testEnvironment: 'jsdom',
+     moduleNameMapper: {
+       '\\.(css)$': '<rootDir>/__mocks__/styleMock.js',
+     },
+   };
+   ```
+
+4. **Création du Fichier `__mocks__/styleMock.js` pour Gérer les Fichiers CSS dans les Tests :**
+
+   ```js
+   module.exports = {};
+   ```
+
+[[environnement_dev]]
+== Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+
+Suivez les étapes du point "Mise en Place de l'Environnement de Développement avec Clasp (Google
+
+ Apps Script)" en remplaçant `Code.gs` par `Code.ts` dans vos fichiers Google Apps Script.
+
+[[tdd_qunit]]
+== Dé
+
+veloppement Guidé par les Tests (TDD) avec QUnit
+
+1. **Ajout de Tests Unitaires pour le Frontend :**
+
+   - Utilisez QUnit ou le framework de test de votre choix pour écrire des tests unitaires pour les composants et pages du frontend.
+
+   Exemple (`frontend.test.ts`) :
+
+   ```typescript
+   import { test, expect } from 'qunit';
+   import { render } from '@testing-library/react';
+   import HomePage from '../pages/index';
+
+   test('HomePage should render correctly', function (assert) {
+     // Logique pour tester le rendu de la page d'accueil
+   });
+   ```
+
+2. **Exécution des Tests Unitaires pour le Frontend :**
+
+   - Ajoutez une tâche de test QUnit pour le frontend dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-frontend": "qunit tests/frontend.test.ts"
+   }
+   ```
+
+   - Exécutez les tests pour le frontend avec la commande suivante :
+
+   ```bash
+   npm run test-frontend
+   ```
+
+[[tdd_backend_qunit]]
+== Développement Guidé par les Tests (TDD) avec QUnit pour le Backend (Google Apps Script avec Clasp)
+
+1. **Ajout de Tests Unitaires pour le Backend :**
+
+   - Utilisez QUnit ou le framework de test de votre choix pour écrire des tests unitaires pour les fonctions du backend.
+
+   Exemple (`backend.test.ts`) :
+
+   ```typescript
+   import { test, expect } from 'qunit';
+   import { createRecord, readRecords } from './google-apps-script/Code';
+
+   test('createRecord should create a new record', function (assert) {
+     // Logique pour tester createRecord
+   });
+
+   test('readRecords should return an array of records', function (assert) {
+     // Logique pour tester readRecords
+   });
+   ```
+
+2. **Exécution des Tests Unitaires pour le Backend :**
+
+   - Ajoutez une tâche de test QUnit pour le backend dans le fichier `package.json` :
+
+   ```json
+   "scripts": {
+     "test-backend": "qunit tests/backend.test.ts"
+   }
+   ```
+
+   - Exécutez les tests pour le backend avec la commande suivante :
+
+   ```bash
+   npm run test-backend
+   ```
+
+[[crud_api]]
+== Mise en Place d'une API CRUD avec Clasp et Google Sheets
+
+L'utilisation de Google Sheets comme backend pour une API CRUD offre une solution simple et efficace pour la gestion des données.
+
+TODO: Étapes détaillées pour créer une API CRUD avec Clasp et Google Sheets.
+
+[[deploiement_github]]
+== Déploiement de l'Application sur GitHub Pages
+
+Suivez les étapes pour déployer l'application sur GitHub Pages, assurant ainsi sa disponibilité en ligne.
+
+TODO: Étapes détaillées pour le déploiement sur GitHub Pages.
+
+[[tdd_bdd_playwright]]
+== Mise en Place de l'Environnement de Développement pour le TDD, BDD avec Cucumber Gherkin et Playwright
+
+TODO: Étapes détaillées pour la mise en place de l'environnement de développement pour le TDD, BDD avec Cucumber Gherkin et Playwright.
+
+Ces modules fournissent une progression logique pour créer un organisme de formation complet avec une stack technologique moderne.
+```

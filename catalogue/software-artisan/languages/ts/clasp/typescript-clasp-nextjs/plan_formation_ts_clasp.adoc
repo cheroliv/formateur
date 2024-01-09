@@ -1,0 +1,86 @@
+= Formation Détaillée : TypeScript, CLASP, et Next.js
+
+:jbake-title: Création d'un Organisme de Formation avec TypeScript, CLASP, et Next.js
+:jbake-type: post
+:jbake-tags: typescript, clasp, next.js, tdd, bdd, cucumber, playwright, qunit, google-apps-script
+:jbake-status: draft
+:jbake-date: 2024-01-01
+:summary: Guide détaillé pour créer un organisme de formation avec TypeScript, CLASP, Next.js, et le développement guidé par les tests (TDD) et le behavior-driven development (BDD) avec Cucumber Gherkin.
+
+[[toc]]
+== Table des Matières
+
+. Objectifs du Document
+. Prérequis
+. Module 1: Introduction à TypeScript et CLASP
+. Module 2: Backoffice Organisationnel avec CLASP
+. Module 3: Intégration de Next.js pour le Frontend
+. Module 4: Mise en Place de l'Environnement de Test avec Jest et TypeScript
+. Module 5: Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+. Module 6: Développement Guidé par les Tests (TDD) avec QUnit
+. Module 7: Développement Guidé par le Behavior-Driven Development (BDD) avec Cucumber Gherkin et Playwright
+. Module 8: Mise en Place d'une API CRUD avec Clasp et Google Sheets
+. Module 9: Déploiement de l'Application sur GitHub Pages
+
+[[objectifs]]
+== Objectifs du Document
+
+Ce document a pour objectif de guider les formateurs numériques dans la création d'un organisme de formation en utilisant TypeScript pour le backend (Clasp et Google Apps Script) et le frontend (Next.js). Les points spécifiques abordés comprennent la mise en place du projet, la configuration de l'environnement de test avec Jest et TypeScript, le développement avec Google Apps Script via Clasp en TypeScript, le développement guidé par les tests (TDD) avec QUnit, le développement guidé par le behavior-driven development (BDD) avec Cucumber Gherkin et Playwright, la mise en place d'une API CRUD avec Clasp et Google Sheets, et enfin, le déploiement de l'application sur GitHub Pages.
+
+[[prerequis]]
+== Prérequis
+
+Les prérequis suggérés pour suivre cette formation incluent :
+
+* Connaissance de base de TypeScript.
+* Compréhension des concepts de Next.js.
+* Familiarité avec Jest pour les tests unitaires.
+* Familiarité avec le behavior-driven development (BDD) et Cucumber Gherkin.
+* Un compte GitHub pour le déploiement sur GitHub Pages.
+
+[[module_1]]
+== Module 1: Introduction à TypeScript et CLASP
+
+Ce module introduit les bases de TypeScript et explique comment l'intégrer avec CLASP pour tirer parti des fonctionnalités de Google Apps Script.
+
+[[module_2]]
+== Module 2: Backoffice Organisationnel avec CLASP
+
+Explorez la création d'un backoffice organisationnel en utilisant CLASP. Apprenez à gérer les données, à automatiser les tâches et à assurer la sécurité des informations.
+
+[[module_3]]
+== Module 3: Intégration de Next.js pour le Frontend
+
+Découvrez comment intégrer Next.js pour développer un frontend réactif. Explorez les meilleures pratiques de conception et les techniques pour une expérience utilisateur optimale.
+
+[[module_4]]
+== Module 4: Mise en Place de l'Environnement de Test avec Jest et TypeScript
+
+Ce module détaille la configuration de l'environnement de test avec Jest et TypeScript, essentiel pour assurer la qualité du code.
+
+[[module_5]]
+== Module 5: Mise en Place de l'Environnement de Développement avec Clasp (Google Apps Script) et TypeScript
+
+Explorez les étapes nécessaires pour configurer l'environnement de développement avec Clasp et Google Apps Script en utilisant TypeScript.
+
+[[module_6]]
+== Module 6: Développement Guidé par les Tests (TDD) avec QUnit
+
+Découvrez l'approche du développement guidé par les tests (TDD) en utilisant QUnit pour le backend de l'application.
+
+[[module_7]]
+== Module 7: Développement Guidé par le Behavior-Driven Development (BDD) avec Cucumber Gherkin et Playwright
+
+Explorez le behavior-driven development (BDD) en écrivant des scénarios avec Cucumber Gherkin et en utilisant Playwright pour le frontend.
+
+[[module_8]]
+== Module 8: Mise en Place d'une API CRUD avec Clasp et Google Sheets
+
+Découvrez comment créer une API CRUD avec Clasp et Google Sheets, offrant une solution simple et efficace pour la gestion des données.
+
+[[module_9]]
+== Module 9: Déploiement de l'Application sur GitHub Pages
+
+Suivez les étapes pour déployer l'application sur GitHub Pages, assurant ainsi sa disponibilité en ligne.
+
+Ces modules fournissent une progression logique pour créer un organisme de formation complet avec une stack technologique moderne.

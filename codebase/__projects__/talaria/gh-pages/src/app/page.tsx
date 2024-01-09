@@ -2,7 +2,6 @@ import React from 'react';
 
 
 const Footer: React.FC = () => {
-  // Log LDD: Pied de page affiché
   console.log('Pied de page affiché');
 
   return (
