@@ -1,0 +1,932 @@
+= Scénario Pédagogique pour Apprendre les Mathématiques avec Python
+
+== Objectif
+Le but de ce scénario est d'illustrer les concepts mathématiques depuis l'école primaire en utilisant Python comme outil de codage.
+
+== Module 1 : Les Nombres et Opérations de Base
+
+=== Leçon 1 : Les Nombres Entiers
+
+L'objectif de cette leçon est de comprendre les nombres entiers et leurs opérations de base.
+
+==== Exemple de Code Python
+[source, python]
+----
+# Déclaration et opérations sur les entiers
+a = 5
+b = 3
+addition = a + b
+multiplication = a * b
+----
+
+==== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+a --> addition
+b --> addition
+a --> multiplication
+b --> multiplication
+@enduml
+----
+
+=== Leçon 2 : Les Nombres Décimaux
+
+Cette leçon se concentre sur la compréhension des nombres décimaux et de leurs opérations.
+
+==== Exemple de Code Python
+[source, python]
+----
+# Utilisation de nombres décimaux
+c = 4.2
+d = 1.5
+somme_decimale = c + d
+produit_decimal = c * d
+----
+
+==== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+c --> somme_decimale
+d --> somme_decimale
+c --> produit_decimal
+d --> produit_decimal
+@enduml
+----
+
+== Module 2 : Géométrie
+
+=== Leçon 3 : Introduction à la Géométrie
+
+Cette leçon couvre les concepts de base de la géométrie.
+
+==== Exemple de Code Python
+[source, python]
+----
+# Calcul de la superficie d'un rectangle
+longueur = 8
+largeur = 5
+superficie_rectangle = longueur * largeur
+----
+
+==== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+longueur --> superficie_rectangle
+largeur --> superficie_rectangle
+@enduml
+----
+
+
+= pythematic : Exploration Mathématique avec Python
+
+== Module 3 : Application des Types de Données en Python aux Mathématiques
+
+=== Leçon 4 : Types Numériques
+
+Cette leçon explore la manière dont Python utilise différents types de données numériques pour représenter des concepts mathématiques.
+
+==== 1. Entiers (`int`)
+
+Les entiers sont utilisés pour représenter des quantités entières dans le contexte mathématique.
+
+===== Exemple de Code Python
+[source, python]
+----
+nombre_entier = 42
+resultat_calcul = nombre_entier * 2
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+nombre_entier --> resultat_calcul
+@enduml
+----
+
+==== 2. Décimaux (`float`)
+
+Les nombres à virgule flottante sont applicables aux opérations mathématiques impliquant des valeurs décimales.
+
+===== Exemple de Code Python
+[source, python]
+----
+nombre_decimal = 3.14
+resultat_operation = nombre_decimal + 2.0
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+nombre_decimal --> resultat_operation
+@enduml
+----
+
+==== 3. Complexes (`complex`)
+
+Les nombres complexes trouvent leur utilité dans des domaines mathématiques tels que l'algèbre linéaire.
+
+===== Exemple de Code Python
+[source, python]
+----
+nombre_complexe = 2 + 3j
+resultat_multiplication = nombre_complexe * (1 - 1j)
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+nombre_complexe --> resultat_multiplication
+@enduml
+----
+
+=== Leçon 5 : Types de Données Textuelles
+
+Cette leçon examine comment les chaînes de caractères Python peuvent être utilisées pour représenter des expressions mathématiques.
+
+==== 1. Chaînes de Caractères (`str`)
+
+Les chaînes de caractères sont employées pour afficher des expressions mathématiques.
+
+===== Exemple de Code Python
+[source, python]
+----
+expression_mathematique = "a² + b² = c²"
+afficher_expression(expression_mathematique)
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+expression_mathematique --> afficher_expression
+@enduml
+----
+
+== Module 6 : Collections Python et Concepts Mathématiques
+
+=== Leçon 12 : Collections Python et Ensembles Mathématiques
+
+Cette leçon examine les collections Python et leur équivalence dans le contexte des ensembles mathématiques.
+
+==== 1. Listes (`list`)
+
+Les listes en Python sont similaires aux ensembles ordonnés en mathématiques, permettant de stocker une séquence d'éléments.
+
+===== Exemple de Code Python
+[source, python]
+----
+liste_elements = [1, 2, 3, 4, 5]
+somme_elements = sum(liste_elements)
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+liste_elements --> somme_elements
+@enduml
+----
+
+==== 2. Tuples (`tuple`)
+
+Les tuples sont similaires aux ensembles ordonnés et immuables en mathématiques, où l'ordre des éléments est important et ne peut pas être modifié.
+
+===== Exemple de Code Python
+[source, python]
+----
+coordonnees_point = (3, 4)
+distance_origine = (coordonnees_point[0]**2 + coordonnees_point[1]**2)**0.5
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+coordonnees_point --> distance_origine
+@enduml
+----
+
+==== 3. Ensembles (`set`)
+
+Les ensembles Python correspondent aux ensembles mathématiques, où chaque élément est unique et l'ordre n'a pas d'importance.
+
+===== Exemple de Code Python
+[source, python]
+----
+ensemble_A = {1, 2, 3, 4, 5}
+ensemble_B = {4, 5, 6, 7, 8}
+intersection_AB = ensemble_A.intersection(ensemble_B)
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+ensemble_A --> intersection_AB
+ensemble_B --> intersection_AB
+@enduml
+----
+
+==== 4. Dictionnaires (`dict`)
+
+Les dictionnaires sont similaires aux ensembles associatifs en mathématiques, permettant d'associer des valeurs à des clés.
+
+===== Exemple de Code Python
+[source, python]
+----
+dictionnaire_notes = {'Math': 18, 'Physique': 16, 'Chimie': 14}
+note_maths = dictionnaire_notes['Math']
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+dictionnaire_notes --> note_maths
+@enduml
+----
+== Module 6 : Collections Python et Concepts Mathématiques (Suite)
+
+=== Leçon 12 : Collections Python et Ensembles Mathématiques (Suite)
+
+Continuons à explorer les différentes collections Python et leur lien avec les concepts mathématiques.
+
+==== 4. Dictionnaires (`dict`)
+
+Les dictionnaires Python, déjà mentionnés, peuvent également être utilisés pour représenter des relations binaires, fréquemment utilisées en mathématiques.
+
+===== Exemple de Code Python
+[source, python]
+----
+relation_binaire = {'a': 1, 'b': 2, 'c': 3}
+valeur_c = relation_binaire['c']
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+relation_binaire --> valeur_c
+@enduml
+----
+
+==== 5. Listes de Listes (`list` de `list`)
+
+Les listes de listes peuvent être utilisées pour représenter des matrices, un concept fondamental en algèbre linéaire.
+
+===== Exemple de Code Python
+[source, python]
+----
+matrice = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+element_central = matrice[1][1]
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+matrice --> element_central
+@enduml
+----
+
+==== 6. Ensembles Immuables (`frozenset`)
+
+Les ensembles immuables sont utiles lorsque l'on veut garantir que les éléments d'un ensemble ne peuvent pas être modifiés après leur création.
+
+===== Exemple de Code Python
+[source, python]
+----
+ensemble_immuable = frozenset([1, 2, 3, 4, 5])
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+ensemble_immuable
+@enduml
+----
+
+=== Leçon 16 : Collections Avancées
+
+Cette leçon explore d'autres types de collections avancées en Python.
+
+==== 1. Dictionnaires par Défaut (`defaultdict`)
+
+Les dictionnaires par défaut offrent une manière élégante de traiter les cas où une clé n'existe pas encore dans le dictionnaire.
+
+===== Exemple de Code Python
+[source, python]
+----
+from collections import defaultdict
+
+dictionnaire_defaut = defaultdict(int)
+dictionnaire_defaut['a'] += 1
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+dictionnaire_defaut --> 'a'
+@enduml
+----
+
+==== 2. Ensembles avec Opérations (`set`)
+
+Les ensembles en Python disposent d'opérations intégrées pour l'union, l'intersection, la différence, etc.
+
+===== Exemple de Code Python
+[source, python]
+----
+ensemble_1 = {1, 2, 3, 4, 5}
+ensemble_2 = {4, 5, 6, 7, 8}
+difference_ensembles = ensemble_1 - ensemble_2
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+ensemble_1 --> difference_ensembles
+ensemble_2 --> difference_ensembles
+@enduml
+----
+
+
+Cette section met en avant d'autres types de collections Python, allant des dictionnaires par défaut aux ensembles avec des opérations intégrées. Adaptez-le selon vos besoins spécifiques.
+
+
+== Module 7 : Algèbre et Représentation des Nombres en Python
+
+=== Leçon 13 : Algèbre et Fractions
+
+Cette leçon explore comment Python peut être utilisé pour manipuler des expressions algébriques et travailler avec des fractions.
+
+==== 1. Algèbre avec SymPy
+
+SymPy est une bibliothèque Python dédiée à l'algèbre symbolique. Elle permet de travailler avec des symboles, des équations et des expressions algébriques de manière formelle.
+
+===== Installation de SymPy
+```
+pip install sympy
+```
+
+===== Exemple de Code Python
+[source, python]
+----
+from sympy import symbols, Eq, solve
+
+# Définition des symboles
+x, y = symbols('x y')
+
+# Résolution d'une équation
+equation = Eq(x + 2*y, 5)
+solution = solve(equation, (x, y))
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+x --> equation
+y --> equation
+equation --> solution
+@enduml
+----
+
+==== 2. Fractions avec la Bibliothèque Fraction
+
+Python dispose d'une bibliothèque intégrée appelée `fractions` pour manipuler des nombres rationnels et des fractions.
+
+===== Exemple de Code Python
+[source, python]
+----
+from fractions import Fraction
+
+# Manipulation de fractions
+fraction_1 = Fraction(1, 3)
+fraction_2 = Fraction(2, 5)
+somme_fractions = fraction_1 + fraction_2
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+fraction_1 --> somme_fractions
+fraction_2 --> somme_fractions
+@enduml
+----
+
+=== Leçon 14 : Représentation Formelle des Nombres
+
+Cette leçon explore comment représenter formellement des nombres en Python, en utilisant notamment la bibliothèque `Decimal` pour des calculs précis.
+
+==== Utilisation de la Bibliothèque `Decimal`
+
+La bibliothèque `Decimal` offre une représentation décimale précise des nombres à virgule flottante.
+
+===== Exemple de Code Python
+[source, python]
+----
+from decimal import Decimal, getcontext
+
+# Configuration de la précision
+getcontext().prec = 4
+
+# Utilisation de Decimal pour une précision accrue
+nombre_decimal_precis = Decimal('1.23456789') / Decimal('3.333')
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+nombre_decimal_precis
+@enduml
+----
+
+=== Leçon 15 : Utilisation DRY avec les Fonctions
+
+Pour suivre le principe DRY (Don't Repeat Yourself), l'utilisation de fonctions peut rendre le code plus modulaire et réutilisable.
+
+===== Exemple de Code Python
+[source, python]
+----
+def addition(a, b):
+    return a + b
+
+resultat_addition = addition(3, 4)
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+resultat_addition
+@enduml
+----
+
+
+== Module 8 : Représentation du Point et des Équations de Droites
+
+=== Leçon 17 : Points dans un Repère Cartésien avec SymPy
+
+Cette leçon aborde l'utilisation de SymPy pour représenter des points dans un repère cartésien et effectuer des opérations mathématiques associées.
+
+==== Utilisation de SymPy pour le Point
+
+SymPy peut être utilisé pour représenter des points dans un repère cartésien à l'aide de la classe `Point`.
+
+===== Exemple de Code Python
+[source, python]
+----
+from sympy import Point, symbols
+
+# Définition des symboles
+x, y = symbols('x y')
+
+# Création d'un point
+point_A = Point(x, y)
+
+# Attribution des coordonnées
+point_A = point_A.subs({x: 2, y: 3})
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+x --> point_A
+y --> point_A
+point_A
+@enduml
+----
+
+=== Leçon 18 : Résolution d'Équations de Droites avec SymPy
+
+Cette leçon se concentre sur l'utilisation de SymPy pour résoudre des équations de droites.
+
+==== Équation d'une Droite avec SymPy
+
+SymPy permet de représenter et résoudre des équations de droites.
+
+===== Exemple de Code Python
+[source, python]
+----
+from sympy import Eq, solve
+
+# Définition des symboles
+x, y = symbols('x y')
+
+# Équation d'une droite
+equation_droite = Eq(2*x + 3*y, 5)
+
+# Résolution de l'équation
+solution_droite = solve(equation_droite, y)
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+x --> equation_droite
+y --> equation_droite
+equation_droite --> solution_droite
+@enduml
+----
+
+=== Leçon 19 : Représentation de Droites avec Matplotlib
+
+Cette leçon explore l'utilisation de la bibliothèque Matplotlib pour représenter graphiquement des droites.
+
+==== Tracé de Droites avec Matplotlib
+
+Matplotlib offre une manière simple de tracer des droites dans un repère cartésien.
+
+===== Exemple de Code Python
+[source, python]
+----
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Définition de la droite
+x_values = np.linspace(-5, 5, 100)
+y_values = 2 * x_values + 1
+
+# Tracé de la droite
+plt.plot(x_values, y_values, label='2x + 1')
+
+# Ajout de labels et légendes
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Graphique d\'une droite')
+plt.legend()
+
+# Affichage du graphique
+plt.show()
+----
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+----
+@startuml
+x_values --> plt.plot
+2*x_values + 1 --> plt.plot
+@enduml
+----
+
+// Continuez avec d'autres concepts liés à la représentation graphique des points et des équations de droites.
+
+Cette section met en avant l'utilisation de SymPy pour représenter des points et résoudre des équations de droites, ainsi que l'utilisation de Matplotlib pour visualiser graphiquement ces concepts. Adaptez-le selon vos besoins spécifiques.
+
+
+== Module 9 : Algèbre - Division Euclidienne, PGCD, PPCM
+
+=== Leçon 20 : Division Euclidienne Formelle avec SymPy
+
+Dans cette leçon, nous allons utiliser SymPy pour effectuer une division euclidienne formelle.
+
+==== Utilisation de SymPy pour la Division Euclidienne
+
+SymPy fournit une fonction `div` pour effectuer la division euclidienne de manière formelle.
+
+```python
+from sympy import div, symbols
+
+# Définition des symboles
+a, b = symbols('a b')
+
+# Division euclidienne
+quotient, reste = div(a, b)
+
+# Affichage des résultats
+print(f"Quotient : {quotient}")
+print(f"Reste : {reste}")
+```
+
+Dans cet exemple, nous définissons les symboles `a` et `b`, puis nous utilisons la fonction `div` pour obtenir le quotient et le reste de la division euclidienne de `a` par `b`.
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+```plantuml
+@startuml
+a --> div
+b --> div
+div --> quotient
+div --> reste
+@enduml
+```
+
+=== Leçon 21 : Division Euclidienne sans SymPy
+
+Ici, nous allons implémenter manuellement la division euclidienne sans utiliser SymPy.
+
+==== Implémentation Manuelle de la Division Euclidienne
+
+Nous utilisons une approche itérative pour effectuer la division euclidienne manuellement.
+
+```python
+def division_euclidienne_manuelle(a, b):
+    quotient = 0
+    reste = a
+
+    while reste >= b:
+        reste -= b
+        quotient += 1
+
+    return quotient, reste
+
+# Exemple d'utilisation
+resultat_division_manuelle = division_euclidienne_manuelle(23, 5)
+print(f"Quotient : {resultat_division_manuelle[0]}")
+print(f"Reste : {resultat_division_manuelle[1]}")
+```
+
+Dans cette fonction, nous soustrayons répétitivement `b` de `a` jusqu'à ce que `a` devienne inférieur à `b`. Le quotient est alors le nombre de soustractions, et le reste est la valeur restante dans `a`.
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+```plantuml
+@startuml
+23 --> division_euclidienne_manuelle
+5 --> division_euclidienne_manuelle
+division_euclidienne_manuelle --> resultat_division_manuelle
+@enduml
+```
+
+=== Leçon 22 : PGCD et PPCM avec SymPy
+
+Cette leçon aborde le calcul du PGCD et du PPCM avec SymPy.
+
+==== Utilisation de SymPy pour le PGCD et PPCM
+
+SymPy propose les fonctions `gcd` et `lcm` pour calculer respectivement le PGCD et le PPCM.
+
+```python
+from sympy import gcd, lcm
+
+# Calcul du PGCD
+pgcd_resultat = gcd(24, 36)
+
+# Calcul du PPCM
+ppcm_resultat = lcm(24, 36)
+
+# Affichage des résultats
+print(f"PGCD : {pgcd_resultat}")
+print(f"PPCM : {ppcm_resultat}")
+```
+
+Dans cet exemple, nous utilisons les fonctions `gcd` et `lcm` pour calculer le PGCD et le PPCM des nombres 24 et 36.
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+```plantuml
+@startuml
+24 --> gcd
+36 --> gcd
+gcd --> pgcd_resultat
+
+24 --> lcm
+36 --> lcm
+lcm --> ppcm_resultat
+@enduml
+```
+
+=== Leçon 23 : PGCD et PPCM sans SymPy
+
+On peut également calculer le PGCD et le PPCM manuellement sans utiliser SymPy.
+
+==== Implémentation Manuelle du PGCD et PPCM
+
+```python
+def pgcd_manuel(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def ppcm_manuel(a, b):
+    return abs(a * b) // pgcd_manuel(a, b)
+
+# Exemple d'utilisation
+pgcd_manuel_resultat = pgcd_manuel(24, 36)
+ppcm_manuel_resultat = ppcm_manuel(24, 36)
+
+# Affichage des résultats
+print(f"PGCD Manuel : {pgcd_manuel_resultat}")
+print(f"PPCM Manuel : {ppcm_manuel_resultat}")
+```
+
+Dans ces fonctions, nous utilisons l'algorithme d'Euclide pour le PGCD et la relation entre le PGCD et le PPCM pour le calcul du PPCM.
+
+===== Diagramme de Flux (PlantUML)
+[plantuml]
+```plantuml
+@startuml
+24 --> pgcd_manuel
+36 --> pgcd_manuel
+pgcd_manuel --> pgcd_manuel_resultat
+
+24 --> ppcm_manuel
+36 --> ppcm_manuel
+ppcm_manuel --> ppcm_manuel_resultat
+@enduml
+```
+
+Cette section fournit des exemples détaillés d'implémentation de la division euclidienne, du PGCD et du PPCM, à la fois avec et sans l'utilisation de SymPy. Adaptez-le selon vos besoins spécifiques.
+
+
+== Module 10 : Développement Piloté par les Tests (TDD) et Data-Driven Development (DDD) en Python pour les Mathématiques (Suite)
+
+### Leçon 24 : Introduction au TDD
+
+#### Principes du TDD
+
+Le TDD consiste à écrire des tests avant de coder, assurant ainsi une couverture complète des fonctionnalités.
+
+```python
+import unittest
+
+class TestCalculMathematique(unittest.TestCase):
+
+    def test_addition(self):
+        self.assertEqual(addition(2, 3), 5)
+
+    def test_multiplication(self):
+        self.assertEqual(multiplication(4, 5), 20)
+```
+
+#### Diagramme de Flux (PlantUML)
+```plantuml
+@startuml
+class TestCalculMathematique {
+    +test_addition()
+    +test_multiplication()
+}
+TestCalculMathematique --> addition
+TestCalculMathematique --> multiplication
+@enduml
+```
+
+### Leçon 25 : TDD dans le Domaine Mathématique
+
+#### Exemple d'Implémentation avec TDD
+
+```python
+def addition(a, b):
+    return a + b
+
+def multiplication(a, b):
+    return a * b
+```
+
+#### Diagramme de Flux (PlantUML)
+```plantuml
+@startuml
+class TestCalculMathematique {
+    +test_addition()
+    +test_multiplication()
+}
+TestCalculMathematique --> addition
+TestCalculMathematique --> multiplication
+@enduml
+```
+
+### Leçon 26 : Data-Driven Development (DDD) en Python
+
+#### Application de DDD à une Fonction Mathématique
+
+```python
+import unittest
+from parameterized import parameterized
+
+class TestCalculMathematique(unittest.TestCase):
+
+    @parameterized.expand([
+        (2, 3, 5),
+        (0, 0, 0),
+        (-1, 1, 0),
+        (10, -5, 5)
+    ])
+    def test_addition(self, a, b, resultat_attendu):
+        self.assertEqual(addition(a, b), resultat_attendu)
+
+    @parameterized.expand([
+        (4, 5, 20),
+        (0, 10, 0),
+        (-2, -3, 6),
+        (7, -1, -7)
+    ])
+    def test_multiplication(self, a, b, resultat_attendu):
+        self.assertEqual(multiplication(a, b), resultat_attendu)
+```
+
+#### Diagramme de Flux (PlantUML)
+```plantuml
+@startuml
+class TestCalculMathematique {
+    +test_addition()
+    +test_multiplication()
+}
+TestCalculMathematique --> addition
+TestCalculMathematique --> multiplication
+@enduml
+```
+
+### Leçon 27 : Avantages du TDD et DDD
+
+#### Avantages du TDD et DDD
+
+- Garantie d'une couverture complète des tests.
+- Détection précoce des erreurs.
+- Facilité d'ajout de nouvelles fonctionnalités sans casser l'existant.
+- Documentation vivante à travers les tests.
+
+Ces pratiques améliorent la robustesse, la maintenabilité et la fiabilité du code mathématique.
+
+### Tests avec Gestion d'Erreurs
+
+#### Exemple de Test avec Gestion d'Erreurs
+
+```python
+class TestCalculMathematique(unittest.TestCase):
+
+    def test_division_par_zero(self):
+        with self.assertRaises(ZeroDivisionError):
+            division(5, 0)
+```
+
+#### Diagramme de Flux (PlantUML)
+```plantuml
+@startuml
+class TestCalculMathematique {
+    +test_division_par_zero()
+}
+TestCalculMathematique --> division
+@enduml
+```
+
+### Récupération des Rapports de Tests
+
+Pour récupérer les rapports de tests, vous pouvez utiliser des frameworks comme `pytest` qui génère des rapports détaillés.
+
+```bash
+pip install pytest
+```
+
+Ensuite, exécutez vos tests avec `pytest` et spécifiez l'option pour générer un rapport (`--html=rapport_tests.html`).
+
+```bash
+pytest tests_calcul_mathematique.py --html=rapport_tests.html
+```
+
+Cela générera un rapport HTML détaillé que vous pouvez ouvrir dans un navigateur.
+
+### Diagramme de Flux pour Récupération des Rapports de Tests
+
+```plantuml
+@startuml
+class Utilisateur {
+    +ouvrir_rapport_html()
+}
+Utilisateur --> rapport_tests.html
+@enduml
+```
+
+Cette section fournit davantage d'exemples de tests, y compris des tests avec gestion d'erreurs, et explique comment récupérer les rapports de tests avec `pytest`. Adaptez-le selon vos besoins spécifiques.
+
+
+pour la suite reprendre les videos oreilly pour introduire les bonnes lib et sur le coté formel des mathématiques, puis commencer les concepts mathématiques pour arriver a la théorie des categories
+
+Le document "pythematic" couvre un large éventail de sujets en mathématiques appliquées à la programmation en Python. Cependant, pour aborder la théorie des catégories, la programmation fonctionnelle, les monades, la composition, les foncteurs et d'autres concepts avancés, il manque plusieurs notions importantes. Voici une liste des concepts qui peuvent être utiles pour approfondir ces domaines :
+
+1. **Théorie des Catégories :**
+- **Catégories et Morphismes :** Comprendre les notions fondamentales de catégories, d'objets, et de morphismes.
+- **Functor (Foncteur) :** Explorer comment les foncteurs préservent la structure entre les catégories.
+- **Natural Transformation (Transformation Naturelle) :** Comprendre les transformations naturelles entre foncteurs.
+
+2. **Programmation Fonctionnelle :**
+- **Fonctions Pures :** Approfondir la compréhension des fonctions pures et de l'immuabilité des données.
+- **First-Class Functions :** Comprendre le concept de fonctions de premier ordre.
+- **High-Order Functions :** Explorer les fonctions d'ordre supérieur.
+- **Lambda Calculus :** Comprendre les bases du calcul lambda, la base théorique de la programmation fonctionnelle.
+
+3. **Monades :**
+- **Concept de Monade :** Comprendre ce qu'est une monade et comment elle encapsule des calculs.
+- **Monad Laws (Lois des Monades) :** Connaître les lois qui régissent le comportement des monades.
+- **Exemples Pratiques :** Voir des exemples concrets d'utilisation de monades en programmation.
+
+4. **Composition et Foncteurs :**
+- **Composition de Fonctions :** Comprendre la composition de fonctions et son importance en programmation fonctionnelle.
+- **Foncteurs :** Approfondir la compréhension des foncteurs et leur utilisation pour généraliser la composition de fonctions.
+
+Pour aborder ces concepts, vous pourriez explorer des ressources telles que des livres sur la théorie des catégories, la programmation fonctionnelle, et des tutoriels spécifiques sur les monades en Python. Des langages de programmation fonctionnelle tels que Haskell peuvent également être utiles pour mieux appréhender ces concepts.
+depuis le niveau en mathématique atteint par le document pythematic, qulles sont les notions et conceptes qu'il manque pour arriver a la théorie des catégories, la programmation fonctionnelle, les monades, la composition, les foncteurs.
+Il est à noter que ces sujets sont souvent considérés comme avancés, mais ils offrent une perspective puissante pour la résolution de problèmes complexes en programmation. N'hésitez pas à approfondir vos connaissances sur ces sujets à mesure que vous vous sentez à l'aise avec les concepts de base du document "pythematic".
