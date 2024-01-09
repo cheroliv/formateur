@@ -1,4 +1,7 @@
+"use client";
+
 import React from 'react';
+import { useState, useEffect } from "react";
 
 
 const Footer: React.FC = () => {
@@ -13,10 +16,21 @@ const Footer: React.FC = () => {
 
 const logHomeLoaded = () => console.log('Page d\'accueil chargée');
 
-const logTrainingDisplayed = (id:string) => console.log(`Formation ${id} affichée`);
+const logTrainingDisplayed = (id: string) => console.log(`Formation ${id} affichée`);
 
 
 const Home: React.FC = () => {
+  const [count, setCount] = useState<number>(0)
+
+  let incrementCount = () => {
+    setCount(count + 1)
+  };
+
+  let decrementCount = () => {
+    if (count === 0) return
+    setCount(count - 1)
+  };
+
   logHomeLoaded();
   return (
     <div style={{ backgroundColor: '#2b2b2b', color: '#c5c8c6', minHeight: '100vh' }}>
@@ -24,6 +38,20 @@ const Home: React.FC = () => {
       <header id="header" style={{ backgroundColor: '#007bff', color: 'white', textAlign: 'center', padding: '1em 0' }}>
         <h1>Talaria - Organisme Formateur</h1>
       </header>
+
+
+      <div className="app">
+        <div>
+          <div className="count">
+            <h1 data-testid="counter-text">Count: {count}</h1>
+          </div>
+          <div className="buttons">
+            <button data-testid="decrease" title={"-"} onClick={decrementCount}>-</button>
+            <button data-testid="increase" title={"+"} onClick={incrementCount}>+</button>
+          </div>
+        </div>
+      </div>
+
 
       {/* Catalogue des Formations */}
       <section id="catalogue" style={{ padding: '2em 0' }}>
