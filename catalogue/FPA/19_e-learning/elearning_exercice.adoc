@@ -1,0 +1,23 @@
+= Exercice E-learning
+
+== *Exercice 01*
+
+Chaque groupe est chargé de répondre à une question spécifique liée à la formation à distance. Votre réponse devra être élaborée sous la forme d'un support écrit (texte ou présentation PowerPoint) et présentée oralement devant la classe pendant 10 minutes.
+
+.Groupe et questions :
+
+- Groupe 1 : Nadia, Olivier, Sophia
+Identifier et analyser les différentes théories de l'apprentissage que le formateur doit considérer dans la formation à distance, tant dans ses aspects asynchrones que synchrones distanciel.
+
+- Groupe 2 : Xavier, David, Francis
+Décrire et expliquer les différents paramètres d’une formation qui évoluent dans le contexte de la formation à distance, tant dans ses aspects asynchrones que synchrones distanciel.
+
+- Groupe 3 : Zavier, Claudith, Nadine
+Comment peut-on assurer un suivi efficace et maintenir la qualité d’une formation e-learning, tant dans ses aspects asynchrones que synchrones distanciel.
+
+.Consignes Supplémentaires :
+Votre présentation doit être claire, structurée et intégrer des exemples ou des études de cas pertinents.
+Chaque membre du groupe devrait participer activement à la présentation.
+Préparez-vous à répondre aux questions de vos camarades après votre présentation.
+
+
