@@ -1,5 +1,15 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        google()
+    }
+    dependencies { classpath("com.github.node-gradle:gradle-node-plugin:7.0.1") }
+}
+
+
 plugins {
     id("org.ajoberstar.grgit") version ("5.2.1")
+    id("com.github.node-gradle.node") version ("7.0.1")
 }
 
 //TODO :  task jbakeGhPagesTests
@@ -58,6 +68,16 @@ tasks.register("talariaFrontendPublish") {
     description = "Publish Talaria frontend to github-pages."
     dependsOn("talariaFrontendTests")
     doLast { println(":talariaFrontendPublish") }
+}
+
+//TODO :  task talariaFrontendServe
+// use codebase/__projects__/talaria/gh-pages project
+// after change with
+// codebase/__projects__/talaria/frontend project
+tasks.register("talariaFrontendServe") {
+    group = "Talaria"
+    description = "Preview Talaria frontend."
+    doLast { println(":talariaFrontendServe") }
 }
 
 
