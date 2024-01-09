@@ -15,7 +15,7 @@
     "play": "npx playwright test",
     "playui": "npx playwright test --ui",
     "playreport": "npx playwright show-report",
-    "cucumber": "cucumberjs",
+    "bdd": "npx cucumber-js",
     "qtest": "qunit"
   },
   "dependencies": {
